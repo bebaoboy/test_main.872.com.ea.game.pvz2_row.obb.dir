@@ -1,0 +1,1467 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "",
+				"DisablePlantBoosts": true,
+				"GridItemLevel": 1,
+				"LevelNumber": 1,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(NoLoot@LevelModules)",
+				"LossModule": "RTID(JoustOutro@LevelModules)",
+				"Modules": [
+					"RTID(FastSunDropper@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(JoustDarkMowers@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(JoustZombieWinCondition@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(LevelScoring@CurrentLevel)",
+					"RTID(ScoreTiles@CurrentLevel)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(LastStand@CurrentLevel)",
+					"RTID(LevelDifficultyScaling@CurrentLevel)",
+					"RTID(JoustModule@CurrentLevel)",
+					"RTID(JoustPointOfLoss@LevelModules)",
+					"RTID(ZombieResistances@CurrentLevel)",
+					"RTID(Gravestones@CurrentLevel)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)"
+				],
+				"Name": "",
+				"NormalPresentTable": "dark_normal_01",
+				"ShinyPresentTable": "dark_shiny_01",
+				"StageModule": "RTID(JoustStage@LevelModules)",
+				"SuppressAccountUpgrades": true,
+				"SuppressDynamicTutorial": true,
+				"SuppressPlantfoodPurchase": true,
+				"VictoryModule": "RTID(JoustOutro@LevelModules)"
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"ExcludeListSunProducers": false,
+				"PlantExcludeList": [
+					"blover",
+					"thymewarp"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "pyrevine"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"Condition": "icecubed",
+						"GridX": 3,
+						"GridY": 1,
+						"Level": -1,
+						"TypeName": "meteorflower"
+					},
+					{
+						"Condition": "icecubed",
+						"GridX": 3,
+						"GridY": 3,
+						"Level": -1,
+						"TypeName": "meteorflower"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ZombieResistances"
+			],
+			"objclass": "ZombieResistancesModuleProperties",
+			"objdata": {
+				"FamilyResistances": {
+					"global": [
+						{
+							"#comment": "200pct damage and condition",
+							"ConditionResistance": 2,
+							"DamageResistance": 2,
+							"FamilyType": "peppermint"
+						},
+						{
+							"#comment": "50pct damage and condition",
+							"ConditionResistance": 0.5,
+							"DamageResistance": 0.5,
+							"FamilyType": "enforcemint"
+						},
+						{
+							"#comment": "0pct damage and condition",
+							"ConditionResistance": 0,
+							"DamageResistance": 0,
+							"FamilyType": "concealmint"
+						}
+					]
+				}
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1
+					},
+					{
+						"GridX": 8,
+						"GridY": 2,
+						"TypeName": "gravestonePlantfoodOnDestruction"
+					},
+					{
+						"GridX": 6,
+						"GridY": 2,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "gravestoneSunOnDestruction"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"JoustModule"
+			],
+			"objclass": "JoustGameModuleProperties",
+			"objdata": {
+				"LeagueModifiers": [
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 0,
+						"LeagueThreshold": 1
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 1,
+						"LeagueThreshold": 2
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 2,
+						"LeagueThreshold": 3
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 3,
+						"LeagueThreshold": 4
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 4,
+						"LeagueThreshold": 5
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 5,
+						"LeagueThreshold": 6
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 6,
+						"LeagueThreshold": 7
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 7,
+						"LeagueThreshold": 8
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 8,
+						"LeagueThreshold": 9
+					}
+				],
+				"LevelLoadouts": {
+					"Loadouts": [
+						[
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "pyrevine"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "pyrevine"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "ghostpepper"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "snappea"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "meteorflower"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "primalsunflower"
+							}
+						],
+						[
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "pyrevine"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "snapdragon"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "sweetpotato"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "hotdate"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "bonkchoy"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "firepeashooter"
+							}
+						],
+						[
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "pyrevine"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "wasabiwhip"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "pepperpult"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "peppermint"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "inferno"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "twinsunflower"
+							}
+						]
+					]
+				},
+				"PeriodOfWavesToLoop": 6,
+				"SuggestedLoadout": "",
+				"TimeLimit": 180,
+				"WaveSetsToAppend": 60
+			}
+		},
+		{
+			"aliases": [
+				"LevelDifficultyScaling"
+			],
+			"objclass": "LevelDifficultyScalingModuleProperties",
+			"objdata": {
+				"DifficultyRulesType": "DifficultyTestHighDecay",
+				"ZombieLevelSwaps": [
+					{
+						"Level": 3,
+						"Swaps": [
+							{
+								"From": "RTID(iceage@ZombieTypes)",
+								"To": [
+									"RTID(iceage@ZombieTypes)",
+									"RTID(iceage_armor1@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(lostcity_excavator@ZombieTypes)",
+								"To": [
+									"RTID(lostcity_excavator@ZombieTypes)",
+									"RTID(explorer@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(lostcity@ZombieTypes)",
+								"To": [
+									"RTID(lostcity@ZombieTypes)",
+									"RTID(lostcity@ZombieTypes)"
+								]
+							}
+						]
+					},
+					{
+						"Level": 5,
+						"Swaps": [
+							{
+								"From": "RTID(iceage@ZombieTypes)",
+								"To": [
+									"RTID(iceage@ZombieTypes)",
+									"RTID(iceage@ZombieTypes)",
+									"RTID(iceage_armor1@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(lostcity_excavator@ZombieTypes)",
+								"To": [
+									"RTID(lostcity_excavator@ZombieTypes)",
+									"RTID(lostcity_excavator@ZombieTypes)",
+									"RTID(iceage_dodo@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(lostcity@ZombieTypes)",
+								"To": [
+									"RTID(lostcity@ZombieTypes)",
+									"RTID(lostcity@ZombieTypes)",
+									"RTID(iceage_hunter@ZombieTypes)"
+								]
+							}
+						]
+					},
+					{
+						"Level": 7,
+						"Swaps": [
+							{
+								"From": "RTID(iceage@ZombieTypes)",
+								"To": [
+									"RTID(iceage@ZombieTypes)",
+									"RTID(iceage_armor1@ZombieTypes)",
+									"RTID(iceage_armor2@ZombieTypes)",
+									"RTID(iceage_armor2@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(lostcity_excavator@ZombieTypes)",
+								"To": [
+									"RTID(lostcity_excavator@ZombieTypes)",
+									"RTID(lostcity_excavator@ZombieTypes)",
+									"RTID(iceage_hunter@ZombieTypes)",
+									"RTID(iceage_hunter@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(iceage_troglobite_2block@ZombieTypes)",
+								"To": [
+									"RTID(iceage_troglobite_2block@ZombieTypes)",
+									"RTID(iceage_troglobite_2block@ZombieTypes)",
+									"RTID(iceage_troglobite_1block@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(lostcity@ZombieTypes)",
+								"To": [
+									"RTID(lostcity@ZombieTypes)",
+									"RTID(explorer@ZombieTypes)",
+									"RTID(explorer@ZombieTypes)"
+								]
+							}
+						]
+					},
+					{
+						"Level": 10,
+						"Swaps": [
+							{
+								"From": "RTID(iceage@ZombieTypes)",
+								"To": [
+									"RTID(iceage_armor1@ZombieTypes)",
+									"RTID(iceage_armor2@ZombieTypes)",
+									"RTID(iceage_armor2@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(lostcity_excavator@ZombieTypes)",
+								"To": [
+									"RTID(lostcity_excavator@ZombieTypes)",
+									"RTID(iceage_hunter@ZombieTypes)",
+									"RTID(iceage_hunter@ZombieTypes)",
+									"RTID(iceage_hunter@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(iceage_troglobite_2block@ZombieTypes)",
+								"To": [
+									"RTID(iceage_troglobite_2block@ZombieTypes)",
+									"RTID(iceage_troglobite_2block@ZombieTypes)",
+									"RTID(iceage_troglobite_2block@ZombieTypes)",
+									"RTID(lostcity_crystalskull@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(lostcity@ZombieTypes)",
+								"To": [
+									"RTID(lostcity@ZombieTypes)",
+									"RTID(explorer_veteran@ZombieTypes)",
+									"RTID(explorer_veteran@ZombieTypes)",
+									"RTID(explorer@ZombieTypes)"
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)",
+						"RTID(ReachTheScore@CurrentLevel)",
+						"RTID(DoNotPlantBeforeLine@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"DoNotPlantBeforeLine"
+			],
+			"objclass": "MoldColonyChallengeProps",
+			"objdata": {
+				"Locations": "RTID(Mold33@BoardGridMaps)"
+			}
+		},
+		{
+			"aliases": [
+				"ReachTheScore"
+			],
+			"objclass": "StarChallengeTargetScoreProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_TARGET_SCORE]",
+				"DescriptionFailure": "[STARCHALLENGE_TARGET_SCORE_FAILURE]",
+				"DescriptiveName": "[STARCHALLENGE_TARGET_SCORE_NAME]",
+				"TargetScore": 1000
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_LASTSTAND_MINIGAME]",
+				"DescriptiveName": "[STARCHALLENGE_LASTSTAND_MINIGAME_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"LastStand"
+			],
+			"objclass": "LastStandMinigameProperties",
+			"objdata": {
+				"StartingPlantfood": 0,
+				"StartingSun": 1500
+			}
+		},
+		{
+			"aliases": [
+				"LevelScoring"
+			],
+			"objclass": "LevelScoringModuleProperties",
+			"objdata": {
+				"PlantBonusMultiplier": 0.1,
+				"PlantBonuses": [],
+				"ScoringRulesType": "Battlez",
+				"StartingPlantfood": 0
+			}
+		},
+		{
+			"aliases": [
+				"ScoreTiles"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 8,
+						"GridY": 0,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 1,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 2,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 3,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 4,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 0,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 2,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 3,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 4,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 1,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 2,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 3,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 2,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 0,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 1,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 3,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 4,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 0,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 2,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 3,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 4,
+						"TypeName": "score_2x_tile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"DynamicZombies": [
+					{
+						"MaxPoints": 1000,
+						"PointIncrementPerWave": 50,
+						"StartingPoints": 100,
+						"StartingWave": 0,
+						"ZombiePool": [
+							"RTID(lostcity@ZombieTypes)",
+							"RTID(ra@ZombieTypes)",
+							"RTID(lostcity_relichunter@ZombieTypes)",
+							"RTID(lostcity_bug_armor2@ZombieTypes)",
+							"RTID(camel_manyhump@ZombieTypes)",
+							"RTID(camel_manyhump@ZombieTypes)"
+						]
+					}
+				],
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 100,
+				"WaveCount": 100,
+				"WaveSpendingPointIncrement": 100,
+				"WaveSpendingPoints": 1000,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)",
+						"RTID(Wave2FrostWindEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3GravestoneEvent0@CurrentLevel)",
+						"RTID(Wave3GravestoneEvent1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)",
+						"RTID(Wave4FrostWindEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)",
+						"RTID(Wave6FrostWindEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)",
+						"RTID(Wave7GravestoneEvent0@CurrentLevel)",
+						"RTID(Wave7GravestoneEvent1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)",
+						"RTID(Wave8FrostWindEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)",
+						"RTID(Wave9GravestoneEvent0@CurrentLevel)",
+						"RTID(Wave9GravestoneEvent1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					]
+				],
+				"WavesAlwaysRandomized": true
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(iceage@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(lostcity_bug@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(lostcity_bug@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(lostcity_bug@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(lostcity_bug@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(lostcity@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(iceage@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(lostcity_bug@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(lostcity_bug@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(lostcity_bug@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(lostcity_excavator@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(lostcity_excavator@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(lostcity_excavator@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(iceage_hunter@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(iceage@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(lostcity@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(iceage@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(iceage@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(iceage_troglobite_2block@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_troglobite_2block@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(lostcity@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_hunter@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(lostcity_bug@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(lostcity@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(iceage@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_hunter@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_hunter@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(lostcity_bug@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(lostcity@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(iceage_hunter@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(lostcity_bug@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(iceage_hunter@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(iceage_troglobite_2block@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(lostcity_excavator@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(lostcity_excavator@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_troglobite_2block@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2FrostWindEvent0"
+			],
+			"objclass": "FrostWindWaveActionProps",
+			"objdata": {
+				"Winds": [
+					{
+						"Direction": "right",
+						"Row": 0
+					},
+					{
+						"Direction": "right",
+						"Row": 1
+					},
+					{
+						"Direction": "right",
+						"Row": 2
+					},
+					{
+						"Direction": "right",
+						"Row": 3
+					},
+					{
+						"Direction": "right",
+						"Row": 4
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4FrostWindEvent0"
+			],
+			"objclass": "FrostWindWaveActionProps",
+			"objdata": {
+				"Winds": [
+					{
+						"Direction": "right",
+						"Row": 0
+					},
+					{
+						"Direction": "right",
+						"Row": 1
+					},
+					{
+						"Direction": "right",
+						"Row": 2
+					},
+					{
+						"Direction": "right",
+						"Row": 3
+					},
+					{
+						"Direction": "right",
+						"Row": 4
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6FrostWindEvent0"
+			],
+			"objclass": "FrostWindWaveActionProps",
+			"objdata": {
+				"Winds": [
+					{
+						"Direction": "right",
+						"Row": 0
+					},
+					{
+						"Direction": "right",
+						"Row": 1
+					},
+					{
+						"Direction": "right",
+						"Row": 2
+					},
+					{
+						"Direction": "right",
+						"Row": 3
+					},
+					{
+						"Direction": "right",
+						"Row": 4
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8FrostWindEvent0"
+			],
+			"objclass": "FrostWindWaveActionProps",
+			"objdata": {
+				"Winds": [
+					{
+						"Direction": "right",
+						"Row": 0
+					},
+					{
+						"Direction": "right",
+						"Row": 1
+					},
+					{
+						"Direction": "right",
+						"Row": 2
+					},
+					{
+						"Direction": "right",
+						"Row": 3
+					},
+					{
+						"Direction": "right",
+						"Row": 4
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3GravestoneEvent0"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 5,
+						"Type": "RTID(gravestone_dark@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(gravestoneSunOnDestruction@GridItemTypes)"
+					},
+					{
+						"Count": 0,
+						"Type": "RTID(gravestonePlantfoodOnDestruction@GridItemTypes)"
+					}
+				],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnPositionsPool": [
+					{
+						"mX": 6,
+						"mY": 0
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					},
+					{
+						"mX": 6,
+						"mY": 4
+					},
+					{
+						"mX": 7,
+						"mY": 1
+					},
+					{
+						"mX": 7,
+						"mY": 3
+					}
+				],
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Wave3GravestoneEvent1"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 1,
+						"Type": "RTID(slider_down@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(slider_up@GridItemTypes)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 8,
+						"mY": 0
+					},
+					{
+						"mX": 8,
+						"mY": 4
+					}
+				],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+				"DisplacePlants": true,
+				"RandomPlacement": false
+			}
+		},
+		{
+			"aliases": [
+				"Wave7GravestoneEvent0"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 4,
+						"Type": "RTID(gravestone_dark@GridItemTypes)"
+					},
+					{
+						"Count": 0,
+						"Type": "RTID(gravestoneSunOnDestruction@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(gravestonePlantfoodOnDestruction@GridItemTypes)"
+					}
+				],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnPositionsPool": [
+					{
+						"mX": 6,
+						"mY": 0
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					},
+					{
+						"mX": 6,
+						"mY": 4
+					},
+					{
+						"mX": 7,
+						"mY": 1
+					},
+					{
+						"mX": 7,
+						"mY": 3
+					}
+				],
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Wave7GravestoneEvent1"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 1,
+						"Type": "RTID(slider_down@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(slider_up@GridItemTypes)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 7,
+						"mY": 1
+					},
+					{
+						"mX": 7,
+						"mY": 3
+					}
+				],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+				"DisplacePlants": true,
+				"RandomPlacement": false
+			}
+		},
+		{
+			"aliases": [
+				"Wave9GravestoneEvent0"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 7,
+						"Type": "RTID(gravestone_dark@GridItemTypes)"
+					},
+					{
+						"Count": 0,
+						"Type": "RTID(gravestoneSunOnDestruction@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(gravestonePlantfoodOnDestruction@GridItemTypes)"
+					}
+				],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnPositionsPool": [
+					{
+						"mX": 6,
+						"mY": 0
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					},
+					{
+						"mX": 6,
+						"mY": 4
+					},
+					{
+						"mX": 7,
+						"mY": 1
+					},
+					{
+						"mX": 7,
+						"mY": 3
+					},
+					{
+						"mX": 8,
+						"mY": 0
+					},
+					{
+						"mX": 8,
+						"mY": 2
+					},
+					{
+						"mX": 8,
+						"mY": 4
+					}
+				],
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Wave9GravestoneEvent1"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 1,
+						"Type": "RTID(slider_up@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(slider_down@GridItemTypes)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 7,
+						"mY": 1
+					},
+					{
+						"mX": 7,
+						"mY": 3
+					}
+				],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+				"DisplacePlants": true,
+				"RandomPlacement": false
+			}
+		}
+	],
+	"version": 1
+}

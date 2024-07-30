@@ -1,0 +1,677 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"QuestTabbedDialog"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.6,
+				"Name": "QuestTabbedDialog",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "55.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"IgnoreSafeArea": true,
+				"Children": [
+					"RTID(QuestTabbedDialogContainer@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"QuestTabbedDialogContainer"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "QuestTabbedDialogContainer",
+				"Resources": [],
+				"Width": {
+					"Value": "830"
+				},
+				"Height": {
+					"Value": "570"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [
+					"RTID(Background@.)",
+					"RTID(OuterBorder@.)",
+					"RTID(TabWidget1@.)",
+					"RTID(TabWidget2@.)",
+					"RTID(TabWidget3@.)",
+					"RTID(TabButtonList@.)",
+					"RTID(CloseButton@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"OuterBorder"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "OuterBorder",
+				"Resources": [],
+				"Width": {
+					"Value": "830"
+				},
+				"Height": {
+					"Value": "530"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-5.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER"
+			}
+		},
+		{
+			"aliases": [
+				"Background"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Width": {
+					"Value": "0"
+				},
+				"Height": {
+					"Value": "0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-990.0"
+					},
+					"OffsetY": {
+						"Value": "-999.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "",
+				"ImageInsets": {
+					"Left": {
+						"Value": "15.0"
+					},
+					"Top": {
+						"Value": "15.0"
+					},
+					"Right": {
+						"Value": "15.0"
+					},
+					"Bottom": {
+						"Value": "15.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"TabButtonList"
+			],
+			"objclass": "HotUIButtonListProperties",
+			"objdata": {
+				"Name": "TabButtonList",
+				"Width": {
+					"Value": "55%"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "70.0"
+					},
+					"OffsetY": {
+						"Value": "-23.0"
+					}
+				},
+				"Children": [
+					"RTID(Tab1@.)",
+					"RTID(Tab2@.)",
+					"RTID(Tab3@.)"
+				],
+				"Layout": "horizontal",
+				"LayoutJustification": "left"
+			}
+		},
+		{
+			"aliases": [
+				"Tab1"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "Tab1",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"UpImage": "IMAGE_UI_QUESTS_DAILY_INACTIVE",
+				"DownImage": "IMAGE_UI_QUESTS_DAILY_ACTIVE",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"Children": [
+					"RTID(Tab1Label@.)",
+					"RTID(Tab1BadgeIcon@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Tab1Label"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Tab1Label",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "5"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color"
+			}
+		},
+		{
+			"aliases": [
+				"Tab1BadgeIcon"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Tab1BadgeIcon",
+				"Width": {
+					"Value": "22"
+				},
+				"Height": {
+					"Value": "22"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "-2"
+					}
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_NOTIFICATION_ICON",
+				"DrawStyle": "stretched",
+				"Children": [
+					"RTID(Tab1BadgeText@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Tab1BadgeText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Tab1BadgeText",
+				"Width": {
+					"Value": "20"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "!",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"Tab2"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "Tab2",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"UpImage": "IMAGE_UI_QUESTS_ACHIEVEMENTS_INACTIVE",
+				"DownImage": "IMAGE_UI_QUESTS_ACHIEVEMENTS_ACTIVE",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"Children": [
+					"RTID(Tab2Label@.)",
+					"RTID(Tab2BadgeIcon@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Tab2Label"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Tab2Label",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "5"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color"
+			}
+		},
+		{
+			"aliases": [
+				"Tab2BadgeIcon"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Tab2BadgeIcon",
+				"Width": {
+					"Value": "22"
+				},
+				"Height": {
+					"Value": "22"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "-2"
+					}
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_NOTIFICATION_ICON",
+				"DrawStyle": "stretched",
+				"Children": [
+					"RTID(Tab2BadgeText@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Tab2BadgeText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Tab2BadgeText",
+				"Width": {
+					"Value": "20"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "!",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"Tab3"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "Tab3",
+				"Width": {
+					"Value": "100"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"UpImage": "IMAGE_UI_QUESTS_EPIC_INACTIVE",
+				"DownImage": "IMAGE_UI_QUESTS_EPIC_ACTIVE",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"ButtonImageType": "normal",
+				"ButtonImageDrawStyle": "normal",
+				"Children": [
+					"RTID(Tab3Label@.)",
+					"RTID(Tab3BadgeIcon@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Tab3Label"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Tab3Label",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "5"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color"
+			}
+		},
+		{
+			"aliases": [
+				"Tab3BadgeIcon"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Tab3BadgeIcon",
+				"Width": {
+					"Value": "22"
+				},
+				"Height": {
+					"Value": "22"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "2"
+					},
+					"OffsetY": {
+						"Value": "-1"
+					}
+				},
+				"Image": "IMAGE_UI_HUD_INGAME_NOTIFICATION_ICON",
+				"DrawStyle": "stretched",
+				"Children": [
+					"RTID(Tab3BadgeText@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Tab3BadgeText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Tab3BadgeText",
+				"Width": {
+					"Value": "20"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "!",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"TabWidget1"
+			],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "TabWidget1",
+				"Width": {
+					"Value": "850"
+				},
+				"Height": {
+					"Value": "510"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"UIFileName": "QuestCategoryWidget",
+				"AdaptorClassName": "AdaptorQuestCategoryWidget"
+			}
+		},
+		{
+			"aliases": [
+				"TabWidget2"
+			],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "TabWidget2",
+				"Width": {
+					"Value": "850"
+				},
+				"Height": {
+					"Value": "510"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"UIFileName": "QuestCategoryWidget",
+				"AdaptorClassName": "AdaptorQuestCategoryWidget"
+			}
+		},
+		{
+			"aliases": [
+				"TabWidget3"
+			],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "TabWidget3",
+				"Width": {
+					"Value": "850"
+				},
+				"Height": {
+					"Value": "510"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"UIFileName": "QuestCategoryWidget",
+				"AdaptorClassName": "AdaptorQuestCategoryWidget"
+			}
+		},
+		{
+			"aliases": [
+				"CloseButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CloseButton",
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-87.0"
+					},
+					"OffsetY": {
+						"Value": "-23.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_BTN",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_DOWN",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		}
+	]
+}

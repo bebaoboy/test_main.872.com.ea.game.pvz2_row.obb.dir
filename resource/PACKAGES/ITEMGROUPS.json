@@ -1,0 +1,110 @@
+{
+	"#comment": "Helpfull to group different entities and reuse the group at multiple places. Each group can be strings, zombies, plants, grid items, board entities.",
+	"version": 1,
+	"objects": [
+		{
+			"objclass": "CustomZombieRestrictionSet",
+			"aliases": [
+				"ZombiesButteringExcludeList"
+			],
+			"objdata": {
+				"TypeName": "ZombiesButteringExcludeList",
+				"ListDataType": "className",
+				"ListType": "excludelist",
+				"List": [
+					"ZombieZombossMech",
+					"ZombieStatue",
+					"ZombiePirateBarrel",
+					"ZombieBobsledTeam",
+					"ZombieFutureJetpack",
+					"ZombieZomboni"
+				],
+				"ChecksThatAreFalse": [
+					"dying",
+					"markedForDeath",
+					"ignoringAllDamage",
+					"bleedingOut",
+					"swinging",
+					"flying"
+				],
+				"NonActiveConditions": [
+					"freeze",
+					"stun",
+					"hypnotized"
+				]
+			}
+		},
+		{
+			"objclass": "CustomZombieRestrictionSet",
+			"aliases": [
+				"SwingingZombieIncludeList"
+			],
+			"objdata": {
+				"TypeName": "SwingingZombieIncludeList",
+				"ListDataType": "className",
+				"ListType": "includelist",
+				"List": [
+					"ZombieProspector",
+					"ZombieSwashbuckler",
+					"ZombieLostCityRelicHunter"
+				],
+				"ChecksThatAreTrue": [
+					"swinging",
+					"flying"
+				]
+			}
+		},
+		{
+			"objclass": "ClassRestrictionSet",
+			"aliases": [
+				"ValidSpawnGridItemList"
+			],
+			"objdata": {
+				"TypeName": "ValidSpawnGridItemList",
+				"ListDataType": "className",
+				"ListType": "includelist",
+				"List": [
+					"GridItemGoldTile",
+					"GridItemPowerTile",
+					"PlantLilyPad"
+				]
+			}
+		},
+		{
+			"objclass": "CustomZombieRestrictionSet",
+			"aliases": [
+				"AquaVineZKnockbackExcludeList"
+			],
+			"objdata": {
+				"TypeName": "AquaVineZKnockbackExcludeList",
+				"ListDataType": "className",
+				"ListType": "excludelist",
+				"List": [
+					"ZombieZombossMech",
+					"ZombieGeneralBase",
+					"ZombiePirateCannon",
+					"ZombieRomanBallista",
+					"ZombiePirateParrot",
+					"ZombieCarnieMonkey",
+					"ZombieCatapult",
+					"ZombieZomboni",
+					"ZombieBobsledTeam",
+					"ZombieGargantuar",
+					"ZombieDarkKing"
+				],
+				"ChecksThatAreFalse": [
+					"dying",
+					"markedForDeath",
+					"ignoringAllDamage",
+					"bleedingOut",
+					"controlled"
+				],
+				"NonActiveConditions": [
+					"gummed",
+					"stun",
+					"hypnotized"
+				]
+			}
+		}
+	]
+}

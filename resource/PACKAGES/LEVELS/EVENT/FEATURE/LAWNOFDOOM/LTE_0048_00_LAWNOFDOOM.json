@@ -1,0 +1,441 @@
+{
+	"#comment": "Level Of The Day Default",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"LevelNumber": 13,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)"
+				],
+				"Name": "[LTE_LEVEL_NAME_LAWNOFDOOM]",
+				"StageModule": "RTID(RiftStageLawnOfDoom@LevelModules)",
+				"StartingSun": 500
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover",
+					"thymewarp"
+				],
+				"PresetPlantList": [
+					{
+						"Level": 10,
+						"PlantType": "vamporcini"
+					},
+					{
+						"Level": -1,
+						"PlantType": "tombtangler"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.9,
+				"MinNextWaveHealthPercentage": 0.8,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(halloween@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(halloween@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(halloween@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(halloween@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(halloween@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(halloween@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(halloween@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 3,
+				"PlantfoodToSpawnCount": 1,
+				"PointIncrementPerWave": 100,
+				"StartingPoints": 50,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 3,
+				"ZombiePool": [
+					"RTID(halloween@ZombieTypes)",
+					"RTID(halloween_armor1@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

@@ -1,0 +1,96 @@
+{
+	"#comment": "THE CHAOS DIMENSION https://www.youtube.com/watch?feature=player_detailpage&v=M8mmyU1Zzcc#t=70s",
+	"version": 1,
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Name": "THE HYPNO DIMENSION",
+				"Description": "Crazy Olaf's trip to the Hypnosis Dimension!",
+				"StageModule": "RTID(DarkStage@LevelModules)",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(PaddedRoomProps@CurrentLevel)",
+					"RTID(RandomSpawner@CurrentLevel)",
+					"RTID(CrazyOlaf@CurrentLevel)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"PaddedRoomProps"
+			],
+			"objclass": "PaddedRoomProperties",
+			"objdata": {}
+		},
+		{
+			"objclass": "CrazyOlafTestProperties",
+			"aliases": [
+				"CrazyOlaf"
+			],
+			"objdata": {
+				"ActionTimer": 1.25,
+				"RestartLevelTimer": 360.0,
+				"MaxPlantTypes": 40,
+				"MaxPerType": 0,
+				"PlantBeforeColumn": 6,
+				"PlantIncludelist": [
+					"hypnoshroom"
+				],
+				"Actions": [
+					{
+						"Action": "PlantColumn",
+						"Weight": 95
+					},
+					{
+						"Action": "PlantfoodSingle",
+						"Weight": 5
+					},
+					{
+						"Action": "RestartLevel",
+						"Weight": 50000
+					}
+				]
+			}
+		},
+		{
+			"objclass": "SimpleZombieSpawnerProperties",
+			"aliases": [
+				"RandomSpawner"
+			],
+			"objdata": {
+				"Stages": [
+					{
+						"Types": [
+							{
+								"ZombieType": "random"
+							},
+							{
+								"ZombieType": "random"
+							},
+							{
+								"ZombieType": "random"
+							},
+							{
+								"ZombieType": "random"
+							},
+							{
+								"ZombieType": "random"
+							},
+							{
+								"ZombieType": "random"
+							},
+							{
+								"ZombieType": "random"
+							},
+							{
+								"ZombieType": "random"
+							}
+						],
+						"SpawnDelay": 1.0
+					}
+				]
+			}
+		}
+	]
+}

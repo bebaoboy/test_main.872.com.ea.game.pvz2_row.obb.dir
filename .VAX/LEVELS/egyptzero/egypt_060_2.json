@@ -1,0 +1,2868 @@
+{
+"objects": [
+{
+"objclass": "LevelDefinition",
+"objdata": {
+"Description": "[PLAYERS_ZERO]",
+"FirstRewardParam": "moneybag_zero",
+"StartingSun": 560,
+"LevelNumber": 60,
+"ForceNextLevel": "egyptzero/egypt_061",
+"DisablePlantBoosts": true,
+"DisableSaveGame": true,
+"SuppressPlantfoodPurchase": true,
+"SuppressAccountUpgrades": true,
+"Loot": "RTID(ZeroLoot@LevelModules)",
+"Modules": [
+"RTID(StandardIntro@LevelModules)",
+"RTID(ZeroSunDropper@LevelModules)",
+"RTID(DefaultZombieWinCondition@LevelModules)",
+"RTID(ZombiesDeadWinCon@LevelModules)",
+"RTID(EgyptMowers@LevelModules)",
+"RTID(ZeroSeedBank@LevelModules)",
+"RTID(Escalation@.)",
+"RTID(NewWaves@.)",
+"RTID(ZombiePotions@.)",
+"RTID(Gravestones@.)",
+"RTID(EgyptZeroSwap@LevelModules)"
+],
+"Name": "[EGYPT_ZERO_LEVEL_NAME]",
+"StageModule": "RTID(EgyptStageNoPowerUps@LevelModules)"
+}
+},
+{
+"aliases": [
+"Escalation"
+],
+"objclass": "LevelEscalationModuleProperties",
+"objdata": {
+"FlagCount": 4,
+"PlantfoodToSpawnCount": 1,
+"PointIncrementPerWave": 800,
+"StartingPoints": 140,
+"WaveManagerProps": "RTID(WaveManager@.)",
+"WavesPerFlag": 8,
+"ZombiePool": [
+"RTID(ra@ZombieTypes)",
+"RTID(pharaoh@ZombieTypes)",
+"RTID(cleopatra@ZombieTypes)",
+"RTID(camel_onehump@ZombieTypes)",
+"RTID(camel_twohump@ZombieTypes)",
+"RTID(tomb_raiser@ZombieTypes)",
+"RTID(mummy_armor1@ZombieTypes)",
+"RTID(egypt_imp@ZombieTypes)",
+"RTID(mummy_armor2@ZombieTypes)",
+"RTID(mummy@ZombieTypes)",
+"RTID(mummy_armor4@ZombieTypes)",
+"RTID(camel_manyhump@ZombieTypes)",
+"RTID(explorer@ZombieTypes)",
+"RTID(mummy_flag_veteran@ZombieTypes)",
+"RTID(mummy_sandstorm@ZombieTypes)",
+"RTID(explorer_veteran@ZombieTypes)",
+"RTID(cleopatra_flag@ZombieTypes)",
+"RTID(tomb_raiser_veteran@ZombieTypes)"
+]
+}
+},
+{
+"aliases": [
+"WaveManager"
+],
+"objclass": "WaveManagerProperties",
+"objdata": {
+"WaveSpendingPointIncrement": 0,
+"WaveSpendingPoints": 0,
+"ZombieCountdownFirstWaveSecs": 7,
+"MinNextWaveHealthPercentage": 0.8,
+"MaxNextWaveHealthPercentage": 0.83,
+"Waves": [
+[],
+[
+"RTID(S1@.)"
+],
+[
+"RTID(S2@.)"
+],
+[
+"RTID(S3@.)"
+],
+[
+"RTID(S4@.)"
+],
+[
+"RTID(S5@.)"
+],
+[
+"RTID(S6@.)"
+],
+[
+"RTID(S7@.)"
+],
+[
+"RTID(S8@.)"
+],
+[
+"RTID(S9@.)"
+],
+[
+"RTID(S10@.)"
+],
+[
+"RTID(S11@.)"
+],
+[
+"RTID(S12@.)"
+],
+[
+"RTID(S13@.)"
+],
+[
+"RTID(S14@.)"
+],
+[
+"RTID(S15@.)"
+],
+[
+"RTID(S16@.)"
+],
+[
+"RTID(S17@.)"
+],
+[
+"RTID(S18@.)"
+],
+[
+"RTID(S19@.)"
+],
+[
+"RTID(S20@.)"
+],
+[
+"RTID(S21@.)"
+],
+[
+"RTID(S22@.)"
+],
+[
+"RTID(S23@.)"
+],
+[
+"RTID(S24@.)"
+],
+[
+"RTID(S25@.)"
+],
+[
+"RTID(S26@.)"
+],
+[
+"RTID(S27@.)"
+],
+[
+"RTID(S28@.)"
+],
+[
+"RTID(S29@.)"
+],
+[
+"RTID(S30@.)"
+],
+[
+"RTID(S31@.)"
+]
+]
+}
+},
+{
+"aliases": [
+"NewWaves"
+],
+"objclass": "WaveManagerModuleProperties",
+"objdata": {}
+},
+{
+"aliases": [
+"ZombiePotions"
+],
+"objclass": "ZombiePotionModuleProperties",
+"objdata": {
+"InitialPotionCount": 0,
+"MaxPotionCount": 4,
+"PotionSpawnTimer": {
+"Max": 15,
+"Min": 20
+},
+"PotionTypes": [
+"gravestone_egypt"
+]
+}
+},
+{
+"aliases": [
+"Gravestones"
+],
+"objclass": "GravestoneProperties",
+"objdata": {
+"GravestoneCount": 25,
+"SpawnColumnEnd": 9,
+"SpawnColumnStart": 1
+}
+},
+{
+"aliases": [
+"S8"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 5,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S16"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S24"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 6,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S31"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 7,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S30"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 10,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S29"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 19,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S28"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 12,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S27"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 15,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S26"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 2,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S25"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S23"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 14,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S22"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 5,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S21"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 10,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S20"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 7,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S19"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 7,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S18"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 26,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S17"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 9,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S15"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S14"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 7,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S13"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S12"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 2,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S11"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 5,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S10"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 9,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S9"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 6,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S7"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S6"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 9,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S5"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 7,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S4"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S3"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S2"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 11,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S1"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 12,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_armor2@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_flag_veteran@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_manyhump@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+},
+{
+"Type": "RTID(explorer@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy_sandstorm@ZombieTypes)"
+}
+]
+}
+}
+],
+"version": 1
+}

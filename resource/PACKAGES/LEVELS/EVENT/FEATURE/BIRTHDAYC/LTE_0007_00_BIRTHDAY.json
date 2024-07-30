@@ -1,0 +1,427 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "",
+				"FirstIntroNarrative": "",
+				"LevelNumber": 7,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(PirateMowers@LevelModules)",
+					"RTID(PiratePlanks@CurrentLevel)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)"
+				],
+				"Name": "[LTE_LEVEL_NAME_BIRTHDAYZ]",
+				"StageModule": "RTID(PirateStage@LevelModules)",
+				"StartingSun": 350
+			}
+		},
+		{
+			"aliases": [
+				"PiratePlanks"
+			],
+			"objclass": "PiratePlankProperties",
+			"objdata": {
+				"PlankRows": [
+					1,
+					2,
+					3
+				]
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover",
+					"thymewarp"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "guardshroom"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"GridX": 3,
+						"GridY": 0,
+						"Level": "-1",
+						"TypeName": "guardshroom"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"Level": -1,
+						"TypeName": "guardshroom"
+					},
+					{
+						"GridX": 3,
+						"GridY": 4,
+						"Level": "-1",
+						"TypeName": "guardshroom"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 3,
+				"PlantfoodToSpawnCount": 3,
+				"PointIncrementPerWave": 75,
+				"StartingPoints": -25,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 3,
+				"ZombiePool": [
+					"RTID(birthday@ZombieTypes)",
+					"RTID(seagull@ZombieTypes)",
+					"RTID(birthday_jetpack@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.9,
+				"MinNextWaveHealthPercentage": 0.7,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)",
+						"RTID(Wave4RaidingPartyEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)",
+						"RTID(Wave7RaidingPartyEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)",
+						"RTID(Wave9RaidingPartyEvent0@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(pirate_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pelican@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(pirate_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(cannon@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(cannon@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_jetpack@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_jetpack@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(pirate_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity_bug_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday_jetpack@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_jetpack@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_jetpack@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_jetpack@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday_jetpack@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave4RaidingPartyEvent0"
+			],
+			"objclass": "RaidingPartyZombieSpawnerProps",
+			"objdata": {
+				"GroupSize": 2,
+				"SwashbucklerCount": 2,
+				"TimeBetweenGroups": "1"
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(cannon@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(cannon@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(cannon@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(cannon@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9RaidingPartyEvent0"
+			],
+			"objclass": "RaidingPartyZombieSpawnerProps",
+			"objdata": {
+				"GroupSize": 1,
+				"SwashbucklerCount": 2,
+				"TimeBetweenGroups": 4
+			}
+		},
+		{
+			"aliases": [
+				"Wave7RaidingPartyEvent0"
+			],
+			"objclass": "RaidingPartyZombieSpawnerProps",
+			"objdata": {
+				"GroupSize": 2,
+				"SwashbucklerCount": 4,
+				"TimeBetweenGroups": 4
+			}
+		}
+	],
+	"version": 1
+}

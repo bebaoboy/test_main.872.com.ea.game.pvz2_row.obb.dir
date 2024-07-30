@@ -1,0 +1,128 @@
+{
+	"#comment": "Level Of The Day Default",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "none",
+				"FirstIntroNarrative": "ROMANB_LTE_2023_5",
+				"FirstOutroNarrative": "ROMANB_LTE_2023_6",
+				"LevelNumber": 15,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(ZombossIntro@LevelModules)",
+					"RTID(RomanMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(SeedPacketHalfTimeModule@LevelModules)",
+					"RTID(ZombossBattle@CurrentLevel)"
+				],
+				"Name": "[LTE_LEVEL_NAME_ROMANWORLD_2023]",
+				"StageModule": "RTID(RomanStage@LevelModules)",
+				"StartingSun": 1500
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover"
+				],
+				"PresetPlantList": [],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"ZombossBattle"
+			],
+			"objclass": "ZombossBattleModuleProperties",
+			"objdata": {
+				"ReservedColumnCount": 3,
+				"ShowInStreetView": true,
+				"ZombossDeathColumn": 5,
+				"ZombossDeathRow": 2,
+				"ZombossMechType": "zombossmech_roman",
+				"ZombossSpawnGridPosition": {
+					"mX": 6,
+					"mY": 3
+				}
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)",
+						"RTID(DoNotPlantBeforeLine@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"DoNotPlantBeforeLine"
+			],
+			"objclass": "MoldColonyChallengeProps",
+			"objdata": {
+				"Locations": "RTID(Column6_To_Column8@BoardGridMaps)"
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_ZOMBOSS_BATTLE]",
+				"DescriptiveName": "[STARCHALLENGE_ZOMBOSS_BATTLE_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"Waves": []
+			}
+		}
+	],
+	"version": 1
+}

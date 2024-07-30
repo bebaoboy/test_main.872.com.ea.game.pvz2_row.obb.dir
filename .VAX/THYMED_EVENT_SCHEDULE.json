@@ -1,0 +1,254 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"ThymedEventSchedule"
+			],
+			"objclass": "ThymedEventSchedule",
+			"objdata": {
+				"Events": [
+					{
+						"EventQuestName": "THYMED_EVENT_1",
+						"Description": "[LTE_EVENTS_DESC_FOODFIGHT]",
+						"InfoText": "[LTE_EVENTS_INFO_FOODFIGHT]",
+						"Track": "track1",
+						"StartDate": 1637604000,
+						"EndDate": 1638208800,
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_FOODFIGHT_EVENT_BG",
+						"CurrencyImage": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+						"EnergyStackImage": "EventEnergySet1",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_DOWN",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_FOODFIGHT]"
+						],
+						"ComingSoonEnableTime": 1637604000
+					},
+					{
+						"EventQuestName": "LTE_2021_12_FEASTIVUS",
+						"Description": "[LTE_EVENTS_DESC_FEASTIVUS]",
+						"InfoText": "[LTE_EVENTS_INFO_FEASTIVUS]",
+						"Track": "track1",
+						"StartDate": 1640368800,
+						"EndDate": 1641405600,
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_FEASTIVUS_EVENT_BG",
+						"CurrencyImage": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+						"EnergyStackImage": "EventEnergySet1",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_DOWN",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_FEASTIVUS]"
+						],
+						"ComingSoonEnableTime": 1640368800
+					},
+					{
+						"EventQuestName": "LTE_2022_01_CARNIVAL",
+						"Description": "[LTE_EVENTS_DESC_CARNIVAL]",
+						"InfoText": "[LTE_EVENTS_INFO_CARNIVAL]",
+						"Track": "track1",
+						"StartDate": 1641585600,
+						"EndDate": 1642622400,
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_CARNIVAL_EVENT_BG",
+						"CurrencyImage": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+						"EnergyStackImage": "EventEnergySet1",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_DOWN",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_CARNIVAL]"
+						],
+						"ComingSoonEnableTime": 1641585600
+					},
+					{
+						"EventQuestName": "LTE_2022_02_LUNARNEWYEAR",
+						"Description": "[LTE_EVENTS_DESC_LUNARNEWYEAR]",
+						"InfoText": "[LTE_EVENTS_INFO_LUNARNEWYEAR]",
+						"Track": "track1",
+						"StartDate": 1643745600,
+						"EndDate": 1644350400,
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_LNY_EVENT_BG",
+						"CurrencyImage": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+						"EnergyStackImage": "EventEnergySet1",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_DOWN",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_LNY]"
+						],
+						"ComingSoonEnableTime": 0
+					},
+					{
+						"EventQuestName": "LTE_2022_03_LUCKOTHEZOMBIE",
+						"Description": "[LTE_EVENTS_DESC_LOTZ]",
+						"InfoText": "[LTE_EVENTS_INFO_LOTZ]",
+						"Track": "track1",
+						"StartDate": 1646848800,
+						"EndDate": 1647622800,
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_LUCKOTHEZOMBIE_EVENT_BG",
+						"CurrencyImage": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+						"EnergyStackImage": "EventEnergySet1",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_DOWN",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_LOTZ]"
+						],
+						"ComingSoonEnableTime": 1646760931,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_LUCKOTHEZOMBIE]",
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_LUCKOTHEZOMBIE]"
+					},
+					{
+						"EventQuestName": "LTE_2022_04_SPRINGENING",
+						"Description": "[LTE_EVENTS_DESC_SPRINGENING]",
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Track": "track1",
+						"StartDate": 1649696400,
+						"EndDate": 1650646800,
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_SPRINGENING_EVENT_BG",
+						"CurrencyImage": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+						"EnergyStackImage": "EventEnergySet1",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_DOWN",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_SPRING]"
+						],
+						"ComingSoonEnableTime": 1649523600,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_SPRINGENING]",
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_SPRINGENING]"
+					},
+					{
+						"EventQuestName": "LTE_2022_05_BIRTHDAYZ",
+						"Description": "[LTE_EVENTS_DESC_BIRTHDAY]",
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Track": "track1",
+						"StartDate": 1651510800,
+						"EndDate": 1654016400,
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_BIRTHDAYZ_EVENT_BG",
+						"CurrencyImage": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+						"EnergyStackImage": "EventEnergySet1",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_DOWN",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_BIRTHDAYZ]"
+						],
+						"ComingSoonEnableTime": 1651338000,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_BIRTHDAYZ]",
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_BIRTHDAYZ]"
+					},
+					{
+						"EventQuestName": "LTE_2022_01_CARNIVAL",
+						"Description": "[LTE_EVENTS_DESC_CARNIVAL]",
+						"InfoText": "[LTE_EVENTS_INFO_CARNIVAL]",
+						"Track": "track1",
+						"StartDate": 1660533601,
+						"EndDate": 1668533895,
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_CARNIVAL_EVENT_BG",
+						"CurrencyImage": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+						"EnergyStackImage": "EventEnergySet1",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_DOWN",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_CARNIVAL]"
+						],
+						"ComingSoonEnableTime": 1660533601,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_CARNIVAL]",
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_CARNIVAL]"
+					},
+					{
+						"EventQuestName": "LTE_2022_LAWNBOWL",
+						"Description": "[LTE_EVENTS_DESC_LAWNBOWL]",
+						"InfoText": "[LTE_EVENTS_INFO_LAWNBOWL]",
+						"Track": "track1",
+						"StartDate":  1657533601,
+						"EndDate": 1659533600,
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_SPORTZBALL_EVENT_BG",
+						"CurrencyImage": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+						"EnergyStackImage": "EventEnergySet1",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_DOWN",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_LAWNBOWL]"
+						],
+						"ComingSoonEnableTime":  1657533601,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_LAWNBOWL]",
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_LAWNBOWL]"
+					},
+					{
+						"EventQuestName": "LTE_2022_VANILLAX_1",
+						"Description": "[LTE_EVENTS_DESC_VANILLAX]",
+						"InfoText": "[LTE_EVENTS_INFO_VANILLAX]",
+						"Track": "track2",
+						"StartDate": 1659617999,
+						"EndDate": 1668533895,
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_LNY_EVENT_BG",
+						"CurrencyImage": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+						"EnergyStackImage": "EventEnergySet1",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_DOWN",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_VANILLAX]"
+						],
+						"ComingSoonEnableTime": 1659617999,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_VANILLAX]",
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_VANILLAX]"
+					},
+					{
+						"EventQuestName": "LTE_2022_07_CARNIVAL",
+						"Description": "[LTE_EVENTS_DESC_CARNIVAL]",
+						"InfoText": "[LTE_EVENTS_INFO_CARNIVAL]",
+						"Track": "track1",
+						"StartDate":  1668533896,
+						"EndDate": 1670850400,
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_CARNIVAL_EVENT_BG",
+						"CurrencyImage": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+						"EnergyStackImage": "EventEnergySet1",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_DOWN",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_CARNIVAL]"
+						],
+						"ComingSoonEnableTime":  1668533896,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_CARNIVAL]",
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_CARNIVAL]"
+					},
+					{
+						"EventQuestName": "LTE_2022_07_SUMMERNIGHTS",
+						"Description": "[LTE_EVENTS_DESC_SUMMERNIGHTS]",
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Track": "track1",
+						"StartDate": 1670850401,
+						"EndDate": 1673850400,
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_SUMMERNIGHT_EVENT_BG",
+						"CurrencyImage": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+						"EnergyStackImage": "EventEnergySet1",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_DOWN",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_SUMMERNIGHTS]"
+						],
+						"ComingSoonEnableTime": 1670850401,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_SUMMERNIGHTS]",
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_SUMMERNIGHTS]"
+					},
+					{
+						"EventQuestName": "LTE_2022_VANILLAX_2",
+						"Description": "[LTE_EVENTS_DESC_VANILLAX]",
+						"InfoText": "[LTE_EVENTS_INFO_VANILLAX]",
+						"Track": "track2",
+						"StartDate": 1673850401,
+						"EndDate": 1900000000,
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_LNY_EVENT_BG",
+						"CurrencyImage": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+						"EnergyStackImage": "EventEnergySet1",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_FOODFIGHT_DOWN",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_VANILLAX2]"
+						],
+						"ComingSoonEnableTime": 1673850401,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_VANILLAX]",
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_VANILLAX]"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

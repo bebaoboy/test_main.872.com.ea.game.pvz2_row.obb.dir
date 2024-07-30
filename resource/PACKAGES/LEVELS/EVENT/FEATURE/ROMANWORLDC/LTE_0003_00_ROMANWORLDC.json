@@ -1,0 +1,484 @@
+{
+	"#comment": "Level Of The Day Default",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "none",
+				"FirstIntroNarrative": "",
+				"LevelNumber": 3,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(RomanMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(Puddles@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)"
+				],
+				"Name": "[LTE_LEVEL_NAME_ROMANWORLD_2023]",
+				"StageModule": "RTID(RomanStage@LevelModules)",
+				"StartingSun": 125
+			}
+		},
+		{
+			"aliases": [
+				"Puddles"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 1,
+						"GridY": 1,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 6,
+						"GridY": 1,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 3,
+						"GridY": 2,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 2,
+						"GridY": 2,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 1,
+						"GridY": 2,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 6,
+						"GridY": 2,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 1,
+						"GridY": 3,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 3,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 4,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantIncludeList": [
+					"peashooter",
+					"sunflower",
+					"wallnut",
+					"potatomine",
+					"cabbagepult",
+					"bonkchoy",
+					"puffshroom",
+					"kernelpult",
+					"snapdragon",
+					"spikeweed",
+					"shinevine",
+					"solartomato",
+					"jalapeno",
+					"buzzbutton",
+					"bloominghearts",
+					"toadstool",
+					"homingthistle",
+					"lightningreed",
+					"gumnut",
+					"guardshroom",
+					"blockoli",
+					"reinforcemint",
+					"spearmint",
+					"filamint",
+					"aloe",
+					"electricitea",
+					"seashroom",
+					"lilypad",
+					"bloomerang",
+					"iceburg",
+					"cherry_bomb",
+					"pepperpult",
+					"stunion",
+					"garlic",
+					"primalpotatomine",
+					"tanglekelp",
+					"bowlingbulb",
+					"guacodile",
+					"squash",
+					"hurrikale",
+					"sapfling",
+					"cactus",
+					"electriccurrant",
+					"torchwood",
+					"hotdate",
+					"hocus",
+					"rhubarbarian",
+					"boomberry",
+					"buduhboom",
+					"dragonbruit",
+					"aquavine"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "electricpeel"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"GridX": 4,
+						"GridY": 0,
+						"Level": -1,
+						"TypeName": "electricpeel"
+					},
+					{
+						"GridX": 4,
+						"GridY": 4,
+						"Level": -1,
+						"TypeName": "electricpeel"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 2,
+				"PlantfoodToSpawnCount": 0,
+				"PointIncrementPerWave": 50,
+				"StartingPoints": 0,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 4,
+				"ZombiePool": [
+					"RTID(roman@ZombieTypes)",
+					"RTID(roman_armor1@ZombieTypes)",
+					"RTID(roman_armor2@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.5,
+				"MinNextWaveHealthPercentage": 0.4,
+				"WaveCount": 0,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(roman@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(roman_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(roman_healer@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(roman@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(roman_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(roman_healer@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(roman@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(roman@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

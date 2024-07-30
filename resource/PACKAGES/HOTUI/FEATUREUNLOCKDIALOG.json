@@ -1,0 +1,490 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"FeatureUnlockDialog"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "FeatureUnlockDialog",
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"IgnoreSafeArea": true,
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(FeatureToUnlockDialogContainer@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"FeatureToUnlockDialogContainer"
+			],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "FeatureToUnlockDialogContainer",
+				"Resources": [],
+				"Width": {
+					"Value": "660.0"
+				},
+				"Height": {
+					"Value": "510.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [
+					"RTID(DialogCard@.)"
+				],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"DialogCard"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogCard",
+				"Width": {
+					"Value": "610"
+				},
+				"Height": {
+					"Value": "450"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "15.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_CARDS_STORE_STORE_UPGRADE_CARD",
+				"Children": [
+					"RTID(DialogTitle@.)",
+					"RTID(LargeDescriptionLabel@.)",
+					"RTID(FeatureImage@.)",
+					"RTID(Timer@.)",
+					"RTID(ContinueButton@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"DialogTitle"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "70.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "5.0"
+					}
+				},
+				"Label": "$DIALOG_TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		},
+		{
+			"aliases": [
+				"Timer"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Timer",
+				"Width": {
+					"Value": "28%"
+				},
+				"Height": {
+					"Value": "7%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "60.0"
+					}
+				},
+				"Children": [
+					"RTID(TimerText@.)",
+					"RTID(ClockImage@.)"
+				],
+				"Image": "IMAGE_UI_THYMED_EVENTS_COMING_SOON_LABEL",
+				"DrawStyle": "stretched",
+				"DrawType": "9slice"
+			}
+		},
+		{
+			"aliases": [
+				"TimerText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "TimerText",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "65%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "8.0"
+					},
+					"OffsetY": {
+						"Value": "-1.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_13",
+				"Color": "Brown"
+			}
+		},
+		{
+			"aliases": [
+				"ClockImage"
+			],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ClockImage",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "70%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "-31.0"
+					},
+					"OffsetY": {
+						"Value": "-2.0"
+					}
+				},
+				"Resources": [
+					"UI_Quests"
+				],
+				"PopAnimName": "POPANIM_UI_QUESTS_DAILY_QUEST_CLOCK_ICON",
+				"InitialAnimationName": "default",
+				"DrawStyle": "stretched",
+				"PlayStyle": "playandcontinue"
+			}
+		},
+		{
+			"aliases": [
+				"FeatureImage"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "FeatureImage",
+				"Width": {
+					"Value": "600.0"
+				},
+				"Height": {
+					"Value": "238.0"
+				},
+				"Resources": [
+					"UI_Feature_Unlock"
+				],
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "75.0"
+					}
+				},
+				"Image": "$FEATURE_IMAGE",
+				"DrawStyle": "stretched",
+				"Children": [
+					"RTID(PlantBackground@.)",
+					"RTID(PlantAnim@.)",
+					"RTID(TaglineLabel@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"PlantBackground"
+			],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "PlantBackground",
+				"Resources": [
+					"LevelEffects"
+				],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "40.0"
+					},
+					"OffsetY": {
+						"Value": "30.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"PopAnimName": "POPANIM_EFFECTS_LEVEL_WINDOW_RAYS",
+				"InitialAnimationName": "idle",
+				"ScaleOverride": 0.3,
+				"DrawStyle": "scale_override",
+				"PlayStyle": "playandcontinue"
+			}
+		},
+		{
+			"aliases": [
+				"PlantAnim"
+			],
+			"objclass": "HotUIPlantAnimProperties",
+			"objdata": {
+				"Name": "PlantAnim",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "40.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"ScaleOverride": 2.5,
+				"DrawStyle": "scale_override",
+				"PlantConfig": {
+					"PlantType": "$PLANTTYPE",
+					"DrawShadow": false
+				}
+			}
+		},
+		{
+			"aliases": [
+				"LargeDescriptionLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "LargeDescriptionLabel",
+				"Width": {
+					"Value": "95.0%"
+				},
+				"Height": {
+					"Value": "190"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "$DESCRIPTION",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24",
+				"Color": "Brown"
+			}
+		},
+		{
+			"aliases": [
+				"TaglineLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "TaglineLabel",
+				"Width": {
+					"Value": "96.0%"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "8.0"
+					}
+				},
+				"Children": [
+					"RTID(SmallDescriptionLabel@.)"
+				],
+				"Label": "$TAGLINE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "BLACK_18",
+				"Color": "Brown"
+			}
+		},
+		{
+			"aliases": [
+				"SmallDescriptionLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "SmallDescriptionLabel",
+				"Width": {
+					"Value": "96.0%"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "4.0"
+					}
+				},
+				"Label": "$DESCRIPTIONWITHTAGLINE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "top",
+				"Font": "AVENIR_13",
+				"Color": "Brown"
+			}
+		},
+		{
+			"aliases": [
+				"ContinueButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ContinueButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "5.0"
+					}
+				},
+				"Label": "$CONTINUE_BUTTON",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_PURPLEBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_PURPLEBUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release"
+			}
+		}
+	]
+}

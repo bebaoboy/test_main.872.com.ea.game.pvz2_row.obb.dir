@@ -1,0 +1,222 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"NewsData"
+			],
+			"objclass": "SettingsNewsData",
+			"objdata": {
+				"NewsDataEntries": [
+					{
+						"Date": 1719205200,
+						"LocalizedData": {
+							"en": {
+								"Text": "Things are heating up this summer. Check out what your plants are doing in this latest update of Plants vs. Zombies 2.\n\nNew Plants\n- Mangofier - Early Access 06/29-08/11.\n\nArena\n- Summer Championship 07/15-08/11\n- Mangofier Season 08/12 - 09/08\n\nThymed Event\n- Lawn Bowl 07/22 - 08/04.\n\nMisc.\nA strange mutation has afflicted several plants. While the cause is yet unknown, SeaFlora and several Pepper-mint plants have gained new abilities."
+							},
+							"de": {
+								"Text": "Der Sommer wird heiß. Schau dir an, was die Pfl. vorhaben – beim neuesten Update für Plants vs. Zombies 2.\n \n Neue Pflanzen\n - Mango cum Laude - Vorab-Zugriff vom 29.06.–11.08.\n \n Arena\n - Sommer-Championship vom 15.07.–11.08.\n - „Mango cum Laude“-Saison vom 12.08.–08.09.\n \n Begrenztes Event\n - Rasen-Bowl vom 22.07.–04.08.\n \n Sonstiges\n Eine seltsame Mutation hat mehrere Pfl. heimgesucht. Die Ursache ist unbekannt, aber Seeflora und verschiedene Flammenminze-Pflanzen zeigen neue Fähigkeiten."
+							},
+							"es": {
+								"Text": "La cosa está calentita este verano. Echa un vistazo a lo que hacen tus plantas en esta actualización de Plants vs. Zombies 2.\n \n Nuevas plantas\n - Mangólvora - Acceso anticipado 29/06-11/08.\n \n Arena\n - Campeonato de verano 15/07-08/11\n - Temporada de Mangólvora 12/08 - 08/09\n \n Evento de Tomillo tiempillo\n - Patiobol 22/07 - 04/08\n \n Varios\n Una extraña mutación ha afectado a varias plantas. Aunque aún se desconoce la causa, Floramar y varias Mentas piperitas han adquirido nuevas habilidades."
+							},
+							"fr": {
+								"Text": "Préparez-vous, l'été sera chaud ! Découvrez les nouvelles plantes de cette mise à jour pour PvZ 2.\n \n Nouvelles plantes\n - Manguefière : Accès anticipé 29/06 - 11/08\n \n Arène\n - Championnat d'été : 15/07 - 11/08\n - Saison de Manguefière : 12/08 - 08/09\n \n Événement à durée limitée\n - Gazonball : 22/07 - 04/08\n \n Divers\n Des plantes sont victimes d'une étrange mutation. La cause en est encore inconnue, mais Mariflore et des plantes de la famille Pyro-menthe ont gagné de nouvelles capacités."
+							},
+							"it": {
+								"Text": "Questa estate le cose si fanno bollenti. Scopri cosa combinano le tue piante nell'ultimo aggiornamento di Plants vs. Zombies 2.\n \n Nuove piante\n - Commango: accesso anticipato dal 29/06 all'11/08.\n \n Arena\n - Campionato estivo dal 15/07 all'11/08\n - Stagione del commango dal 12/08 all'8/09\n \n Evento a \"timo\" limitato\n - Lawnbowl dal 22/07 al 04/08.\n \n Varie.\n Una strana mutazione ha colpito alcune piante. Non si sa come mai, ma la flora marina e diverse fiam-menta hanno acquisito nuove abilità."
+							},
+							"pt": {
+								"Text": "Este verão está esquentando. Confira o que suas plantas estão fazendo nesta atualização mais recente de Plants vs. Zombies 2.\n \n Novas plantas\n - Mangalupa - Acesso antecipado 29/06 a 11/08\n \n Arena\n - Campeonato de Verão 15/07 a 11/08\n - Temporada da Mangalupa 12/08 a 08/09\n \n Evento Cronotemperado\n - Gramabol 22/07 a 04/08\n \n Diversos\n Uma mutação estranha aflige várias plantas. Ainda que a causa ainda seja desconhecida, Floramar e várias plantas Aqueci-menta ganharam novas habilidades."
+							}
+						}
+					},
+					{
+						"Date": 1714107600,
+						"LocalizedData": {
+							"en": {
+								"Text": "Summer is upon us and it's time to hit the beach and soak up that sun. Stay out of the water though. There are zombies swimming in the latest update of Plants vs Zombies 2.\n\nNew Plants\n- Aqua Vine - Early Access 06/03-06/16.\n\nSummer Championship 07/15-08/11\n - Heat things up with a fiery Summer Championship arena.\n\nThymed Event\n- The Zombossesum 05/27 - 06/09.\n- Summer Nights 06/24 - 07/07."
+							},
+							"de": {
+								"Text": "Der Sommer naht – bald wird es wieder Zeit für einen herrlich sonnigen Strandtag. Aber halt dich vom Wasser fern: Im neuesten Update von Plants vs. Zombies 2 schwimmen da nämlich Zombies drin.\n \n Neue Pflanzen\n - Aqua-Ranke – Vorabzugriff vom 03.–16.06.\n \n Sommer-Meisterschaft vom 15.07.–11.08.\n - Komm in die Sommer-Meisterschaftsarena und stürze dich in hitzige Kämpfe.\n \n Zeitlich begrenztes Event\n - Das Zombosseum vom 27.05.–06.09.\n - Sommernächte vom 24.06.–07.07."
+							},
+							"es": {
+								"Text": "Ya es verano y es hora de ir a la playa y tomar el sol. Pero no te metas al agua... ¡Hay zombis nadadores en la última actualización de Plants vs Zombies 2!\n \n Nuevas plantas\n - Acuaenredadera: acceso anticipado del 03 al 16 de junio.\n \n Campeonato de Verano: del 15 de julio al 11 de agosto\n - Entra en calor en la ardiente arena del Campeonato de Verano.\n \n Evento de Tomillo tiempillo\n - El Zombiseo: del 27 de mayo al 09 de junio.\n - Noches de Verano: del 24 de junio al 07 de julio."
+							},
+							"fr": {
+								"Text": "L'été approche à grands pas et nous allons pouvoir profiter du soleil à la plage. Mais attention, la baignade est fortement déconseillée ! Les eaux sont infestées de zombies dans la nouvelle mise à jour pour Plants vs Zombies 2.\n \n Nouvelles plantes\n - Aqua-vigne - Accès anticipé 3/6 - 16/6.\n \n Championnat d'été 15/7 - 11/8\n - Mettez l'ambiance dans une arène du Championnat d'été tout feu, tout flamme.\n \n Événement à durée limitée\n - Le Zombosseum 27/5 - 9/6.\n - Nuits d'été 24/6 - 7/7."
+							},
+							"it": {
+								"Text": "L'estate è alle porte ed è arrivato il momento di prendere il sole sulla spiaggia. Ma resta fuori dall'acqua. Ci sono zombi che nuotano nell'ultimo aggiornamento di Plants vs Zombies 2.\n \n Nuove piante\n - Rampicante acquatico - Accesso anticipato dal 3/06 al 16/06.\n \n Campionato estivo dal 15/07 all'11/08\n - Riscalda l'atmosfera con l'infuocata arena del Campionato estivo.\n \n Evento a \"timo\" limitato\n - Lo Zombossesum dal 27/05 al 9/06.\n - Notti estive dal 24/06 al 7/07."
+							},
+							"pt": {
+								"Text": "O verão está chegando e é hora de pegar sol na praia. Mas fique longe da água. Tem zumbis nadando na atualização mais recente de Plants vs Zombies 2.\n \n Novas plantas\n - Trepadeira Aquática - Acesso antecipado de 03 a 16 de junho.\n \n Campeonato de Verão de 15/07 a 11/08\n - Esquente as coisas com uma arena flamejante do Campeonato de Verão.\n \n Evento Cronotemperado\n - O Zumbiseu de 27/05 a 09/06.\n - Noites de Férias de 24/06 a 07/07."
+							}
+						}
+					},
+					{
+						"Date": 1711947600,
+						"LocalizedData": {
+							"en": {
+								"Text": "The rainy season is here, and with it comes the Puddles. Check out this new hazard in the latest update of Plants vs Zombies 2.\n\nNew Plants\n- Electric Peel - Early Access April 08 to April 21.\n- Guard-shroom - Early Access May 06 to May 19.\n- Sea-shroom\n\nThymed Event\n- Big Beach Brawl 04/15 - 04/28.\n- Birthdayz Celebrations! 05/06 - 05/19.\n\nBugz\n- Fixed issues with Plant levels not being set correctly."
+							},
+							"de": {
+								"Text": "Die Regenzeit hat begonnen , und mit ihr kommen die Pfützen. Stelle dich dieser neuen Gefahr – beim neuesten Update für Plants vs. Zombies 2\n\nNeue Pflanzen\n- Elektroschale – Vorab-Zugriff vom 8. bis 21. April.\n- Wachpilz – Vorab-Zugriff vom 6. bis 19. Mai.\n- Meerespilz\n\nBegrenztes Event\n- Große Strandprügelei vom 15. bis 28. April.\n- Geburtztagsfeier! 6. bis 19. Mai.\n\nBugz\n- Probleme mit nicht korrekt eingestellten Pflanzen-Levels behoben."
+							},
+							"es": {
+								"Text": "Ya está aquí la estación de las lluvias y, con ella, los charcos. No te pierdas este nuevo peligro en la última actualización de Plants vs Zombies 2.\n\nNuevas plantas\n- Banananguila: acceso anticipado del 8 al 21 de abril.\n- Setaguardia: acceso anticipado del 6 al 19 de mayo.\n- Setamar\n\nEvento de Tomillo tiempillo\n- Gran pelea en la playa: 15/04 - 28/04.\n- ¡Celebración de Cumpleañoz! 06/05 - 19/05.\n\nErrorez\n- Los niveles de las plantas no se establecían correctamente, pero ya está solucionado."
+							},
+							"fr": {
+								"Text": "La saison des pluies est arrivée et elle apporte... des flaques. Découvrez ce nouveau danger dans une nouvelle mise à jour pour Plants vs Zombies 2.\n\nNouvelles plantes\n- Électro-banane - Accès anticipé du 8 au 21 avril.\n- Champi-garde - Accès anticipé du 6 au 19 mai.\n- Champi-marin\n\nÉvénement à durée limitée\n- Baston des plages - du 15 au 28 avril.\n- Z'anniversaire ! - du 6 au 19 mai.\n\nBugz\n- Correction d'un problème relatif aux niveaux des plantes."
+							},
+							"it": {
+								"Text": "La stagione delle piogge è arrivata, e con lei le pozzanghere. Scopri questo nuovo ostacolo nell'ultimo aggiornamento di Plants vs Zombies 2.\n\nNuove piante\n-Buccia elettrica: accesso anticipato dall'8 al 21 aprile.\n-Guardiaporcino: accesso anticipato dal 6 al 19 maggio.\n-Marporcino\n\nEvento a \"timo\" limitato\n-Grande rissa sulla spiaggia dal 15/4 al 28/4.\n-Festeggiamenti Zombleanno! dal 6/5 al 19/5.\n\nBug\n- Risolti problemi per cui i livelli delle piante non erano impostati correttamente."
+							},
+							"pt": {
+								"Text": "A estação das chuvas chegou, e com ela vêm as Poças. Confira esse novo perigo na atualização mais recente de Plants vs Zombies 2.\n\nNovas plantas\n- Casca Elétrica - Acesso Antecipado de 08 de a 21 de abril.\n- Guardamelo - Acesso antecipado de 06 a 19 de maio.\n- Cogumarinho\n\nEvento Cronotemperado\n- Grande Duelo da Praia de 15 a 28 de abril.\n- Comemorações de Aniverzário! 06 a 19 de maio.\n\nBugz\n- Corrigimos um problema em que os níveis das plantas não eram definidos corretamente."
+							}
+						}
+					},
+					{
+						"Date": 1708318800,
+						"LocalizedData": {
+							"en": {
+								"Text": "\"Spring is finally here! Time to lawn up, get green and check out the latest update to Plants vs. Zombies 2!\n\nSpring Vine Championship -  3/25 - 4/21.\n\nThymed Event\nLuck o’ the Zombie: 3/8 - 3/18. \nThe Springening: 3/25 - 4/9.\""
+							},
+							"de": {
+								"Text": "\"Der Frühling ist endlich da! Also, nichts wie raus auf den Rasen, das neueste Update von Plants vs. Zombies 2 ausprobieren!\n \n Frühlingsranken-Meisterschaft: 25.3. bis 21.4.\n \n Begrenztes Event\n Glück des Zombies: 8.3. bis 18.3. \n Das Frühlingserwachen: 25.3. bis 9.4.\""
+							},
+							"es": {
+								"Text": "\"¡Por fin ha llegado la primavera! ¡Hora de cortar el césped, florecer y echar un vistazo a la última actualización de Plants vs. Zombies 2!\n \n Campeonato Por las ramas primaverales - 25/3 - 21/4.\n \n Evento de Tomillo tiempillo\n La suerte del zombi: 8/3 - 18/3. \n La Primaveridad: 25/3 - 9/4.\""
+							},
+							"fr": {
+								"Text": "\"Le printemps est enfin arrivé ! Mettez-vous au vert et découvrez la dernière mise à jour pour Plants vs. Zombies 2 !\n \n Championnat de la vigne de printemps - 25/03 - 21/04.\n \n Événement à durée limitée\n La chance des zombies : 08/03 - 18/03. \n Le plantemps : 25/03 - 09/04.\""
+							},
+							"it": {
+								"Text": "\"Finalmente è arrivata la primavera! È ora di sistemare il prato, spolverare il pollice verde e dare un'occhiata all'ultimo aggiornamento di Plants vs. Zombies 2!\n \n Campionato del rampicante primaverile - 25/3 - 21/4.\n \n Evento a \"\"timo\"\" limitato\n La fortuna degli zombesi: 8/3 - 18/3 \n Zombrimavera: 25/3 - 9/4.\""
+							},
+							"pt": {
+								"Text": "\"A primavera finalmente chegou! Hora de relvar, esverdear e conferir a mais nova atualização de Plants vs. Zombies 2!\n \n Campeonato de Trepadeira de Primavera - 25/03 a 21/04.\n \n Evento Cronotemperado\n Zumbi Sortudo - 08/03 a 18/03 \n A Primavera - 25/03 a 09/04\""
+							}
+						}
+					},
+					{
+						"Date": 1704672000,
+						"LocalizedData": {
+							"en": {
+								"Text": "\"When it's too cold to go out, stay inside and snuggle next to a Pepper-pult. Then check out the newest update to Plants vs. Zombies 2.\n\nNew Plant - Dragon Bruit\n\nThymed Event - Lunar Zoo Year 02/08 - 02/20\n\nBug Fixes\nFixed data issue with Arena.\nFixed issue with Store missing strings.\nNew Penny’s Pursuit worlds were added.\""
+							},
+							"de": {
+								"Text": "Dir ist es draußen zu kalt? Bleib zuhause und kuschle dich an ein Paprikatapult. Sieh dir jetzt das neueste Update für Plants vs. Zombies 2 an.\n \n Neue Pflanze – Krachenfrucht\n \n Zeitlich begrenztes Event - Mondzoo-Jahr 08.02.–20.02.\n \n Fehlerbehebungen\n Ein Datenproblem mit der Arena wurde behoben.\n Ein Problem mit fehlenden Strings im Laden wurde behoben.\n Neue Penny-Jagd-Welten wurden hinzugefügt."
+							},
+							"es": {
+								"Text": "Cuando haga demasiado frío para salir, quédate en casa y acurrúcate junto a un Lanzachiles. Luego, echa un vistazo a la nueva actualización de Plants vs. Zombies 2.\n \n Nueva planta: Brutodragón\n \n Evento de Tomillo tiempillo - Año Zoolunar 08/02 - 20/02\n \n Problemas solucionados\n Se ha solucionado un problema de datos con la Arena.\n Se ha solucionado el problema que hacía que faltaran líneas en la Tienda.\n Se han añadido nuevos mundos a la Búsqueda de Penny."
+							},
+							"fr": {
+								"Text": "Quand il fait trop froid dehors, restez bien au chaud et blottissez-vous contre Cata-poivron. Découvrez la nouvelle mise à jour pour Plants vs. Zombies 2.\n \n Nouvelle plante - Pitayaïe-aïe\n \n Événement à durée limitée - Année du zoo lunaire 08/02 - 20/02\n \n Correction de bugs\n Correction d'un problème de données relatif à l'Arène.\n Correction d’un problème d'éléments manquants dans la Boutique.\n Ajout de nouveaux mondes pour La course-poursuite de Penny."
+							},
+							"it": {
+								"Text": "Quando fa troppo freddo per uscire, resta a casa e accoccolati accanto a una peperonpulta. Poi scopri il nuovo aggiornamento di Plants vs. Zombies 2.\n \n Nuova pianta: bruto di drago\n \n Evento a \"timo\" limitato - Anno lunare zoologico 08/02 - 20/02\n \n Bug risolti\n Risolti dei problemi di dati con l'Arena.\n Risolto un problema relativo alle stringhe mancanti nel negozio.\n Aggiunti nuovi mondi in Ricerca di Penny."
+							},
+							"pt": {
+								"Text": "Quando estiver frio demais para sair, fique em casa e aconchegue-se perto de uma Pimentapulta. E confira a nova atualização de Plants vs. Zombies 2.\n \n Nova planta - Grito-de-dragão\n \n Evento Cronotemperado - Zoo do Ano Lunar 08/02 a 20/02\n \n Correções de bugs\n Corrigimos um problema com os dados na Arena.\n Corrigimos um problema com textos que faltavam na Loja.\n Novos mundos foram adicionados à Perseguição da Penny."
+							}
+						}
+					},
+					{
+						"Date": 1700456400,
+						"LocalizedData": {
+							"en": {
+								"Text": "The holidays are upon us!!! Time to relax by a cozy fire, reflect on the year’s pass and to check out the newest updates to Plants vs. Zombies 2.\nNew Plants\nBud’uh Boom\nIce-shroom\n\nThymed Event\nFeastivus 12/04 - 12/31\nZCorp Takeover 1/08 - 1/17\n\nBug Fixes\nFixed several issues with certain audio sfx not playing correctly.\nFixed several stability issues."
+							},
+							"de": {
+								"Text": "Die Feiertage kommen!! Was gibt es Schöneres, als am Kamin das Jahr Revue passieren zu lassen und das neue Update für Plants vs. Zombies 2 auszuprobieren?\n Neue Pflanzen\nButterglöckchen\nEispilz\nBegrenztes Event\n4.–31.12. – Feastivus\n8.–17.01. – ZCorp-Übernahme\nFehlerbehebungen\nMehrere Probleme behoben, bei denen Soundeffekte nicht korrekt abgespielt wurden.\nMehrere Stabilitätsprobleme behoben.\nMach es dir mit diesem neuen Update für PvZ2 gemütlich!\nSammle Gartenschützer!"
+							},
+							"es": {
+								"Text": "¡Llegan las fiestas! Hora de tomar algo calentito, pensar en todo lo que pasó este año y ver las últimas novedades de Plants vs. Zombies 2.\nNuevas plantas\nBad'ah Bum\nSeta congelada\nEvento de Tomillo tiempillo\nFestivus: del 4/12 al 31/12\nZCorp toma el control: del 8/1 al 17/1\nProblemas solucionados\nCorregidos problemas en la reproducción de algunos efectos.\nCorregidos problemas de estabilidad.\n¡Entra en calor con esta nueva actualización para PvZ2!\n¡Reúne guardianes de jardín!"
+							},
+							"fr": {
+								"Text": "Les fêtes de fin d’année approchent ! Détendez-vous près du feu et découvrez les nouveautés de Plants vs. Zombies 2. \nNouvelles plantes\nBadabeurre\nChampi-glace\nÉvénements à durée limitée\nFeastivus 04/12 - 31/12\nÀ la conquête de ZCorp 08/01 - 17/01\nCorrections de bug\nCorrection de problèmes de lecture incorrecte de certains effets sonores.\nCorrection de plusieurs problèmes de stabilité.\nRestez bien au chaud avec cette nouvelle mise à jour pour PvZ2 !\nAmassez des gardiens du jardin !"
+							},
+							"it": {
+								"Text": "Le feste sono alle porte! È ora di rilassarsi davanti al camino, riflettere sull'anno trascorso e scoprire le novità di Plants vs. Zombies 2.\nNuove piante\nLoto esplosivo\nBrinporcino\nEvento a \"timo\" limitato\nFeastivus, 04/12 - 31/12\nSupremazia ZCorp, 08/1 - 17/1\nBug risolti\nRisolti vari problemi che impedivano la corretta riproduzione di alcuni effetti sonori.\nRisolti vari problemi di stabilità.\nTieniti al calduccio con il nuovo aggiornamento di PvZ2!\nOttieni custodi del giardino!"
+							},
+							"pt": {
+								"Text": "As festas de fim de ano estão aí! Hora de refletir sobre o ano e ver as atualizações de Plants vs. Zombies 2.\nNovas plantas\nBroto Bum\nGelogumelo\nEvento Cronotemperado\nFestivus 04 a 31/12\nInvasão ZCorp 08 a 17/01\n\nCorreções de bugs\nCorrigimos vários problemas em que certos efeitos de áudio não eram reproduzidos corretamente.\nCorrigimos vários problemas de estabilidade.\nAproveite para se aquecer e aconchegar com a nova atualização do PVZ2!\nColecione guardiões de jardins!"
+							}
+						}
+					},
+					{
+						"Date": 1696827600,
+						"LocalizedData": {
+							"en": {
+								"Text": "With the end of the Year rapidly approaching, take this time to reflect on this year's pass and check out the newest update to Plants vs. Zombies 2.\n\nNew Plants\nNightcap\nCran Jelly\n\nThymed Event\nLawn of Doom 10/19 - 11/02\nFood FIght 11/16 - 11/27\n\nBug Fixes\nFixed several UI issues relating to Screen resolutions, Text formatting and text placement\nUpdated several plant animations, Bzzz Button, Meteor Flower and Tomb Tangler."
+							},
+							"de": {
+								"Text": "Das Jahresende naht: Zeit für das neueste Update für Plants vs. Zombies 2.\nNeue Pflanzen\nNachtporling\n\nGeleebeere\n\nBegrenztes Event\n\nRasen der Verdammnis: 19.10.–02.11.\nEssensschlacht: 16.–27.11.\nFehlerbehebungen\n\nUI-Probleme im Hinblick auf die Bildschirmauflösung, die Formatierung und Platzierung von Texten behoben\n\nMehrere Pflanzen-Anim. aktualisiert – z. B. für Prickelknopf, Meteorblume und Grabwickler\n\nMach dich winterfest – mit dem neuen Update für PvZ2!\n\nSammle Gartenschützer!"
+							},
+							"es": {
+								"Text": "Se acaba el año con una actualización de Plants vs. Zombies 2.\nNuevas plantas \nGorro de noche\nGelatinadora\nEvento de Tomillo tiempillo\nPatio de la perdición 19/10 - 02/11 \nPelea de comida 16/11 - 27/11\nSolución de errores\nSolucionados errores de la IU en la resolución y formato del texto.\nActualizadas animaciones de Flor eléctrica, Flor meteoro y Zampatumbas.\n¡Una actualización de PvZ2 para el invierno!\n¡Reúne guardianes de jardín!"
+							},
+							"fr": {
+								"Text": "Découvrez la nouvelle mise à jour de PvZ2.\n Nouvelles plantes\n Bonnet de nuit\n CanneBarge\n Événements à durée limitée\n Gazon de la mort 19/10 - 02/11\n Bataille de nourriture 16/11 - 27/11\n Corrections de bugs\n Correction de problèmes d'interface utilisateur résolutions d’écran, formatage et placement du texte\n Mise à jour d’animations de plantes Bouton explosif, Météflore et Entortueur de tombes\n Préparez-vous pour l'hiver avec cette mise à jour !\n Amassez des gardiens du jardin !"
+							},
+							"it": {
+								"Text": "L'anno sta finendo, riflettici su con il nuovo aggiornamento di Plants vs. Zombies 2.\n Nuove piante\n Berretto da notte\n Smarmellacampo\n Evento a timo limitato\n Prato della sventura dal 19/10 al 02/11\n Battaglia del cibo dal 16/11 al 27/11\n Bug risolti\n Risolti problemi di IU su risoluzione schermo, formattazione e posizione del testo\n Aggiornate animazioni di elettroacmella, fiore meteora e attorcigliatombe.\n Preparati all'inverno con l'aggiornamento di PvZ2!\n Ottieni custodi del giardino!"
+							},
+							"pt": {
+								"Text": "Com o fim do ano chegando, vamos conhecer a nova atualização do Plants vs. Zombies 2.\n Novas plantas\n Touquinha\n Arantina\n Evento Cronotemperado\n Gramado da Ruína - de 19/10 a 02/11\n Guerra de Comida - de 16/11 a 27/11\n Correções de bugs\n Corrigimos problemas de IU com resolução de tela, formatação e posicionamento de texto\n Atualizamos animações de plantas, Jambelétrico, Flor Meteórica e Enrosca-cova.\n Teremos um longo inverno com esta atualização do PvZ2!\n Obtenha os guardiões do jardim!"
+							}
+						}
+					},
+					{
+						"Date": 1693242000,
+						"LocalizedData": {
+							"en": {
+								"Text": "It’s time for Autumn! The days grow shorter and plants prepare for winter. Before you get ready to hibernate, why not check out the newest update for Plants vs. Zombies 2.\n\nNew Plant - Bean Sprout\n\nThymed Event\nThe Zombosseum 10/5 to 10/15\n\nBug Fixes and Improvements\nFixed issue where Fisherman Zombie can not target and pull Lily Pads. \nImprove Load times\nFixed several issues with BGM not playing."
+							},
+							"de": {
+								"Text": "Der Herbst naht! Die Tage werden kürzer und die Pflanzen stellen sich auf den Winter ein. Bevor du mit dem Winterschlaf beginnst, solltest du unser neues Update für PvZ 2 abchecken!\n\nNeue Pflanze – Bohnensprössling\n\nBegrenztes Event\nDas Zombosseum vom 5.–15.10.\n\nFehlerbehebungen und Verbesserungen\nEin Problem wurde behoben, durch das der Fischer-Zombie keine Seerosenblätter anvisieren und ziehen konnte\nLadezeiten verbessert\nMehrere Probleme mit ausbleibender Hintergrundmusik behoben"
+							},
+							"es": {
+								"Text": "¡Ha llegado el otoño! Los días se acortan y las plantas se preparan para el invierno. Antes de hibernar, echa un vistazo a la nueva actualización de Plants vs. Zombies 2.\n\n Nueva planta: Brote de frijol\n \nEvento de Tomillo tiempillo\nEl Zombiseo del 5 al 15 de octubre\n \nSolución de errores y mejoras\nSolucionado que el Zombi pescador no pudiera apuntar y pescar Nenúfares. \nMejora de los tiempos de carga.\nCorregidos problemas con la reproducción de música."
+							},
+							"fr": {
+								"Text": "Faites place à l’Automne! Les journées sont plus courtes et les plantes se préparent pour l’hiver. Avant de vous préparer à hiberner, jetez un œil à la mise à jour de Plants vs. Zombies 2.\n \n Nouvelle plante - Pousse de fayot\n \nÉv. à durée limitée\nLe Zombosseum du 5 au 15 oct.\n \nCorrections et améliorations\nCorrection d’un problème où le Zombie pêcheur ne peut pas cibler et tirer les Nénuphars\nTemps de chargement amélioré\nCorrection de plusieurs problèmes où la musique ne jouait pas"
+							},
+							"it": {
+								"Text": "L'autunno è già qui! Le giornate si accorciano e le piante si preparano per l'inverno.Prima del letargo, dai un'occhiata all'aggiornamento di Plants vs. Zombies 2!\n \nNuova pianta - Germoglio di fagiolo\n \nEvento a timo limitato\nLo Zombosseo dal 5/10 al 15/10\n \nCorrezione bug e miglioramenti\nRisolto un problema per cui lo zombi pescatore non era in grado di mirare e tirare le foglie di ninfea\nTempi di caricamento migliorati\nRisolti problemi per cui la musica di sottofondo non partiva"
+							},
+							"pt": {
+								"Text": "Chegou o outono! Os dias ficam mais curtos e as plantas se preparam para o inverno. Antes de começar a hibernar, que tal conferir a nova atualização de Plants vs. Zombies 2?\n \nNova planta - Broto de Feijão\n \nEvento Cronotemperado\nZumbiseu de 5/10 a 15/10\n \nCorreções de erros e melhorias\nCorrigimos um problema em que o Zumbi Pescador não conseguia mirar e puxar vitórias-régias.\nMelhoramos os tempos de carregamento\nCorrigimos vários problemas que faziam a música de fundo não ser reproduzida"
+							}
+						}
+					},
+					{
+						"Date": 1689613200,
+						"LocalizedData": {
+							"en": {
+								"Text": "Summer might be ending, but that won’t stop Zomboss from coming up with more evil scheme. Check out what the zombies are up to in this new update for Plants vs. Zombies 2.\nNew plant - Sundew Tangler\nThyme Event \nLawnbowl II 8/11 to 8/18.\nHarvest Festival 9/14 - 9/24. \nBug Fixes and Improvements\nImproved app loading speed and fixes to memory leaks.\nFixed issues with travel log.\nSeveral new Penny’s Pursuit Levels were added and will become live in the near future."
+							},
+							"de": {
+								"Text": "Der Sommer neigt sich dem Ende zu, aber Zomboss plant munter neue Schandtaten. Sieh dir an, was die Zombies in diesem neuen PvZ-2-Update treiben.\n\nNeue Pflanze – Sonnentau-Wickler\n\nZeitlich begrenztes Event  \nRasenbowl II: 11.–18. 8. \nErnte-Festival: 14.–24. 9. \n \nFehlerbehebungen und Verbesserungen \nLadegeschwindigkeit der App verbessert und Speicherprobleme behoben.\nFehler mit dem Reiseklotz behoben.\nMehrere neue Penny-Jagd-Level hinzugefügt, die in naher Zukunft live sein werden."
+							},
+							"es": {
+								"Text": "El verano se acaba, pero Dr. Zombi sigue con sus planes malignos. Comprueba qué traman los zombis en esta nueva actualización de Plants vs. Zombies 2.\n\nNueva planta: Drosera zampona  \nEvento de Tomillo tiempillo  \nPatiobol II: 11/8-18/8 \nFestival de la cosecha: 14/9-24/9  \n \nSolución de errores y mejoras \nMejoras en la velocidad de carga y arregladas fugas de memoria. \nSolucionados problemas del tronco de viaje. \nAñadidos niveles de Búsqueda de Penny, disponibles próximamente."
+							},
+							"fr": {
+								"Text": "L’été touche à sa fin, mais Zomboss reste toujours aussi diabolique. Voici les nouveautés de cette mise à jour.  \nNouvelle plante - Rossolis tortueux \n \nÉvénement à durée limitée \nGazonball II - 11/08 au 18/08 \nFestival de la moisson - 14/09 au 24/09 \n\nCorrections et améliorations \nAmélioration de la vitesse de chargement et correction des fuites de mémoire. \nCorrection de problèmes relatifs au carnet de voyage. \nAjout de nouveaux niveaux de La course-poursuite de Penny bientôt disponibles."
+							},
+							"it": {
+								"Text": "L'estate sta finendo, ma ciò non fermerà il perfido Zombotron. Scopri cosa tramano gli zombi in questo nuovo aggiornamento. \nNuova pianta: attorcigliasole \n \nEvento a timo limitato  \nLawnbowl II dall'11/08 al 18/08. \nFestival del raccolto dal 14/09 al 24/09. \n  \nCorrezioni di bug e miglioramenti \nMigliorata la velocità di caricamento dell'app e risolti i problemi di memoria. \nRisolti problemi con il diario di viaggio. \nAggiunti nuovi livelli di Ricerca di Penny, presto disponibili."
+							},
+							"pt": {
+								"Text": "O verão está acabando, mas o Zumbão não abandonará seus esquemas malignos. Confira as novidades desta nova atualização.  \nNova planta - Enrosca-orvalho \n\n Evento Cronotemperado  \nGramabol II - 11 a 18/8 \nFestival da Colheita - 14 a 24/9  \n \nCorreções de erros e melhorias \nMelhoria na velocidade de carregamento e correções em vazamentos de memória. \nCorrigimos problemas com o diário de viagem. \nVários novos níveis da Perseguição da Penny foram adicionados e serão disponibilizados futuramente."
+							}
+						}
+					}
+				]
+			}
+		}
+	]
+}

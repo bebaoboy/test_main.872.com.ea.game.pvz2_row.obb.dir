@@ -1,0 +1,19 @@
+{
+"#comment": "Egypt Zero Main",
+"objects": [
+{
+"objclass": "LevelDefinition",
+"objdata": {
+"RandomLevelSet": [
+"egyptzero/egypt_052_0",
+"egyptzero/egypt_052_1",
+"egyptzero/egypt_052_2",
+"egyptzero/egypt_052_3",
+"egyptzero/egypt_052_4",
+"egyptzero/egypt_052_5"
+]
+}
+}
+],
+"version": 1
+}

@@ -1,0 +1,1127 @@
+{
+"objects": [
+{
+"objclass": "LevelDefinition",
+"objdata": {
+"Description": "[PLAYERS_ZERO]",
+"FirstRewardParam": "moneybag_zero",
+"StartingSun": 140,
+"LevelNumber": 19,
+"ForceNextLevel": "egyptzero/egypt_020",
+"DisablePlantBoosts": true,
+"DisableSaveGame": true,
+"SuppressPlantfoodPurchase": true,
+"SuppressAccountUpgrades": true,
+"Loot": "RTID(ZeroLoot@LevelModules)",
+"Modules": [
+"RTID(StandardIntro@LevelModules)",
+"RTID(ZeroSunDropper@LevelModules)",
+"RTID(DefaultZombieWinCondition@LevelModules)",
+"RTID(ZombiesDeadWinCon@LevelModules)",
+"RTID(EgyptMowers@LevelModules)",
+"RTID(ZeroSeedBank@LevelModules)",
+"RTID(Escalation@.)",
+"RTID(NewWaves@.)",
+"RTID(ZombiePotions@.)",
+"RTID(Gravestones@.)",
+"RTID(EgyptZeroSwap@LevelModules)"
+],
+"Name": "[EGYPT_ZERO_LEVEL_NAME]",
+"StageModule": "RTID(EgyptStageNoPowerUps@LevelModules)"
+}
+},
+{
+"aliases": [
+"Escalation"
+],
+"objclass": "LevelEscalationModuleProperties",
+"objdata": {
+"FlagCount": 4,
+"PlantfoodToSpawnCount": 1,
+"PointIncrementPerWave": 800,
+"StartingPoints": 140,
+"WaveManagerProps": "RTID(WaveManager@.)",
+"WavesPerFlag": 10,
+"ZombiePool": [
+"RTID(cleopatra@ZombieTypes)",
+"RTID(camel_twohump@ZombieTypes)",
+"RTID(explorer_veteran@ZombieTypes)",
+"RTID(mummy_armor4@ZombieTypes)",
+"RTID(egypt_imp@ZombieTypes)",
+"RTID(tomb_raiser@ZombieTypes)",
+"RTID(ra@ZombieTypes)"
+]
+}
+},
+{
+"aliases": [
+"WaveManager"
+],
+"objclass": "WaveManagerProperties",
+"objdata": {
+"WaveSpendingPointIncrement": 0,
+"WaveSpendingPoints": 0,
+"ZombieCountdownFirstWaveSecs": 12.580000000000009,
+"MinNextWaveHealthPercentage": 0.52,
+"MaxNextWaveHealthPercentage": 0.83,
+"Waves": [
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[
+"RTID(S10@.)"
+],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[
+"RTID(S20@.)"
+],
+[],
+[],
+[],
+[],
+[
+"RTID(S25@.)"
+],
+[
+"RTID(S26@.)"
+],
+[
+"RTID(S27@.)"
+],
+[
+"RTID(S28@.)"
+],
+[
+"RTID(S29@.)"
+],
+[
+"RTID(S30@.)"
+],
+[
+"RTID(S31@.)"
+],
+[
+"RTID(S32@.)"
+],
+[
+"RTID(S33@.)"
+],
+[
+"RTID(S34@.)"
+],
+[
+"RTID(S35@.)"
+],
+[
+"RTID(S36@.)"
+],
+[
+"RTID(S37@.)"
+],
+[
+"RTID(S38@.)"
+],
+[
+"RTID(S39@.)"
+]
+]
+}
+},
+{
+"aliases": [
+"NewWaves"
+],
+"objclass": "WaveManagerModuleProperties",
+"objdata": {}
+},
+{
+"aliases": [
+"ZombiePotions"
+],
+"objclass": "ZombiePotionModuleProperties",
+"objdata": {
+"InitialPotionCount": 0,
+"MaxPotionCount": 4,
+"PotionSpawnTimer": {
+"Max": 15,
+"Min": 20
+},
+"PotionTypes": [
+"gravestone_egypt"
+]
+}
+},
+{
+"aliases": [
+"Gravestones"
+],
+"objclass": "GravestoneProperties",
+"objdata": {
+"GravestoneCount": 9,
+"SpawnColumnEnd": 9,
+"SpawnColumnStart": 6
+}
+},
+{
+"aliases": [
+"S10"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 4,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S20"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 2,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S30"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 2,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S39"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 4,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S38"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 14,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S37"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S36"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 15,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S35"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 5,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S34"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 4,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S33"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 8,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S32"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 4,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S31"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 6,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S29"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 7,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S28"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 2,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S27"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S26"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 1,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S25"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 4,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(tomb_raiser@ZombieTypes)"
+}
+]
+}
+}
+],
+"version": 1
+}

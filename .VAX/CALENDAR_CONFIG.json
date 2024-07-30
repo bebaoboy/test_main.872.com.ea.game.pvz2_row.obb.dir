@@ -1,0 +1,25 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"CalendarConfig"
+			],
+			"objclass": "CalendarConfig",
+			"objdata": {
+				"StreakPreservationCost": 1,
+				"OrderingConfig": {
+					"PrimaryOrderingCategory": "CalendarCategory",
+					"CalendarCategoryOrder": [
+						"weekly",
+						"event10",
+						"event14",
+						"monthly"
+					],
+					"SecondaryOrderingCategory": "StartDate",
+					"SecondaryOrder": "Ascending"
+				}
+			}
+		}
+	],
+	"version": 1
+}

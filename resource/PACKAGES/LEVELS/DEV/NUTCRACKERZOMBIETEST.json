@@ -1,0 +1,617 @@
+{
+	"#comment": "Dark 18",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "wallnut",
+				"FirstRewardParam": "spine_iceage",
+				"FirstRewardType": "pinata",
+				"LevelNumber": 1,
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(DarkMowers@LevelModules)",
+					"RTID(FastSunDropper@LevelModules)",
+					"RTID(Gravestones@CurrentLevel)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(ZombiePotions@CurrentLevel)",
+					"RTID(SliderPlacement@CurrentLevel)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)"
+				],
+				"MusicType": "MiniGame_A",
+				"Name": "[LTE_LEVEL_NAME_FEASTIVUS]",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"StageModule": "RTID(FeastivusStage@LevelModules)"
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "magnetshroom"
+					},
+					{
+						"Level": -1,
+						"PlantType": "poisonpeashooter"
+					},
+					{
+						"Level": -1,
+						"PlantType": "wallnut"
+					},
+					{
+						"Level": -1,
+						"PlantType": "pokra"
+					},
+					{
+						"Level": -1,
+						"PlantType": "pumpkin"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"SliderPlacement"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 3,
+						"GridY": 0,
+						"TypeName": "slider_down_modern"
+					},
+					{
+						"GridX": 7,
+						"GridY": 0,
+						"TypeName": "slider_down_modern"
+					},
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"TypeName": "slider_down_modern"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1,
+						"TypeName": "slider_up_modern"
+					},
+					{
+						"GridX": 2,
+						"GridY": 2,
+						"TypeName": "slider_up_modern"
+					},
+					{
+						"GridX": 4,
+						"GridY": 3,
+						"TypeName": "slider_up_modern"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "slider_down_modern"
+					},
+					{
+						"GridX": 7,
+						"GridY": 4,
+						"TypeName": "slider_up_modern"
+					},
+					{
+						"GridX": 4,
+						"GridY": 4,
+						"TypeName": "slider_up_modern"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ZombiePotions"
+			],
+			"objclass": "ZombiePotionModuleProperties",
+			"objdata": {
+				"InitialPotionCount": 1,
+				"MaxPotionCount": 2,
+				"PotionSpawnTimer": {
+					"Max": 4,
+					"Min": 1
+				},
+				"PotionTypes": [
+					"zombiepotion_speed",
+					"zombiepotion_toughness"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"Level": "-1",
+						"TypeName": "explodeonut"
+					},
+					{
+						"GridX": 1,
+						"GridY": 1,
+						"Level": "-1",
+						"TypeName": "peanut"
+					},
+					{
+						"GridX": 6,
+						"GridY": 1,
+						"Level": "-1",
+						"TypeName": "holonut"
+					},
+					{
+						"GridX": 7,
+						"GridY": 2,
+						"Level": "-1",
+						"TypeName": "wallnut"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"Level": "-1",
+						"TypeName": "pumpkin"
+					},
+					{
+						"GridX": 6,
+						"GridY": 3,
+						"Level": "-1",
+						"TypeName": "tallnut"
+					},
+					{
+						"GridX": 1,
+						"GridY": 3,
+						"Level": "-1",
+						"TypeName": "peanut"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4,
+						"Level": "-1",
+						"TypeName": "primalwallnut"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_PRESET_PLANTS]",
+				"DescriptiveName": "[STARCHALLENGE_PRESET_PLANTS_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"DynamicZombies": [
+					{},
+					{},
+					{},
+					{
+						"PointIncrementPerWave": 150,
+						"StartingPoints": 0,
+						"StartingWave": 0,
+						"ZombiePool": [
+							"RTID(feastivus@ZombieTypes)",
+							"RTID(nutcracker@ZombieTypes)"
+						]
+					},
+					{},
+					{},
+					{}
+				],
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 8,
+				"WaveCount": 16,
+				"WaveSpendingPointIncrement": 150,
+				"WaveSpendingPoints": 2400,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					],
+					[
+						"RTID(Wave11@CurrentLevel)"
+					],
+					[
+						"RTID(Wave12@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				],
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(feastivus@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(feastivus@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					1,
+					0,
+					0
+				],
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(feastivus@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(feastivus@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(feastivus@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(feastivus_imp@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(feastivus_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(feastivus_imp@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(feastivus_imp@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(feastivus@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(feastivus@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					0,
+					0,
+					0
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave11"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(feastivus@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(feastivus@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(feastivus@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave12"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(nutcracker@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 8,
+						"GridY": 0
+					},
+					{
+						"GridX": 3,
+						"GridY": 2
+					},
+					{
+						"GridX": 8,
+						"GridY": 4
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

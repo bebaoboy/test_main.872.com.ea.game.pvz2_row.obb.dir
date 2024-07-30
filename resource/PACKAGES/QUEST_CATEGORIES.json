@@ -1,0 +1,68 @@
+{
+	"#comment": "Set up quest categories here!",
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"QuestTabCategories"
+			],
+			"objclass": "QuestTabCategories",
+			"objdata": {
+				"Name": "QuestTabCategories",
+				"TabCategories": [
+					"DailyActivities",
+					"EpicQuests"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"DailyActivities"
+			],
+			"objclass": "QuestTabCategoryData",
+			"objdata": {
+				"Name": "DailyActivities",
+				"QuestTabCategory": "DailyActivities",
+				"QuestCategories": [
+					"DailyActivities"
+				],
+				"TabLabel": "[QUEST_TAB_LABEL_DAILY]",
+				"TabImageType": "normal",
+				"TabSelectedImage": "IMAGE_UI_QUESTS_DAILY_ACTIVE",
+				"TabUnselectedImage": "IMAGE_UI_QUESTS_DAILY_INACTIVE",
+				"ShowTimer": true
+			}
+		},
+		{
+			"aliases": [
+				"EpicQuests"
+			],
+			"objclass": "QuestTabCategoryData",
+			"objdata": {
+				"Name": "EpicQuests",
+				"QuestTabCategory": "EpicQuests",
+				"QuestCategories": [
+					"Epic",
+					"Tutorial",
+					"Egypt",
+					"Pirate",
+					"Cowboy",
+					"UnlockWorld",
+					"Future",
+					"Dark",
+					"Beach",
+					"IceAge",
+					"LostCity",
+					"Eighties",
+					"Dino",
+					"Modern",
+					"PremiumPlant"
+				],
+				"TabLabel": "[QUEST_TAB_LABEL_EPIC]",
+				"TabImageType": "normal",
+				"TabSelectedImage": "IMAGE_UI_QUESTS_EPIC_ACTIVE",
+				"TabUnselectedImage": "IMAGE_UI_QUESTS_EPIC_INACTIVE"
+			}
+		}
+	]
+}

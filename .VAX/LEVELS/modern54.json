@@ -1,0 +1,276 @@
+{
+	"#comment": "Level Of The Day Default",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"LevelNumber": 9999,
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(ModernizationDirtLevelEscalationModule@LevelModules)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(ModernMowers@LevelModules)",
+					"RTID(NewWaves@.)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ChallengeModule@.)",
+					"RTID(ZombiePotions@.)",
+					"RTID(SeedBank@.)",
+					"RTID(ZombiesDeadWinCon@LevelModules)"
+				],
+				"Name": "Modernization: Dirt Spawn",
+				"StageModule": "RTID(ModernizationBirthdayStage@LevelModules)",
+				"StartingSun": 400,
+				"MusicType": "MiniGame_B",
+				"ShowZombieThreatAlerts": false
+			}
+		},
+		{
+			"aliases": [
+				"ZombiePotions"
+			],
+			"objclass": "ZombiePotionModuleProperties",
+			"objdata": {
+				"InitialPotionCount": 0,
+				"MaxPotionCount": 45,
+				"PotionSpawnTimer": {
+					"Max": 0.4,
+					"Min": 0.1
+				},
+				"PotionTypes": [
+					"bouncer"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"BouncerDefault"
+			],
+			"objclass": "GridItemCraterTimedProps",
+			"objdata": {
+				"Height": "ground",
+				"Lifetime": 4.3,
+				"PlantingRestrictions": {
+					"BlockedPlantingReason": "PLANTING_NOT_ON_CRATERS",
+					"List": [],
+					"ListType": "includelist"
+				},
+				"PopAnim": "POPANIM_EFFECTS_CRATER",
+				"PopAnimRenderOffset": {
+					"x": 96,
+					"y": 125
+				}
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@.)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "Nothing can top the experience of spawning dirts the lawn!",
+				"DescriptiveName": "[STARCHALLENGE_PIRATE_FINALE_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 10,
+				"WaveCount": 20,
+				"MaxNextWaveHealthPercentage": 0.6,
+				"MinNextWaveHealthPercentage": 0.49,
+				"Waves": [
+					[],
+					[],
+					[],
+					[],
+					[
+						"RTID(WF@LevelModules)",
+						"RTID(WildFans@LevelModules)"
+					],
+					[],
+					[],
+					[],
+					[],
+					[
+						"RTID(GS@.)"
+					],
+					[],
+					[],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)"
+					],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[
+						"RTID(GS@.)"
+					],
+					[],
+					[],
+					[
+						"RTID(GS@.)"
+					],
+					[],
+					[
+						"RTID(GS@.)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GS"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"GridTypes": [
+					"RTID(bouncer@GridItemTypes)"
+				],
+				"WaveStartMessage": "Necrobouncy!",
+				"ZombieSpawnWaitTime": 0.5,
+				"SuppressActionIfNoGridItemsFound": false,
+				"Zombies": [
+					{
+						"Type": "RTID(zcorp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_fem@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(camel_segment@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(egypt_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(west_bullrider@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity_bug@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(eighties@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(eighties_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dino@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dino_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(modern_superfanimp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(imppear_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_segment@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

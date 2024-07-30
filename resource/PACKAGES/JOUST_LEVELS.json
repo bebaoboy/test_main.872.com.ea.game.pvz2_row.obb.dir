@@ -1,0 +1,749 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"LevelSet1"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust1",
+				"LevelSeeds": [
+					"Joust1.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet220"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust220",
+				"LevelSeeds": [
+					"Joust220.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet221"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust221",
+				"LevelSeeds": [
+					"Joust221.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet222"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust222",
+				"LevelSeeds": [
+					"Joust222.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet222b"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust222boost",
+				"LevelSeeds": [
+					"Joust222.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet223"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust223",
+				"LevelSeeds": [
+					"Joust223.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet223b"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust223boost",
+				"LevelSeeds": [
+					"Joust223.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet224"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust224",
+				"LevelSeeds": [
+					"Joust224.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet225"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust225",
+				"LevelSeeds": [
+					"Joust225.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet226"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust226",
+				"LevelSeeds": [
+					"Joust226.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet226b"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust226boost",
+				"LevelSeeds": [
+					"Joust226.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet227"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust227",
+				"LevelSeeds": [
+					"Joust227.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet227b"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust227boost",
+				"LevelSeeds": [
+					"Joust227.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet228"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust228",
+				"LevelSeeds": [
+					"Joust228.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet229"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust229",
+				"LevelSeeds": [
+					"Joust229.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet230"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust230",
+				"LevelSeeds": [
+					"Joust230.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet230b"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust230boost",
+				"LevelSeeds": [
+					"Joust230.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet231"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust231",
+				"LevelSeeds": [
+					"Joust231.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet231b"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust231boost",
+				"LevelSeeds": [
+					"Joust231.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet232"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust232",
+				"LevelSeeds": [
+					"Joust232.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet233"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust233",
+				"LevelSeeds": [
+					"Joust233.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet234"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust234",
+				"LevelSeeds": [
+					"Joust234.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet234b"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust234boost",
+				"LevelSeeds": [
+					"Joust234.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet235"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust235",
+				"LevelSeeds": [
+					"Joust235.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet235b"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust235boost",
+				"LevelSeeds": [
+					"Joust235.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet236"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust236",
+				"LevelSeeds": [
+					"Joust236.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet237"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust237",
+				"LevelSeeds": [
+					"Joust237.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet238"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust238",
+				"LevelSeeds": [
+					"Joust238.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet238b"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust238boost",
+				"LevelSeeds": [
+					"Joust238.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet239"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust239",
+				"LevelSeeds": [
+					"Joust239.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet239b"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust239boost",
+				"LevelSeeds": [
+					"Joust239.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet240"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust240",
+				"LevelSeeds": [
+					"Joust240.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet241"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust241",
+				"LevelSeeds": [
+					"Joust241.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet242"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust242",
+				"LevelSeeds": [
+					"Joust242.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet242b"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust242boost",
+				"LevelSeeds": [
+					"Joust242.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet243"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust243",
+				"LevelSeeds": [
+					"Joust243.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet243b"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust243boost",
+				"LevelSeeds": [
+					"Joust243.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet244"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust244",
+				"LevelSeeds": [
+					"Joust244.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet245"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust245",
+				"LevelSeeds": [
+					"Joust245.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet246"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust246",
+				"LevelSeeds": [
+					"Joust246.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet246b"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust246boost",
+				"LevelSeeds": [
+					"Joust246.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet247"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust247",
+				"LevelSeeds": [
+					"Joust247.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet247b"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust247boost",
+				"LevelSeeds": [
+					"Joust247.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet248"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust248",
+				"LevelSeeds": [
+					"Joust248.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_bamboospartan"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_bamboospartan_00",
+				"LevelSeeds": [
+					"Joust249.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_hotdate"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_hotdate_00",
+				"LevelSeeds": [
+					"Joust250.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_hotdate_boost"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_hotdate_00_boost",
+				"LevelSeeds": [
+					"Joust250.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_jalapeno"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_jalapeno_00",
+				"LevelSeeds": [
+					"Joust251.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_jalapeno_boost"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_jalapeno_00_boost",
+				"LevelSeeds": [
+					"Joust251.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_Season69"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/JoustSeason_69",
+				"LevelSeeds": [
+					"Joust252.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_mangofier"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_mangofier_00",
+				"LevelSeeds": [
+					"Joust253.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_slingpea"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_slingpea_00",
+				"LevelSeeds": [
+					"Joust254.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_slingpea_boost"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_slingpea_00_boost",
+				"LevelSeeds": [
+					"Joust254.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_boomberry"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_boomberry_00",
+				"LevelSeeds": [
+					"Joust255.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_boomberry_boost"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_boomberry_00_boost",
+				"LevelSeeds": [
+					"Joust255.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_Season70"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/JoustSeason_70",
+				"LevelSeeds": [
+					"Joust256.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_blastspinner"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_blastspinner_00",
+				"LevelSeeds": [
+					"Joust249.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_draftofil"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_draftodil_00",
+				"LevelSeeds": [
+					"Joust250.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_draftofil_boost"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_draftodil_00_boost",
+				"LevelSeeds": [
+					"Joust250.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_buttercup"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_buttercup_00",
+				"LevelSeeds": [
+					"Joust251.11.5"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_buttercup_boost"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/Joust_buttercup_00_boost",
+				"LevelSeeds": [
+					"Joust251.11.5.1"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelSet_Season71"
+			],
+			"objclass": "JoustLevelSet",
+			"objdata": {
+				"LevelName": "joust/JoustSeason_71",
+				"LevelSeeds": [
+					"Joust252.11.5"
+				]
+			}
+		}
+	],
+	"version": 1
+}

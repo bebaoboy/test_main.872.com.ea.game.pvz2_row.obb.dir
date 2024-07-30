@@ -1,0 +1,111 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"PlantSortingOptionEntry"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0,
+				"Name": "PlantSortingOptionEntry",
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "45"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(OptionLabelBtn@.)",
+					"RTID(OptionRadioButton@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"OptionRadioButton"
+			],
+			"objclass": "HotUIRadioButtonProperties",
+			"objdata": {
+				"Resources": [],
+				"Name": "OptionRadioButton",
+				"Width": {
+					"Value": "50"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-35"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ColorTouched": "Dialog_Button_Label_Touched_Color",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_RADIO_UP",
+				"DownImage": "IMAGE_UI_GENERIC_RADIO_DOWN",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		},
+		{
+			"aliases": [
+				"OptionLabelBtn"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "OptionLabelBtn",
+				"Width": {
+					"Value": "260"
+				},
+				"Height": {
+					"Value": "40.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "Dialog_Button_Label_Brown_Color",
+				"LabelHorizontalJustification": "left",
+				"HideButtonImages": true,
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		}
+	]
+}

@@ -1,0 +1,628 @@
+{
+	"#comment": "Make new font types here!",
+	"version": 1,
+	"objects": [
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "PICO_9",
+				"Font": "Pico12",
+				"Size": 10,
+				"Color": "White",
+				"Smooth": true
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "PICO_15",
+				"Font": "Pico12",
+				"Size": 15,
+				"Color": "White",
+				"Smooth": true,
+				"FontIfShrunk": "PICO_9"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "PICO_23",
+				"Font": "Pico12",
+				"Size": 20,
+				"Color": "White",
+				"Smooth": true,
+				"FontIfShrunk": "PICO_15"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "ASHLEY_18",
+				"Font": "Ashley Script MT Std",
+				"Size": 18,
+				"Color": "Black"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "ASHLEY_22",
+				"Font": "Ashley Script MT Std",
+				"Size": 22,
+				"Color": "Black",
+				"FontIfShrunk": "ASHLEY_18"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BRIANNE_14",
+				"Font": "BrianneTod",
+				"Size": 14,
+				"Color": "Black"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BRIANNE_19",
+				"Font": "BrianneTod",
+				"Size": 19,
+				"Color": "Black",
+				"FontIfShrunk": "BRIANNE_14"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BRIANNE_CONVERSATION_22",
+				"Font": "BrianneTod",
+				"Size": 22,
+				"Color": "Black",
+				"FontIfShrunk": "BRIANNE_19"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "TERROR_75",
+				"Font": "MonsterFonts-HouseofTerror",
+				"Size": 75,
+				"Color": "White",
+				"EffectColor": "White",
+				"Effect": "Horror",
+				"FontIfShrunk": "TERROR_53"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "TERROR_53",
+				"Font": "MonsterFonts-HouseofTerror",
+				"Size": 53,
+				"Color": "White",
+				"EffectColor": "White",
+				"Effect": "Horror_Smaller"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "TERROR_22",
+				"Font": "MonsterFonts-HouseofTerror",
+				"Size": 22,
+				"Color": "White",
+				"EffectColor": "White",
+				"Effect": "Horror_Tiny"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "TERROR_22_BLACKOUTLINE",
+				"Font": "MonsterFonts-HouseofTerror",
+				"Size": 22,
+				"Color": "White",
+				"EffectColor": "White",
+				"Effect": "Outline_Lite_Shadow"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "TERROR_34_BLACKOUTLINE",
+				"Font": "MonsterFonts-HouseofTerror",
+				"Size": 34,
+				"Color": "White",
+				"EffectColor": "White",
+				"Effect": "Horror_Black_Outline",
+				"FontIfShrunk": "TERROR_22_BLACKOUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "TERROR_53_BLACKOUTLINE",
+				"Font": "MonsterFonts-HouseofTerror",
+				"Size": 53,
+				"Color": "White",
+				"EffectColor": "White",
+				"Effect": "Horror_Black_Outline",
+				"FontIfShrunk": "TERROR_34_BLACKOUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_100",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 100,
+				"Color": "White",
+				"Effect": "Hard_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_50"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_50",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 50,
+				"Color": "White",
+				"Effect": "Hard_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_30"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_50_OUTLINE",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 50,
+				"Color": "White",
+				"Effect": "Outline_Lite_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_36_OUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_50_THICKOUTLINE",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 50,
+				"Color": "White",
+				"Effect": "Thick_Outline",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_36_THICKOUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_50_SHADED",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 50,
+				"Color": "White",
+				"Effect": "Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_36_SHADED"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_50_HARDSHADOW",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 50,
+				"Color": "White",
+				"Effect": "Hard_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_36_HARDSHADOW"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_30_GLOW",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 30,
+				"Color": "White",
+				"Effect": "Glow",
+				"EffectColor": "Black"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_36_OUTLINE",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 36,
+				"Color": "White",
+				"Effect": "Outline_Lite_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_30_OUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_36_HARDSHADOW",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 36,
+				"Color": "White",
+				"Effect": "Hard_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_30_HARDSHADOW"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_36_THICKOUTLINE",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 36,
+				"Color": "White",
+				"Effect": "Thick_Outline",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_30_THICKOUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_36_SHADED",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 36,
+				"Color": "White",
+				"Effect": "Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_30_SHADED"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_30",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 30,
+				"Color": "White",
+				"FontIfShrunk": "BLACK_24"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_30_OUTLINE",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 30,
+				"Color": "White",
+				"Effect": "Outline_Lite_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_24_OUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_30_THICKOUTLINE",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 30,
+				"Color": "White",
+				"Effect": "Thick_Outline",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_24_THICKOUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_24_INVERSE_OUTLINE",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 24,
+				"Color": "Black",
+				"Effect": "Inverse_Outline",
+				"EffectColor": "White"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_30_SHADED",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 30,
+				"Color": "White",
+				"Effect": "Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_24_SHADED"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_30_HARDSHADOW",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 30,
+				"Color": "White",
+				"Effect": "Hard_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_24_HARDSHADOW"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_24_OUTLINE",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 24,
+				"Color": "White",
+				"Effect": "Outline_Lite_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_18_OUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_24_THICKOUTLINE",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 24,
+				"Color": "White",
+				"Effect": "Thick_Outline",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_18_THICKOUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_24_HARDSHADOW",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 24,
+				"Color": "White",
+				"Effect": "Hard_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_18_HARDSHADOW"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_24_SHADED",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 24,
+				"Color": "White",
+				"Effect": "Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_18_SHADED"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_24",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 24,
+				"Color": "White",
+				"FontIfShrunk": "BLACK_18"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_18",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 18,
+				"Color": "Black",
+				"FontIfShrunk": "BLACK_14"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_18_OUTLINE",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 18,
+				"Color": "Black",
+				"Effect": "Outline_Lite_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_14_OUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_18_THICKOUTLINE",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 18,
+				"Color": "White",
+				"Effect": "Thick_Outline",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_14_THICKOUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_18_SHADED",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 18,
+				"Color": "Black",
+				"Effect": "Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_14_OUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_18_HARDSHADOW",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 18,
+				"Color": "White",
+				"Effect": "Hard_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "BLACK_14_HARDSHADOW"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_14",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 14,
+				"Color": "Black",
+				"FontIfShrunk": "AVENIR_10"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_14_OUTLINE",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 14,
+				"Color": "Black",
+				"Effect": "Outline_Lite_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "AVENIR_10_OUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_14_THICKOUTLINE",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 14,
+				"Color": "White",
+				"Effect": "Thick_Outline",
+				"EffectColor": "Black",
+				"FontIfShrunk": "AVENIR_10_OUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_14_SHADED",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 14,
+				"Color": "Black",
+				"Effect": "Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "AVENIR_10_OUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "BLACK_14_HARDSHADOW",
+				"Font": "fbUsv8C5eI Regular",
+				"Size": 14,
+				"Color": "White",
+				"Effect": "Hard_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "AVENIR_10_HARDSHADOW"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "AVENIR_16",
+				"Font": "AvenirNext LT Pro Cn",
+				"Size": 16,
+				"Color": "Black",
+				"FontIfShrunk": "AVENIR_13"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "AVENIR_16_HARDSHADOW",
+				"Font": "AvenirNext LT Pro Cn",
+				"Size": 16,
+				"Color": "White",
+				"Effect": "Avenir_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "AVENIR_13_HARDSHADOW"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "AVENIR_16_OUTLINE",
+				"Font": "AvenirNext LT Pro Cn",
+				"Size": 16,
+				"Color": "White",
+				"Effect": "Outline",
+				"EffectColor": "Black",
+				"FontIfShrunk": "AVENIR_13_OUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "AVENIR_13",
+				"Font": "AvenirNext LT Pro Cn",
+				"Size": 13,
+				"Color": "Black",
+				"FontIfShrunk": "AVENIR_10"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "AVENIR_13_HARDSHADOW",
+				"Font": "AvenirNext LT Pro Cn",
+				"Size": 13,
+				"Color": "White",
+				"Effect": "Avenir_Shadow",
+				"EffectColor": "Black",
+				"FontIfShrunk": "AVENIR_10_HARDSHADOW"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "AVENIR_13_OUTLINE",
+				"Font": "AvenirNext LT Pro Cn",
+				"Size": 13,
+				"Color": "White",
+				"Effect": "Outline",
+				"EffectColor": "Black",
+				"FontIfShrunk": "AVENIR_10_OUTLINE"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "AVENIR_10",
+				"Font": "AvenirNext LT Pro Cn",
+				"Size": 10,
+				"Color": "Black"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "AVENIR_10_HARDSHADOW",
+				"Font": "AvenirNext LT Pro Cn",
+				"Size": 10,
+				"Color": "White",
+				"Effect": "Avenir_Shadow",
+				"EffectColor": "Black"
+			}
+		},
+		{
+			"objclass": "PrimeText_PotentialTypeface",
+			"objdata": {
+				"TypeName": "AVENIR_10_OUTLINE",
+				"Font": "AvenirNext LT Pro Cn",
+				"Size": 10,
+				"Color": "White",
+				"Effect": "Outline",
+				"EffectColor": "Black"
+			}
+		}
+	]
+}

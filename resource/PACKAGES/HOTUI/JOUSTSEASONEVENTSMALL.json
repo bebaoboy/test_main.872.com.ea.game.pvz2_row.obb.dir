@@ -1,0 +1,394 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"JoustSeasonEventSmall"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustSeasonEventSmall",
+				"Resources": [
+					"CollectableCommon",
+					"UI_Joust",
+					"UI_Joust_Winstreak",
+					"UI_Seasons"
+				],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "280"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0"
+					},
+					"OffsetX": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(EventStatsList@.)",
+					"RTID(MatchAttributesLabel@.)",
+					"RTID(FeaturedPlantAnim@.)",
+					"RTID(FeaturedPlantLabel@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"EventStatsList"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "EventStatsList",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "right",
+					"OffsetY": {
+						"Value": "-35.0"
+					},
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [
+					"RTID(EventStat1Container@.)",
+					"RTID(EventStat2Container@.)",
+					"RTID(BuffsAndBruisesListContainer@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"MatchAttributesLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "MatchAttributesLabel",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "28"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "40.0"
+					},
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "[JOUST_SEASON_MATCH_ATTRIBUTES]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_13",
+				"Color": "Brown"
+			}
+		},
+		{
+			"aliases": [
+				"FeaturedPlantAnim"
+			],
+			"objclass": "HotUIPlantAnimProperties",
+			"objdata": {
+				"Name": "FeaturedPlantAnim",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "56.0"
+					},
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"DrawStyle": "scale_override",
+				"ScaleOverride": 2,
+				"PlayStyle": "fixed"
+			}
+		},
+		{
+			"aliases": [
+				"FeaturedPlantLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "FeaturedPlantLabel",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "28"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "40.0"
+					},
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "[JOUST_SEASON_FEATURED_PLANT]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_13",
+				"Color": "Brown"
+			}
+		},
+		{
+			"aliases": [
+				"EventStat1Container"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "EventStat1Container",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "64"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "20"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(EventStat1Label@.)",
+					"RTID(EventStat1Image@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"EventStat1Label"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "EventStat1Label",
+				"Width": {
+					"Value": "160"
+				},
+				"Height": {
+					"Value": "64"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "$STAT1",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24",
+				"Color": "Brown"
+			}
+		},
+		{
+			"aliases": [
+				"EventStat1Image"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "EventStat1Image",
+				"Width": {
+					"Value": "64"
+				},
+				"Height": {
+					"Value": "64"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Resources": [
+					"UI_Seasons_Max"
+				],
+				"Image": "IMAGE_UI_GENERIC_PVZ2_ICON_TIMER",
+				"DrawStyle": "stretched_aspectX",
+				"DrawType": "normal"
+			}
+		},
+		{
+			"aliases": [
+				"EventStat2Container"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "EventStat2Container",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "64"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "64.0"
+					},
+					"OffsetX": {
+						"Value": "20.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(EventStat2Label@.)",
+					"RTID(EventStat2Image@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"EventStat2Label"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "EventStat2Label",
+				"Width": {
+					"Value": "160"
+				},
+				"Height": {
+					"Value": "64"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "$STAT2",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24",
+				"Color": "Brown"
+			}
+		},
+		{
+			"aliases": [
+				"EventStat2Image"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "EventStat2Image",
+				"Width": {
+					"Value": "64"
+				},
+				"Height": {
+					"Value": "64"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Resources": [
+					"UI_Seasons_Max"
+				],
+				"Image": "IMAGE_UI_SEASONS_UNCOMPRESSED_PVZ2_SEASONS_UIASSET_ICON_SUN",
+				"DrawStyle": "stretched_aspectX",
+				"DrawType": "normal"
+			}
+		},
+		{
+			"aliases": [
+				"BuffsAndBruisesListContainer"
+			],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "BuffsAndBruisesListContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "96"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "128"
+					},
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(BuffsAndBruisesList@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"BuffsAndBruisesList"
+			],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "BuffsAndBruisesList",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "96"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "70"
+				}
+			}
+		}
+	]
+}

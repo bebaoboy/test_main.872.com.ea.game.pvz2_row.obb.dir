@@ -1,0 +1,295 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"RentedPlantStore"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "RentedPlantStore",
+				"DarkenBackground": 0.7,
+				"Resources": [],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"IgnoreMouseInput": true,
+				"IgnoreSafeArea": true,
+				"Children": [
+					"RTID(RentedPlantStoreDialog@.)",
+					"RTID(TouchTranslationLayer@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"TouchTranslationLayer"
+			],
+			"objclass": "HotUIToUIWidgetTouchLayerProperties",
+			"objdata": {
+				"Name": "TouchTranslationLayer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"IgnoreSafeArea": true
+			}
+		},
+		{
+			"aliases": [
+				"RentedPlantStoreDialog"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RentedPlantStoreDialog",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Resources": [
+					"MainMenu_Background"
+				],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_MAINMENU_BACKGROUND",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(DialogTitle@.)",
+					"RTID(SubTitle@.)",
+					"RTID(PlantOffersList@.)",
+					"RTID(DontShowAgainCheckbox@.)",
+					"RTID(DontShowAgainCheckboxText@.)",
+					"RTID(NoThanksButton@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"DialogTitle"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"Parent": "RTID(RentedPlantStore@.)",
+					"OffsetY": {
+						"Value": "70"
+					}
+				},
+				"Label": "$DIALOG_TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"SubTitle"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "SubTitle",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "30.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"Parent": "RTID(RentedPlantStore@.)",
+					"OffsetY": {
+						"Value": "115"
+					}
+				},
+				"Label": "$DIALOG_SUBTITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_28",
+				"Color": "Dialog_Header_Yellow"
+			}
+		},
+		{
+			"aliases": [
+				"PlantOffersList"
+			],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "PlantOffersList",
+				"Width": {
+					"Value": "820"
+				},
+				"Height": {
+					"Value": "385"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "20.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "90.0"
+					}
+				},
+				"Children": []
+			}
+		},
+		{
+			"aliases": [
+				"DontShowAgainCheckbox"
+			],
+			"objclass": "HotUIToggleButtonProperties",
+			"objdata": {
+				"Resources": [
+					"UI_MainMenu"
+				],
+				"Name": "DontShowAgainCheckbox",
+				"Width": {
+					"Value": "40"
+				},
+				"Height": {
+					"Value": "40"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "-165"
+					},
+					"OffsetY": {
+						"Value": "-120"
+					}
+				},
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_MAINMENU_CHECKBOX_DISABLED",
+				"DownImage": "IMAGE_UI_MAINMENU_CHECKBOX_ENABLED",
+				"IgnoreMouseInput": true,
+				"ToggleOnPress": true,
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		},
+		{
+			"aliases": [
+				"DontShowAgainCheckboxText"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DontShowAgainCheckboxText",
+				"Width": {
+					"Value": "380"
+				},
+				"Height": {
+					"Value": "40.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "55"
+					},
+					"OffsetY": {
+						"Value": "-122"
+					}
+				},
+				"Label": "$DONT_SHOW_AGAIN_TEXT",
+				"Font": "Dialog_Contents_Font_32",
+				"Color": "Dialog_Header_Yellow",
+				"LabelHorizontalJustification": "left",
+				"HideButtonImages": true,
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		},
+		{
+			"aliases": [
+				"NoThanksButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "NoThanksButton",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "63"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-50.0"
+					}
+				},
+				"Label": "$NO_THANKS_LABEL",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "IMAGE_UI_GENERIC_BROWNBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_BROWNBUTTON_DOWN",
+				"UpAudio": "Play_UI_Menu_Button_Continue_Release",
+				"DownAudio": "Play_UI_Menu_Button_Continue_Press"
+			}
+		}
+	]
+}

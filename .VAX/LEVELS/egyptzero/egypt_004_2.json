@@ -1,0 +1,210 @@
+{
+"objects": [
+{
+"objclass": "LevelDefinition",
+"objdata": {
+"Description": "[PLAYERS_ZERO]",
+"FirstRewardParam": "moneybag_zero",
+"StartingSun": 0,
+"LevelNumber": 4,
+"ForceNextLevel": "egyptzero/egypt_005",
+"DisablePlantBoosts": true,
+"DisableSaveGame": true,
+"SuppressPlantfoodPurchase": true,
+"SuppressAccountUpgrades": true,
+"Loot": "RTID(ZeroLoot@LevelModules)",
+"Modules": [
+"RTID(StandardIntro@LevelModules)",
+"RTID(ZeroSunDropper@LevelModules)",
+"RTID(DefaultZombieWinCondition@LevelModules)",
+"RTID(ZombiesDeadWinCon@LevelModules)",
+"RTID(EgyptMowers@LevelModules)",
+"RTID(ZeroSeedBank@LevelModules)",
+"RTID(Escalation@.)",
+"RTID(NewWaves@.)",
+"RTID(ZombiePotions@.)",
+"RTID(Gravestones@.)",
+"RTID(EgyptZeroSwap@LevelModules)"
+],
+"Name": "[EGYPT_ZERO_LEVEL_NAME]",
+"StageModule": "RTID(EgyptStageNoPowerUps@LevelModules)"
+}
+},
+{
+"aliases": [
+"Escalation"
+],
+"objclass": "LevelEscalationModuleProperties",
+"objdata": {
+"FlagCount": 1,
+"PlantfoodToSpawnCount": 1,
+"PointIncrementPerWave": 260,
+"StartingPoints": 140,
+"WaveManagerProps": "RTID(WaveManager@.)",
+"WavesPerFlag": 20,
+"ZombiePool": [
+"RTID(pharaoh@ZombieTypes)",
+"RTID(mummy@ZombieTypes)",
+"RTID(ra@ZombieTypes)"
+]
+}
+},
+{
+"aliases": [
+"WaveManager"
+],
+"objclass": "WaveManagerProperties",
+"objdata": {
+"WaveSpendingPointIncrement": 0,
+"WaveSpendingPoints": 0,
+"ZombieCountdownFirstWaveSecs": 15.430000000000001,
+"MinNextWaveHealthPercentage": 0.24,
+"MaxNextWaveHealthPercentage": 0.48000000000000004,
+"Waves": [
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[
+"RTID(S10@.)"
+],
+[],
+[],
+[],
+[],
+[],
+[],
+[
+"RTID(S17@.)"
+],
+[
+"RTID(S18@.)"
+],
+[
+"RTID(S19@.)"
+]
+]
+}
+},
+{
+"aliases": [
+"NewWaves"
+],
+"objclass": "WaveManagerModuleProperties",
+"objdata": {}
+},
+{
+"aliases": [
+"ZombiePotions"
+],
+"objclass": "ZombiePotionModuleProperties",
+"objdata": {
+"InitialPotionCount": 0,
+"MaxPotionCount": 4,
+"PotionSpawnTimer": {
+"Max": 15,
+"Min": 20
+},
+"PotionTypes": [
+"gravestone_egypt"
+]
+}
+},
+{
+"aliases": [
+"Gravestones"
+],
+"objclass": "GravestoneProperties",
+"objdata": {
+"GravestoneCount": 7,
+"SpawnColumnEnd": 9,
+"SpawnColumnStart": 8
+}
+},
+{
+"aliases": [
+"S10"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 6,
+"GroupSize": 1,
+"TimeBetweenGroups": 0.74,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S19"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 6,
+"GroupSize": 1,
+"TimeBetweenGroups": 0.74,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S18"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 6,
+"GroupSize": 1,
+"TimeBetweenGroups": 0.74,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S17"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 6,
+"GroupSize": 1,
+"TimeBetweenGroups": 0.74,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+}
+]
+}
+}
+],
+"version": 1
+}

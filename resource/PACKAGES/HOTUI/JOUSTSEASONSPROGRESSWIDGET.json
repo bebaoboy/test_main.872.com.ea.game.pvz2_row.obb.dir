@@ -1,0 +1,351 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"JoustSeasonsProgressWidget"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustSeasonsProgressWidget",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(HeaderBackground@.)",
+					"RTID(SeasonProgressBarContainer@.)",
+					"RTID(CurrentEventBackground@.)",
+					"RTID(FeaturedPlantBackground@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"HeaderBackground"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "HeaderBackground",
+				"Width": {
+					"Value": "94%"
+				},
+				"Height": {
+					"Value": "400"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "6.0f"
+					},
+					"OffsetX": {
+						"Value": "0.0f"
+					}
+				},
+				"Children": [
+					"RTID(SeasonNameLabel@.)"
+				],
+				"Image": "IMAGE_UI_CARDS_CHOOSER_CHOOSER_PLANT_CARD",
+				"DrawStyle": "stretched",
+				"DrawType": "9slice"
+			}
+		},
+		{
+			"aliases": [
+				"SeasonProgressBarContainer"
+			],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "SeasonProgressBarContainer",
+				"Width": {
+					"Value": "720"
+				},
+				"Height": {
+					"Value": "128"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "2.0"
+					},
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"UIFileName": "JoustSeasonsProgressBar",
+				"AdaptorClassName": "AdaptorJoustSeasonsProgressBar"
+			}
+		},
+		{
+			"aliases": [
+				"SeasonNameLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "SeasonNameLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "70"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "-13.0"
+					},
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(SeasonTimerLabel@.)",
+					"RTID(SeasonTimer@.)"
+				],
+				"Label": "[SEASON_CURRENT_NAME]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_30_THICKOUTLINE",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"SeasonTimerLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "SeasonTimerLabel",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "23.0"
+					},
+					"OffsetX": {
+						"Value": "-2.0"
+					}
+				},
+				"Label": "[SEASON_TIME_LEFT_LABEL]",
+				"HorizontalJustification": "right",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_10_HARDSHADOW",
+				"Color": "Dialog_Header_Yellow"
+			}
+		},
+		{
+			"aliases": [
+				"SeasonTimer"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "SeasonTimer",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetY": {
+						"Value": "23.0"
+					},
+					"OffsetX": {
+						"Value": "2.0"
+					}
+				},
+				"Label": "[SEASON_TIMER_COUNTDOWN]",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_10_HARDSHADOW",
+				"Color": "Dialog_Header_Yellow"
+			}
+		},
+		{
+			"aliases": [
+				"CurrentEventBackground"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "CurrentEventBackground",
+				"Width": {
+					"Value": "60%"
+				},
+				"Height": {
+					"Value": "300"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "40.0"
+					},
+					"OffsetY": {
+						"Value": "-30.0"
+					}
+				},
+				"Children": [
+					"RTID(CurrentEventWidget@.)",
+					"RTID(CurrentEventVerticalLine@.)",
+					"RTID(TournamentContextLabel@.)"
+				],
+				"Image": "IMAGE_UI_CARDS_CARD_TABLE_FRAME",
+				"DrawStyle": "stretched",
+				"DrawType": "9slice"
+			}
+		},
+		{
+			"aliases": [
+				"CurrentEventWidget"
+			],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "CurrentEventWidget",
+				"Width": {
+					"Value": "470.0"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0.0f"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"UIFileName": "JoustSeasonEventSmall",
+				"AdaptorClassName": "AdaptorJoustSeasonEventSmall"
+			}
+		},
+		{
+			"aliases": [
+				"CurrentEventVerticalLine"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "CurrentEventVerticalLine",
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_CARDS_CARD_TABLE_LINE_VERTICAL",
+				"DrawStyle": "normal",
+				"DrawType": "9slice"
+			}
+		},
+		{
+			"aliases": [
+				"TournamentContextLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "TournamentContextLabel",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "32"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "[JOUST_SEASON_CURRENT_EVENT]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24",
+				"Color": "Brown"
+			}
+		},
+		{
+			"aliases": [
+				"FeaturedPlantBackground"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "FeaturedPlantBackground",
+				"Width": {
+					"Value": "30%"
+				},
+				"Height": {
+					"Value": "300"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-40.0"
+					},
+					"OffsetY": {
+						"Value": "-30.0"
+					}
+				},
+				"Image": "IMAGE_UI_CARDS_BACKGROUNDS_CARD_PLANT_BG_MODERN",
+				"DrawStyle": "stretched",
+				"DrawType": "stretched",
+				"Children": [
+					"RTID(FeaturedPlantImage@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"FeaturedPlantImage"
+			],
+			"objclass": "HotUIPlantAnimProperties",
+			"objdata": {
+				"Name": "FeaturedPlantImage",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "15"
+					},
+					"OffsetX": {
+						"Value": "0"
+					}
+				},
+				"ScaleOverride": 2.0,
+				"DrawStyle": "scale_override",
+				"IgnoreMouseInput": true
+			}
+		}
+	]
+}

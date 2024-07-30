@@ -1,0 +1,395 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"MultiPurchaseItemEntry"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "MultiPurchaseItemEntry",
+				"Width": {
+					"Value": "110"
+				},
+				"Height": {
+					"Value": "140"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "30.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(PrizePlaceholder@.)",
+					"RTID(HiddenInfoAreaButton@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"PrizePlaceholder"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PrizePlaceholder",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0.0"
+					},
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"Resources": [
+					"UI_Almanac_StatIcons",
+					"UI_StorePinataPSD",
+					"UI_QuestTinyPinatas",
+					"SpinePinatas"
+				],
+				"Children": [
+					"RTID(ItemImage@.)",
+					"RTID(ItemSeedPacket@.)",
+					"RTID(ItemPlantAnim@.)",
+					"RTID(ItemAmountText@.)",
+					"RTID(ItemExtraTitle@.)",
+					"RTID(SparkleAnim@.)"
+				],
+				"Image": "IMAGE_UI_ALMANAC_ALMANAC_STAT_BACKGROUND",
+				"DrawType": "stretched",
+				"DrawStyle": "stretched"
+			}
+		},
+		{
+			"aliases": [
+				"ItemImage"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Resources": [
+					"CollectableCommon",
+					"GameUpgrades"
+				],
+				"Name": "ItemImage",
+				"Width": {
+					"Value": "65%"
+				},
+				"Height": {
+					"Value": "65%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-1%"
+					},
+					"OffsetY": {
+						"Value": "-1%"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Image": "$ITEMIMAGE",
+				"DrawStyle": "stretched_aspectX"
+			}
+		},
+		{
+			"aliases": [
+				"ItemSeedPacket"
+			],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "ItemSeedPacket",
+				"Width": {
+					"Value": "88%"
+				},
+				"Height": {
+					"Value": "88%"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "-2"
+					},
+					"OffsetY": {
+						"Value": "15%"
+					}
+				},
+				"Children": [
+					"RTID(PlantXPProgressBar@.)"
+				],
+				"PacketConfig": {
+					"PlantType": "$ITEMSEEDPACKET"
+				}
+			}
+		},
+		{
+			"aliases": [
+				"PlantXPProgressBar"
+			],
+			"objclass": "HotUIProgressBarProperties",
+			"objdata": {
+				"Name": "PlantXPProgressBar",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "15"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-38.0"
+					}
+				},
+				"Children": [
+					"RTID(PlantXPProgressText@.)",
+					"RTID(PlantXPProgressIcon@.)"
+				],
+				"ProgressBarBackground": "IMAGE_UI_GENERIC_XP_PROGRESS_BAR",
+				"ProgressBarImage": "IMAGE_UI_GENERIC_XP_PROGRESS_BAR_FILL_YELLOW"
+			}
+		},
+		{
+			"aliases": [
+				"PlantXPProgressText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PlantXPProgressText",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "22"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_13_HARDSHADOW",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"PlantXPProgressIcon"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PlantXPProgressIcon",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_XP_PROGRESS_ICON_GREEN",
+				"DrawStyle": "stretched"
+			}
+		},
+		{
+			"aliases": [
+				"ItemPlantAnim"
+			],
+			"objclass": "HotUIPlantAnimProperties",
+			"objdata": {
+				"Name": "ItemPlantAnim",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0%"
+					},
+					"OffsetY": {
+						"Value": "18%"
+					}
+				},
+				"ScaleOverride": 0.9,
+				"DrawStyle": "scale_override",
+				"PlantConfig": {
+					"PlantType": "$ITEMANIMPLANTTYPE",
+					"CostumeLayer": "$ITEMANIMCOSTUMETYPE",
+					"DrawShadow": false
+				}
+			}
+		},
+		{
+			"aliases": [
+				"ItemAmountText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ItemAmountText",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "35"
+					}
+				},
+				"Label": "$DESCRIPTION",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24_HARDSHADOW",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"ItemExtraTitle"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ItemExtraTitle",
+				"Width": {
+					"Value": "85%"
+				},
+				"Height": {
+					"Value": "36"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "-5"
+					}
+				},
+				"Label": "$EXTRATITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_10",
+				"Color": "DarkBrown"
+			}
+		},
+		{
+			"aliases": [
+				"HiddenInfoAreaButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "HiddenInfoAreaButton",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"HideButtonImages": "true",
+				"DownAudio": "",
+				"UpAudio": "Play_UI_Button_Click_Release"
+			}
+		},
+		{
+			"aliases": [
+				"SparkleAnim"
+			],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "SparkleAnim",
+				"IgnoreMouseInput": true,
+				"Resources": [
+					"PrizeEffectsCommon"
+				],
+				"Width": {
+					"Value": "60.0"
+				},
+				"Height": {
+					"Value": "60.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"PopAnimName": "POPANIM_EFFECTS_PRIZE_SPAWN_UNIVERSAL_REWARD",
+				"InitialAnimationName": "animation",
+				"PlayStyle": "none",
+				"ScaleOverride": 2.0,
+				"DrawStyle": "scale_override"
+			}
+		}
+	]
+}

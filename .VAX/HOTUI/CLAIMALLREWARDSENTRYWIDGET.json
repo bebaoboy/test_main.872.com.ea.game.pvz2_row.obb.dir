@@ -1,0 +1,180 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"ClaimAllRewardsEntryWidget"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "ClaimAllRewardsEntryWidget",
+				"Resources": [],
+				"Width": {
+					"Value": "316"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(Background@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Background"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Resources": [],
+				"Width": {
+					"Value": "310"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left"
+				},
+				"IgnoreMouseInput": true,
+				"Children": [
+					"RTID(PrizeContainer@.)"
+				],
+				"DrawType": "9slice",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_INNER_BKGD"
+			}
+		},
+		{
+			"aliases": [
+				"PrizeContainer"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "PrizeContainer",
+				"Width": {
+					"Value": "30%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "30.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(RewardImage@.)",
+					"RTID(RewardSeedPacket@.)",
+					"RTID(AmountText@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"RewardImage"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RewardImage",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "95%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Image": "",
+				"DrawStyle": "stretched_aspectY",
+				"DrawType": "normal",
+				"IgnoreMouseInput": true
+			}
+		},
+		{
+			"aliases": [
+				"RewardSeedPacket"
+			],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "RewardSeedPacket",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"PlantType": ""
+			}
+		},
+		{
+			"aliases": [
+				"AmountText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "AmountText",
+				"Width": {
+					"Value": "60%"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "right",
+					"OffsetY": {
+						"Value": "0"
+					},
+					"OffsetX": {
+						"Value": "0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_26",
+				"Color": "DarkBrown"
+			}
+		}
+	]
+}

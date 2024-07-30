@@ -1,0 +1,27 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"Test"
+			],
+			"objclass": "ZombieSwapProperties",
+			"objdata": {
+				"ZombieSwaps": [
+					{
+						"PostSwapType": "feastivus",
+						"PreSwapTypes": [
+							"tutorial",
+							"tutorial_armor1",
+							"tutorial_armor2",
+							"mummy",
+							"pirate",
+							"cowboy",
+							"zcorp"
+						]
+					}
+				]
+			}
+		}
+	]
+}

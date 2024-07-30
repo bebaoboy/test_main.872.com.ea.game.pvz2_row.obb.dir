@@ -1,0 +1,956 @@
+{
+	"#comment": "Scoring Playtest - Right Gradient - No Quickstart",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "",
+				"DisablePlantBoosts": true,
+				"GridItemLevel": 1,
+				"LevelNumber": 1,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(NoLoot@LevelModules)",
+				"LossModule": "RTID(JoustOutro@LevelModules)",
+				"Modules": [
+					"RTID(FastSunDropper@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(JoustDarkMowers@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(JoustZombieWinCondition@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(LevelScoring@CurrentLevel)",
+					"RTID(ScoreTilesAndTraps@CurrentLevel)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(LastStand@CurrentLevel)",
+					"RTID(LevelDifficultyScaling@CurrentLevel)",
+					"RTID(JoustModule@CurrentLevel)",
+					"RTID(JoustPointOfLoss@LevelModules)",
+					"RTID(SeedPacketHalfTimeModule@LevelModules)",
+					"RTID(ZombossBattle@CurrentLevel)",
+					"RTID(FutureLinkedTileGroups@CurrentLevel)",
+					"RTID(ZombieResistances@CurrentLevel)"
+				],
+				"Name": "",
+				"NormalPresentTable": "dark_normal_01",
+				"ShinyPresentTable": "dark_shiny_01",
+				"StageModule": "RTID(JoustStage@LevelModules)",
+				"SuppressAccountUpgrades": true,
+				"SuppressDynamicTutorial": true,
+				"SuppressPlantfoodPurchase": true,
+				"VictoryModule": "RTID(JoustOutro@LevelModules)"
+			}
+		},
+		{
+			"aliases": [
+				"ZombieResistances"
+			],
+			"objclass": "ZombieResistancesModuleProperties",
+			"objdata": {
+				"FamilyResistances": {
+					"global": [
+						{
+							"#comment": "200pct damage and condition",
+							"ConditionResistance": 2,
+							"DamageResistance": 2,
+							"FamilyType": "armamint"
+						},
+						{
+							"#comment": "50pct damage and condition",
+							"ConditionResistance": 0.5,
+							"DamageResistance": 0.5,
+							"FamilyType": "bombardmint"
+						},
+						{
+							"#comment": "0pct damage and condition",
+							"ConditionResistance": 0,
+							"DamageResistance": 0,
+							"FamilyType": "filamint"
+						}
+					]
+				}
+			}
+		},
+		{
+			"aliases": [
+				"ZombossBattle"
+			],
+			"objclass": "ZombossBattleModuleProperties",
+			"objdata": {
+				"ReservedColumnCount": 2,
+				"ShowInStreetView": true,
+				"ZombossDeathColumn": 5,
+				"ZombossDeathRow": 3,
+				"ZombossMechType": "zombossmech_future_battlez",
+				"ZombossSpawnGridPosition": {
+					"mX": 6,
+					"mY": 3
+				}
+			}
+		},
+		{
+			"aliases": [
+				"DoNotPlantBeforeLine"
+			],
+			"objclass": "MoldColonyChallengeProps",
+			"objdata": {
+				"Locations": "RTID(Column7_To_Column8_FutureZomboss@BoardGridMaps)"
+			}
+		},
+		{
+			"aliases": [
+				"LevelDifficultyScaling"
+			],
+			"objclass": "LevelDifficultyScalingModuleProperties",
+			"objdata": {
+				"DifficultyRulesType": "DifficultyTestHighDecay",
+				"ZombieLevelSwaps": [
+					{
+						"Level": 0,
+						"Swaps": [
+							{
+								"From": "RTID(future@ZombieTypes)",
+								"To": [
+									"RTID(future@ZombieTypes)"
+								]
+							}
+						]
+					},
+					{
+						"Level": 4,
+						"Swaps": [
+							{
+								"From": "RTID(future@ZombieTypes)",
+								"To": [
+									"RTID(future_armor1@ZombieTypes)"
+								]
+							}
+						]
+					},
+					{
+						"Level": 9,
+						"Swaps": [
+							{
+								"From": "RTID(future@ZombieTypes)",
+								"To": [
+									"RTID(future_armor2@ZombieTypes)"
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"FutureLinkedTileGroups"
+			],
+			"objclass": "PowerTileProperties",
+			"objdata": {
+				"LinkedTiles": [
+					{
+						"Group": "delta",
+						"Location": {
+							"mX": 1,
+							"mY": 0
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "gamma",
+						"Location": {
+							"mX": 3,
+							"mY": 0
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "delta",
+						"Location": {
+							"mX": 0,
+							"mY": 1
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "gamma",
+						"Location": {
+							"mX": 2,
+							"mY": 1
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "beta",
+						"Location": {
+							"mX": 3,
+							"mY": 1
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "gamma",
+						"Location": {
+							"mX": 1,
+							"mY": 2
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "beta",
+						"Location": {
+							"mX": 2,
+							"mY": 2
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "gamma",
+						"Location": {
+							"mX": 0,
+							"mY": 3
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "beta",
+						"Location": {
+							"mX": 1,
+							"mY": 3
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "delta",
+						"Location": {
+							"mX": 3,
+							"mY": 3
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "beta",
+						"Location": {
+							"mX": 0,
+							"mY": 4
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "delta",
+						"Location": {
+							"mX": 2,
+							"mY": 4
+						},
+						"PropagationDelay": 1.5
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"thymewarp"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "mangofier"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"JoustModule"
+			],
+			"objclass": "JoustGameModuleProperties",
+			"objdata": {
+				"LeagueModifiers": [
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 0,
+						"LeagueThreshold": 1
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 1,
+						"LeagueThreshold": 2
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 2,
+						"LeagueThreshold": 3
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 3,
+						"LeagueThreshold": 4
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 4,
+						"LeagueThreshold": 5
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 5,
+						"LeagueThreshold": 6
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 6,
+						"LeagueThreshold": 7
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 7,
+						"LeagueThreshold": 8
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 8,
+						"LeagueThreshold": 9
+					}
+				],
+				"LevelLoadouts": {
+					"Loadouts": [
+						[
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "mangofier"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "sunshroom"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "nightcap"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "jalapeno"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "powerlily"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "meteorflower"
+							}
+						],
+						[
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "mangofier"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "megagatling"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "goldbloom"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "spearmint"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "bamboospartan"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "inferno"
+							}
+						],
+						[
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "mangofier"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "ghostpepper"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "cactus"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "peppermint"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "solarsage"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "jackolantern"
+							}
+						]
+					]
+				},
+				"PeriodOfWavesToLoop": 3,
+				"TimeLimit": 180,
+				"WaveSetsToAppend": 60
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)",
+						"RTID(ReachTheScore@CurrentLevel)",
+						"RTID(DoNotPlantBeforeLine@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"ReachTheScore"
+			],
+			"objclass": "StarChallengeTargetScoreProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_TARGET_SCORE]",
+				"DescriptionFailure": "[STARCHALLENGE_TARGET_SCORE_FAILURE]",
+				"DescriptiveName": "[STARCHALLENGE_TARGET_SCORE_NAME]",
+				"TargetScore": 1000
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_LASTSTAND_MINIGAME]",
+				"DescriptiveName": "[STARCHALLENGE_LASTSTAND_MINIGAME_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"LastStand"
+			],
+			"objclass": "LastStandMinigameProperties",
+			"objdata": {
+				"StartingPlantfood": 1,
+				"StartingSun": 1400
+			}
+		},
+		{
+			"aliases": [
+				"LevelScoring"
+			],
+			"objclass": "LevelScoringModuleProperties",
+			"objdata": {
+				"PlantBonusMultiplier": 0.1,
+				"PlantBonuses": [],
+				"ScoringRulesType": "ZombossBattlez",
+				"StartingPlantfood": 1
+			}
+		},
+		{
+			"aliases": [
+				"ScoreTilesAndTraps"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 8,
+						"GridY": 0,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 1,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 2,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 3,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 4,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 0,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 2,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 3,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 4,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 1,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 2,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 3,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 2,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 0,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 1,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 3,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 4,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 0,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 2,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 3,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 4,
+						"TypeName": "score_2x_tile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"DynamicZombies": [
+					{},
+					{},
+					{},
+					{
+						"MaxPoints": 2000,
+						"PointIncrementPerWave": 100,
+						"StartingPoints": 100,
+						"StartingWave": 0,
+						"ZombiePool": [
+							"RTID(zcorp@ZombieTypes)",
+							"RTID(zcorp_armor1@ZombieTypes)",
+							"RTID(zcorp_armor2@ZombieTypes)",
+							"RTID(future@ZombieTypes)",
+							"RTID(future_armor2@ZombieTypes)",
+							"RTID(zcorp_imp@ZombieTypes)",
+							"RTID(zcorp_racer_chair@ZombieTypes)"
+						]
+					},
+					{},
+					{},
+					{}
+				],
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 100,
+				"WaveCount": 100,
+				"WaveSpendingPointIncrement": 200,
+				"WaveSpendingPoints": 1000,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)",
+						"RTID(Wave6SpiderRainEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					]
+				],
+				"WavesAlwaysRandomized": true
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_fem@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_fem_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(zcorp_consultant@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(zcorp_consultant@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(mech_cone@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(mech_cone@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 2,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(mech_cone@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(zcorp_consultant@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(zcorp_consultant@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(future_protector@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6SpiderRainEvent0"
+			],
+			"objclass": "SpiderRainZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 6,
+				"ColumnStart": 3,
+				"GroupSize": "2",
+				"SpiderCount": "4",
+				"SpiderZombieName": "future_imp",
+				"TimeBeforeFullSpawn": "1",
+				"TimeBetweenGroups": "0.2",
+				"WaveStartMessage": "[WARNING_SPIDERRAIN]",
+				"ZombieFallTime": "1.5"
+			}
+		}
+	],
+	"version": 1
+}

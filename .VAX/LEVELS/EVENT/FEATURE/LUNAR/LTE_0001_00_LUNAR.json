@@ -1,0 +1,573 @@
+{
+	"#comment": "Lunar Test Level",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "[PLAYERS_TRIP_TO_LOD]",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"LevelNumber": "TEST",
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(Gravestones@CurrentLevel)"
+				],
+				"Name": "[LOD_LEVEL_NAME]",
+				"StageModule": "RTID(LunarStage@LevelModules)",
+				"StartingSun": 9000,
+				"SuppressPlantfoodPurchase": true
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"ExcludeListSunProducers": true,
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover"
+				],
+				"PresetPlantList": [],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 3,
+				"PlantfoodToSpawnCount": 0,
+				"PointIncrementPerWave": 25,
+				"StartingPoints": 0,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 5,
+				"ZombiePool": [
+					"RTID(lunar_basic@ZombieTypes)",
+					"RTID(lunar_armor1@ZombieTypes)",
+					"RTID(lunar_armor2@ZombieTypes)",
+					"RTID(lunar_superfanimp@ZombieTypes)",
+					"RTID(lunar_camel_manyhump@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 8,
+						"GridY": 0
+					},
+					{
+						"GridX": 7,
+						"GridY": 0
+					},
+					{
+						"GridX": 6,
+						"GridY": 0
+					},
+					{
+						"GridX": 5,
+						"GridY": 0
+					},
+					{
+						"GridX": 4,
+						"GridY": 0
+					},
+					{
+						"GridX": 3,
+						"GridY": 0
+					},
+					{
+						"GridX": 8,
+						"GridY": 4
+					},
+					{
+						"GridX": 7,
+						"GridY": 4
+					},
+					{
+						"GridX": 6,
+						"GridY": 4
+					},
+					{
+						"GridX": 5,
+						"GridY": 4
+					},
+					{
+						"GridX": 4,
+						"GridY": 4
+					},
+					{
+						"GridX": 3,
+						"GridY": 4
+					},
+					{
+						"GridX": 8,
+						"GridY": 2
+					},
+					{
+						"GridX": 7,
+						"GridY": 2
+					},
+					{
+						"GridX": 6,
+						"GridY": 2
+					},
+					{
+						"GridX": 5,
+						"GridY": 2
+					},
+					{
+						"GridX": 4,
+						"GridY": 2
+					},
+					{
+						"GridX": 3,
+						"GridY": 2
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"ExcludeListSunProducers": true,
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover"
+				],
+				"PresetPlantList": [],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 5,
+				"MaxNextWaveHealthPercentage": 0.6,
+				"MinNextWaveHealthPercentage": 0.5,
+				"WaveCount": 15,
+				"WaveSpendingPointIncrement": 100,
+				"WaveSpendingPoints": 200,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					],
+					[
+						"RTID(Wave11@CurrentLevel)"
+					],
+					[
+						"RTID(Wave12@CurrentLevel)"
+					],
+					[
+						"RTID(Wave13@CurrentLevel)"
+					],
+					[
+						"RTID(Wave14@CurrentLevel)"
+					],
+					[
+						"RTID(Wave15@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(lunar_basic@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(lunar_basic@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(lunar_basic@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(lunar_basic@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(lunar_basic@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(lunar_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(lunar_basic@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(lunar_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(lunar_basic@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(lunar_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(lunar_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(lunar_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(lunar_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(lunar_basic@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(lunar_superfanimp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(lunar_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(lunar_camel_manyhump@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(lunar_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(lunar_camel_manyhump@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(lunar_superfanimp@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(lunar_superfanimp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(lunar_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(lunar_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(lunar_camel_manyhump@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(lunar_superfanimp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lunar_camel_twohump@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lunar_camel_twohump@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave11"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(lunar_camel_manyhump@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(lunar_camel_manyhump@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(lunar_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave12"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(lunar_superfanimp@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(lunar_superfanimp@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(lunar_superfanimp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave13"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(lunar_camel_manyhump@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(lunar_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(lunar_camel_manyhump@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave14"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(lunar_superfanimp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lunar_camel_twohump@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave15"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(lunar_camel_twohump@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lunar_camel_onehump@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lunar_camel_twohump@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

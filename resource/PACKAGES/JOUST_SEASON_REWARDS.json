@@ -1,0 +1,985 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"Season62"
+			],
+			"objclass": "JoustSeasonRewards",
+			"objdata": {
+				"AlternateGrandPrize": {
+					"IsGrandPrize": true,
+					"Reward": {
+						"Award": "plantXP",
+						"AwardParam": "buduhboom",
+						"AwardQuantity": 150
+					}
+				},
+				"ProgressionRewards": [
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "buduhboom",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 5
+					},
+					{
+						"Reward": {
+							"Award": "tickets",
+							"AwardQuantity": 5
+						},
+						"RewardThreshold": 15
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "buduhboom",
+							"AwardQuantity": 40
+						},
+						"RewardThreshold": 30
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "free_joust_pinata_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 60
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "buduhboom",
+							"AwardQuantity": 50
+						},
+						"RewardThreshold": 100
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "buduhboom",
+							"AwardQuantity": 60
+						},
+						"RewardThreshold": 150
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "explosive_joust_pinata_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 200
+					},
+					{
+						"IsGrandPrize": true,
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "buduhboom",
+							"AwardQuantity": 80
+						},
+						"RewardThreshold": 500
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "buduhboom",
+							"AwardQuantity": 150
+						},
+						"RewardThreshold": 750
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "buduhboom",
+							"AwardQuantity": 300
+						},
+						"RewardThreshold": 1000
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Season63"
+			],
+			"objclass": "JoustSeasonRewards",
+			"objdata": {
+				"AlternateGrandPrize": {
+					"IsGrandPrize": true,
+					"Reward": {
+						"Award": "plantXP",
+						"AwardParam": "iceshroom",
+						"AwardQuantity": 150
+					}
+				},
+				"ProgressionRewards": [
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "iceshroom",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 5
+					},
+					{
+						"Reward": {
+							"Award": "tickets",
+							"AwardQuantity": 5
+						},
+						"RewardThreshold": 15
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "iceshroom",
+							"AwardQuantity": 40
+						},
+						"RewardThreshold": 30
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "free_joust_pinata_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 60
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "iceshroom",
+							"AwardQuantity": 50
+						},
+						"RewardThreshold": 100
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "iceshroom",
+							"AwardQuantity": 60
+						},
+						"RewardThreshold": 150
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "cold_joust_pinata_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 200
+					},
+					{
+						"IsGrandPrize": true,
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "iceshroom",
+							"AwardQuantity": 80
+						},
+						"RewardThreshold": 500
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "iceshroom",
+							"AwardQuantity": 150
+						},
+						"RewardThreshold": 750
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "iceshroom",
+							"AwardQuantity": 300
+						},
+						"RewardThreshold": 1000
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Season64"
+			],
+			"objclass": "JoustSeasonRewards",
+			"objdata": {
+				"AlternateGrandPrize": {
+					"IsGrandPrize": true,
+					"Reward": {
+						"Award": "plantXP",
+						"AwardParam": "dragonbruit",
+						"AwardQuantity": 150
+					}
+				},
+				"ProgressionRewards": [
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "dragonbruit",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 5
+					},
+					{
+						"Reward": {
+							"Award": "tickets",
+							"AwardQuantity": 5
+						},
+						"RewardThreshold": 15
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "dragonbruit",
+							"AwardQuantity": 40
+						},
+						"RewardThreshold": 30
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "free_joust_pinata_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 60
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "dragonbruit",
+							"AwardQuantity": 50
+						},
+						"RewardThreshold": 100
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "dragonbruit",
+							"AwardQuantity": 60
+						},
+						"RewardThreshold": 150
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "free_joust_pinata_concealmint_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 200
+					},
+					{
+						"IsGrandPrize": true,
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "dragonbruit",
+							"AwardQuantity": 80
+						},
+						"RewardThreshold": 500
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "dragonbruit",
+							"AwardQuantity": 150
+						},
+						"RewardThreshold": 750
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "dragonbruit",
+							"AwardQuantity": 300
+						},
+						"RewardThreshold": 1000
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Season65"
+			],
+			"objclass": "JoustSeasonRewards",
+			"objdata": {
+				"AlternateGrandPrize": {
+					"IsGrandPrize": true,
+					"Reward": {
+						"Award": "plantXP",
+						"AwardParam": "blastberry",
+						"AwardQuantity": 220
+					}
+				},
+				"ProgressionRewards": [
+					{
+						"Reward": {
+							"Award": "coins",
+							"AwardQuantity": 5000
+						},
+						"RewardThreshold": 5
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "blastberry",
+							"AwardQuantity": 30
+						},
+						"RewardThreshold": 15
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "pvine",
+							"AwardQuantity": 30
+						},
+						"RewardThreshold": 30
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "spring_champion_2024",
+							"AwardQuantity": 10
+						},
+						"RewardThreshold": 60
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "pyrevine",
+							"AwardQuantity": 30
+						},
+						"RewardThreshold": 100
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "spring_champion_2024",
+							"AwardQuantity": 5
+						},
+						"RewardThreshold": 150
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "explodeovine",
+							"AwardQuantity": 50
+						},
+						"RewardThreshold": 250
+					},
+					{
+						"IsGrandPrize": true,
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "pyrevine",
+							"AwardQuantity": 220
+						},
+						"RewardThreshold": 500
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "pvine",
+							"AwardQuantity": 70
+						},
+						"RewardThreshold": 750
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "spring_champion_2024",
+							"AwardQuantity": 10
+						},
+						"RewardThreshold": 1000
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Season66"
+			],
+			"objclass": "JoustSeasonRewards",
+			"objdata": {
+				"AlternateGrandPrize": {
+					"IsGrandPrize": true,
+					"Reward": {
+						"Award": "plantXP",
+						"AwardParam": "electricpeel",
+						"AwardQuantity": 150
+					}
+				},
+				"ProgressionRewards": [
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "electricpeel",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 5
+					},
+					{
+						"Reward": {
+							"Award": "tickets",
+							"AwardQuantity": 5
+						},
+						"RewardThreshold": 15
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "electricpeel",
+							"AwardQuantity": 40
+						},
+						"RewardThreshold": 30
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "free_joust_pinata_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 60
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "electricpeel",
+							"AwardQuantity": 50
+						},
+						"RewardThreshold": 100
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "electricpeel",
+							"AwardQuantity": 60
+						},
+						"RewardThreshold": 150
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "electricity_joust_pinata_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 200
+					},
+					{
+						"IsGrandPrize": true,
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "electricpeel",
+							"AwardQuantity": 80
+						},
+						"RewardThreshold": 500
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "electricpeel",
+							"AwardQuantity": 150
+						},
+						"RewardThreshold": 750
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "electricpeel",
+							"AwardQuantity": 300
+						},
+						"RewardThreshold": 1000
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Season67"
+			],
+			"objclass": "JoustSeasonRewards",
+			"objdata": {
+				"AlternateGrandPrize": {
+					"IsGrandPrize": true,
+					"Reward": {
+						"Award": "plantXP",
+						"AwardParam": "guardshroom",
+						"AwardQuantity": 150
+					}
+				},
+				"ProgressionRewards": [
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "guardshroom",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 5
+					},
+					{
+						"Reward": {
+							"Award": "tickets",
+							"AwardQuantity": 5
+						},
+						"RewardThreshold": 15
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "guardshroom",
+							"AwardQuantity": 40
+						},
+						"RewardThreshold": 30
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "free_joust_pinata_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 60
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "guardshroom",
+							"AwardQuantity": 50
+						},
+						"RewardThreshold": 100
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "guardshroom",
+							"AwardQuantity": 60
+						},
+						"RewardThreshold": 150
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "free_joust_pinata_reinforcemint_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 200
+					},
+					{
+						"IsGrandPrize": true,
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "guardshroom",
+							"AwardQuantity": 80
+						},
+						"RewardThreshold": 500
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "guardshroom",
+							"AwardQuantity": 150
+						},
+						"RewardThreshold": 750
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "guardshroom",
+							"AwardQuantity": 300
+						},
+						"RewardThreshold": 1000
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Season68"
+			],
+			"objclass": "JoustSeasonRewards",
+			"objdata": {
+				"AlternateGrandPrize": {
+					"IsGrandPrize": true,
+					"Reward": {
+						"Award": "plantXP",
+						"AwardParam": "aquavine",
+						"AwardQuantity": 150
+					}
+				},
+				"ProgressionRewards": [
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "aquavine",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 5
+					},
+					{
+						"Reward": {
+							"Award": "tickets",
+							"AwardQuantity": 5
+						},
+						"RewardThreshold": 15
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "aquavine",
+							"AwardQuantity": 40
+						},
+						"RewardThreshold": 30
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "free_joust_pinata_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 60
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "aquavine",
+							"AwardQuantity": 50
+						},
+						"RewardThreshold": 100
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "aquavine",
+							"AwardQuantity": 60
+						},
+						"RewardThreshold": 150
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "spearmint_joust_pinata_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 200
+					},
+					{
+						"IsGrandPrize": true,
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "aquavine",
+							"AwardQuantity": 80
+						},
+						"RewardThreshold": 500
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "aquavine",
+							"AwardQuantity": 150
+						},
+						"RewardThreshold": 750
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "aquavine",
+							"AwardQuantity": 300
+						},
+						"RewardThreshold": 1000
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Season69"
+			],
+			"objclass": "JoustSeasonRewards",
+			"objdata": {
+				"AlternateGrandPrize": {
+					"IsGrandPrize": true,
+					"Reward": {
+						"Award": "plantXP",
+						"AwardParam": "hotdate",
+						"AwardQuantity": 220
+					}
+				},
+				"ProgressionRewards": [
+					{
+						"Reward": {
+							"Award": "coins",
+							"AwardQuantity": 5000
+						},
+						"RewardThreshold": 5
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "hotdate",
+							"AwardQuantity": 30
+						},
+						"RewardThreshold": 15
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "bamboospartan",
+							"AwardQuantity": 30
+						},
+						"RewardThreshold": 30
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "spring_champion_2024",
+							"AwardQuantity": 10
+						},
+						"RewardThreshold": 60
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "jalapeno",
+							"AwardQuantity": 30
+						},
+						"RewardThreshold": 100
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "spring_champion_2024",
+							"AwardQuantity": 5
+						},
+						"RewardThreshold": 150
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "firepeashooter",
+							"AwardQuantity": 50
+						},
+						"RewardThreshold": 250
+					},
+					{
+						"IsGrandPrize": true,
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "jalapeno",
+							"AwardQuantity": 220
+						},
+						"RewardThreshold": 500
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "bamboospartan",
+							"AwardQuantity": 70
+						},
+						"RewardThreshold": 750
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "spring_champion_2024",
+							"AwardQuantity": 10
+						},
+						"RewardThreshold": 1000
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Season70"
+			],
+			"objclass": "JoustSeasonRewards",
+			"objdata": {
+				"AlternateGrandPrize": {
+					"IsGrandPrize": true,
+					"Reward": {
+						"Award": "plantXP",
+						"AwardParam": "mangofier",
+						"AwardQuantity": 150
+					}
+				},
+				"ProgressionRewards": [
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "mangofier",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 5
+					},
+					{
+						"Reward": {
+							"Award": "tickets",
+							"AwardQuantity": 5
+						},
+						"RewardThreshold": 15
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "mangofier",
+							"AwardQuantity": 40
+						},
+						"RewardThreshold": 30
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "free_joust_pinata_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 60
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "mangofier",
+							"AwardQuantity": 50
+						},
+						"RewardThreshold": 100
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "mangofier",
+							"AwardQuantity": 60
+						},
+						"RewardThreshold": 150
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "explosive_joust_pinata_armamint_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 200
+					},
+					{
+						"IsGrandPrize": true,
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "mangofier",
+							"AwardQuantity": 80
+						},
+						"RewardThreshold": 500
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "mangofier",
+							"AwardQuantity": 150
+						},
+						"RewardThreshold": 750
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "mangofier",
+							"AwardQuantity": 300
+						},
+						"RewardThreshold": 1000
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Season71"
+			],
+			"objclass": "JoustSeasonRewards",
+			"objdata": {
+				"AlternateGrandPrize": {
+					"IsGrandPrize": true,
+					"Reward": {
+						"Award": "plantXP",
+						"AwardParam": "peashooter",
+						"AwardQuantity": 150
+					}
+				},
+				"ProgressionRewards": [
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "peashooter",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 5
+					},
+					{
+						"Reward": {
+							"Award": "tickets",
+							"AwardQuantity": 5
+						},
+						"RewardThreshold": 15
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "peashooter",
+							"AwardQuantity": 40
+						},
+						"RewardThreshold": 30
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "free_joust_pinata_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 60
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "peashooter",
+							"AwardQuantity": 50
+						},
+						"RewardThreshold": 100
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "peashooter",
+							"AwardQuantity": 60
+						},
+						"RewardThreshold": 150
+					},
+					{
+						"Reward": {
+							"Award": "pinata",
+							"AwardParam": "containmint_joust_pinata_10",
+							"AwardQuantity": 20
+						},
+						"RewardThreshold": 200
+					},
+					{
+						"IsGrandPrize": true,
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "peashooter",
+							"AwardQuantity": 80
+						},
+						"RewardThreshold": 500
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "peashooter",
+							"AwardQuantity": 150
+						},
+						"RewardThreshold": 750
+					},
+					{
+						"Reward": {
+							"Award": "plantXP",
+							"AwardParam": "peashooter",
+							"AwardQuantity": 300
+						},
+						"RewardThreshold": 1000
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

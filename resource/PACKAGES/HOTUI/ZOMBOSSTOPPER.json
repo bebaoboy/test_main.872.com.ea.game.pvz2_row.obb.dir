@@ -1,0 +1,90 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"ZombossTopper"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "ZombossTopper",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": false,
+				"Resources": [
+					"UI_PauseMenu"
+				],
+				"Children": [
+					"RTID(ZombossFogImage@.)",
+					"RTID(ZombossImage@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ZombossImage"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ZombossImage",
+				"Resources": [],
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-23.0"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_UI_PAUSEMENU_ZOMBOSS_TOPPER"
+			}
+		},
+		{
+			"aliases": [
+				"ZombossFogImage"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ZombossFogImage",
+				"Resources": [],
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"DrawType": "normal",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_UI_PAUSEMENU_ZOMBOSS_FOG"
+			}
+		}
+	]
+}

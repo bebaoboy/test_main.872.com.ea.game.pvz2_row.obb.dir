@@ -1,0 +1,62 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"ZombossTopper"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "ZombossTopper",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": false,
+				"Resources": [
+					"UI_PauseMenu"
+				],
+				"Children": [
+					"RTID(ZombossAnim@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ZombossAnim"
+			],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ZombossAnim",
+				"IgnoreMouseInput": true,
+				"Resources": [
+					"UI_PauseMenu"
+				],
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_PAUSEMENU_ZOMBOSS_TOPPER_ANIM",
+				"InitialAnimationName": "animation",
+				"PlayStyle": "playandstop"
+			}
+		}
+	]
+}

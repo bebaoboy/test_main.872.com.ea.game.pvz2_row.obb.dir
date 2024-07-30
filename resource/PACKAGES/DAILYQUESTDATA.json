@@ -1,0 +1,337 @@
+{
+	"#comment": "Daily Quests",
+	"version": 1,
+	"objects": [
+		{
+			"objclass": "SeedPacketsCollectedQuestData",
+			"aliases": [
+				"COLLECT_SEED_PACKETS_40_DQ"
+			],
+			"objdata": {
+				"Slot": "DailyActivities",
+				"QuestCategory": "DailyActivities",
+				"OverrideQuestTheme": "PremiumSeeds",
+				"UniqueID": "COLLECT_SEED_PACKETS_40_DQ",
+				"QuestName": "[COLLECT_SEED_PACKETS_TITLE]",
+				"Description": "[COLLECT_SEED_PACKETS_DESC]",
+				"CountRemainingLabel": "[COLLECT_SEED_PACKETS_COUNT_LABEL]",
+				"ActionsToPerform": 40,
+				"PlantName": "",
+				"CompletionAwards": {
+					"Awards": [
+						{
+							"Type": "coins",
+							"SubType": "",
+							"Amount": 2000
+						}
+					]
+				},
+				"Priority": "Primary",
+				"Repeatable": true,
+				"Disabled": false
+			}
+		},
+		{
+			"objclass": "PlayLevelOfTheDayQuestData",
+			"aliases": [
+				"PLAY_LEVEL_OF_THE_DAY_DQ"
+			],
+			"objdata": {
+				"Slot": "DailyActivities",
+				"QuestCategory": "DailyActivities",
+				"OverrideQuestTheme": "LevelOfTheDay",
+				"UniqueID": "PLAY_LEVEL_OF_THE_DAY_DQ",
+				"QuestName": "[PLAY_LEVEL_OF_THE_DAY_TITLE]",
+				"Description": "[PLAY_LEVEL_OF_THE_DAY_TITLE]",
+				"CompletionAwards": {
+					"Awards": [
+						{
+							"Type": "coins",
+							"SubType": "",
+							"Amount": 1000
+						}
+					]
+				},
+				"Priority": "Primary",
+				"Repeatable": true,
+				"Disabled": false
+			}
+		},
+		{
+			"objclass": "BeatXAdventureLevelsQuestData",
+			"aliases": [
+				"DAILY_2_ADVENTURE_DQ"
+			],
+			"objdata": {
+				"Slot": "DailyActivities",
+				"QuestCategory": "DailyActivities",
+				"OverrideQuestTheme": "Zombie",
+				"UniqueID": "DAILY_2_ADVENTURE_DQ",
+				"QuestName": "[DAILY_2_ADVENTURE]",
+				"Description": "[DAILY_2_ADVENTURE]",
+				"CountRemainingLabel": "[PLAY_X_ADVENTURE_LEVELS_COUNT_REMAINING]",
+				"ActionsToPerform": 2,
+				"CompletionAwards": {
+					"Awards": [
+						{
+							"Type": "gems",
+							"SubType": "",
+							"Amount": 1
+						}
+					]
+				},
+				"Priority": "Primary",
+				"Repeatable": true,
+				"Disabled": false
+			}
+		},
+		{
+			"objclass": "BeatXAdventureLevelsQuestData",
+			"aliases": [
+				"DAILY_5_ADVENTURE_DQ"
+			],
+			"objdata": {
+				"Slot": "DailyActivities",
+				"QuestCategory": "DailyActivities",
+				"OverrideQuestTheme": "Zombie",
+				"UniqueID": "DAILY_5_ADVENTURE_DQ",
+				"QuestName": "[DAILY_5_ADVENTURE]",
+				"Description": "[DAILY_5_ADVENTURE]",
+				"CountRemainingLabel": "[PLAY_X_ADVENTURE_LEVELS_COUNT_REMAINING]",
+				"ActionsToPerform": 5,
+				"CompletionAwards": {
+					"Awards": [
+						{
+							"Type": "gems",
+							"SubType": "",
+							"Amount": 2
+						}
+					]
+				},
+				"Priority": "Primary",
+				"Repeatable": true,
+				"Disabled": false
+			}
+		},
+		{
+			"objclass": "BuyProductQuestData",
+			"aliases": [
+				"STORE_BUY_SKU_FREE_GIFT_DQ"
+			],
+			"objdata": {
+				"Slot": "DailyActivities",
+				"QuestCategory": "DailyActivities",
+				"OverrideQuestTheme": "Plant",
+				"UniqueID": "STORE_BUY_SKU_FREE_GIFT_DQ",
+				"QuestName": "[CLAIM_FREE_GIFT_TITLE]",
+				"Description": "[CLAIM_FREE_GIFT_TITLE]",
+				"CompletionAwards": {
+					"Awards": [
+						{
+							"Type": "coins",
+							"SubType": "",
+							"Amount": 1000
+						}
+					]
+				},
+				"Priority": "Primary",
+				"Repeatable": true,
+				"Disabled": false,
+				"SKUs": [
+					"com.popcap.pvz2.pinata.mystery.consume.free",
+					"com.popcap.pvz2.android.pinata.mystery.consume.free"
+				],
+				"DefaultTabType": "Timed Offers"
+			}
+		},
+		{
+			"objclass": "RiftQuestCompleteAnyLevelData",
+			"aliases": [
+				"PLAY_SINGLE_RIFT_LEVEL_DQ"
+			],
+			"objdata": {
+				"Slot": "DailyActivities",
+				"QuestCategory": "DailyActivities",
+				"OverrideQuestTheme": "Rift",
+				"UniqueID": "PLAY_SINGLE_RIFT_LEVEL_DQ",
+				"QuestName": "[PLAY_SINGLE_RIFT_LEVEL_TITLE]",
+				"Description": "[PLAY_SINGLE_RIFT_LEVEL_DESC]",
+				"NeededRiftCompletionCount": 1,
+				"CompletionAwards": {
+					"Awards": [
+						{
+							"Type": "gems",
+							"SubType": "",
+							"Amount": 3
+						}
+					]
+				},
+				"Priority": "Primary",
+				"Repeatable": true,
+				"Disabled": false
+			}
+		},
+		{
+			"objclass": "AdsViewedQuestData",
+			"aliases": [
+				"WATCH_1_AD_DQ"
+			],
+			"objdata": {
+				"Slot": "DailyActivities",
+				"QuestCategory": "DailyActivities",
+				"OverrideQuestTheme": "Ads",
+				"UniqueID": "WATCH_1_AD_DQ",
+				"QuestName": "[WATCH_1_AD_TITLE]",
+				"Description": "[WATCH_1_AD_DESC]",
+				"CountRemainingLabel": "[WATCH_1_AD_REMAINING]",
+				"ActionsToPerform": 1,
+				"CompletionAwards": {
+					"Awards": [
+						{
+							"Type": "coins",
+							"SubType": "",
+							"Amount": 1000
+						}
+					]
+				},
+				"Priority": "Primary",
+				"Repeatable": true,
+				"Disabled": false
+			}
+		},
+		{
+			"objclass": "WinSingleJoustMatchQuestData",
+			"aliases": [
+				"WIN_SINGLE_JOUST_MATCH_DQ"
+			],
+			"objdata": {
+				"Slot": "DailyActivities",
+				"QuestCategory": "DailyActivities",
+				"OverrideQuestTheme": "Arena",
+				"UniqueID": "WIN_SINGLE_JOUST_MATCH_DQ",
+				"QuestName": "[WIN_SINGLE_JOUST_MATCH_TITLE]",
+				"Description": "[WIN_SINGLE_JOUST_MATCH_DESC]",
+				"CompletionAwards": {
+					"Awards": [
+						{
+							"Type": "mints",
+							"SubType": "",
+							"Amount": 2
+						}
+					]
+				},
+				"Priority": "Primary",
+				"Repeatable": true,
+				"Disabled": false
+			}
+		},
+		{
+			"objclass": "PlantSeedInZenGardenQuestData",
+			"aliases": [
+				"PLANT_SEED_IN_ZEN_GARDEN_DQ"
+			],
+			"objdata": {
+				"Slot": "DailyActivities",
+				"QuestCategory": "DailyActivities",
+				"OverrideQuestTheme": "Plant",
+				"UniqueID": "PLANT_SEED_IN_ZEN_GARDEN_DQ",
+				"QuestName": "[PLANT_SEED_IN_ZEN_GARDEN]",
+				"Description": "[PLANT_SEED_IN_ZEN_GARDEN]",
+				"CountRemainingLabel": "[PLANT_SEED_IN_ZEN_GARDEN_COUNT_REMAINING]",
+				"ActionsToPerform": 1,
+				"CompletionAwards": {
+					"Awards": [
+						{
+							"Type": "gems",
+							"SubType": "",
+							"Amount": 1
+						}
+					]
+				},
+				"Priority": "Primary",
+				"Repeatable": true,
+				"Disabled": false
+			}
+		},
+		{
+			"objclass": "DailyActivitiesQuestData",
+			"aliases": [
+				"COMPLETE_ALL_DAILY_QUESTS_DQ"
+			],
+			"objdata": {
+				"Slot": "DailyActivities",
+				"QuestCategory": "DailyActivities",
+				"OverrideQuestTheme": "Default",
+				"UniqueID": "COMPLETE_ALL_DAILY_QUESTS_DQ",
+				"QuestName": "[DAILY_ACTIVITIES_TITLE]",
+				"Description": "[DAILY_COMPLETE_ALL]",
+				"CompletionAwards": {
+					"Awards": [
+						{
+							"Type": "gems",
+							"SubType": "",
+							"Amount": 10
+						}
+					]
+				},
+				"Priority": "Primary",
+				"Repeatable": true,
+				"Disabled": false
+			}
+		},
+		{
+			"objclass": "WinPOTWLTELevelQuestData",
+			"aliases": [
+				"WIN_POTW_LTE_LEVEL_DQ"
+			],
+			"objdata": {
+				"Slot": "DailyActivities",
+				"QuestCategory": "DailyActivities",
+				"OverrideQuestTheme": "Plant",
+				"UniqueID": "WIN_POTW_LTE_LEVEL_DQ",
+				"QuestName": "[WIN_POTW_LTE_QUEST_TITLE]",
+				"Description": "[WIN_POTW_LTE_QUEST_DESC]",
+				"ActionsToPerform": 1,
+				"CompletionAwards": {
+					"Awards": [
+						{
+							"Type": "coins",
+							"SubType": "",
+							"Amount": 500
+						}
+					]
+				},
+				"Priority": "Primary",
+				"Repeatable": true,
+				"Disabled": false
+			}
+		},
+		{
+			"objclass": "UsedRentAPlantQuestData",
+			"aliases": [
+				"USE_RAP_AND_WIN_LEVEL_DQ"
+			],
+			"objdata": {
+				"Slot": "DailyActivities",
+				"QuestCategory": "DailyActivities",
+				"OverrideQuestTheme": "RentAPlant",
+				"UniqueID": "USE_RAP_AND_WIN_LEVEL_DQ",
+				"QuestName": "[USE_RAP_AND_WIN_LEVEL_TITLE]",
+				"Description": "[USE_RAP_AND_WIN_LEVEL_DESC]",
+				"ActionsToPerform": 1,
+				"CompletionAwards": {
+					"Awards": [
+						{
+							"Type": "gems",
+							"SubType": "",
+							"Amount": 3
+						}
+					]
+				},
+				"Priority": "Primary",
+				"Repeatable": true,
+				"Disabled": false
+			}
+		}
+	]
+}

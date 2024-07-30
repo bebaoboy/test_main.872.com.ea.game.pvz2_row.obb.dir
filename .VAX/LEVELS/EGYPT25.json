@@ -1,0 +1,270 @@
+{
+	"#comment": "Egypt 7",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "[PLAYERS_TRIP_TO_EGYPT]",
+				"LevelNumber": 25,
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"CompletionAchievement": "egypt_stars",
+				"FirstRewardParam": "worldtrophy_egypt",
+				"FirstRewardType": "worldtrophy",
+				"ForceToWorldMap": true,
+				"GameFeaturesToUnlock": [
+					"world_trophy_egypt"
+				],
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(FastSunDropper@LevelModules)",					
+										"RTID(ChallengeModule@CurrentLevel)","RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(EgyptMowers@LevelModules)",
+					"RTID(Gravestones@CurrentLevel)",									"RTID(SeedBank@CurrentLevel)","RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(Escalation@CurrentLevel)"
+				],
+				"MusicType": "MiniGame_A",
+				"Name": "Egypt - Danger Zone",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"StageModule": "RTID(EgyptStage@LevelModules)"
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"GravestoneCount": 0,
+				"SpawnColumnEnd": 9,
+				"SpawnColumnStart": 3
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+"PresetPlantList": [{
+						"PlantType": "starfruit",
+						"Level": 4
+					}],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "Survive a massive attack in Ancient Egypt's Danger Room! Beware!",
+				"DescriptiveName": "[STARCHALLENGE_LASTSTAND_MINIGAME_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+			}
+		},
+		{"aliases": ["Escalation"],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 5,
+				"WavesPerFlag": 8,
+				"PlantfoodToSpawnCount": 11,
+				"StartingPoints": 200,
+				"PointIncrementPerWave": 80,
+				"WaveManagerProps": "RTID(WaveManager@CurrentLevel)",
+				"ZombiePool": [
+					"RTID(mummy@ZombieTypes)",
+					"RTID(mummy_armor4@ZombieTypes)",
+					"RTID(camel_segment@ZombieTypes)",
+					"RTID(camel_manyhump@ZombieTypes)",
+					"RTID(pharaoh@ZombieTypes)",
+					"RTID(mummy_armor1@ZombieTypes)",
+					"RTID(ra@ZombieTypes)",
+					"RTID(camel_twohump@ZombieTypes)",
+					"RTID(explorer@ZombieTypes)",
+					"RTID(egypt_gargantuar@ZombieTypes)",
+					"RTID(mummy_armor2@ZombieTypes)",
+					"RTID(mummy_flag_veteran@ZombieTypes)",
+					"RTID(camel_onehump@ZombieTypes)",
+					"RTID(tomb_raiser@ZombieTypes)",
+					"RTID(egypt_imp@ZombieTypes)",
+					"RTID(cleopatra@ZombieTypes)"
+				]
+			}},
+			{
+				"aliases": [
+					"WaveManager"
+				],
+				"objclass": "WaveManagerProperties",
+				"objdata": {
+					"### ZombieCountdownHugeWaveDelay": 0,
+					"WaveSpendingPointIncrement": 0,
+					"WaveSpendingPoints": 0,
+					"Waves": [
+						[
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						],
+						[
+							"RTID(GI@CurrentLevel)"
+						]
+						
+					]
+				}
+			},
+			{"aliases":["GI"],
+				"objclass": "SpawnGravestonesWaveActionProps",
+				"objdata": {
+					"GravestonePool": [
+						{"Count": 3, "Type": "RTID(gravestone_egypt@GridItemTypes)"}
+					],
+					"SpawnPositionsPool": [
+						{"mX": 2, "mY": 0}, 
+						{"mX": 2, "mY": 1}, 
+						{"mX": 2, "mY": 2}, 
+						{"mX": 2, "mY": 3}, 
+						{"mX": 2, "mY": 4},
+						{"mX": 3, "mY": 0}, 
+						{"mX": 3, "mY": 1}, 
+						{"mX": 3, "mY": 2}, 
+						{"mX": 3, "mY": 3}, 
+						{"mX": 3, "mY": 4},
+						{"mX": 4, "mY": 0}, 
+						{"mX": 4, "mY": 1}, 
+						{"mX": 4, "mY": 2}, 
+						{"mX": 4, "mY": 3}, 
+						{"mX": 4, "mY": 4},
+						{"mX": 5, "mY": 0}, 
+						{"mX": 5, "mY": 1}, 
+						{"mX": 5, "mY": 2}, 
+						{"mX": 5, "mY": 3}, 
+						{"mX": 5, "mY": 4},
+						{"mX": 6, "mY": 0}, 
+						{"mX": 6, "mY": 1}, 
+						{"mX": 6, "mY": 2}, 
+						{"mX": 6, "mY": 3}, 
+						{"mX": 6, "mY": 4},
+						{"mX": 7, "mY": 0}, 
+						{"mX": 7, "mY": 1}, 
+						{"mX": 7, "mY": 2}, 
+						{"mX": 7, "mY": 3}, 
+						{"mX": 7, "mY": 4},
+						{"mX": 8, "mY": 0}, 
+						{"mX": 8, "mY": 1}, 
+						{"mX": 8, "mY": 2}, 
+						{"mX": 8, "mY": 3}, 
+						{"mX": 8, "mY": 4}],
+					"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+					"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+					"DisplacePlants": true,
+					"RandomPlacement": true,
+					"GridClassesToDestroy": []
+			}
+		}
+	],
+	"version": 1
+}

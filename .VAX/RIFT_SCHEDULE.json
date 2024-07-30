@@ -1,0 +1,16 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"RiftSchedule"
+			],
+			"objclass": "RiftSchedule",
+			"objdata": {
+				"Events": [
+					
+				]
+			}
+		}
+	],
+	"version": 1
+}

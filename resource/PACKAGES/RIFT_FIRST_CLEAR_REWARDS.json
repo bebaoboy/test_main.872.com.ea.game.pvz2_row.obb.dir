@@ -1,0 +1,116 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"FeaturedPlantRewardKey"
+			],
+			"objclass": "RiftFirstClearRewards",
+			"objdata": {
+				"DefaultLevelClearRewards": {
+					"FirstClearRewards": [
+						{
+							"Award": "coins",
+							"AwardQuantity": 500
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1000
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1500
+						}
+					]
+				},
+				"LevelClearRewards": [
+					{
+						"FirstClearRewards": [
+							{
+								"Award": "coins",
+								"AwardQuantity": 600
+							},
+							{
+								"Award": "plantXP",
+								"AwardParam": "featured_plant",
+								"AwardQuantity": 5
+							},
+							{
+								"Award": "gems",
+								"AwardQuantity": 4
+							}
+						]
+					},
+					{
+						"FirstClearRewards": [
+							{
+								"Award": "coins",
+								"AwardQuantity": 800
+							},
+							{
+								"Award": "gems",
+								"AwardQuantity": 4
+							},
+							{
+								"Award": "plantXP",
+								"AwardParam": "featured_plant",
+								"AwardQuantity": 10
+							}
+						]
+					},
+					{
+						"FirstClearRewards": [
+							{
+								"Award": "coins",
+								"AwardQuantity": 1000
+							},
+							{
+								"Award": "plantXP",
+								"AwardParam": "featured_plant",
+								"AwardQuantity": 5
+							},
+							{
+								"Award": "gems",
+								"AwardQuantity": 4
+							}
+						]
+					},
+					{
+						"FirstClearRewards": [
+							{
+								"Award": "coins",
+								"AwardQuantity": 1200
+							},
+							{
+								"Award": "gems",
+								"AwardQuantity": 4
+							},
+							{
+								"Award": "plantXP",
+								"AwardParam": "featured_plant",
+								"AwardQuantity": 15
+							}
+						]
+					},
+					{
+						"FirstClearRewards": [
+							{
+								"Award": "coins",
+								"AwardQuantity": 1400
+							},
+							{
+								"Award": "plantXP",
+								"AwardParam": "featured_plant",
+								"AwardQuantity": 10
+							},
+							{
+								"Award": "gems",
+								"AwardQuantity": 4
+							}
+						]
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

@@ -1,0 +1,1222 @@
+{
+	"#comment": "Scoring Playtest - Right Gradient - No Quickstart",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "",
+				"DisablePlantBoosts": true,
+				"GridItemLevel": 1,
+				"LevelNumber": 1,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(NoLoot@LevelModules)",
+				"LossModule": "RTID(JoustOutro@LevelModules)",
+				"Modules": [
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(JoustDarkMowers@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(JoustZombieWinCondition@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(LevelScoring@CurrentLevel)",
+					"RTID(ScoreTiles@CurrentLevel)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(LastStand@CurrentLevel)",
+					"RTID(LevelDifficultyScaling@CurrentLevel)",
+					"RTID(JoustModule@CurrentLevel)",
+					"RTID(JoustPointOfLoss@LevelModules)",
+					"RTID(ZombieResistances@CurrentLevel)",
+					"RTID(Puddles@CurrentLevel)"
+				],
+				"Name": "",
+				"NormalPresentTable": "dark_normal_01",
+				"ShinyPresentTable": "dark_shiny_01",
+				"StageModule": "RTID(JoustStage@LevelModules)",
+				"SuppressAccountUpgrades": true,
+				"SuppressDynamicTutorial": true,
+				"SuppressPlantfoodPurchase": true,
+				"VictoryModule": "RTID(JoustOutro@LevelModules)"
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"ExcludeListSunProducers": false,
+				"PlantExcludeList": [
+					"thymewarp"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "aquavine"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"ZombieResistances"
+			],
+			"objclass": "ZombieResistancesModuleProperties",
+			"objdata": {
+				"FamilyResistances": {
+					"global": [
+						{
+							"#comment": "200pct damage and condition",
+							"ConditionResistance": 2,
+							"DamageResistance": 2,
+							"FamilyType": "spearmint"
+						},
+						{
+							"#comment": "200pct damage and condition",
+							"ConditionResistance": 2,
+							"DamageResistance": 2,
+							"FamilyType": "containmint"
+						},
+						{
+							"#comment": "0pct damage and condition",
+							"ConditionResistance": 0,
+							"DamageResistance": 0,
+							"FamilyType": "bombardmint"
+						}
+					]
+				}
+			}
+		},
+		{
+			"aliases": [
+				"JoustModule"
+			],
+			"objclass": "JoustGameModuleProperties",
+			"objdata": {
+				"LeagueModifiers": [
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 0,
+						"LeagueThreshold": 1
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 1,
+						"LeagueThreshold": 2
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 2,
+						"LeagueThreshold": 3
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 3,
+						"LeagueThreshold": 4
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 4,
+						"LeagueThreshold": 5
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 5,
+						"LeagueThreshold": 6
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 6,
+						"LeagueThreshold": 7
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 7,
+						"LeagueThreshold": 8
+					},
+					{
+						"AddTimeLimit": 0,
+						"AddZombieLevel": 8,
+						"LeagueThreshold": 9
+					}
+				],
+				"LevelLoadouts": {
+					"Loadouts": [
+						[
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "aquavine"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "spearmint"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "seaflora"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "holonut"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "primalsunflower"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "sapfling"
+							}
+						],
+						[
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "aquavine"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "megagatling"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "goldbloom"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "reinforcemint"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "lilypad"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "cranjelly"
+							}
+						],
+						[
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "aquavine"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "boomberry"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "primalpeashooter"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "imppear"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "solartomato"
+							},
+							{
+								"IsImitater": false,
+								"PlantLevel": 0,
+								"PlantType": "seashroom"
+							}
+						]
+					]
+				},
+				"PeriodOfWavesToLoop": 6,
+				"SuggestedLoadout": "",
+				"TimeLimit": 180,
+				"WaveSetsToAppend": 60
+			}
+		},
+		{
+			"aliases": [
+				"LevelDifficultyScaling"
+			],
+			"objclass": "LevelDifficultyScalingModuleProperties",
+			"objdata": {
+				"DifficultyRulesType": "DifficultyTestHighDecay",
+				"ZombieLevelSwaps": [
+					{
+						"Level": 0,
+						"Swaps": [
+							{
+								"From": "RTID(mummy_armor1@ZombieTypes)",
+								"To": [
+									"RTID(future_armor1@ZombieTypes)",
+									"RTID(future@ZombieTypes)",
+									"RTID(mummy_armor1@ZombieTypes)",
+									"RTID(ra@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(future_armor1@ZombieTypes)",
+								"To": [
+									"RTID(future_armor1@ZombieTypes)",
+									"RTID(future@ZombieTypes)",
+									"RTID(mummy_armor1@ZombieTypes)",
+									"RTID(explorer@ZombieTypes)"
+								]
+							}
+						]
+					},
+					{
+						"Level": 4,
+						"Swaps": [
+							{
+								"From": "RTID(mummy_armor1@ZombieTypes)",
+								"To": [
+									"RTID(future_armor1@ZombieTypes)",
+									"RTID(future_armor2@ZombieTypes)",
+									"RTID(mummy_armor1@ZombieTypes)",
+									"RTID(ra@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(future_armor1@ZombieTypes)",
+								"To": [
+									"RTID(future_armor1@ZombieTypes)",
+									"RTID(explorer@ZombieTypes)",
+									"RTID(mummy_armor2@ZombieTypes)",
+									"RTID(explorer@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(future@ZombieTypes)",
+								"To": [
+									"RTID(future_armor1@ZombieTypes)",
+									"RTID(future_armor2@ZombieTypes)",
+									"RTID(mummy_armor1@ZombieTypes)",
+									"RTID(camel_manyhump@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(explorer@ZombieTypes)",
+								"To": [
+									"RTID(explorer@ZombieTypes)",
+									"RTID(explorer@ZombieTypes)",
+									"RTID(explorer_veteran@ZombieTypes)",
+									"RTID(mech_cone@ZombieTypes)"
+								]
+							}
+						]
+					},
+					{
+						"Level": 7,
+						"Swaps": [
+							{
+								"From": "RTID(mummy_armor1@ZombieTypes)",
+								"To": [
+									"RTID(future_armor2@ZombieTypes)",
+									"RTID(future_armor2@ZombieTypes)",
+									"RTID(mummy_armor1@ZombieTypes)",
+									"RTID(ra@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(future_armor1@ZombieTypes)",
+								"To": [
+									"RTID(future_armor4@ZombieTypes)",
+									"RTID(explorer@ZombieTypes)",
+									"RTID(mummy_armor2@ZombieTypes)",
+									"RTID(disco_mech@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(future@ZombieTypes)",
+								"To": [
+									"RTID(future_armor1@ZombieTypes)",
+									"RTID(future_armor2@ZombieTypes)",
+									"RTID(mummy_armor1@ZombieTypes)",
+									"RTID(camel_manyhump@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(explorer@ZombieTypes)",
+								"To": [
+									"RTID(explorer@ZombieTypes)",
+									"RTID(explorer_veteran@ZombieTypes)",
+									"RTID(explorer_veteran@ZombieTypes)",
+									"RTID(mech_cone@ZombieTypes)"
+								]
+							}
+						]
+					},
+					{
+						"Level": 10,
+						"Swaps": [
+							{
+								"From": "RTID(mummy_armor1@ZombieTypes)",
+								"To": [
+									"RTID(future_armor2@ZombieTypes)",
+									"RTID(future_armor2@ZombieTypes)",
+									"RTID(mummy_armor4@ZombieTypes)",
+									"RTID(future_armor4@ZombieTypes)",
+									"RTID(future_gargantuar@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(future_armor1@ZombieTypes)",
+								"To": [
+									"RTID(future_armor4@ZombieTypes)",
+									"RTID(future_jetpack_veteran@ZombieTypes)",
+									"RTID(mummy_armor2@ZombieTypes)",
+									"RTID(disco_mech@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(future@ZombieTypes)",
+								"To": [
+									"RTID(future_armor1@ZombieTypes)",
+									"RTID(future_armor2@ZombieTypes)",
+									"RTID(mummy_armor1@ZombieTypes)",
+									"RTID(camel_manyhump@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(explorer@ZombieTypes)",
+								"To": [
+									"RTID(explorer@ZombieTypes)",
+									"RTID(explorer_veteran@ZombieTypes)",
+									"RTID(explorer_veteran@ZombieTypes)",
+									"RTID(mech_cone@ZombieTypes)"
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)",
+						"RTID(ReachTheScore@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"ReachTheScore"
+			],
+			"objclass": "StarChallengeTargetScoreProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_TARGET_SCORE]",
+				"DescriptionFailure": "[STARCHALLENGE_TARGET_SCORE_FAILURE]",
+				"DescriptiveName": "[STARCHALLENGE_TARGET_SCORE_NAME]",
+				"TargetScore": 1000
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_LASTSTAND_MINIGAME]",
+				"DescriptiveName": "[STARCHALLENGE_LASTSTAND_MINIGAME_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"LastStand"
+			],
+			"objclass": "LastStandMinigameProperties",
+			"objdata": {
+				"StartingPlantfood": 1,
+				"StartingSun": 1800
+			}
+		},
+		{
+			"aliases": [
+				"LevelScoring"
+			],
+			"objclass": "LevelScoringModuleProperties",
+			"objdata": {
+				"PlantBonusMultiplier": 0.1,
+				"PlantBonuses": [],
+				"ScoringRulesType": "Battlez",
+				"StartingPlantfood": 0
+			}
+		},
+		{
+			"aliases": [
+				"ScoreTiles"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 3,
+						"GridY": 0,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 0,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 0,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 0,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 1,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 1,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 1,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 2,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 2,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 2,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 2,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 2,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 3,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 3,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 3,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 3,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 3,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 4,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 4,
+						"TypeName": "score_2x_tile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "score_3x_tile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 4,
+						"TypeName": "score_5x_tile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 4,
+						"TypeName": "score_5x_tile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Puddles"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 1,
+						"GridY": 0,
+						"TypeName": "potholepuddle"
+					},
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 0,
+						"GridY": 1,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 2,
+						"GridY": 1,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 4,
+						"GridY": 1,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 6,
+						"GridY": 1,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 7,
+						"GridY": 2,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 8,
+						"GridY": 2,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 2,
+						"GridY": 2,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 6,
+						"GridY": 2,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 0,
+						"GridY": 3,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 2,
+						"GridY": 3,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 4,
+						"GridY": 3,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 1,
+						"GridY": 4,
+						"TypeName": "potholepuddle"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"DynamicZombies": [
+					{},
+					{},
+					{},
+					{
+						"MaxPoints": 1000,
+						"PointIncrementPerWave": 175,
+						"StartingPoints": 0,
+						"StartingWave": 5,
+						"ZombiePool": [
+							"RTID(egypt_gargantuar@ZombieTypes)",
+							"RTID(explorer@ZombieTypes)",
+							"RTID(explorer_veteran@ZombieTypes)",
+							"RTID(future@ZombieTypes)",
+							"RTID(future_jetpack@ZombieTypes)",
+							"RTID(mummy_armor1@ZombieTypes)",
+							"RTID(mummy_armor4@ZombieTypes)",
+							"RTID(ra@ZombieTypes)"
+						]
+					},
+					{
+						"MaxPoints": 2000,
+						"PointIncrementPerWave": 175,
+						"StartingPoints": 0,
+						"StartingWave": 4,
+						"ZombiePool": [
+							"RTID(egypt_gargantuar@ZombieTypes)",
+							"RTID(explorer@ZombieTypes)",
+							"RTID(explorer_veteran@ZombieTypes)",
+							"RTID(future@ZombieTypes)",
+							"RTID(future_jetpack@ZombieTypes)",
+							"RTID(mummy_armor1@ZombieTypes)",
+							"RTID(mummy_armor4@ZombieTypes)",
+							"RTID(ra@ZombieTypes)"
+						]
+					},
+					{
+						"MaxPoints": 3000,
+						"PointIncrementPerWave": 175,
+						"StartingPoints": 100,
+						"StartingWave": 4,
+						"ZombiePool": [
+							"RTID(egypt_gargantuar@ZombieTypes)",
+							"RTID(explorer@ZombieTypes)",
+							"RTID(explorer_veteran@ZombieTypes)",
+							"RTID(future_jetpack@ZombieTypes)",
+							"RTID(mummy_armor1@ZombieTypes)",
+							"RTID(mummy_armor4@ZombieTypes)",
+							"RTID(ra@ZombieTypes)"
+						]
+					},
+					{
+						"MaxPoints": 5000,
+						"PointIncrementPerWave": 200,
+						"StartingPoints": 100,
+						"StartingWave": 3,
+						"ZombiePool": [
+							"RTID(egypt_gargantuar@ZombieTypes)",
+							"RTID(explorer@ZombieTypes)",
+							"RTID(explorer_veteran@ZombieTypes)",
+							"RTID(future_jetpack@ZombieTypes)",
+							"RTID(mummy_armor4@ZombieTypes)",
+							"RTID(ra@ZombieTypes)"
+						]
+					}
+				],
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 100,
+				"LevelJam": "all",
+				"WaveCount": 100,
+				"WaveSpendingPointIncrement": 200,
+				"WaveSpendingPoints": 1000,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)",
+						"RTID(Wave5SpiderRainEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)",
+						"RTID(Wave9SpiderRainEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					]
+				],
+				"WavesAlwaysRandomized": true
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(pharaoh@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(pharaoh@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(disco_mech@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack_veteran@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(future@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(future_protector_veteran@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(future@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(future_protector_veteran@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor4@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(mummy_armor4@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(disco_mech@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(camel_twohump@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(camel_twohump@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(camel_manyhump@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(camel_manyhump@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(future_jetpack_veteran@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer_veteran@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(mech_cone@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(mech_cone@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_gargantuar@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5SpiderRainEvent0"
+			],
+			"objclass": "SpiderRainZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": "8",
+				"ColumnStart": "4",
+				"GroupSize": "2",
+				"SpiderCount": 4,
+				"SpiderZombieName": "future_imp",
+				"TimeBeforeFullSpawn": "1",
+				"TimeBetweenGroups": "0.2",
+				"WaveStartMessage": "[WARNING_SPIDERRAIN]",
+				"ZombieFallTime": "1.5"
+			}
+		},
+		{
+			"aliases": [
+				"Wave9SpiderRainEvent0"
+			],
+			"objclass": "SpiderRainZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": "8",
+				"ColumnStart": "4",
+				"GroupSize": "2",
+				"SpiderCount": "4",
+				"SpiderZombieName": "future_imp",
+				"TimeBeforeFullSpawn": "1",
+				"TimeBetweenGroups": "0.2",
+				"WaveStartMessage": "[WARNING_SPIDERRAIN]",
+				"ZombieFallTime": "1.5"
+			}
+		}
+	],
+	"version": 1
+}

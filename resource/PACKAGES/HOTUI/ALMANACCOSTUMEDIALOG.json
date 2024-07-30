@@ -1,0 +1,320 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"AlmanacCostumeDialog"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.75,
+				"Name": "AlmanacCostumeDialog",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(ScreenDialog@.)",
+					"RTID(TouchTranslationLayer@.)"
+				],
+				"IgnoreSafeArea": true
+			}
+		},
+		{
+			"aliases": [
+				"TouchTranslationLayer"
+			],
+			"objclass": "HotUIToUIWidgetTouchLayerProperties",
+			"objdata": {
+				"Name": "TouchTranslationLayer",
+				"Width": {
+					"Value": "70.0%"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"Parent": "topright"
+				},
+				"IgnoreSafeArea": true
+			}
+		},
+		{
+			"aliases": [
+				"ScreenDialog"
+			],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "ScreenDialog",
+				"Resources": [],
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "452"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [
+					"RTID(DialogTitle@.)",
+					"RTID(CloseButton@.)",
+					"RTID(Background@.)"
+				],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "13.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "17.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"Background"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Width": {
+					"Value": "96%"
+				},
+				"Height": {
+					"Value": "342"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-17.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(ScrollAreaWidget@.)"
+				],
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_CONTENT_WELL",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		},
+		{
+			"aliases": [
+				"CloseButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CloseButton",
+				"Resources": [
+					"UI_Quests"
+				],
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-20.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Quests_Button_Press",
+				"DownAudio": "Play_UI_Quests_Button_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE_DOWN",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		},
+		{
+			"aliases": [
+				"DialogTitle"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"Label": "$ALMANAC_COSTUME_TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_18_THICKOUTLINE",
+				"Color": "Yellow_Dialog_Header_Color"
+			}
+		},
+		{
+			"aliases": [
+				"ScrollAreaWidget"
+			],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "ScrollAreaWidget",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "330"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "5.0"
+					}
+				},
+				"Children": [
+					"RTID(StorePanelsHorizontalList@.)"
+				],
+				"ScrollMode": "horizontal",
+				"ShowEdgeGradients": "true",
+				"ShowScrollIndicators": false
+			}
+		},
+		{
+			"aliases": [
+				"StorePanelsHorizontalList"
+			],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "StorePanelsHorizontalList",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "340"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "30.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "150.0"
+					}
+				}
+			}
+		}
+	]
+}

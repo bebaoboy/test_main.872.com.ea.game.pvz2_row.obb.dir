@@ -1,0 +1,430 @@
+{
+	"#comment": "Level Of The Day Default",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"LevelNumber": 3,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(DarkMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)",
+					"RTID(SeedPacketHalfTimeModule@LevelModules)"
+				],
+				"Name": "[LTE_LEVEL_NAME_BEACH]",
+				"StageModule": "RTID(DarkStage@LevelModules)",
+				"StartingSun": 775
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover",
+					"thymewarp"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "electricpeel"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"Tide"
+			],
+			"objclass": "TideProperties",
+			"objdata": {
+				"StartingWaveLocation": 0
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"GridX": 4,
+						"GridY": 1,
+						"Level": "-1",
+						"TypeName": "electricpeel"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"Level": "-1",
+						"TypeName": "electricpeel"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 2,
+				"PlantfoodToSpawnCount": 0,
+				"PointIncrementPerWave": 100,
+				"StartingPoints": -500,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 5,
+				"ZombiePool": [
+					"RTID(dark@ZombieTypes)",
+					"RTID(beach_fem@ZombieTypes)",
+					"RTID(beach_fem@ZombieTypes)",
+					"RTID(dark_armor1@ZombieTypes)",
+					"RTID(dark_armor2@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.9,
+				"MinNextWaveHealthPercentage": 0.8,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					]
+				],
+				"ZombieCountdownFirstWaveSecs": 10
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(duckytube@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(duckytube@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(dark@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(duckytube_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(dark_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(duckytube@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(duckytube@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(dark_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(dark_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(duckytube_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(duckytube_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(duckytube@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(duckytube_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(dark@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(duckytube@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(duckytube@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(dark_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(duckytube_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(duckytube@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(dark_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(duckytube_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(duckytube@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(duckytube_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(dark_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(duckytube_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(duckytube@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(dark_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(dark_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(duckytube@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(duckytube@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(duckytube_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(duckytube_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(duckytube_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(duckytube_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

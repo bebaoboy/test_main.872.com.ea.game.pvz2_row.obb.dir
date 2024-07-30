@@ -1,0 +1,21 @@
+{
+	"#comment": "Allowed Universal Links",
+	"version": 1,
+	"objects": [
+		{
+			"objclass": "UniversalLinkTranslationPropertySheet",
+			"aliases": [
+				"AllowedUniversaLinks"
+			],
+			"objdata": {
+				"Version": 1,
+				"Entries": [
+					{
+						"UniversalLink": "adventure",
+						"AppAction": "deeplink:egypt"
+					}
+				]
+			}
+		}
+	]
+}

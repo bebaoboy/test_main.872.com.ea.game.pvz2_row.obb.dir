@@ -1,0 +1,129 @@
+{
+"objects": [
+{
+"objclass": "LevelDefinition",
+"objdata": {
+"Description": "[PLAYERS_ZERO]",
+"FirstRewardParam": "moneybag_zero",
+"StartingSun": 70,
+"LevelNumber": 8,
+"ForceNextLevel": "egyptzero/egypt_009",
+"DisablePlantBoosts": true,
+"DisableSaveGame": true,
+"SuppressPlantfoodPurchase": true,
+"SuppressAccountUpgrades": true,
+"Loot": "RTID(ZeroLoot@LevelModules)",
+"Modules": [
+"RTID(StandardIntro@LevelModules)",
+"RTID(ZeroSunDropper@LevelModules)",
+"RTID(DefaultZombieWinCondition@LevelModules)",
+"RTID(ZombiesDeadWinCon@LevelModules)",
+"RTID(EgyptMowers@LevelModules)",
+"RTID(ZeroSeedBank@LevelModules)",
+"RTID(Escalation@.)",
+"RTID(NewWaves@.)",
+"RTID(ZombiePotions@.)",
+"RTID(Gravestones@.)",
+"RTID(EgyptZeroSwap@LevelModules)"
+],
+"Name": "[EGYPT_ZERO_LEVEL_NAME]",
+"StageModule": "RTID(EgyptStageNoPowerUps@LevelModules)"
+}
+},
+{
+"aliases": [
+"Escalation"
+],
+"objclass": "LevelEscalationModuleProperties",
+"objdata": {
+"FlagCount": 5,
+"PlantfoodToSpawnCount": 1,
+"PointIncrementPerWave": 540,
+"StartingPoints": 140,
+"WaveManagerProps": "RTID(WaveManager@.)",
+"WavesPerFlag": 5,
+"ZombiePool": [
+"RTID(mummy_armor2@ZombieTypes)",
+"RTID(mummy_armor4@ZombieTypes)",
+"RTID(mummy@ZombieTypes)"
+]
+}
+},
+{
+"aliases": [
+"WaveManager"
+],
+"objclass": "WaveManagerProperties",
+"objdata": {
+"WaveSpendingPointIncrement": 0,
+"WaveSpendingPoints": 0,
+"ZombieCountdownFirstWaveSecs": 14.670000000000003,
+"MinNextWaveHealthPercentage": 0.45,
+"MaxNextWaveHealthPercentage": 0.83,
+"Waves": [
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[]
+]
+}
+},
+{
+"aliases": [
+"NewWaves"
+],
+"objclass": "WaveManagerModuleProperties",
+"objdata": {}
+},
+{
+"aliases": [
+"ZombiePotions"
+],
+"objclass": "ZombiePotionModuleProperties",
+"objdata": {
+"InitialPotionCount": 0,
+"MaxPotionCount": 4,
+"PotionSpawnTimer": {
+"Max": 15,
+"Min": 20
+},
+"PotionTypes": [
+"gravestone_egypt"
+]
+}
+},
+{
+"aliases": [
+"Gravestones"
+],
+"objclass": "GravestoneProperties",
+"objdata": {
+"GravestoneCount": 8,
+"SpawnColumnEnd": 9,
+"SpawnColumnStart": 7
+}
+}
+],
+"version": 1
+}

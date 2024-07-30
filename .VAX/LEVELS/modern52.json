@@ -1,0 +1,1537 @@
+{
+	"#comment": "Level Of The Day Default",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"LevelNumber": 9999,
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(ModernizationLevelEscalationModule@LevelModules)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(ModernMowers@LevelModules)",
+					"RTID(NewWaves@.)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ChallengeModule@.)",
+					"RTID(SliderPlacement@.)",
+					"RTID(SeedBank@.)",
+					"RTID(ZombiesDeadWinCon@LevelModules)"
+				],
+				"Name": "Modernization Day",
+				"StageModule": "RTID(ModernizationBirthdayStage@LevelModules)",
+				"StartingSun": 400,
+				"MusicType": "MiniGame_B",
+				"VictoryModule": "RTID(LevelOfTheDayOutro@LevelModules)",
+				"ShowZombieThreatAlerts": false
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantIncludeList": [
+					"sunflower",
+					"peashooter",
+					"wallnut",
+					"potatomine",
+					"bloomerang",
+					"cabbagepult",
+					"iceburg",
+					"gravebuster",
+					"twinsunflower",
+					"bonkchoy",
+					"repeater",
+					"snowpea",
+					"kernelpult",
+					"snapdragon",
+					"powerlily",
+					"spikeweed",
+					"coconutcannon",
+					"cherry_bomb",
+					"spikerock",
+					"threepeater",
+					"squash",
+					"splitpea",
+					"chilibean",
+					"torchwood",
+					"lightningreed",
+					"tallnut",
+					"jalapeno",
+					"peapod",
+					"melonpult",
+					"wintermelon",
+					"imitater",
+					"marigold",
+					"marigold_lawn",
+					"sprout",
+					"laser_bean",
+					"blover",
+					"citron",
+					"empea",
+					"starfruit",
+					"holonut",
+					"magnifyinggrass",
+					"powerplant",
+					"sunbean",
+					"peanut",
+					"chomper",
+					"bowlingbulb",
+					"homingthistle",
+					"guacodile",
+					"banana",
+					"sweetpotato",
+					"sapfling",
+					"hurrikale",
+					"hotpotato",
+					"pepperpult",
+					"chardguard",
+					"firepeashooter",
+					"stunion",
+					"xshot",
+					"dandelion",
+					"lavaguava",
+					"redstinger",
+					"akee",
+					"endurian",
+					"toadstool",
+					"stallia",
+					"goldleaf",
+					"strawburst",
+					"cactus",
+					"phatbeet",
+					"celerystalker",
+					"thymewarp",
+					"electricblueberry",
+					"garlic",
+					"intensivecarrot",
+					"jackolantern",
+					"grapeshot",
+					"primalpeashooter",
+					"primalwallnut",
+					"perfumeshroom",
+					"coldsnapdragon",
+					"primalsunflower",
+					"primalpotatomine",
+					"shrinkingviolet",
+					"moonflower",
+					"bloominghearts",
+					"dusklobber",
+					"escaperoot",
+					"grimrose",
+					"goldbloom",
+					"electriccurrant",
+					"wasabiwhip",
+					"explodeonut",
+					"kiwibeast",
+					"aloe",
+					"applemortar",
+					"bombegranate",
+					"witchhazel",
+					"parsnip",
+					"missiletoe",
+					"hotdate",
+					"caulipower",
+					"solartomato",
+					"electricpeashooter",
+					"hollyknight",
+					"poisonpeashooter",
+					"slingpea",
+					"minipeashooter",
+					"snappea",
+					"burnade",
+					"zoybeanpod",
+					"dazeychain",
+					"electricitea",
+					"blastberry",
+					"pokra",
+					"pyrevine",
+					"icebloom",
+					"dartichoke",
+					"ultomato",
+					"gumnut",
+					"tumbleweed",
+					"olivepit",
+					"puffball",
+					"explodeovine",
+					"murkadamia",
+					"turkeypult",
+					"headbutter",
+					"boingsetta",
+					"stickybombrice",
+					"hocus",
+					"draftodil",
+					"boomflower",
+					"pvine",
+					"inferno",
+					"solarsage",
+					"powervine",
+					"heathseeker",
+					"iceweed",
+					"tigergrass",
+					"teleportatomine",
+					"sunflower_zero",
+					"minipeashooter",
+					"burnade",
+					"springbean_springback",
+					"tumblerock",
+					"tumble_flamecatcher",
+					"filamint",
+					"peppermint",
+					"wintermint",
+					"enlightenmint",
+					"reinforcemint",
+					"bombardmint",
+					"ailmint",
+					"enchantmint",
+					"containmint",
+					"enforcemint",
+					"armamint",
+					"concealmint",
+					"spearmint",
+					"appeasemint",
+					"astonishingmint"
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@.)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "Survive and enjoy the modernest timeline!",
+				"DescriptiveName": "[STARCHALLENGE_PIRATE_FINALE_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 5,
+				"WaveCount": 150,
+				"MaxNextWaveHealthPercentage": 0.9,
+				"MinNextWaveHealthPercentage": 0.5,
+				"Waves": [
+					[
+						"RTID(GI@.)"
+					],
+					[],
+					[
+						"RTID(SpiderRain@.)"
+					],
+					[],
+					[
+						"RTID(Sandstorm@.)"
+					],
+					[],
+					[
+						"RTID(ParachuteRain@.)"
+					],
+					[
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[],
+					[],
+					[
+						"RTID(FrostWind@LevelModules)",
+						"RTID(Portal12@BoardGridMaps)",
+						"RTID(Portal19@BoardGridMaps)"
+					],
+					[
+						"RTID(Portal3@BoardGridMaps)",
+						"RTID(DinoTime@LevelModules)",
+						"RTID(Dino5_1@LevelModules)",
+						"RTID(Dino5_2@LevelModules)",
+						"RTID(Dino5_3@LevelModules)",
+						"RTID(Dino5_4@LevelModules)",
+						"RTID(Dino5_5@LevelModules)",
+						"RTID(FrostWind5@LevelModules)",
+						"RTID(FrostWind3@LevelModules)"
+					],
+					[
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)"
+					],
+					[
+						"RTID(ParachuteRain2@.)"
+					],
+					[],
+					[],
+					[
+						"RTID(RaidingParty@.)",
+						"RTID(SpiderRain@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[],
+					[
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(ParachuteRain@.)"
+					],
+					[],
+					[
+						"RTID(DinoTime@LevelModules)",
+						"RTID(Dino1_1@LevelModules)",
+						"RTID(Dino1_2@LevelModules)",
+						"RTID(Dino1_3@LevelModules)",
+						"RTID(Dino1_4@LevelModules)",
+						"RTID(Dino1_5@LevelModules)",
+						"RTID(Portal5@BoardGridMaps)"
+					],
+					[],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[],
+					[
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(ParachuteRain@.)"
+					],
+					[],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)"
+					],
+					[
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[],
+					[
+						"RTID(FrostWind3@LevelModules)",
+						"RTID(FrostWind1@LevelModules)"
+					],
+					[
+						"RTID(DinoTime@LevelModules)",
+						"RTID(Dino3_1@LevelModules)",
+						"RTID(Dino3_2@LevelModules)",
+						"RTID(Dino3_3@LevelModules)",
+						"RTID(Dino3_4@LevelModules)",
+						"RTID(Dino3_5@LevelModules)"
+					],
+					[],
+					[
+						"RTID(FrostWind@LevelModules)"
+					],
+					[],
+					[
+						"RTID(Portal7@BoardGridMaps)"
+					],
+					[
+						"RTID(Dummy@.)"
+					],
+					[
+						"RTID(FrostWind5@LevelModules)"
+					],
+					[
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)",
+						"RTID(Portal21@BoardGridMaps)"
+					],
+					[
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(FrostWind4@LevelModules)",
+						"RTID(FrostWind5@LevelModules)"
+					],
+					[
+						"RTID(Portal11@BoardGridMaps)"
+					],
+					[
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[],
+					[
+						"RTID(ParachuteRain@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(FrostWind1@LevelModules)"
+					],
+					[
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[],
+					[
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)",
+						"RTID(FrostWind5@LevelModules)",
+						"RTID(FrostWind3@LevelModules)"
+					],
+					[
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[],
+					[],
+					[
+						"RTID(Dummy@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(FrostWind5@LevelModules)",
+						"RTID(FrostWind3@LevelModules)"
+					],
+					[
+						"RTID(DinoTime@LevelModules)",
+						"RTID(Dino1_1@LevelModules)",
+						"RTID(Dino1_2@LevelModules)",
+						"RTID(Dino1_3@LevelModules)",
+						"RTID(Dino1_4@LevelModules)",
+						"RTID(Dino1_5@LevelModules)"
+					],
+					[
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[],
+					[
+						"RTID(Portal16@BoardGridMaps)",
+						"RTID(Portal21@BoardGridMaps)"
+					],
+					[
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(FrostWind2@LevelModules)"
+					],
+					[
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)",
+						"RTID(DinoTime@LevelModules)",
+						"RTID(Dino1_1@LevelModules)",
+						"RTID(Dino1_2@LevelModules)",
+						"RTID(Dino1_3@LevelModules)",
+						"RTID(Dino1_4@LevelModules)",
+						"RTID(Dino1_5@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(Portal13@BoardGridMaps)",
+						"RTID(Portal11@BoardGridMaps)"
+					],
+					[],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(Portal0@BoardGridMaps)"
+					],
+					[
+						"RTID(ParachuteRain2@.)",
+						"RTID(SpiderRain@.)",
+						"RTID(RaidingParty@.)",
+						"RTID(Sandstorm@.)",
+						"RTID(FrostWind4@LevelModules)",
+						"RTID(FrostWind5@LevelModules)"
+					],
+					[],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(FrostWind5@LevelModules)"
+					],
+					[
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)",
+						"RTID(FrostWind1@LevelModules)",
+						"RTID(FrostWind@LevelModules)",
+						"RTID(FrostWind5@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(DinoTime@LevelModules)",
+						"RTID(Dino5_1@LevelModules)",
+						"RTID(Dino5_2@LevelModules)",
+						"RTID(Dino5_3@LevelModules)",
+						"RTID(Dino5_4@LevelModules)",
+						"RTID(Dino5_5@LevelModules)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(FrostWind2@LevelModules)",
+						"RTID(FrostWind@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)"
+					],
+					[
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(FrostWind2@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(Dummy@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)",
+						"RTID(Portal4@BoardGridMaps)"
+					],
+					[
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(FrostWind5@LevelModules)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(Sandstorm@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)",
+						"RTID(FrostWind@LevelModules)",
+						"RTID(FrostWind1@LevelModules)",
+						"RTID(FrostWind4@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(Portal6@BoardGridMaps)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)",
+						"RTID(FrostWind3@LevelModules)"
+					],
+					[
+						"RTID(FrostWind1@LevelModules)",
+						"RTID(Portal7@BoardGridMaps)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(Dummy@.)",
+						"RTID(DinoTime@LevelModules)",
+						"RTID(Dino2_1@LevelModules)",
+						"RTID(Dino2_2@LevelModules)",
+						"RTID(Dino2_3@LevelModules)",
+						"RTID(Dino2_4@LevelModules)",
+						"RTID(Dino2_5@LevelModules)",
+						"RTID(Portal9@BoardGridMaps)",
+						"RTID(FrostWind@LevelModules)",
+						"RTID(FrostWind4@LevelModules)",
+						"RTID(FrostWind3@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)",
+						"RTID(Portal19@BoardGridMaps)",
+						"RTID(Portal11@BoardGridMaps)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(Portal4@BoardGridMaps)",
+						"RTID(Portal5@BoardGridMaps)"
+					],
+					[
+						"RTID(RaidingParty@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(Dummy@.)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(RaidingParty@.)",
+						"RTID(SpiderRain@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(FrostWind5@LevelModules)",
+						"RTID(FrostWind2@LevelModules)",
+						"RTID(FrostWind@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(FrostWind3@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(Sandstorm@.)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)",
+						"RTID(FrostWind1@LevelModules)",
+						"RTID(FrostWind3@LevelModules)"
+					],
+					[
+						"RTID(Dummy@.)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)",
+						"RTID(DinoTime@LevelModules)",
+						"RTID(Dino3_1@LevelModules)",
+						"RTID(Dino3_2@LevelModules)",
+						"RTID(Dino3_3@LevelModules)",
+						"RTID(Dino3_4@LevelModules)",
+						"RTID(Dino3_5@LevelModules)"
+					],
+					[
+						"RTID(SpiderRain@.)",
+						"RTID(ParachuteRain@.)",
+						"RTID(RaidingParty@.)",
+						"RTID(Sandstorm@.)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(Portal19@BoardGridMaps)"
+					],
+					[
+						"RTID(Sandstorm@.)",
+						"RTID(RaidingParty@.)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)",
+						"RTID(FrostWind3@LevelModules)",
+						"RTID(FrostWind4@LevelModules)",
+						"RTID(FrostWind1@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)"
+					],
+					[
+						"RTID(ParachuteRain@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)",
+						"RTID(Portal15@BoardGridMaps)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(FrostWind2@LevelModules)",
+						"RTID(FrostWind5@LevelModules)",
+						"RTID(FrostWind1@LevelModules)"
+					],
+					[
+						"RTID(Dummy@.)",
+						"RTID(DinoTime@LevelModules)",
+						"RTID(Dino3_1@LevelModules)",
+						"RTID(Dino3_2@LevelModules)",
+						"RTID(Dino3_3@LevelModules)",
+						"RTID(Dino3_4@LevelModules)",
+						"RTID(Dino3_5@LevelModules)",
+						"RTID(FrostWind1@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(FrostWind@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(Dummy@.)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(Portal12@BoardGridMaps)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(DinoTime@LevelModules)",
+						"RTID(Dino4_1@LevelModules)",
+						"RTID(Dino4_2@LevelModules)",
+						"RTID(Dino4_3@LevelModules)",
+						"RTID(Dino4_4@LevelModules)",
+						"RTID(Dino4_5@LevelModules)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(ParachuteRain2@.)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(FrostWind4@LevelModules)"
+					],
+					[
+						"RTID(Dummy@.)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)"
+					],
+					[
+						"RTID(Dummy@.)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(ParachuteRain@.)",
+						"RTID(SpiderRain@.)",
+						"RTID(Portal15@BoardGridMaps)",
+						"RTID(Portal9@BoardGridMaps)",
+						"RTID(DinoTime@LevelModules)",
+						"RTID(Dino3_1@LevelModules)",
+						"RTID(Dino3_2@LevelModules)",
+						"RTID(Dino3_3@LevelModules)",
+						"RTID(Dino3_4@LevelModules)",
+						"RTID(Dino3_5@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)",
+						"RTID(FrostWind3@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(Dummy@.)"
+					],
+					[
+						"RTID(ParachuteRain2@.)",
+						"RTID(SpiderRain@.)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)",
+						"RTID(Portal3@BoardGridMaps)"
+					],
+					[
+						"RTID(DinoTime@LevelModules)",
+						"RTID(Dino4_1@LevelModules)",
+						"RTID(Dino4_2@LevelModules)",
+						"RTID(Dino4_3@LevelModules)",
+						"RTID(Dino4_4@LevelModules)",
+						"RTID(Dino4_5@LevelModules)",
+						"RTID(Portal18@BoardGridMaps)",
+						"RTID(Portal6@BoardGridMaps)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)",
+						"RTID(FrostWind2@LevelModules)",
+						"RTID(FrostWind3@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(Dummy@.)",
+						"RTID(FrostWind2@LevelModules)",
+						"RTID(FrostWind1@LevelModules)",
+						"RTID(FrostWind3@LevelModules)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(ParachuteRain@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)",
+						"RTID(Portal16@BoardGridMaps)",
+						"RTID(Portal8@BoardGridMaps)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(FrostWind2@LevelModules)",
+						"RTID(FrostWind1@LevelModules)",
+						"RTID(FrostWind3@LevelModules)",
+						"RTID(DinoTime@LevelModules)",
+						"RTID(Dino1_1@LevelModules)",
+						"RTID(Dino1_2@LevelModules)",
+						"RTID(Dino1_3@LevelModules)",
+						"RTID(Dino1_4@LevelModules)",
+						"RTID(Dino1_5@LevelModules)"
+					],
+					[
+						"RTID(SpiderRain@.)",
+						"RTID(Sandstorm@.)",
+						"RTID(FrostWind3@LevelModules)",
+						"RTID(FrostWind5@LevelModules)",
+						"RTID(FrostWind@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)",
+						"RTID(FrostWind4@LevelModules)",
+						"RTID(FrostWind@LevelModules)",
+						"RTID(FrostWind3@LevelModules)"
+					],
+					[
+						"RTID(Sandstorm@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)",
+						"RTID(FrostWind@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(FrostWind3@LevelModules)",
+						"RTID(FrostWind@LevelModules)"
+					],
+					[
+						"RTID(ParachuteRain@.)",
+						"RTID(SpiderRain@.)",
+						"RTID(FrostWind3@LevelModules)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(FrostWind5@LevelModules)",
+						"RTID(FrostWind3@LevelModules)"
+					],
+					[
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(WildFans@LevelModules)",
+						"RTID(WF@LevelModules)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(Dummy@.)",
+						"RTID(FrostWind1@LevelModules)",
+						"RTID(FrostWind2@LevelModules)",
+						"RTID(Snowstorm@.)",
+						"RTID(Weasel@LevelModules)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(Portal13@BoardGridMaps)",
+						"RTID(Portal17@BoardGridMaps)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Dummy"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(spring_poncho@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GI"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 1,
+						"Type": "RTID(gravestone_lostcity@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(gravestone_future@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(gravestone_iceage@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(gravestone_egypt@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(gravestone_pirate@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(gravestone_cowboy@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(gravestone_dark@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(gravestone_tutorial@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(gravestoneSunOnDestruction@GridItemTypes)"
+					},
+					{
+						"Count": 3,
+						"Type": "RTID(gravestoneZombieOnDestruction@GridItemTypes)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 2,
+						"mY": 0
+					},
+					{
+						"mX": 2,
+						"mY": 1
+					},
+					{
+						"mX": 2,
+						"mY": 2
+					},
+					{
+						"mX": 2,
+						"mY": 3
+					},
+					{
+						"mX": 2,
+						"mY": 4
+					},
+					{
+						"mX": 3,
+						"mY": 0
+					},
+					{
+						"mX": 3,
+						"mY": 1
+					},
+					{
+						"mX": 3,
+						"mY": 2
+					},
+					{
+						"mX": 3,
+						"mY": 3
+					},
+					{
+						"mX": 3,
+						"mY": 4
+					},
+					{
+						"mX": 4,
+						"mY": 0
+					},
+					{
+						"mX": 4,
+						"mY": 1
+					},
+					{
+						"mX": 4,
+						"mY": 2
+					},
+					{
+						"mX": 4,
+						"mY": 3
+					},
+					{
+						"mX": 4,
+						"mY": 4
+					},
+					{
+						"mX": 5,
+						"mY": 0
+					},
+					{
+						"mX": 5,
+						"mY": 1
+					},
+					{
+						"mX": 5,
+						"mY": 2
+					},
+					{
+						"mX": 5,
+						"mY": 3
+					},
+					{
+						"mX": 5,
+						"mY": 4
+					},
+					{
+						"mX": 6,
+						"mY": 0
+					},
+					{
+						"mX": 6,
+						"mY": 1
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					},
+					{
+						"mX": 6,
+						"mY": 3
+					},
+					{
+						"mX": 6,
+						"mY": 4
+					},
+					{
+						"mX": 7,
+						"mY": 0
+					},
+					{
+						"mX": 7,
+						"mY": 1
+					},
+					{
+						"mX": 7,
+						"mY": 2
+					},
+					{
+						"mX": 7,
+						"mY": 3
+					},
+					{
+						"mX": 7,
+						"mY": 4
+					},
+					{
+						"mX": 8,
+						"mY": 0
+					},
+					{
+						"mX": 8,
+						"mY": 1
+					},
+					{
+						"mX": 8,
+						"mY": 2
+					},
+					{
+						"mX": 8,
+						"mY": 3
+					},
+					{
+						"mX": 8,
+						"mY": 4
+					}
+				],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+				"DisplacePlants": true,
+				"RandomPlacement": true,
+				"GridClassesToDestroy": []
+			}
+		},
+		{
+			"aliases": [
+				"GS"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"GridTypes": [
+					"RTID(gravestone_beach@GridItemTypes)",
+					"RTID(gravestone_cowboy@GridItemTypes)",
+					"RTID(gravestone_dark@GridItemTypes)",
+					"RTID(gravestone_egypt@GridItemTypes)",
+					"RTID(gravestone_future@GridItemTypes)",
+					"RTID(gravestone_lostcity@GridItemTypes)",
+					"RTID(gravestone_iceage@GridItemTypes)",
+					"RTID(gravestone_tutorial@GridItemTypes)",
+					"RTID(gravestoneSunOnDestruction@GridItemTypes)"
+				],
+				"WaveStartMessage": "Necromancy!",
+				"ZombieSpawnWaitTime": 0.5,
+				"SuppressActionIfNoGridItemsFound": false,
+				"Zombies": [
+					{
+						"Type": "RTID(zcorp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_fem@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(camel_segment@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(egypt_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(west_bullrider@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity_bug@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(eighties@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(eighties_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dino@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dino_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(modern_superfanimp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(imppear_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_segment@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial_flag@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_flag@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate_flag@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy_flag@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_flag@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_flag@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_flag@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_flag@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity_flag@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(eighties_flag@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dino_flag@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_flag@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_flag@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Sandstorm"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 7,
+				"ColumnStart": 5,
+				"GroupSize": 1,
+				"TimeBetweenGroups": 2.0,
+				"Type": "sandstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(cleopatra@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity_imp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"RaidingParty"
+			],
+			"objclass": "RaidingPartyZombieSpawnerProps",
+			"objdata": {
+				"GroupSize": 1,
+				"SwashbucklerCount": 7,
+				"TimeBetweenGroups": 0.5
+			}
+		},
+		{
+			"aliases": [
+				"ParachuteRain"
+			],
+			"objclass": "ParachuteRainZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": "7",
+				"ColumnStart": "3",
+				"GroupSize": "2",
+				"SpiderCount": "6",
+				"SpiderZombieName": "lostcity_lostpilot",
+				"TimeBeforeFullSpawn": "2",
+				"TimeBetweenGroups": "0.2",
+				"WaveStartMessage": "[WARNING_PARACHUTERAIN]",
+				"ZombieFallTime": "1.5"
+			}
+		},
+		{
+			"aliases": [
+				"SpiderRain"
+			],
+			"objclass": "SpiderRainZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": "8",
+				"ColumnStart": "4",
+				"GroupSize": 1,
+				"SpiderCount": 5,
+				"SpiderZombieName": "spring_imp",
+				"TimeBeforeFullSpawn": 1,
+				"TimeBetweenGroups": "0.2",
+				"WaveStartMessage": "[WARNING_SPIDERRAIN]",
+				"ZombieFallTime": "1.5"
+			}
+		},
+		{
+			"aliases": [
+				"ParachuteRain2"
+			],
+			"objclass": "ParachuteRainZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 7,
+				"ColumnStart": 4,
+				"GroupSize": 2,
+				"SpiderCount": 4,
+				"SpiderZombieName": "zcorp_helpdesk",
+				"TimeBeforeFullSpawn": "1",
+				"TimeBetweenGroups": "0.2",
+				"WaveStartMessage": "[WARNING_PARACHUTERAIN]",
+				"ZombieFallTime": "1.5"
+			}
+		},
+		{
+			"aliases": [
+				"SliderPlacement"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 0,
+						"GridY": 4,
+						"TypeName": "slider_down_modern"
+					},
+					{
+						"GridX": 0,
+						"GridY": 0,
+						"TypeName": "slider_up"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Snowstorm"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 7,
+				"ColumnStart": 1,
+				"GroupSize": 1,
+				"TimeBetweenGroups": "0.2",
+				"Type": "snowstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(iceage_weasel@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_weasel@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_weasel@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_weasel@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_weasel@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_weasel@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_weasel@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_weasel@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

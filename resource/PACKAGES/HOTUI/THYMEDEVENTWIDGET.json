@@ -1,0 +1,496 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"ThymedEventWidget"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "ThymedEventWidget",
+				"Width": {
+					"Value": "screen_width"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Children": [
+					"RTID(BackgroundContainer@.)"
+				],
+				"IgnoreMouseInput": false
+			}
+		},
+		{
+			"aliases": [
+				"BackgroundContainer"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "BackgroundContainer",
+				"Width": {
+					"Value": "screen_width"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [
+					"RTID(BackgroundClipContainer@.)",
+					"RTID(GradientOverlay@.)",
+					"RTID(InfoPopup@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"BackgroundClipContainer"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "BackgroundClipContainer",
+				"Width": {
+					"Value": "screen_width"
+				},
+				"Height": {
+					"Value": "370"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"IgnoreClipRect": true,
+				"Children": [
+					"RTID(Background@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Background"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Width": {
+					"Value": "screen_width"
+				},
+				"Height": {
+					"Value": "370"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_CONTENT_WELL",
+				"DrawType": "stretched",
+				"DrawStyle": "stretched_aspectBothOverlap"
+			}
+		},
+		{
+			"aliases": [
+				"GradientOverlay"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "GradientOverlay",
+				"Width": {
+					"Value": "screen_width"
+				},
+				"Height": {
+					"Value": "80%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(DescriptionContainer@.)"
+				],
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_DIALOG_ASSET_THYMED_EVENT_PANEL_GRADIENT_OVERLAY",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		},
+		{
+			"aliases": [
+				"DescriptionContainer"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DescriptionContainer",
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-50.0"
+					}
+				},
+				"Resources": [],
+				"Children": [
+					"RTID(TimerContainer@.)",
+					"RTID(DescriptionText@.)",
+					"RTID(InfoButton@.)",
+					"RTID(PlayButton@.)"
+				],
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_DIALOG_ASSET_INNER_BKGD",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		},
+		{
+			"aliases": [
+				"DescriptionText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DescriptionText",
+				"Width": {
+					"Value": "62%"
+				},
+				"Height": {
+					"Value": "70%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "50.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_16",
+				"Color": "Black"
+			}
+		},
+		{
+			"aliases": [
+				"TimerContainer"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "TimerContainer",
+				"Width": {
+					"Value": "32%"
+				},
+				"Height": {
+					"Value": "34"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Resources": [],
+				"Children": [
+					"RTID(TimerText@.)",
+					"RTID(ClockIcon@.)"
+				],
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_QUESTS_EARMARK_PRIMARY",
+				"DrawType": "3slice_horizontal",
+				"DrawStyle": "stretched"
+			}
+		},
+		{
+			"aliases": [
+				"TimerText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "TimerText",
+				"Width": {
+					"Value": "80%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "20%"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_13_HARDSHADOW",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"ClockIcon"
+			],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ClockIcon",
+				"Width": {
+					"Value": "20%"
+				},
+				"Height": {
+					"Value": "80%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-1.0"
+					}
+				},
+				"Resources": [
+					"UI_Quests"
+				],
+				"PopAnimName": "POPANIM_UI_QUESTS_DAILY_QUEST_CLOCK_ICON",
+				"InitialAnimationName": "default",
+				"DrawStyle": "stretched",
+				"PlayStyle": "playandcontinue"
+			}
+		},
+		{
+			"aliases": [
+				"InfoButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "InfoButton",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "5"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "i",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_INFO_BUTTON_UP",
+				"DownImage": "IMAGE_UI_GENERIC_INFO_BUTTON_DOWN",
+				"DownAudio": "Play_UI_Button_Click_Press",
+				"UpAudio": "Play_UI_Button_Click_Release"
+			}
+		},
+		{
+			"aliases": [
+				"InfoPopup"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "InfoPopup",
+				"Width": {
+					"Value": "600"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "-75.0"
+					},
+					"OffsetY": {
+						"Value": "-130.0"
+					}
+				},
+				"Children": [
+					"RTID(Caret@.)",
+					"RTID(InfoText@.)"
+				],
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_POPUP_9SLICE",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		},
+		{
+			"aliases": [
+				"InfoText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "InfoText",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "90%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_10",
+				"Color": "Black"
+			}
+		},
+		{
+			"aliases": [
+				"Caret"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Caret",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "bottomleft",
+					"OffsetX": {
+						"Value": "20.0"
+					},
+					"OffsetY": {
+						"Value": "5.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_POPUP_CARET",
+				"DrawType": "vertical_mirror",
+				"DrawStyle": "normal"
+			}
+		},
+		{
+			"aliases": [
+				"PlayButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "PlayButton",
+				"Width": {
+					"Value": "26%"
+				},
+				"Height": {
+					"Value": "60%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-24"
+					}
+				},
+				"Children": [
+					"RTID(EnergyIcon@.)"
+				],
+				"Label": "[MAINMENU_PLAY]",
+				"Font": "BLACK_24_SHADED",
+				"UpImage": "IMAGE_UI_GENERIC_GREENBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_GREENBUTTON_DOWN",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"ButtomImageDrawStyle": "normal"
+			}
+		},
+		{
+			"aliases": [
+				"EnergyIcon"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "EnergyIcon",
+				"Width": {
+					"Value": "48"
+				},
+				"Height": {
+					"Value": "48"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "4"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_FUEL_FUEL_ICON_BASIC",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}
+	]
+}

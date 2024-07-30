@@ -1,0 +1,288 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"DailyQuestSchedule"
+			],
+			"objclass": "DailyQuestSchedule",
+			"objdata": {
+				"DailyQuestScheduleDefinitions": [
+					{
+						"DailyQuestDefinitions": [
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "PLANT_SEED_IN_ZEN_GARDEN_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "PLAY_SINGLE_RIFT_LEVEL_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "WIN_SINGLE_JOUST_MATCH_DQ"
+							},
+							{
+								"CompletionRequirement": 5,
+								"Disabled": false,
+								"QuestID": "DAILY_5_ADVENTURE_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "PLAY_LEVEL_OF_THE_DAY_DQ"
+							},
+							{
+								"CompletionRequirement": 40,
+								"Disabled": false,
+								"QuestID": "COLLECT_SEED_PACKETS_40_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "WATCH_1_AD_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "STORE_BUY_SKU_FREE_GIFT_DQ"
+							},
+							{
+								"CompletionRequirement": 8,
+								"Disabled": false,
+								"QuestID": "COMPLETE_ALL_DAILY_QUESTS_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "WIN_POTW_LTE_LEVEL_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "USE_RAP_AND_WIN_LEVEL_DQ"
+							}
+						],
+						"EndDate": 0,
+						"PlayerSegment": [
+							"Daily2_Rift_Players"
+						],
+						"StartDate": 0,
+						"UniqueName": "Rift_PR"
+					},
+					{
+						"DailyQuestDefinitions": [
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "PLANT_SEED_IN_ZEN_GARDEN_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "WIN_SINGLE_JOUST_MATCH_DQ"
+							},
+							{
+								"CompletionRequirement": 5,
+								"Disabled": false,
+								"QuestID": "DAILY_5_ADVENTURE_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "PLAY_LEVEL_OF_THE_DAY_DQ"
+							},
+							{
+								"CompletionRequirement": 40,
+								"Disabled": false,
+								"QuestID": "COLLECT_SEED_PACKETS_40_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "WATCH_1_AD_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "STORE_BUY_SKU_FREE_GIFT_DQ"
+							},
+							{
+								"CompletionRequirement": 7,
+								"Disabled": false,
+								"QuestID": "COMPLETE_ALL_DAILY_QUESTS_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "WIN_POTW_LTE_LEVEL_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "USE_RAP_AND_WIN_LEVEL_DQ"
+							}
+						],
+						"EndDate": 0,
+						"PlayerSegment": [
+							"Daily2_Arena_Players"
+						],
+						"StartDate": 0,
+						"UniqueName": "Joust_PR"
+					},
+					{
+						"DailyQuestDefinitions": [
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "PLANT_SEED_IN_ZEN_GARDEN_DQ"
+							},
+							{
+								"CompletionRequirement": 5,
+								"Disabled": false,
+								"QuestID": "DAILY_5_ADVENTURE_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "PLAY_LEVEL_OF_THE_DAY_DQ"
+							},
+							{
+								"CompletionRequirement": 40,
+								"Disabled": false,
+								"QuestID": "COLLECT_SEED_PACKETS_40_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "WATCH_1_AD_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "STORE_BUY_SKU_FREE_GIFT_DQ"
+							},
+							{
+								"CompletionRequirement": 6,
+								"Disabled": false,
+								"QuestID": "COMPLETE_ALL_DAILY_QUESTS_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "WIN_POTW_LTE_LEVEL_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "USE_RAP_AND_WIN_LEVEL_DQ"
+							}
+						],
+						"EndDate": 0,
+						"PlayerSegment": [
+							"Daily2_Zen_Garden_Players"
+						],
+						"StartDate": 0,
+						"UniqueName": "ZG_PR"
+					},
+					{
+						"DailyQuestDefinitions": [
+							{
+								"CompletionRequirement": 5,
+								"Disabled": false,
+								"QuestID": "DAILY_5_ADVENTURE_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "PLAY_LEVEL_OF_THE_DAY_DQ"
+							},
+							{
+								"CompletionRequirement": 40,
+								"Disabled": false,
+								"QuestID": "COLLECT_SEED_PACKETS_40_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "WATCH_1_AD_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "STORE_BUY_SKU_FREE_GIFT_DQ"
+							},
+							{
+								"CompletionRequirement": 5,
+								"Disabled": false,
+								"QuestID": "COMPLETE_ALL_DAILY_QUESTS_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "WIN_POTW_LTE_LEVEL_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "USE_RAP_AND_WIN_LEVEL_DQ"
+							}
+						],
+						"EndDate": 0,
+						"PlayerSegment": [
+							"Daily2_Rent_A_Plant_Players"
+						],
+						"StartDate": 0,
+						"UniqueName": "RAP_PR"
+					},
+					{
+						"DailyQuestDefinitions": [
+							{
+								"CompletionRequirement": 5,
+								"Disabled": false,
+								"QuestID": "DAILY_5_ADVENTURE_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "PLAY_LEVEL_OF_THE_DAY_DQ"
+							},
+							{
+								"CompletionRequirement": 40,
+								"Disabled": false,
+								"QuestID": "COLLECT_SEED_PACKETS_40_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "WATCH_1_AD_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "STORE_BUY_SKU_FREE_GIFT_DQ"
+							},
+							{
+								"CompletionRequirement": 5,
+								"Disabled": false,
+								"QuestID": "COMPLETE_ALL_DAILY_QUESTS_DQ"
+							},
+							{
+								"CompletionRequirement": 1,
+								"Disabled": false,
+								"QuestID": "WIN_POTW_LTE_LEVEL_DQ"
+							}
+						],
+						"EndDate": 0,
+						"PlayerSegment": [],
+						"StartDate": 0,
+						"UniqueName": "Default"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

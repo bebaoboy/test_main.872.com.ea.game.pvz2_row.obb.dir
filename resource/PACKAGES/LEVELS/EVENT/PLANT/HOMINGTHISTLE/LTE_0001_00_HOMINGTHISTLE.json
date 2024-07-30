@@ -1,0 +1,562 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Name": "[LTE_POTW_LEVEL_NAME]",
+				"LevelNumber": 1,
+				"StageModule": "RTID(FrontLawnStage@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(Gravestones@CurrentLevel)",
+					"RTID(ConveyorBelt@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)"
+				],
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"FirstIntroNarrative": "HOMINGTHISTLE_EQ",
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"AssociatedPlant": "homingthistle"
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"ZombiePool": [
+					"RTID(beach_fem@ZombieTypes)",
+					"RTID(beach_fem_armor1@ZombieTypes)",
+					"RTID(beach_imp@ZombieTypes)"
+				],
+				"FlagCount": 3,
+				"WavesPerFlag": 4,
+				"PlantfoodToSpawnCount": 0,
+				"PointIncrementPerWave": 75,
+				"StartingPoints": 100,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"MaxPoints": 9000
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					]
+				],
+				"FlagWaveInterval": 4,
+				"WaveCount": 12,
+				"MinNextWaveHealthPercentage": 0.8,
+				"MaxNextWaveHealthPercentage": 0.9,
+				"ZombieCountdownFirstWaveSecs": 12.0,
+				"ZombieCountdownFirstWaveConveyorSecs": 5.0,
+				"ZombieCountdownHugeWaveDelay": 5.0
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(beach_imp@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(beach_imp@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(beach_fem_armor1@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(beach_fem_armor1@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(beach_imp@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(beach_fem_armor1@ZombieTypes)",
+						"Row": 2
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(beach_fem_armor2@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(beach_imp@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(beach_fem_armor2@ZombieTypes)",
+						"Row": 3
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(beach_fem_armor2@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(beach_fem_armor1@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(beach_fem_armor2@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(beach_fem_armor1@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)",
+						"Row": 3
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(beach_fem_armor1@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(beach_imp@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(beach_fem_armor1@ZombieTypes)",
+						"Row": 4
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(beach_gargantuar@ZombieTypes)",
+						"Row": 4
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(beach_armor2@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 1,
+						"GridY": 0
+					},
+					{
+						"GridX": 2,
+						"GridY": 0
+					},
+					{
+						"GridX": 3,
+						"GridY": 0
+					},
+					{
+						"GridX": 4,
+						"GridY": 0
+					},
+					{
+						"GridX": 5,
+						"GridY": 0
+					},
+					{
+						"GridX": 6,
+						"GridY": 0
+					},
+					{
+						"GridX": 7,
+						"GridY": 0
+					},
+					{
+						"GridX": 8,
+						"GridY": 0
+					},
+					{
+						"GridX": 1,
+						"GridY": 1
+					},
+					{
+						"GridX": 2,
+						"GridY": 1
+					},
+					{
+						"GridX": 3,
+						"GridY": 1
+					},
+					{
+						"GridX": 4,
+						"GridY": 1
+					},
+					{
+						"GridX": 5,
+						"GridY": 1
+					},
+					{
+						"GridX": 6,
+						"GridY": 1
+					},
+					{
+						"GridX": 7,
+						"GridY": 1
+					},
+					{
+						"GridX": 8,
+						"GridY": 1
+					},
+					{
+						"GridX": 1,
+						"GridY": 2
+					},
+					{
+						"GridX": 2,
+						"GridY": 2
+					},
+					{
+						"GridX": 3,
+						"GridY": 2
+					},
+					{
+						"GridX": 4,
+						"GridY": 2
+					},
+					{
+						"GridX": 5,
+						"GridY": 2
+					},
+					{
+						"GridX": 6,
+						"GridY": 2
+					},
+					{
+						"GridX": 7,
+						"GridY": 2
+					},
+					{
+						"GridX": 8,
+						"GridY": 2
+					},
+					{
+						"GridX": 1,
+						"GridY": 3
+					},
+					{
+						"GridX": 2,
+						"GridY": 3
+					},
+					{
+						"GridX": 3,
+						"GridY": 3
+					},
+					{
+						"GridX": 4,
+						"GridY": 3
+					},
+					{
+						"GridX": 5,
+						"GridY": 3
+					},
+					{
+						"GridX": 6,
+						"GridY": 3
+					},
+					{
+						"GridX": 7,
+						"GridY": 3
+					},
+					{
+						"GridX": 8,
+						"GridY": 3
+					},
+					{
+						"GridX": 1,
+						"GridY": 4
+					},
+					{
+						"GridX": 2,
+						"GridY": 4
+					},
+					{
+						"GridX": 3,
+						"GridY": 4
+					},
+					{
+						"GridX": 4,
+						"GridY": 4
+					},
+					{
+						"GridX": 5,
+						"GridY": 4
+					},
+					{
+						"GridX": 6,
+						"GridY": 4
+					},
+					{
+						"GridX": 7,
+						"GridY": 4
+					},
+					{
+						"GridX": 8,
+						"GridY": 4
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"ConveyorBelt"
+			],
+			"objclass": "ConveyorSeedBankProperties",
+			"objdata": {
+				"InitialPlantList": [
+					{
+						"PlantType": "gravebuster",
+						"Weight": 60,
+						"MinWeightFactor": 10.0,
+						"MaxCount": 3,
+						"MaxWeightFactor": 0.0,
+						"MaxDelivered": -1,
+						"MaxCountCooldownSeconds": 3.0,
+						"Level": -1,
+						"MasteryLevel": -1
+					},
+					{
+						"PlantType": "homingthistle",
+						"Weight": 20,
+						"MinWeightFactor": 10.0,
+						"MaxCount": 8,
+						"MaxWeightFactor": 0.0,
+						"MaxDelivered": -1,
+						"MaxCountCooldownSeconds": 10.0,
+						"Level": -1,
+						"MasteryLevel": -1
+					},
+					{
+						"PlantType": "lightningreed",
+						"Weight": 5,
+						"MinWeightFactor": 10.0,
+						"MaxCount": 5,
+						"MaxWeightFactor": 0.0,
+						"MaxDelivered": -1,
+						"MaxCountCooldownSeconds": 10.0,
+						"Level": -1,
+						"MasteryLevel": -1
+					},
+					{
+						"PlantType": "potatomine",
+						"Weight": 5,
+						"MinWeightFactor": 10.0,
+						"MaxWeightFactor": 0.1,
+						"MaxDelivered": -1,
+						"Level": -1,
+						"MasteryLevel": -1
+					}
+				],
+				"SpeedConditions": [
+					{
+						"Speed": 100.0
+					}
+				],
+				"DropDelayConditions": [
+					{
+						"Delay": 2.0
+					},
+					{
+						"MaxPackets": 2,
+						"Delay": 6.0
+					},
+					{
+						"MaxPackets": 4,
+						"Delay": 9.0
+					},
+					{
+						"MaxPackets": 8,
+						"Delay": 12.0
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(beach_gargantuar@ZombieTypes)",
+						"Row": 2
+					}
+				],
+				"ForcedCondition": {}
+			}
+		}
+	],
+	"version": 1
+}

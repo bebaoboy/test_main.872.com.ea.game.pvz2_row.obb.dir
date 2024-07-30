@@ -1,0 +1,435 @@
+{
+	"#comment": "Level Of The Day Default",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "none",
+				"FirstIntroNarrative": "",
+				"LevelNumber": 14,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(RomanMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(FutureLinkedTileGroups@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)"
+				],
+				"Name": "[LTE_LEVEL_NAME_ROMANWORLD_2023]",
+				"StageModule": "RTID(RomanStage@LevelModules)",
+				"StartingSun": 550
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantIncludeList": [
+					"peashooter",
+					"sunflower",
+					"wallnut",
+					"potatomine",
+					"cabbagepult",
+					"iceburg",
+					"bonkchoy",
+					"repeater",
+					"gravebuster",
+					"twinsunflower",
+					"kernelpult",
+					"snapdragon",
+					"spikeweed",
+					"goldleaf",
+					"shinevine",
+					"solarsage",
+					"solartomato",
+					"sunbean",
+					"buzzbutton",
+					"boomberry",
+					"maybee",
+					"scaredyshroom",
+					"bamboospartan",
+					"sundewtangler",
+					"blockoli",
+					"toadstool",
+					"pumpkin",
+					"bloomerang",
+					"bramblebush",
+					"cactus",
+					"dartichoke",
+					"heathseeker",
+					"homingthistle",
+					"laser_bean",
+					"pokra",
+					"seaflora",
+					"spikerock",
+					"lightningreed",
+					"beansprout"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "beansprout"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"FutureLinkedTileGroups"
+			],
+			"objclass": "PowerTileProperties",
+			"objdata": {
+				"LinkedTiles": [
+					{
+						"Group": "gamma",
+						"Location": {
+							"mX": 4,
+							"mY": 0
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "beta",
+						"Location": {
+							"mX": 1,
+							"mY": 0
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "alpha",
+						"Location": {
+							"mX": 5,
+							"mY": 1
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "gamma",
+						"Location": {
+							"mX": 4,
+							"mY": 2
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "alpha",
+						"Location": {
+							"mX": 5,
+							"mY": 3
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "gamma",
+						"Location": {
+							"mX": 4,
+							"mY": 4
+						},
+						"PropagationDelay": 1.5
+					},
+					{
+						"Group": "beta",
+						"Location": {
+							"mX": 1,
+							"mY": 4
+						},
+						"PropagationDelay": 1.5
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 3,
+				"PlantfoodToSpawnCount": 4,
+				"PointIncrementPerWave": 150,
+				"StartingPoints": -300,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 3,
+				"ZombiePool": [
+					"RTID(roman@ZombieTypes)",
+					"RTID(roman_armor1@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.7,
+				"MinNextWaveHealthPercentage": 0.4,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(roman@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(dark_juggler@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(roman@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(dark_juggler@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(dark_juggler@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(roman_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(roman_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(dark_juggler@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(dark_juggler@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(dark_juggler@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(roman_armor3@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(roman_armor3@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(roman_armor3@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(roman_armor3@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(roman_armor3@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(dark_juggler@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

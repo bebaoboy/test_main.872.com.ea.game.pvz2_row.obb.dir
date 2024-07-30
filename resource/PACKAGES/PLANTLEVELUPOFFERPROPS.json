@@ -1,0 +1,48 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"PlantLevelupOfferProps"
+			],
+			"objclass": "PlantLevelupOfferProps",
+			"objdata": {
+				"MaxCoins": 100000,
+				"MaxGems": 500,
+				"MaxMints": 500,
+				"ConversionInfo": [
+					{
+						"Rarity": "common",
+						"Coins": 200.0,
+						"Gems": 1.0
+					},
+					{
+						"Rarity": "uncommon",
+						"Coins": 200.0,
+						"Gems": 1.3
+					},
+					{
+						"Rarity": "rare",
+						"Coins": 300.0,
+						"Gems": 1.7
+					},
+					{
+						"Rarity": "epic",
+						"Coins": 400.0,
+						"Gems": 2.0
+					},
+					{
+						"Rarity": "mythical",
+						"Coins": 500.0,
+						"Gems": 2.5
+					},
+					{
+						"Rarity": "legendary",
+						"Coins": 600.0,
+						"Gems": 3.0
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

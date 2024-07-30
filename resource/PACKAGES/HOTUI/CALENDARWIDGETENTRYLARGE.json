@@ -1,0 +1,458 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"CalendarWidgetEntry"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "CalendarWidgetEntry",
+				"Resources": [],
+				"Width": {
+					"Value": "785"
+				},
+				"Height": {
+					"Value": "220"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(Background@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Background"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "35.0"
+					}
+				},
+				"Image": "IMAGE_UI_CALENDAR_CALENDAR_CARD_BLUE7DAY",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Children": [
+					"RTID(DayLabel@.)",
+					"RTID(AmountText@.)",
+					"RTID(BackgroundShadow@.)",
+					"RTID(RewardImage@.)",
+					"RTID(RewardSeedPacket@.)",
+					"RTID(RewardPlant@.)",
+					"RTID(CheckmarkContainer@.)",
+					"RTID(DailyTimer@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"DailyTimer"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DailyTimer",
+				"Width": {
+					"Value": "120.0"
+				},
+				"Height": {
+					"Value": "64.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "23.0"
+					}
+				},
+				"Children": [
+					"RTID(DailyTimerText@.)",
+					"RTID(RewardText@.)",
+					"RTID(Character@.)",
+					"RTID(ClockImage@.)"
+				],
+				"Image": "IMAGE_UI_CALENDAR_EARMARK_PRIMARY_WITH_LABEL",
+				"DrawStyle": "stretched",
+				"DrawType": "9slice"
+			}
+		},
+		{
+			"aliases": [
+				"RewardText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "RewardText",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "[CALENDAR_TIMER_REWARD_LABEL]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_16_HARDSHADOW",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"Character"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Character",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Image": "",
+				"DrawStyle": "normal",
+				"DrawType": "normal"
+			}
+		},
+		{
+			"aliases": [
+				"DailyTimerText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DailyTimerText",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "10.0"
+					},
+					"OffsetY": {
+						"Value": "-5.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_13_HARDSHADOW",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"ClockImage"
+			],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "ClockImage",
+				"Width": {
+					"Value": "30%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomleft",
+					"ParentAnchorPoint": "bottomleft",
+					"OffsetX": {
+						"Value": "3.0"
+					},
+					"OffsetY": {
+						"Value": "-5.0"
+					}
+				},
+				"Resources": [
+					"UI_Quests"
+				],
+				"PopAnimName": "POPANIM_UI_QUESTS_DAILY_QUEST_CLOCK_ICON",
+				"InitialAnimationName": "default",
+				"DrawStyle": "stretched",
+				"PlayStyle": "playandcontinue"
+			}
+		},
+		{
+			"aliases": [
+				"DayLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DayLabel",
+				"Width": {
+					"Value": "80%"
+				},
+				"Height": {
+					"Value": "90%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "24.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "BLACK_50",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"AmountText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "AmountText",
+				"Width": {
+					"Value": "20%"
+				},
+				"Height": {
+					"Value": "30%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomright",
+					"ParentAnchorPoint": "bottomright",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_36_THICKOUTLINE",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"RewardImage"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RewardImage",
+				"Width": {
+					"Value": "23%"
+				},
+				"Height": {
+					"Value": "75%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Resources": [
+					"UI_QuestTinyPinatas"
+				],
+				"Image": "",
+				"DrawStyle": "stretched_aspectX",
+				"DrawType": "normal"
+			}
+		},
+		{
+			"aliases": [
+				"RewardSeedPacket"
+			],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "RewardSeedPacket",
+				"Width": {
+					"Value": "23%"
+				},
+				"Height": {
+					"Value": "75%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"PlantType": ""
+			}
+		},
+		{
+			"aliases": [
+				"RewardPlant"
+			],
+			"objclass": "HotUIPlantAnimProperties",
+			"objdata": {
+				"Name": "RewardPlant",
+				"Width": {
+					"Value": "23%"
+				},
+				"Height": {
+					"Value": "75%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "-20.0"
+					}
+				},
+				"ScaleOverride": 0.9,
+				"DrawStyle": "scale_override",
+				"PlayStyle": "fixed"
+			}
+		},
+		{
+			"aliases": [
+				"CheckmarkContainer"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "CheckmarkContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetY": {
+						"Value": "30%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"Children": [
+					"RTID(Checkmark@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Checkmark"
+			],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "Checkmark",
+				"Width": {
+					"Value": "75%"
+				},
+				"Height": {
+					"Value": "95%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0%"
+					},
+					"OffsetX": {
+						"Value": "0%"
+					}
+				},
+				"PopAnimName": "POPANIM_UI_GENERIC_CHECK_MARK_ANIM",
+				"InitialAnimationName": "check_idle",
+				"PlayStyle": "playandcontinue",
+				"ScaleOverride": 3,
+				"DrawStyle": "scale_override"
+			}
+		},
+		{
+			"aliases": [
+				"BackgroundShadow"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BackgroundShadow",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left"
+				},
+				"ImageInsets": {
+					"Left": {
+						"Value": "-1.0"
+					},
+					"Top": {
+						"Value": "-1.0"
+					},
+					"Right": {
+						"Value": "-1.0"
+					},
+					"Bottom": {
+						"Value": "-0.0"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_COUNTER_BG",
+				"ImageColor": "HalfTransparent",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"objclass": "ForceUpdateConfigData",
+			"objdata": {
+				"MinVersion": "11.3.1",
+				"MinJoustVersion": "11.3.1",
+				"MinRiftVersion": "11.3.1",
+				"iOSURL": "https://itunes.apple.com/us/app/plants-vs-zombies-2/id597986893?mt=8",
+				"AndroidURL": "https://play.google.com/",
+				"MinDailyQuestVersion": "11.2.0"
+			}
+		}
+	]
+}

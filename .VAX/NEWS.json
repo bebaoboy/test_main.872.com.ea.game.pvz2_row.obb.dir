@@ -1,0 +1,135 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"NewsData"
+			],
+			"objclass": "SettingsNewsData",
+			"objdata": {
+				"NewsDataEntries": [
+					{
+						"Date": 1900000000,
+						"LocalizedData": {
+							"en": {
+								"Text": "Welcome to VanillaX. A mod made by bebaoboy! Enjoy!",
+								"DownloadableBanner": ""
+							},
+							"es": {
+								"Text": "Welcome to VanillaX. A mod made by bebaoboy! Enjoy!"
+							},
+							"de": {
+								"Text": "Welcome to VanillaX. A mod made by bebaoboy! Enjoy!"
+							},
+							"fr": {
+								"Text": "Welcome to VanillaX. A mod made by bebaoboy! Enjoy!"
+							},
+							"it": {
+								"Text": "Welcome to VanillaX. A mod made by bebaoboy! Enjoy!"
+							},
+							"pt": {
+								"Text": "Welcome to VanillaX. A mod made by bebaoboy! Enjoy!"
+							}
+						}
+					},
+					{
+						"Date": 1652806800,
+						"LocalizedData": {
+							"en": {
+								"Text": "April hordes bring May rewards! Check out a fresh PvZ2 update, which includes:\n• New Plant: Rhubarbarian!\n• New Character Animations!\n• Updated Daily Quest: Zen Garden!\n• Mint Madness reaching a crescendo!\n• Fan-picked Champion Season!\n• Arena battles! Rift levels! Bug fixes!\nMother, May I destroy some zombies? This May, destroy them ALL in Plants vs. Zombies 2!",
+								"DownloadableBanner": ""
+							},
+							"es": {
+								"Text": "¡Las hordas de abril traen premios de mayo! No te pierdas la nueva actualización de PvZ2, que incluye:\n• Nueva planta: Ruibárbaro\n• Nuevas animaciones de personajes\n• Misión diaria actualizada: Jardín Zen\n• La locura de las Mentas va en aumento\n• Temporada Campeón escogida por los fans\n• Batallas en la Arena Niveles de Brecha Resoluciones de errores\n¿Los zombis se desintegran con mayo-nesa? ¡En mayo, desintégralos A TODOS en Plants vs. Zombies 2!"
+							},
+							"de": {
+								"Text": "Im April kommt die Horde, die im Mai Belohnungen bringt! Spiel das neue, frische Update für PvZ 2 mit folgenden Extras:\n• Neue Pflanze: Rhabarbar!\n• Neue Charakteranimationen!\n• Aktualisierter Tages-Auftrag: Zen-Garten!\n• Höhepunkt der Minz-Manie!\n• Auf Wunsch unserer Fans: Champion-Saison!\n• Arena-Kämpfe! Riss-Levels! Bugfixes!\nEin paar Zombies erledigen im Wonnemonat Mai? Hol sie dir ALLE – bei Plants vs. Zombies 2!"
+							},
+							"fr": {
+								"Text": "Les hordes d’avril apportent les récompenses de mai ! Au programme de notre nouvelle mise à jour pour PvZ2 :\n• Une nouvelle plante : Rhubarbare !\n• De nouvelles animations de personnages !\n• Une quête quotidienne mise à jour : Jardin zen !\n• La Folie des menthes monte crescendo !\n• Une Saison Champion choisie par les fans !\n• Des batailles dans l’Arène ! Des niveaux Faille ! Correction de bugs !\nMère, puis-je détruire les zombies du joli mois de mai ? En mai, détruisez-les TOUS dans Plants vs. Zombies 2 !"
+							},
+							"it": {
+								"Text": "Le orde di aprile portano le ricompense di maggio! Dai un'occhiata al nuovo aggiornamento di PvZ2, che include:\n• Nuova pianta: il ra-barbaro!\n• Nuove animazioni dei personaggi!\n• Missione giornaliera aggiornata: giardino zen!\n• La Mulch Madness della menta raggiunge un crescendo!\n• Stagione del campione scelto dai fan!\n• Battaglie nell'Arena! Livelli spiragli! Risoluzione di bug!\nForza e coraggio, distruggo gli zombi a maggio! A maggio distruggili TUTTI in Plants vs. Zombies 2!"
+							},
+							"pt": {
+								"Text": "As hordas de abril trazem recompensas de maio! Confira uma nova atualização de PvZ2, que inclui:\n• Nova planta: Ruibárbaro!\n• Novas animações de personagem!\n• Missão diária atualizada: Jardim Zen!\n• Doideira na Menta alcançado um crescendo!\n• Temporada de Campeões escolhida pelos fãs!\n• Batalhas da Arena! Níveis da Fenda! Bugs consertados!\nQuer ser o maio-ral destruíndo zumbis? Em maio, destrua TODOS eles em Plants vs. Zombies 2!"
+							}
+						}
+					},
+					{
+						"Date": 1652806800,
+						"LocalizedData": {
+							"en": {
+								"Text": "April hordes bring May rewards! Check out a fresh PvZ2 update, which includes:\n• New Plant: Rhubarbarian!\n• New Character Animations!\n• Updated Daily Quest: Zen Garden!\n• Mint Madness reaching a crescendo!\n• Fan-picked Champion Season!\n• Arena battles! Rift levels! Bug fixes!\nMother, May I destroy some zombies? This May, destroy them ALL in Plants vs. Zombies 2!",
+								"DownloadableBanner": ""
+							},
+							"es": {
+								"Text": "¡Las hordas de abril traen premios de mayo! No te pierdas la nueva actualización de PvZ2, que incluye:\n• Nueva planta: Ruibárbaro\n• Nuevas animaciones de personajes\n• Misión diaria actualizada: Jardín Zen\n• La locura de las Mentas va en aumento\n• Temporada Campeón escogida por los fans\n• Batallas en la Arena Niveles de Brecha Resoluciones de errores\n¿Los zombis se desintegran con mayo-nesa? ¡En mayo, desintégralos A TODOS en Plants vs. Zombies 2!"
+							},
+							"de": {
+								"Text": "Im April kommt die Horde, die im Mai Belohnungen bringt! Spiel das neue, frische Update für PvZ 2 mit folgenden Extras:\n• Neue Pflanze: Rhabarbar!\n• Neue Charakteranimationen!\n• Aktualisierter Tages-Auftrag: Zen-Garten!\n• Höhepunkt der Minz-Manie!\n• Auf Wunsch unserer Fans: Champion-Saison!\n• Arena-Kämpfe! Riss-Levels! Bugfixes!\nEin paar Zombies erledigen im Wonnemonat Mai? Hol sie dir ALLE – bei Plants vs. Zombies 2!"
+							},
+							"fr": {
+								"Text": "Les hordes d’avril apportent les récompenses de mai ! Au programme de notre nouvelle mise à jour pour PvZ2 :\n• Une nouvelle plante : Rhubarbare !\n• De nouvelles animations de personnages !\n• Une quête quotidienne mise à jour : Jardin zen !\n• La Folie des menthes monte crescendo !\n• Une Saison Champion choisie par les fans !\n• Des batailles dans l’Arène ! Des niveaux Faille ! Correction de bugs !\nMère, puis-je détruire les zombies du joli mois de mai ? En mai, détruisez-les TOUS dans Plants vs. Zombies 2 !"
+							},
+							"it": {
+								"Text": "Le orde di aprile portano le ricompense di maggio! Dai un'occhiata al nuovo aggiornamento di PvZ2, che include:\n• Nuova pianta: il ra-barbaro!\n• Nuove animazioni dei personaggi!\n• Missione giornaliera aggiornata: giardino zen!\n• La Mulch Madness della menta raggiunge un crescendo!\n• Stagione del campione scelto dai fan!\n• Battaglie nell'Arena! Livelli spiragli! Risoluzione di bug!\nForza e coraggio, distruggo gli zombi a maggio! A maggio distruggili TUTTI in Plants vs. Zombies 2!"
+							},
+							"pt": {
+								"Text": "As hordas de abril trazem recompensas de maio! Confira uma nova atualização de PvZ2, que inclui:\n• Nova planta: Ruibárbaro!\n• Novas animações de personagem!\n• Missão diária atualizada: Jardim Zen!\n• Doideira na Menta alcançado um crescendo!\n• Temporada de Campeões escolhida pelos fãs!\n• Batalhas da Arena! Níveis da Fenda! Bugs consertados!\nQuer ser o maio-ral destruíndo zumbis? Em maio, destrua TODOS eles em Plants vs. Zombies 2!"
+							}
+						}
+					},
+					{
+						"Date": 1649178000,
+						"LocalizedData": {
+							"en": {
+								"Text": "Tackle spring and zombies simultaneously with another sensational PvZ2 update, which includes:\n• New Plant: Bramble Bush!\n• Fan-favorite Arena Champion Season returns!\n• Two new Limited Thyme Events: The Springening & Birthdayz!\n• New Arena and Rift trials!\n• Bug fixes and various polish items!",
+								"DownloadableBanner": ""
+							},
+							"es": {
+								"Text": "Enfréntate a la primavera y a los zombis al mismo tiempo con otra actualización sensacional de PvZ2, que incluye:\n• Nueva planta: ¡Zarza Mora!\n• ¡Regresa la popular temporada Campeonato de la Arena!\n• Dos nuevos eventos de tomillo tiempillo: ¡La Primaveridad y Cumpleañoz!\n• Nuevos retos de Brecha y Arena.\n• Resolución de errores y artículos mejorados."
+							},
+							"de": {
+								"Text": "Der Frühling erwacht. Und mit ihm die Zombies – in einem weiteren sensationellen Update für PvZ 2, inklusive toller Extras:\n• Neue Pflanze: Brombeerbusch\n• Rückkehr der beliebten Arena-Champion-Saison\n• Zwei neue, zeitlich begrenzte Events: Frühlingserwachen und Geburtztag\n• Neue Arena- und Riss-Herausforderungen\n• Verschiedene Bugfixes und Verbesserungen"
+							},
+							"fr": {
+								"Text": "Attaquez le printemps et les zombies du bon pied grâce à cette nouvelle mise à jour sensationnelle pour PvZ2 et decouvrez:\n• Une nouvelle plante : Buisson piquant !\n• La Saison de l’Arène des champions est de retour, pour le plus grand plaisir des fans !\n• Deux nouveaux événements à durée limitée : Plantemps et Z’anniversaire !\n• De nouveaux défis de l’Arène !\n• Des corrections de bugs et diverses améliorations !"
+							},
+							"it": {
+								"Text": "Affronta contemporaneamente la primavera e gli zombi con un altro sensazionale aggiornamento di PvZ2, che include:\n• Nuova pianta: mora spinosa!\n• Torna l'amatissima stagione dell'Arena dei campioni!\n• Due nuovi eventi a 'timo' limitato: Zombrimavera e Zombleanno!\n• Nuove sfide Arena e spiragli!\n• Correzioni di bug e vari elementi rifiniti!"
+							},
+							"pt": {
+								"Text": "Encare a primavera e os zumbis simultaneamente com mais uma atualização sensacional de PvZ2, que inclui:\n• Nova planta: Armora!\n• A Temporada da Arena de Campeões favorita de fãs está de volta!\n• Dois novos Eventos Cronotemperados Limitados: Primavera e Aniverzário!\n• Novos desafios na Arena e na Fenda!\n• Correções de erros e vários ajustes em itens!"
+							}
+						}
+					},
+					{
+						"Date": 1644339600,
+						"LocalizedData": {
+							"en": {
+								"Text": "Tackle longer days and shorter nights with another exuberant PvZ2 update, which includes:\n• New Plants: Blockoli and Buttercup!\n• New Pinata Party and Thymed Events!\n• New Arena and Rift trials!\n• Bug fixes various and sundry!",
+								"DownloadableBanner": ""
+							},
+							"es": {
+								"Text": "Encara los días más largos y las noches más cortas con otra exuberante actualización de PvZ2 que incluye:\n• Plantas nuevas: ¡Blóqueoli y Ranúnculo!\n• ¡Fiesta de Piñata y eventos de tomillo tiempillo nuevos!\n• ¡Nuevas pruebas de Brecha y Arena!\n• ¡Resoluciones de errores de todo tipo!"
+							},
+							"de": {
+								"Text": "Die Tage werden länger, die Nächte wieder kürzer – und wir bringen ein neues, üppiges Update für PvZ 2, unter anderem mit:\n• Neuen Pflanzen: Blockoli und Butterblume!\n• Neuen Piñata-Partys und zeitlich begrenzten Events!\n• Neuen Arena- und Riss-Herausforderungen!\n• Bugfixes und allerlei anderen Verbesserungen!"
+							},
+							"fr": {
+								"Text": "Les jours s’allongent, les nuits raccourcissent et la nouvelle mise à jour pour PvZ2 est plus exubérante que jamais ! Au programme :\n• Deux nouvelles plantes, Blocoli et Bouton d’or !\n• Une nouvelle Partie de piñata et des événements à durée limitée !\n• De nouveaux défis de l’Arène !\n• Des corrections de bugs à la pelle !"
+							},
+							"it": {
+								"Text": "Affronta giorni più lunghi e notti più brevi con un nuovo esuberante aggiornamento di PvZ2, che include:\n• Nuove piante: bloccolo e margherina!\n• Nuovi eventi a timo limitato e Party della Piñata!\n• Nuove sfide Arena e spiragli!\n• Correzioni di bug varie ed eventuali!"
+							},
+							"pt": {
+								"Text": "Encare dias mais longos e noites mais curtas com outra atualização exuberante de PvZ2, que inclui:\n• Novas plantas: Blócolis e Margarinda!\n• Novos eventos da Festa Piñata e Cronotemperados!\n• Novos desafios na Arena e na Fenda!\n• Diversas correções de erros!"
+							}
+						}
+					}
+				]
+			}
+		}
+	]
+}

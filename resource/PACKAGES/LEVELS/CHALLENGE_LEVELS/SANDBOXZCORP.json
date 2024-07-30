@@ -1,0 +1,34 @@
+{
+	"IgnoreForValidation": "true",
+	"#comment": "SandboxZCorp",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "ZCorp Sandbox Level",
+				"LevelNumber": 42,
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(ZCorpMowers@LevelModules)",
+					"RTID(SandboxZCorpSeedBank@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)"
+				],
+				"Name": "ZCorp Sandbox",
+				"StageModule": "RTID(ZCorpStage@LevelModules)"
+			}
+		},
+		{
+			"aliases": [
+				"SandboxZCorpSeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [],
+				"SelectionMethod": "chooser"
+			}
+		}
+	],
+	"version": 1
+}

@@ -1,0 +1,195 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"AlmanacFamilyEntry"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "AlmanacFamilyEntry",
+				"EntryPoint": true,
+				"DarkenBackground": 0.0,
+				"Width": {
+					"Value": "230"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "center"
+				},
+				"IgnoreSafeArea": true,
+				"IgnoreMouseInput": false,
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(StatIcon@.)",
+					"RTID(FamilyIcon@.)",
+					"RTID(FamilyToggleButton@.)",
+					"RTID(StatValueLabel@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"StatIcon"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "StatIcon",
+				"Width": {
+					"Value": "20%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Resources": [],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"FamilyIcon"
+			],
+			"objclass": "HotUIPlantFamilyIconProperties",
+			"objdata": {
+				"Name": "FamilyIcon",
+				"Width": {
+					"Value": "20%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"FamilyToggleButton"
+			],
+			"objclass": "HotUIToggleButtonProperties",
+			"objdata": {
+				"Name": "FamilyToggleButton",
+				"ToggleOnPress": "true",
+				"Resources": [],
+				"Width": {
+					"Value": "49"
+				},
+				"Height": {
+					"Value": "49"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ColorTouched": "Dialog_Button_Label_Touched_Color",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_ALMANAC_CHECKBOX_DISABLED_SHARP",
+				"DownImage": "IMAGE_UI_ALMANAC_CHECKBOX_ENABLED_SHARP",
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release"
+			}
+		},
+		{
+			"aliases": [
+				"StatValueLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "StatValueLabel",
+				"Width": {
+					"Value": "75%"
+				},
+				"Height": {
+					"Value": "60%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "25.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "$STAT_VALUE_LABEL",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_32",
+				"Color": "White"
+			}
+		}
+	]
+}

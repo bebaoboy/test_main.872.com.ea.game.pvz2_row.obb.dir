@@ -1,0 +1,99 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"ThymedEventLevelSpine"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "ThymedEventLevelSpine",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "320"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-320.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(NodeScrollArea@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NodeScrollArea"
+			],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "NodeScrollArea",
+				"Width": {
+					"Value": "screen_width"
+				},
+				"Height": {
+					"Value": "310.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Children": [
+					"RTID(InnerScroll@.)"
+				],
+				"ScrollMode": "horizontal",
+				"IgnoreMouseInput": false
+			}
+		},
+		{
+			"aliases": [
+				"InnerScroll"
+			],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "InnerScroll",
+				"Width": {
+					"Value": "screen_width"
+				},
+				"Height": {
+					"Value": "310.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "50.0"
+				},
+				"IgnoreMouseInput": false
+			}
+		}
+	]
+}

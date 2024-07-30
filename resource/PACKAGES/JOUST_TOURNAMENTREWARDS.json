@@ -1,0 +1,4331 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"ftue_rewards_1"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "tickets",
+							"AwardQuantity": 5
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"soil_rewards_1"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 20
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 60
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2400
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 16
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 48
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1500
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 12
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 36
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 750
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 8
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 32
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 350
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 4
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 28
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 350
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 18
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 175
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 18
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 175
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 16
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 16
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 8
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"wood_rewards_1"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 30
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 75
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 3000
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 24
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 60
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1500
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 18
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 46
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 750
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 12
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 42
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 350
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 6
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 35
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 350
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 22
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 175
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 22
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 175
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 20
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 20
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 10
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"brick_rewards_1"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 40
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 90
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 3600
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 32
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 72
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1500
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 24
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 54
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 750
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 16
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 50
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 350
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 8
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 42
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 350
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 28
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 175
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 28
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 175
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 24
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 24
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 12
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"iron_rewards_1"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 50
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 108
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 4200
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 40
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 86
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 3600
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 30
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 66
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2400
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 20
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 62
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2240
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 10
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 50
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1960
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 32
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1680
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 32
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1400
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 28
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1280
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 28
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 960
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 14
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"silver_rewards_1"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 60
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 132
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 4800
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 48
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 105
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 3600
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 36
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 80
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2400
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 24
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 76
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2240
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 12
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 62
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1960
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 6
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 38
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1680
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 6
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 38
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1400
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 6
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 35
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1280
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 6
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 35
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 960
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 18
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"gold_rewards_1"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 80
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 165
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 5400
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 64
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 132
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 4800
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 48
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 100
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 4500
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 32
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 96
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 4200
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 16
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 76
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 3500
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 8
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 48
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2800
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 8
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 48
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2100
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 8
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 44
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2000
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 8
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 44
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1600
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 22
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"jade_rewards_1"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 100
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 210
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 6000
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 80
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 168
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 4800
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 60
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 126
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 4500
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 40
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 122
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 4200
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 20
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 98
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 3500
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 10
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 62
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2800
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 10
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 62
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2100
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 10
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 56
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2000
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 10
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 56
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1600
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 28
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"crystal_rewards_1"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 120
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 270
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 9000
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 96
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 216
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 7200
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 72
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 162
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 6750
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 48
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 158
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 6300
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 24
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 126
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 5250
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 12
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 78
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 4200
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 12
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 78
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 3150
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 12
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 72
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 3000
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 12
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 72
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2400
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 36
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ftue_rewards_1a"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "tickets",
+							"AwardQuantity": 5
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"soil_rewards_1a"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 8
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 24
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 960
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 6
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 19
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 600
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 5
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 14
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 300
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 3
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 13
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 140
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 2
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 11
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 140
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 7
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 70
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 7
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 70
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 6
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 6
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 3
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"wood_rewards_1a"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 12
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 30
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1200
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 10
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 24
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 600
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 7
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 18
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 300
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 5
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 17
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 140
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 2
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 14
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 140
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 9
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 70
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 9
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 70
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 8
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 8
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 4
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"brick_rewards_1a"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 16
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 36
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1440
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 13
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 29
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 600
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 10
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 22
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 300
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 6
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 20
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 140
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 3
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 17
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 140
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 11
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 70
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 11
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 70
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 10
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 10
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 5
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"iron_rewards_1a"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 20
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 43
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1680
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 16
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 34
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1440
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 12
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 26
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 960
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 8
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 25
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 900
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 4
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 20
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 780
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 13
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 670
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 13
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 560
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 11
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 510
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 11
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 380
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 6
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"silver_rewards_1a"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 24
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 53
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1920
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 19
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 42
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1440
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 14
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 32
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 960
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 10
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 30
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 900
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 5
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 25
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 780
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 2
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 15
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 670
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 2
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 15
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 560
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 2
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 14
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 510
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 2
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 14
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 380
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 7
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"gold_rewards_1a"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 32
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 66
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2160
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 26
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 53
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1920
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 19
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 40
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1800
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 13
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 39
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1680
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 6
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 30
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1400
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 3
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 19
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1120
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 3
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 19
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 840
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 3
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 18
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 800
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 3
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 18
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 640
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 9
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"jade_rewards_1a"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 40
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 84
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2400
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 32
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 67
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1920
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 24
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 50
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1800
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 16
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 49
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1680
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 8
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 39
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1400
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 4
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 25
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1120
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 4
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 25
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 840
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 4
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 22
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 800
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 4
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 22
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 640
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 11
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"crystal_rewards_1a"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 48
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 108
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 3600
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 38
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 86
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2880
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 29
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 65
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2700
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 19
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 63
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2520
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 10
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 50
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2100
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 5
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 31
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1680
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 5
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 31
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1260
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 5
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 29
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1200
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 5
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 29
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 960
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 14
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ftue_rewards_1b"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "tickets",
+							"AwardQuantity": 5
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"soil_rewards_1b"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 12
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 36
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1460
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 10
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 29
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 900
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 7
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 22
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 450
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 5
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 19
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 210
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 2
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 17
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 210
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 11
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 110
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 11
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 110
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 10
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 10
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 5
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"wood_rewards_1b"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 18
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 45
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1800
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 14
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 36
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 900
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 11
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 28
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 450
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 7
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 35
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 210
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 4
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 21
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 210
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 13
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 110
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 13
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 110
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 12
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 12
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 6
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"brick_rewards_1b"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 24
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 54
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2160
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 19
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 43
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 900
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 14
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 32
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 450
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 10
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 30
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 210
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 5
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 25
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 210
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 17
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 110
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 17
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 110
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 14
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 14
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 7
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"iron_rewards_1b"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 30
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 65
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2520
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 24
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 52
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2160
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 18
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 40
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1440
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 12
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 37
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1340
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 6
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 30
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1180
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 19
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1010
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 19
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 840
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 17
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 770
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 17
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 580
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 8
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"silver_rewards_1b"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 36
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 79
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2880
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 29
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 63
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2160
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 22
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 48
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1440
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 14
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 46
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1340
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 7
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 37
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1180
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 4
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 23
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1010
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 4
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 23
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 840
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 4
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 21
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 770
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 4
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 21
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 580
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 11
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"gold_rewards_1b"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 48
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 99
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 3240
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 38
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 79
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2880
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 29
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 60
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2700
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 19
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 57
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2520
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 10
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 46
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2100
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 5
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 29
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1680
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 5
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 29
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1260
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 5
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 26
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1200
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 5
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 26
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 960
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 13
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"jade_rewards_1b"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 60
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 126
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 3600
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 48
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 101
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2880
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 36
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 76
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2700
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 24
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 73
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2520
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 12
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 59
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2100
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 6
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 37
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1680
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 6
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 37
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1260
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 6
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 34
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1200
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 6
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 34
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 960
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 17
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"crystal_rewards_1b"
+			],
+			"objclass": "JoustTournamentRewardDefinition",
+			"objdata": {
+				"PlacementRewards": [
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 72
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 162
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 5400
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 58
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 130
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 4320
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 43
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 97
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 4050
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 29
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 95
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 3790
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 14
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 76
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 3150
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 7
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 47
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 2520
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 7
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 47
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1890
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 7
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 43
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1800
+						}
+					],
+					[
+						{
+							"Award": "mints",
+							"AwardQuantity": 7
+						},
+						{
+							"Award": "gems",
+							"AwardQuantity": 43
+						},
+						{
+							"Award": "coins",
+							"AwardQuantity": 1440
+						}
+					],
+					[
+						{
+							"Award": "gems",
+							"AwardQuantity": 22
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					],
+					[
+						{
+							"Award": "none",
+							"AwardQuantity": 0
+						}
+					]
+				]
+			}
+		}
+	],
+	"version": 1
+}

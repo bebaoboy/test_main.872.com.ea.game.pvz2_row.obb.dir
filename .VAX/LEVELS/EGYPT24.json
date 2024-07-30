@@ -1,0 +1,1154 @@
+{
+	"#comment": "Egypt Challenge LastStand C",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "[PLAYERS_TRIP_TO_EGYPT]",
+				"FirstRewardParam": "twinsunflower",
+				"FirstRewardType": "unlock_plant",
+				"LevelNumber": 24,
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(EgyptMowers@LevelModules)",
+					"RTID(Gravestones@CurrentLevel)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)"
+				],
+				"MusicType": "MiniGame_B",
+				"Name": "Egypt 24 - Portal Mortal",
+				"NormalPresentTable": "egypt_normal_01",
+				"RepeatPlayForceToWorldMap": true,
+				"ShinyPresentTable": "egypt_shiny_01",
+				"StageModule": "RTID(EgyptStage@LevelModules)",
+				"StartingSun": 800
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"GravestoneCount": 8,
+				"SpawnColumnEnd": 9,
+				"SpawnColumnStart": 7
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PresetPlantList": [
+					{
+						"PlantType": "twinsunflower",
+						"Level": 5
+					},
+					{
+						"PlantType": "cabbagepult",
+						"Level": 2
+					},
+					{
+						"PlantType": "potatomine",
+						"Level": 2
+					},
+					{
+						"PlantType": "wallnut",
+						"Level": 2
+					},
+					{
+						"PlantType": "iceburg",
+						"Level": 2
+					},
+					{
+						"PlantType": "bonkchoy",
+						"Level": 2
+					},
+					{
+						"PlantType": "bloomerang",
+						"Level": 2
+					},
+					{
+						"PlantType": "repeater",
+						"Level": 2
+					}
+				],
+				"SelectionMethod": "preset"
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "Survive a massive portal attack in Ancient Egypt!",
+				"DescriptiveName": "[STARCHALLENGE_LASTSTAND_MINIGAME_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+			}
+		},
+		{
+			"objclass": "GridItemType",
+			"aliases": [
+				"zombieportal_egypt"
+			],
+			"objdata": {
+				"TypeName": "zombieportal_egypt",
+				"GridItemClass": "GridItemZombiePortal",
+				"Properties": "RTID(GridItemZombiePortal_Egypt@CurrentLevel)",
+				"ResourceGroups": [
+					"ModernPortalGroup"
+				]
+			}
+		},
+		{
+			"objclass": "GridItemType",
+			"aliases": [
+				"zombieportal_egypt_1"
+			],
+			"objdata": {
+				"TypeName": "zombieportal_egypt",
+				"GridItemClass": "GridItemZombiePortal",
+				"Properties": "RTID(GridItemZombiePortal_Egypt_1@CurrentLevel)",
+				"ResourceGroups": [
+					"ModernPortalGroup"
+				]
+			}
+		},
+		{
+			"objclass": "GridItemType",
+			"aliases": [
+				"zombieportal_egypt_2"
+			],
+			"objdata": {
+				"TypeName": "zombieportal_egypt_2",
+				"GridItemClass": "GridItemZombiePortal",
+				"Properties": "RTID(GridItemZombiePortal_Egypt_2@CurrentLevel)",
+				"ResourceGroups": [
+					"ModernPortalGroup"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GridItemZombiePortal_Egypt"
+			],
+			"objclass": "GridItemZombiePortalProps",
+			"objdata": {
+				"CanBeMowed": true,
+				"CloseAnimation": "end",
+				"Height": "ground",
+				"Hitpoints": 600,
+				"PopAnim": "POPANIM_EFFECTS_MODERN_PORTAL",
+				"PopAnimRenderOffset": {
+					"x": 96,
+					"y": 125
+				},
+				"PopAnimRigClass": "GridItemZombiePortal_AnimRig",
+				"SpawnAnimation": "spawn",
+				"World": "egypt",
+				"ZombieSpawnMethod": "NonRandomShuffled",
+				"ZombieSpawnPointOffset": -20,
+				"ZombieTypesToSpawn": [
+					{
+						"Weight": 1,
+						"ZombieTypeName": "egypt_imp"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "egypt_imp"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "mummy"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "ra"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "mummy"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "ra"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "mummy_armor1"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GridItemZombiePortal_Egypt_1"
+			],
+			"objclass": "GridItemZombiePortalProps",
+			"objdata": {
+				"CanBeMowed": true,
+				"CloseAnimation": "end",
+				"Height": "ground",
+				"Hitpoints": 600,
+				"PopAnim": "POPANIM_EFFECTS_MODERN_PORTAL",
+				"PopAnimRenderOffset": {
+					"x": 96,
+					"y": 125
+				},
+				"PopAnimRigClass": "GridItemZombiePortal_AnimRig",
+				"SpawnAnimation": "spawn",
+				"World": "egypt",
+				"ZombieSpawnMethod": "NonRandomShuffled",
+				"ZombieSpawnPointOffset": -20,
+				"ZombieTypesToSpawn": [
+					{
+						"Weight": 1,
+						"ZombieTypeName": "mummy_armor2"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "camel_onehump"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "tomb_raiser"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "camel_twohump"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "tomb_raiser"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "explorer"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GridItemZombiePortal_Egypt_2"
+			],
+			"objclass": "GridItemZombiePortalProps",
+			"objdata": {
+				"CanBeMowed": true,
+				"CloseAnimation": "end",
+				"Height": "ground",
+				"Hitpoints": 600,
+				"PopAnim": "POPANIM_EFFECTS_MODERN_PORTAL",
+				"PopAnimRenderOffset": {
+					"x": 96,
+					"y": 125
+				},
+				"PopAnimRigClass": "GridItemZombiePortal_AnimRig",
+				"SpawnAnimation": "spawn",
+				"World": "egypt",
+				"ZombieSpawnMethod": "NonRandomShuffled",
+				"ZombieSpawnPointOffset": -20,
+				"ZombieTypesToSpawn": [
+					{
+						"Weight": 1,
+						"ZombieTypeName": "mummy_armor2"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "pharaoh"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "camel_manyhump"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "mummy_armor4"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "pharaoh"
+					},
+					{
+						"Weight": 1,
+						"ZombieTypeName": "egypt_gargantuar"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 10,
+				"WaveCount": 10,
+				"WaveSpendingPointIncrement": 50,
+				"WaveSpendingPoints": 50,
+				"MaxNextWaveHealthPercentage": 0.25,
+				"MinNextWaveHealthPercentage": 0.2,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)",
+						"RTID(Portal1A@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3Event@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)",
+						"RTID(Portal1A@CurrentLevel)",
+						"RTID(Portal2A@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)",
+						"RTID(Portal1B@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)",
+						"RTID(Portal3@CurrentLevel)",
+						"RTID(Portal4A@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)",
+						"RTID(Portal1A@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)",
+						"RTID(Portal4B@CurrentLevel)",
+						"RTID(Portal1A@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)",
+						"RTID(Portal5B@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)",
+						"RTID(Wave10Event@CurrentLevel)",
+						"RTID(Portal6@CurrentLevel)",
+						"RTID(Portal4A@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Portal1A"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 2,
+						"Type": "RTID(zombieportal_egypt@CurrentLevel)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 5,
+						"mY": 0
+					},
+					{
+						"mX": 5,
+						"mY": 4
+					},
+					{
+						"mX": 5,
+						"mY": 1
+					},
+					{
+						"mX": 5,
+						"mY": 2
+					},
+					{
+						"mX": 5,
+						"mY": 3
+					}
+				],
+				"SpawnEffectAnimID": "",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Portal1B"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 3,
+						"Type": "RTID(zombieportal_egypt@CurrentLevel)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 4,
+						"mY": 0
+					},
+					{
+						"mX": 4,
+						"mY": 2
+					},
+					{
+						"mX": 4,
+						"mY": 4
+					},
+					{
+						"mX": 4,
+						"mY": 3
+					},
+					{
+						"mX": 4,
+						"mY": 1
+					}
+				],
+				"SpawnEffectAnimID": "",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Portal2A"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 2,
+						"Type": "RTID(zombieportal_egypt@CurrentLevel)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 7,
+						"mY": 1
+					},
+					{
+						"mX": 7,
+						"mY": 3
+					},
+					{
+						"mX": 8,
+						"mY": 1
+					},
+					{
+						"mX": 8,
+						"mY": 3
+					},
+					{
+						"mX": 8,
+						"mY": 0
+					},
+					{
+						"mX": 8,
+						"mY": 2
+					},
+					{
+						"mX": 8,
+						"mY": 4
+					},
+					{
+						"mX": 7,
+						"mY": 5
+					}
+				],
+				"SpawnEffectAnimID": "",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Portal2B"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 2,
+						"Type": "RTID(zombieportal_egypt@CurrentLevel)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 6,
+						"mY": 4
+					},
+					{
+						"mX": 6,
+						"mY": 0
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					}
+				],
+				"SpawnEffectAnimID": "",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Portal3"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 1,
+						"Type": "RTID(zombieportal_egypt_1@CurrentLevel)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 6,
+						"mY": 0
+					},
+					{
+						"mX": 6,
+						"mY": 1
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					},
+					{
+						"mX": 7,
+						"mY": 3
+					},
+					{
+						"mX": 7,
+						"mY": 1
+					},
+					{
+						"mX": 7,
+						"mY": 4
+					}
+				],
+				"SpawnEffectAnimID": "",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Portal4A"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 2,
+						"Type": "RTID(zombieportal_egypt@CurrentLevel)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 2,
+						"mY": 3
+					},
+					{
+						"mX": 2,
+						"mY": 4
+					},
+					{
+						"mX": 2,
+						"mY": 0
+					},
+					{
+						"mX": 2,
+						"mY": 1
+					},
+					{
+						"mX": 2,
+						"mY": 2
+					},
+					{
+						"mX": 3,
+						"mY": 3
+					},
+					{
+						"mX": 3,
+						"mY": 4
+					},
+					{
+						"mX": 3,
+						"mY": 0
+					},
+					{
+						"mX": 3,
+						"mY": 1
+					},
+					{
+						"mX": 3,
+						"mY": 2
+					}
+				],
+				"SpawnEffectAnimID": "",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Portal4B"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 2,
+						"Type": "RTID(zombieportal_egypt_1@CurrentLevel)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 7,
+						"mY": 1
+					},
+					{
+						"mX": 7,
+						"mY": 2
+					},
+					{
+						"mX": 8,
+						"mY": 3
+					},
+					{
+						"mX": 8,
+						"mY": 4
+					},
+					{
+						"mX": 7,
+						"mY": 4
+					},
+					{
+						"mX": 7,
+						"mY": 3
+					},
+					{
+						"mX": 8,
+						"mY": 2
+					},
+					{
+						"mX": 8,
+						"mY": 0
+					}
+				],
+				"SpawnEffectAnimID": "",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Portal5A"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 3,
+						"Type": "RTID(zombieportal_egypt_1@CurrentLevel)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 5,
+						"mY": 0
+					},
+					{
+						"mX": 5,
+						"mY": 2
+					},
+					{
+						"mX": 5,
+						"mY": 4
+					}
+				],
+				"SpawnEffectAnimID": "",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Portal5B"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 5,
+						"Type": "RTID(zombieportal_egypt_1@CurrentLevel)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 8,
+						"mY": 1
+					},
+					{
+						"mX": 8,
+						"mY": 3
+					},
+					{
+						"mX": 8,
+						"mY": 0
+					},
+					{
+						"mX": 8,
+						"mY": 2
+					},
+					{
+						"mX": 8,
+						"mY": 4
+					}
+				],
+				"SpawnEffectAnimID": "",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Portal6"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 6,
+						"Type": "RTID(zombieportal_egypt_2@CurrentLevel)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 7,
+						"mY": 3
+					},
+					{
+						"mX": 7,
+						"mY": 1
+					},
+					{
+						"mX": 7,
+						"mY": 4
+					},
+					{
+						"mX": 7,
+						"mY": 2
+					},
+					{
+						"mX": 7,
+						"mY": 0
+					}
+				],
+				"SpawnEffectAnimID": "",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(pharaoh@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(mummy@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(pharaoh@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3Event"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 7,
+				"ColumnStart": 4,
+				"GroupSize": 2,
+				"TimeBetweenGroups": 2.0,
+				"Waves": 8,
+				"Type": "sandstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"AddToZombiePool": [
+					{
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					}
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(egypt_imp@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"AdditionalPlantfood": 1,
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(pharaoh@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pharaoh@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(camel_manyhump@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"AddToZombiePool": [
+					{
+						"Type": "RTID(mummy_armor2@ZombieTypes)"
+					}
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(explorer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pharaoh@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10Event"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 8,
+				"ColumnStart": 5,
+				"GroupSize": 3,
+				"TimeBetweenGroups": 4.0,
+				"Waves": 8,
+				"Type": "sandstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

@@ -1,0 +1,69 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"objclass": "PVZLiveConfig",
+			"objdata": {
+				"LODEventTime": 25201,
+				"#comment": "Valid values: custom_halloween, custom_holiday [xmas], custom_valentines, custom_thingsandstuff",
+				"SeasonalCostumeLayers": "custom_thingsandstuff",
+				"EASquaredAwaitAdRewardTimeout": 0.5,
+				"EASquaredServerRetriesRemaining": 3,
+				"EASquaredNextServerRetryTime": 2,
+				"NimbleAgeGateTimeOut": 10,
+				"DraperAdDisplayTimeout": 5,
+				"OptionsScreenVariant": "sunflowertopper",
+				"#commment - variants available": [
+					"sunflowertopper",
+					"zombosstopper",
+					"holidaysunflowertopper",
+					"zombosstopperanim"
+				],
+				"NimbleIdentityAwards": [
+					{
+						"Award": "gems",
+						"AwardQuantity": 20,
+						"Category": "Nucleus",
+						"Probability": 1
+					}
+				],
+				"AdParamsPushMinDiffSeconds": 150,
+				"TestIdSeedKey": "bangersandmash",
+				"EnabledTogglesDev": [
+					"JoustRequestMatchRetry",
+					"JoustStaggeredRolloutInDev",
+					"TieredExplosions",
+					"ThymedEventsComingSoonAutoOpen"
+				],
+				"EnabledTogglesLive": [
+					"AutoForfeitStreak",
+					"Calendar",
+					"DisableLootGems",
+					"DraperLocalNotes",
+					"PreloadIronSourceInterstitialAndroid",
+					"PreloadIronSourceInterstitialApple",
+					"EnableAccountDeletionForAndroid",
+					"EnableAccountDeletionForApple",
+					"EnableFindMoreDialog",
+					"EnableRewardedOffersForAndroid",
+					"EnableRewardedOffersForApple",
+					"ForceDownloadCdn",
+					"HideRankAndRarityFilters",
+					"Joust",
+					"PCPReceiptValidation",
+					"Quests",
+					"RentedPlantStore",
+					"RentPlantsInSeedChooser",
+					"Rift",
+					"ShortenPowerupTutorial",
+					"ShowWorldMapInterstitials",
+					"StorePurchaseButtonsColored",
+					"StoreShowPlantShadows",
+					"ThymedEvents",
+					"ThymedEventsAutoOpen",
+					"ThymedEventsComingSoonAutoOpen"
+				]
+			}
+		}
+	]
+}

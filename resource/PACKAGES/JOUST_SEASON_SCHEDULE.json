@@ -1,0 +1,75 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"JoustSeasonSchedule"
+			],
+			"objclass": "JoustSeasonSchedule",
+			"objdata": {
+				"SeasonDefinitions": [
+					{
+						"EndDate": 1706547600,
+						"Name": "[SEASON_NAME_62]",
+						"RewardsKey": "Season62",
+						"StartDate": 1704128400
+					},
+					{
+						"EndDate": 1708966800,
+						"Name": "[SEASON_NAME_63]",
+						"RewardsKey": "Season63",
+						"StartDate": 1706547600
+					},
+					{
+						"EndDate": 1711386000,
+						"Name": "[SEASON_NAME_64]",
+						"RewardsKey": "Season64",
+						"StartDate": 1708966800
+					},
+					{
+						"EndDate": 1713805200,
+						"Name": "[SEASON_NAME_CHAMPION]",
+						"RewardsKey": "Season65",
+						"StartDate": 1711386000
+					},
+					{
+						"EndDate": 1716224400,
+						"Name": "[SEASON_NAME_66]",
+						"RewardsKey": "Season66",
+						"StartDate": 1713805200
+					},
+					{
+						"EndDate": 1718643600,
+						"Name": "[SEASON_NAME_67]",
+						"RewardsKey": "Season67",
+						"StartDate": 1716224400
+					},
+					{
+						"EndDate": 1721062800,
+						"Name": "[SEASON_NAME_68]",
+						"RewardsKey": "Season68",
+						"StartDate": 1718643600
+					},
+					{
+						"EndDate": 1723482000,
+						"Name": "[SEASON_NAME_CHAMPION]",
+						"RewardsKey": "Season69",
+						"StartDate": 1721062800
+					},
+					{
+						"EndDate": 1725901200,
+						"Name": "[SEASON_NAME_70]",
+						"RewardsKey": "Season70",
+						"StartDate": 1723482000
+					},
+					{
+						"EndDate": 1728320400,
+						"Name": "[SEASON_NAME_71]",
+						"RewardsKey": "Season71",
+						"StartDate": 1725901200
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

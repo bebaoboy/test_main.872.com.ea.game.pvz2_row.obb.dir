@@ -1,0 +1,725 @@
+{
+	"#comment": "Level Of The Day Default",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"LevelNumber": 9999,
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(ModernizationShuffleLevelEscalationModule@LevelModules)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(ModernMowers@LevelModules)",
+					"RTID(NewWaves@.)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ChallengeModule@.)",
+					"RTID(ZombiePotions@.)",
+					"RTID(SeedBank@.)",
+					"RTID(ZombiesDeadWinCon@LevelModules)"
+				],
+				"Name": "Modernization: Shuffle Deck",
+				"StageModule": "RTID(ModernizationBirthdayStage@LevelModules)",
+				"StartingSun": 100,
+				"MusicType": "MiniGame_A"
+			}
+		},
+		{
+			"aliases": [
+				"ZombiePotions"
+			],
+			"objclass": "ZombiePotionModuleProperties",
+			"objdata": {
+				"InitialPotionCount": 0,
+				"MaxPotionCount": 5,
+				"PotionSpawnTimer": {
+					"Max": 0.35,
+					"Min": 0.1
+				},
+				"PotionTypes": [
+					"crater_timed"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GridItemCraterTimed"
+			],
+			"objclass": "GridItemCraterTimedProps",
+			"objdata": {
+				"Height": "ground",
+				"Lifetime": 4.25,
+				"PlantingRestrictions": {
+					"BlockedPlantingReason": "PLANTING_NOT_ON_CRATERS",
+					"List": [],
+					"ListType": "includelist"
+				},
+				"PopAnim": "POPANIM_EFFECTS_CRATER",
+				"PopAnimRenderOffset": {
+					"x": 96,
+					"y": 125
+				}
+			}
+		},
+		{
+			"aliases": [
+				"BouncerDefault"
+			],
+			"objclass": "GridItemCraterTimedProps",
+			"objdata": {
+				"Height": "ground",
+				"Lifetime": 1,
+				"PlantingRestrictions": {
+					"BlockedPlantingReason": "PLANTING_NOT_ON_CRATERS",
+					"List": [],
+					"ListType": "excludelist"
+				},
+				"PopAnim": "POPANIM_EFFECTS_CRATER",
+				"PopAnimRenderOffset": {
+					"x": 9999,
+					"y": 9999
+				}
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@.)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "Nothing can top the experience of plants bouncing around the lawn!",
+				"DescriptiveName": "[STARCHALLENGE_PIRATE_FINALE_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 50,
+				"WaveCount": 100,
+				"MaxNextWaveHealthPercentage": 1.0,
+				"MinNextWaveHealthPercentage": 1.0,
+				"Waves": [
+					[
+						"RTID(SB@.)",
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GS@.)",
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)",
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(SpiderRain@.)"
+					],
+					[
+						"RTID(GS@.)",
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(SpiderRain@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(SpiderRain@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(UD@LevelModules)",
+						"RTID(GSUD@LevelModules)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(GS@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(SpiderRain@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)",
+						"RTID(SpiderRain@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GI@.)"
+					],
+					[
+						"RTID(GS@.)",
+						"RTID(GI@.)",
+						"RTID(GI@.)",
+						"RTID(SpiderRain@.)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"SpiderRain"
+			],
+			"objclass": "SpiderRainZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": "8",
+				"ColumnStart": "4",
+				"GroupSize": 1,
+				"SpiderCount": 4,
+				"SpiderZombieName": "carnie_imp_twins",
+				"TimeBeforeFullSpawn": 1,
+				"TimeBetweenGroups": "0.2",
+				"WaveStartMessage": "[WARNING_SPIDERRAIN]",
+				"ZombieFallTime": "1.0"
+			}
+		},
+		{
+			"aliases": [
+				"GI"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 45,
+						"Type": "RTID(bouncer@GridItemTypes)"
+					}
+				],
+				"SpawnPositionsPool": [
+					{
+						"mX": 0,
+						"mY": 0
+					},
+					{
+						"mX": 0,
+						"mY": 1
+					},
+					{
+						"mX": 0,
+						"mY": 2
+					},
+					{
+						"mX": 0,
+						"mY": 3
+					},
+					{
+						"mX": 0,
+						"mY": 4
+					},
+					{
+						"mX": 1,
+						"mY": 0
+					},
+					{
+						"mX": 1,
+						"mY": 1
+					},
+					{
+						"mX": 1,
+						"mY": 2
+					},
+					{
+						"mX": 1,
+						"mY": 3
+					},
+					{
+						"mX": 1,
+						"mY": 4
+					},
+					{
+						"mX": 2,
+						"mY": 0
+					},
+					{
+						"mX": 2,
+						"mY": 1
+					},
+					{
+						"mX": 2,
+						"mY": 2
+					},
+					{
+						"mX": 2,
+						"mY": 3
+					},
+					{
+						"mX": 2,
+						"mY": 4
+					},
+					{
+						"mX": 3,
+						"mY": 0
+					},
+					{
+						"mX": 3,
+						"mY": 1
+					},
+					{
+						"mX": 3,
+						"mY": 2
+					},
+					{
+						"mX": 3,
+						"mY": 3
+					},
+					{
+						"mX": 3,
+						"mY": 4
+					},
+					{
+						"mX": 4,
+						"mY": 0
+					},
+					{
+						"mX": 4,
+						"mY": 1
+					},
+					{
+						"mX": 4,
+						"mY": 2
+					},
+					{
+						"mX": 4,
+						"mY": 3
+					},
+					{
+						"mX": 4,
+						"mY": 4
+					},
+					{
+						"mX": 5,
+						"mY": 0
+					},
+					{
+						"mX": 5,
+						"mY": 1
+					},
+					{
+						"mX": 5,
+						"mY": 2
+					},
+					{
+						"mX": 5,
+						"mY": 3
+					},
+					{
+						"mX": 5,
+						"mY": 4
+					},
+					{
+						"mX": 6,
+						"mY": 0
+					},
+					{
+						"mX": 6,
+						"mY": 1
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					},
+					{
+						"mX": 6,
+						"mY": 3
+					},
+					{
+						"mX": 6,
+						"mY": 4
+					},
+					{
+						"mX": 7,
+						"mY": 0
+					},
+					{
+						"mX": 7,
+						"mY": 1
+					},
+					{
+						"mX": 7,
+						"mY": 2
+					},
+					{
+						"mX": 7,
+						"mY": 3
+					},
+					{
+						"mX": 7,
+						"mY": 4
+					},
+					{
+						"mX": 8,
+						"mY": 0
+					},
+					{
+						"mX": 8,
+						"mY": 1
+					},
+					{
+						"mX": 8,
+						"mY": 2
+					},
+					{
+						"mX": 8,
+						"mY": 3
+					},
+					{
+						"mX": 8,
+						"mY": 4
+					}
+				],
+				"SpawnEffectAnimID": "",
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise",
+				"DisplacePlants": true,
+				"RandomPlacement": true,
+				"GridClassesToDestroy": []
+			}
+		},
+		{
+			"aliases": [
+				"SB"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"WaveStartMessage": "Permanent Shuffle!",
+				"ZombieSpawnWaitTime": 0,
+				"SuppressActionIfNoGridItemsFound": false,
+				"AdditionalPlantfood": "0",
+				"GridTypes": [],
+				"Zombies": []
+			}
+		},
+		{
+			"aliases": [
+				"GS"
+			],
+			"objclass": "SpawnZombiesFromGridItemSpawnerProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"GridTypes": [
+					"RTID(bouncer@GridItemTypes)"
+				],
+				"WaveStartMessage": "Necrobouncy!",
+				"ZombieSpawnWaitTime": 0.5,
+				"SuppressActionIfNoGridItemsFound": false,
+				"Zombies": [
+					{
+						"Type": "RTID(i_f@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(i_f@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(i_f@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(i_f@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(i_f@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(i_f@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(i_f@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

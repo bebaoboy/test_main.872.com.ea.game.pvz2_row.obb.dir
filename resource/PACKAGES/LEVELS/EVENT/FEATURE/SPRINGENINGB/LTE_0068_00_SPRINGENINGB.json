@@ -1,0 +1,599 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "none",
+				"LevelNumber": 8,
+				"FirstOutroNarrative": "SPRINGENING_LTE_2024_3",
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(GoldTiles@CurrentLevel)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(NewWaves@CurrentLevel)"
+				],
+				"Name": "[LTE_LEVEL_NAME_SPRINGENING]",
+				"StageModule": "RTID(FrontLawnStage@LevelModules)",
+				"StartingSun": 350
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover",
+					"thymewarp"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "buttercup"
+					},
+					{
+						"Level": -1,
+						"PlantType": "buzzbutton"
+					},
+					{
+						"Level": -1,
+						"PlantType": "squash"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"GoldTiles"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"DynamicZombies": [
+					{
+						"PointIncrementPerWave": -40,
+						"StartingPoints": -100,
+						"StartingWave": 3,
+						"ZombiePool": [
+							"RTID(spring@ZombieTypes)",
+							"RTID(spring_armor1@ZombieTypes)",
+							"RTID(spring_armor2@ZombieTypes)"
+						]
+					},
+					{
+						"PointIncrementPerWave": -25,
+						"StartingPoints": -100,
+						"StartingWave": 4,
+						"ZombiePool": [
+							"RTID(spring@ZombieTypes)",
+							"RTID(spring_armor1@ZombieTypes)",
+							"RTID(spring_armor2@ZombieTypes)"
+						]
+					},
+					{
+						"PointIncrementPerWave": -10,
+						"StartingPoints": -100,
+						"StartingWave": 5,
+						"ZombiePool": [
+							"RTID(spring@ZombieTypes)",
+							"RTID(spring_armor1@ZombieTypes)",
+							"RTID(spring_armor2@ZombieTypes)",
+							"RTID(spring_poncho@ZombieTypes)"
+						]
+					},
+					{},
+					{
+						"PointIncrementPerWave": 20,
+						"StartingPoints": 100,
+						"StartingWave": 6,
+						"ZombiePool": [
+							"RTID(spring@ZombieTypes)",
+							"RTID(spring_armor1@ZombieTypes)",
+							"RTID(spring_armor2@ZombieTypes)",
+							"RTID(spring_poncho@ZombieTypes)"
+						]
+					},
+					{
+						"PointIncrementPerWave": 40,
+						"StartingPoints": 200,
+						"StartingWave": 4,
+						"ZombiePool": [
+							"RTID(spring@ZombieTypes)",
+							"RTID(spring_armor1@ZombieTypes)",
+							"RTID(spring_armor2@ZombieTypes)"
+						]
+					},
+					{
+						"PointIncrementPerWave": 60,
+						"StartingPoints": 400,
+						"StartingWave": 3,
+						"ZombiePool": [
+							"RTID(spring@ZombieTypes)",
+							"RTID(spring_armor2@ZombieTypes)"
+						]
+					}
+				],
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 5,
+				"WaveCount": 10,
+				"WaveSpendingPointIncrement": 100,
+				"WaveSpendingPoints": 100,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)",
+						"RTID(Wave1SpiderRainEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3StormEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)",
+						"RTID(Wave5SpiderRainEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)",
+						"RTID(Wave6StormEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)",
+						"RTID(Wave9SpiderRainEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)",
+						"RTID(Wave10StormEvent0@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(spring@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(lostcity_excavator@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(spring_camel_manyhump@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(spring_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(spring_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(spring_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					1,
+					0,
+					0
+				],
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(spring@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(spring@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(spring@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(spring@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(spring@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(spring_camel_manyhump@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(lostcity_excavator@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(spring_imp@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(spring_imp@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(spring_imp@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(spring_imp@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(spring_imp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(lostcity_excavator@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(lostcity_excavator@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(spring_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(spring_poncho@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(spring_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(spring@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(spring@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(spring_wizard@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(lostcity_jane@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(lostcity_jane@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1SpiderRainEvent0"
+			],
+			"objclass": "SpiderRainZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 6,
+				"ColumnStart": 4,
+				"GroupSize": "2",
+				"SpiderCount": "4",
+				"SpiderZombieName": "spring_imp",
+				"TimeBeforeFullSpawn": "1",
+				"TimeBetweenGroups": "0.2",
+				"WaveStartMessage": "[WARNING_SPIDERRAIN]",
+				"ZombieFallTime": "1.5"
+			}
+		},
+		{
+			"aliases": [
+				"Wave5SpiderRainEvent0"
+			],
+			"objclass": "SpiderRainZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 5,
+				"ColumnStart": 4,
+				"GroupSize": "2",
+				"SpiderCount": "4",
+				"SpiderZombieName": "spring_imp",
+				"TimeBeforeFullSpawn": "1",
+				"TimeBetweenGroups": "0.2",
+				"WaveStartMessage": "[WARNING_SPIDERRAIN]",
+				"ZombieFallTime": "1.5"
+			}
+		},
+		{
+			"aliases": [
+				"Wave9SpiderRainEvent0"
+			],
+			"objclass": "SpiderRainZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 4,
+				"ColumnStart": 4,
+				"GroupSize": "2",
+				"SpiderCount": "4",
+				"SpiderZombieName": "spring_imp",
+				"TimeBeforeFullSpawn": "1",
+				"TimeBetweenGroups": "0.2",
+				"WaveStartMessage": "[WARNING_SPIDERRAIN]",
+				"ZombieFallTime": "1.5"
+			}
+		},
+		{
+			"aliases": [
+				"Wave3StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": "8",
+				"ColumnStart": 4,
+				"GroupSize": 2,
+				"TimeBetweenGroups": 1,
+				"Type": "sandstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(spring@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": "8",
+				"ColumnStart": 5,
+				"GroupSize": 2,
+				"TimeBetweenGroups": 1,
+				"Type": "sandstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": "8",
+				"ColumnStart": 6,
+				"GroupSize": 3,
+				"TimeBetweenGroups": 1,
+				"Type": "sandstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lostcity_impporter@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(spring@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

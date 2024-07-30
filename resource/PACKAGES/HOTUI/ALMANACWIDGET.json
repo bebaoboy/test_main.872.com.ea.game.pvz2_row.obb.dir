@@ -1,0 +1,651 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"AlmanacWidget"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "AlmanacWidget",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Children": [
+					"RTID(Background@.)"
+				],
+				"IgnoreMouseInput": false
+			}
+		},
+		{
+			"aliases": [
+				"Background"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Width": {
+					"Value": "2000"
+				},
+				"Height": {
+					"Value": "600"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "60.0"
+					}
+				},
+				"Resources": [],
+				"Children": [
+					"RTID(PatternImageContainer@.)",
+					"RTID(ScrollList@.)",
+					"RTID(HorizontalScrollWidget@.)",
+					"RTID(FilterBar@.)",
+					"RTID(OffScreenDownButton@.)",
+					"RTID(NotAvailableText@.)"
+				],
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_CONTENT_WELL",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		},
+		{
+			"comment": "This is just a container, does nothing but there to calculate screen size",
+			"aliases": [
+				"PatternImageContainer"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PatternImageContainer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "",
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Children": [
+					"RTID(BackgroundLeftImage@.)",
+					"RTID(BackgroundRightImage@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"BackgroundLeftImage"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BackgroundLeftImage",
+				"Width": {
+					"Value": "48%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_DIALOG_ASSET_TRAVEL_LOG_BACKGROUND_LEFT_IMAGE",
+				"DrawType": "stretched_aspectY",
+				"DrawStyle": "stretched"
+			}
+		},
+		{
+			"aliases": [
+				"BackgroundRightImage"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "BackgroundRightImage",
+				"Width": {
+					"Value": "48%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_DIALOG_ASSET_TRAVEL_LOG_BACKGROUND_RIGHT_IMAGE",
+				"DrawType": "stretched_aspectY",
+				"DrawStyle": "stretched"
+			}
+		},
+		{
+			"aliases": [
+				"ScrollList"
+			],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "ScrollList",
+				"Width": {
+					"Value": "screen_width"
+				},
+				"Height": {
+					"Value": "80%"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "10"
+					},
+					"OffsetY": {
+						"Value": "4.0"
+					}
+				},
+				"IgnoreSafeArea": false,
+				"Children": [
+					"RTID(ItemListContainer@.)"
+				],
+				"ScrollMode": "vertical",
+				"ShowScrollIndicators": false
+			}
+		},
+		{
+			"aliases": [
+				"HorizontalScrollWidget"
+			],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "HorizontalScrollWidget",
+				"Width": {
+					"Value": "42%"
+				},
+				"Height": {
+					"Value": "85%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "30"
+					}
+				},
+				"Children": [
+					"RTID(HorizontalList@.)"
+				],
+				"ScrollMode": "horizontal",
+				"ShowScrollIndicators": false,
+				"IgnoreSafeArea": false,
+				"ScrollIndicatorDistanceFromEdge": {
+					"Value": "-1"
+				},
+				"ScrollIndicatorInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "20.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "4.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"ItemListContainer"
+			],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "ItemListContainer",
+				"Width": {
+					"Value": "screen_width"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "0.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreSafeArea": false,
+				"Children": [
+					"RTID(ItemList@.)",
+					"RTID(ItemListPadding@.)"
+				],
+				"NumColumns": "1"
+			}
+		},
+		{
+			"aliases": [
+				"ItemList"
+			],
+			"objclass": "HotUIAlmanacVerticalListProperties",
+			"objdata": {
+				"Name": "ItemList",
+				"Width": {
+					"Value": "screen_width"
+				},
+				"Height": {
+					"Value": "690"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "2.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "10.0"
+					}
+				},
+				"IgnoreSafeArea": false,
+				"NumColumns": "6",
+				"AutoAlignColumnSpace": true,
+				"#comment": "DONOT overlap Aspect ratio values between each entry",
+				"ColumnVariants": [
+					{
+						"#comment": "Aspect ratio value for 16:9 is calculated as 16/9 = 1.78",
+						"#comment": "Example: iPad resolution 4:3, 4/3 = 1.33",
+						"MinAspectRatio": 0,
+						"MaxAspectRatio": 1.57,
+						"NumColumns": 6
+					},
+					{
+						"#comment": "Example resolution - 16:10, i.e. 16/10 = 1.6",
+						"MinAspectRatio": 1.58,
+						"MaxAspectRatio": 1.69,
+						"NumColumns": 7
+					},
+					{
+						"#comment": "Example resolution - 16:9, i.e. 16/9 = 1.78",
+						"MinAspectRatio": 1.7,
+						"MaxAspectRatio": 1.99,
+						"NumColumns": 8
+					},
+					{
+						"#comment": "Example resolution - 18:9, i.e. 18/9 = 2 OR anything greater than 18:9",
+						"MinAspectRatio": 2.0,
+						"MaxAspectRatio": 99999,
+						"NumColumns": 9
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ItemListPadding"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ItemListPadding",
+				"Width": {
+					"Value": "screen_width"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"HorizontalJustification": "right",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_13",
+				"Color": "Brown"
+			}
+		},
+		{
+			"aliases": [
+				"HorizontalList"
+			],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "HorizontalList",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "400"
+				},
+				"MinWidth": {
+					"Value": "100%"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "2.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"IgnoreSafeArea": false
+			}
+		},
+		{
+			"aliases": [
+				"FilterBar"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "FilterBar",
+				"Width": {
+					"Value": "790"
+				},
+				"Height": {
+					"Value": "10%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "-10%"
+					}
+				},
+				"Resources": [
+					"UI_SeedChooser"
+				],
+				"Children": [
+					"RTID(FilterButton@.)",
+					"RTID(SortButton@.)",
+					"RTID(TotalCountLabel@.)"
+				],
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_ALMANAC_ALMANAC_STAT_BACKGROUND",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		},
+		{
+			"aliases": [
+				"FilterButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "FilterButton",
+				"Width": {
+					"Value": "150"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "1%"
+					},
+					"OffsetY": {
+						"Value": "-12%"
+					}
+				},
+				"Children": [
+					"RTID(FilterLabel@.)"
+				],
+				"Resources": [
+					"UI_Almanac"
+				],
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_ALMANAC_FILTER_BUTTON_UP",
+				"DownImage": "IMAGE_UI_ALMANAC_FILTER_BUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release"
+			}
+		},
+		{
+			"aliases": [
+				"FilterLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "FilterLabel",
+				"Width": {
+					"Value": "120"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "18"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "All",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_13",
+				"Color": "Brown"
+			}
+		},
+		{
+			"aliases": [
+				"SortButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "SortButton",
+				"Width": {
+					"Value": "180"
+				},
+				"Height": {
+					"Value": "30"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "22%"
+					},
+					"OffsetY": {
+						"Value": "-12%"
+					}
+				},
+				"Children": [
+					"RTID(SortLabel@.)"
+				],
+				"Resources": [
+					"UI_Almanac"
+				],
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_ALMANAC_SORT_BUTTON_UP",
+				"DownImage": "IMAGE_UI_ALMANAC_SORT_BUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release"
+			}
+		},
+		{
+			"aliases": [
+				"SortLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "SortLabel",
+				"Width": {
+					"Value": "150"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "18"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "Default",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_13",
+				"Color": "Brown"
+			}
+		},
+		{
+			"aliases": [
+				"TotalCountLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "TotalCountLabel",
+				"Width": {
+					"Value": "50%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-20"
+					},
+					"OffsetY": {
+						"Value": "-12%"
+					}
+				},
+				"HorizontalJustification": "right",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_13",
+				"Color": "Brown"
+			}
+		},
+		{
+			"aliases": [
+				"OffScreenDownButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "OffScreenDownButton",
+				"Width": {
+					"Value": "75"
+				},
+				"Height": {
+					"Value": "90"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "370"
+					},
+					"OffsetY": {
+						"Value": "120"
+					}
+				},
+				"Resources": [
+					"UI_Almanac"
+				],
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_ALMANAC_LEVEL_UP_OFF_SCREEN_INDICATOR_V2",
+				"DownImage": "IMAGE_UI_ALMANAC_LEVEL_UP_OFF_SCREEN_INDICATOR_V2_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release"
+			}
+		},
+		{
+			"aliases": [
+				"NotAvailableText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "NotAvailableText",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "-55"
+					}
+				},
+				"Label": "$ALMANAC_EMPTY_FILTER",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "Yellow"
+			}
+		}
+	]
+}

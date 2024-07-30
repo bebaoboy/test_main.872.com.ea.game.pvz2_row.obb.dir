@@ -1,0 +1,507 @@
+{
+	"#comment": "Level Of The Day Default",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "none",
+				"FirstIntroNarrative": "",
+				"LevelNumber": 2,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(ZCorpMowers@LevelModules)",
+					"RTID(FastSunDropper@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(Gravestones@CurrentLevel)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)",
+					"RTID(SeedPacketHalfTimeModule@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)"
+				],
+				"Name": "[LTE_LEVEL_NAME_ZCORPTAKEOVER]",
+				"StageModule": "RTID(ZCorpStage@LevelModules)",
+				"StartingSun": 300
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover",
+					"thymewarp"
+				],
+				"PresetPlantList": [
+					{
+						"Level": 5,
+						"PlantType": "puffball"
+					},
+					{
+						"Level": 5,
+						"PlantType": "explodeonut"
+					}
+				],
+				"SelectionMethod": "preset"
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"Level": "-1",
+						"TypeName": "explodeonut"
+					},
+					{
+						"GridX": 3,
+						"GridY": 3,
+						"Level": "-1",
+						"TypeName": "explodeonut"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 1,
+				"PlantfoodToSpawnCount": 0,
+				"PointIncrementPerWave": 400,
+				"StartingPoints": 100,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 8,
+				"ZombiePool": [
+					"RTID(zcorp_armor1@ZombieTypes)",
+					"RTID(zcorp_racer_chair@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.3,
+				"MinNextWaveHealthPercentage": 0.2,
+				"ZombieCountdownFirstWaveSecs": 3,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(zcorp_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(zcorp_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(zcorp_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(zcorp_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(zcorp_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(zcorp_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_racer_chair@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 7,
+						"GridY": 0
+					},
+					{
+						"GridX": 8,
+						"GridY": 0
+					},
+					{
+						"GridX": 4,
+						"GridY": 0,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 5,
+						"GridY": 0
+					},
+					{
+						"GridX": 6,
+						"GridY": 0
+					},
+					{
+						"GridX": 7,
+						"GridY": 1
+					},
+					{
+						"GridX": 8,
+						"GridY": 1
+					},
+					{
+						"GridX": 4,
+						"GridY": 1
+					},
+					{
+						"GridX": 5,
+						"GridY": 1
+					},
+					{
+						"GridX": 6,
+						"GridY": 1
+					},
+					{
+						"GridX": 7,
+						"GridY": 2
+					},
+					{
+						"GridX": 8,
+						"GridY": 2
+					},
+					{
+						"GridX": 4,
+						"GridY": 2
+					},
+					{
+						"GridX": 5,
+						"GridY": 2,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 6,
+						"GridY": 2
+					},
+					{
+						"GridX": 7,
+						"GridY": 3
+					},
+					{
+						"GridX": 8,
+						"GridY": 3
+					},
+					{
+						"GridX": 4,
+						"GridY": 3
+					},
+					{
+						"GridX": 5,
+						"GridY": 3
+					},
+					{
+						"GridX": 6,
+						"GridY": 3
+					},
+					{
+						"GridX": 7,
+						"GridY": 4
+					},
+					{
+						"GridX": 8,
+						"GridY": 4
+					},
+					{
+						"GridX": 4,
+						"GridY": 4,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4
+					},
+					{
+						"GridX": 6,
+						"GridY": 4
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

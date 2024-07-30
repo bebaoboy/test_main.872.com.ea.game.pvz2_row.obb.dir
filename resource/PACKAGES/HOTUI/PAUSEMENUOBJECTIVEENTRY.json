@@ -1,0 +1,178 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"PauseMenuObjectiveEntry"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "PauseMenuObjectiveEntry",
+				"EntryPoint": true,
+				"DarkenBackground": 0.0,
+				"Width": {
+					"Value": "92%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "center"
+				},
+				"IgnoreSafeArea": true,
+				"IgnoreMouseInput": false,
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(ObjectiveToggleIcon@.)",
+					"RTID(ObjectiveLabel@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ObjectiveToggleIcon"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ObjectiveToggleIcon",
+				"Width": {
+					"Value": "25"
+				},
+				"Height": {
+					"Value": "25"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"Parent": "topleft",
+					"OffsetY": {
+						"Value": "4.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Resources": [
+					"UI_AwardDialog"
+				],
+				"DrawType": "normal",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_UI_AWARDDIALOG_GIFT_LIST_BG",
+				"Children": [
+					"RTID(ObjectiveListCheckImage@.)"
+				],
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"ObjectiveListCheckImage"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ObjectiveListCheckImage",
+				"Width": {
+					"Value": "35"
+				},
+				"Height": {
+					"Value": "35"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "center",
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Resources": [
+					"UI_AwardDialog"
+				],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_AWARDDIALOG_GIFT_LIST_CHECK"
+			}
+		},
+		{
+			"aliases": [
+				"ObjectiveLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ObjectiveLabel",
+				"Width": {
+					"Value": "98%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "7%"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "Dialog_Button_Label_Font_24",
+				"Color": "Brown"
+			}
+		}
+	]
+}

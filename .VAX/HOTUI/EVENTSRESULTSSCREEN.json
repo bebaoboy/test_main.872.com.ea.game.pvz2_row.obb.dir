@@ -1,0 +1,301 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"EventsResultsScreen"
+			],
+			"objclass": "HotUIEventsResultsScreenProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.8,
+				"Name": "EventsResultsScreen",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(ContentSpacer@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ContentSpacer"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "ContentSpacer",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Children": [
+					"RTID(YouWinText@.)",
+					"RTID(YouLoseText@.)",
+					"RTID(HintText@.)",
+					"RTID(TouchTranslationLayer@.)",
+					"RTID(ContinueButton@.)",
+					"RTID(EventsMenuButton@.)",
+					"RTID(ProgressBackground@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"YouWinText"
+			],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "YouWinText",
+				"Width": {
+					"Value": "800"
+				},
+				"Height": {
+					"Value": "600"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Resources": [
+					"UI_Joust_MatchResult"
+				],
+				"PopAnimName": "POPANIM_UI_JOUST_MATCH_RESULTS_YOU_WON_TEXT",
+				"InitialAnimationName": "intro",
+				"PlayStyle": "none",
+				"DrawStyle": "scale_override",
+				"IgnoreMouseInput": true
+			}
+		},
+		{
+			"aliases": [
+				"YouLoseText"
+			],
+			"objclass": "HotUIAnimProperties",
+			"objdata": {
+				"Name": "YouLoseText",
+				"Width": {
+					"Value": "800"
+				},
+				"Height": {
+					"Value": "600"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "-10.0"
+					}
+				},
+				"Resources": [
+					"UI_Joust_MatchResult"
+				],
+				"PopAnimName": "POPANIM_UI_JOUST_MATCH_RESULTS_YOU_LOST_TEXT",
+				"InitialAnimationName": "intro",
+				"PlayStyle": "none",
+				"DrawStyle": "scale_override",
+				"IgnoreMouseInput": true
+			}
+		},
+		{
+			"aliases": [
+				"HintText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "HintText",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "30.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "135"
+					}
+				},
+				"Label": "Hint: Protect your sunflowers by planting them further left on your lawn",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_32",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"ContinueButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ContinueButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "170.0"
+					},
+					"OffsetY": {
+						"Value": "-40.0"
+					}
+				},
+				"Width": {
+					"Value": "220.0"
+				},
+				"Height": {
+					"Value": "63"
+				},
+				"Children": [
+					"RTID(EnergyIcon@.)"
+				],
+				"Label": "10 NEXT LEVEL",
+				"LabelInset": {
+					"Left": {
+						"Value": "70.0"
+					},
+					"Top": {
+						"Value": "5.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "5.0"
+					}
+				},
+				"LabelHorizontalJustification": "left",
+				"Font": "Dialog_Header_Font_36",
+				"ButtonImageType": "9slice",
+				"UpAudio": "Play_UI_Rift_Node_Play_Button",
+				"DownAudio": "Play_UI_Menu_Button_Continue_Press"
+			}
+		},
+		{
+			"aliases": [
+				"EnergyIcon"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "EnergyIcon",
+				"Resources": [
+					"UI_WorldMap"
+				],
+				"Width": {
+					"Value": "54"
+				},
+				"Height": {
+					"Value": "54"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "10"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_FUEL_FUEL_ICON_BASIC",
+				"DrawStyle": "stretched",
+				"IgnoreMouseInput": true
+			}
+		},
+		{
+			"aliases": [
+				"EventsMenuButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "EventsMenuButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "-170.0"
+					},
+					"OffsetY": {
+						"Value": "-40.0"
+					}
+				},
+				"Width": {
+					"Value": "220.0"
+				},
+				"Height": {
+					"Value": "63"
+				},
+				"Label": "EVENTS MENU",
+				"Font": "Dialog_Header_Font_36",
+				"ButtonImageType": "9slice",
+				"UpImage": "IMAGE_UI_GENERIC_BROWNBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_BROWNBUTTON_DOWN",
+				"UpAudio": "Play_UI_Rift_Node_Play_Button",
+				"DownAudio": "Play_UI_Menu_Button_Continue_Press"
+			}
+		},
+		{
+			"aliases": [
+				"ProgressBackground"
+			],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "ProgressBackground",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "320"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "15.0"
+					},
+					"OffsetY": {
+						"Value": "50.0"
+					}
+				},
+				"Children": [],
+				"SpaceBetweenWidgets": {
+					"Value": "10"
+				}
+			}
+		},
+		{
+			"aliases": [
+				"TouchTranslationLayer"
+			],
+			"objclass": "HotUIToUIWidgetTouchLayerProperties",
+			"objdata": {
+				"Name": "TouchTranslationLayer",
+				"Width": {
+					"Value": "250"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright"
+				},
+				"IgnoreSafeArea": true
+			}
+		}
+	]
+}

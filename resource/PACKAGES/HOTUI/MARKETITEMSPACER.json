@@ -1,0 +1,26 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"comment": "Tall enough to be entire vertical column",
+			"aliases": [
+				"MultiPurchaseItemSpacer"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "MultiPurchaseItemSpacer",
+				"Width": {
+					"Value": "36"
+				},
+				"Height": {
+					"Value": "300"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"IgnoreMouseInput": false
+			}
+		}
+	]
+}

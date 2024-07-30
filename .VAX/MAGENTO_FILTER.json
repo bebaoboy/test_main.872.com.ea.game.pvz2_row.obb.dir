@@ -1,0 +1,87 @@
+{
+	"#comment": [
+		"Magento Filter objects",
+		"This list allows only items included in this list - any item not in this list should be excluded"
+	],
+	"version": 1,
+	"objects": [
+		{
+			"objclass": "ProductFilterPropertySheet",
+			"aliases": [
+				"MagentoFilter"
+			],
+			"objdata": {
+				"#comment": "Covers entire object Type categories - use only for types that will never fail in the future such as currencies",
+				"ObjectTypeFilters": [
+					{
+						"Type": "coin",
+						"WarnEnsureRealMoneyOnly": false
+					},
+					{
+						"Type": "gem",
+						"WarnEnsureRealMoneyOnly": false
+					},
+					{
+						"Type": "ticket",
+						"WarnEnsureRealMoneyOnly": false
+					},
+					{
+						"Type": "fuel",
+						"WarnEnsureRealMoneyOnly": false
+					},
+					{
+						"Type": "mint",
+						"WarnEnsureRealMoneyOnly": false
+					},
+					{
+						"Type": "bundle",
+						"WarnEnsureRealMoneyOnly": false
+					},
+					{
+						"Type": "keygate",
+						"WarnEnsureRealMoneyOnly": false
+					},
+					{
+						"Type": "stargate",
+						"WarnEnsureRealMoneyOnly": false
+					},
+					{
+						"Type": "sprout",
+						"WarnEnsureGemsOnly": false
+					},
+					{
+						"Type": "eventenergy1",
+						"WarnEnsureGemsOnly": false
+					},
+					{
+						"Type": "plant",
+						"#comment": "Individual allowed object Item entries",
+						"SubTypeFilters": [
+							"sunflower","peashooter","wallnut","potatomine","cabbagepult","bloomerang","iceburg","gravebuster","bonkchoy","repeater","twinsunflower","kernelpult","snapdragon","spikeweed","springbean","coconutcannon","threepeater","spikerock","cherry_bomb","splitpea","chilibean","peapod","lightningreed","melonpult","tallnut","wintermelon","laser_bean","blover","citron","empea","holonut","magnifyinggrass","powerplant","sunshroom","puffshroom","fumeshroom","sunbean","magnetshroom","lilypad","tanglekelp","bowlingbulb","guacodile","banana","hotpotato","pepperpult","chardguard","stunion","xshot","redstinger","akee","endurian","stallia","goldleaf","phatbeet","celerystalker","thymewarp","garlic","sporeshroom","intensivecarrot","primalpeashooter","primalwallnut","perfumeshroom","primalsunflower","primalpotatomine","moonflower","nightshade","shadowshroom","dusklobber","grimrose","snowpea","powerlily","squash","torchwood","jalapeno","imitater","starfruit","hypnoshroom","peanut","chomper","homingthistle","ghostpepper","sweetpotato","sapfling","hurrikale","firepeashooter","dandelion","lavaguava","toadstool","strawburst","cactus","electricblueberry","jackolantern","grapeshot","coldsnapdragon","shrinkingviolet","bloominghearts","escaperoot","goldbloom","electriccurrant","wasabiwhip","explodeonut","kiwibeast","aloe","applemortar","bombegranate","witchhazel","parsnip","missiletoe","hotdate","caulipower","solartomato","electricpeashooter","hollyknight","shadowpeashooter","poisonpeashooter","slingpea","snappea","zoybeanpod","dazeychain","electricitea","blastberry","pokra","imppear","pyrevine","pumpkin","icebloom","ultomato","dartichoke","shinevine","gumnut","tumbleweed","puffball","olivepit","murkadamia","explodeovine","turkeypult","boingsetta","headbutter","stickybombrice","hocus","gloomvine","draftodil","pvine","boomflower","inferno","solarsage","powervine","noctarine","heathseeker","iceweed","tigergrass","teleportatomine","filamint","peppermint","wintermint","enlightenmint","reinforcemint","bombardmint","ailmint","enchantmint","containmint","enforcemint","armamint","concealmint","spearmint","appeasemint"
+						]
+					},
+					{
+						"Type": "gameupgrade",
+						"WarnEnsureRealMoneyOnly": false,
+						"#comment": "Individual allowed object Item entries",
+						"SubTypeFilters": [
+							"seedslot2","startingsun2","pf_slots_lvl2","sunshovel3","feature_quest_pinata_hunt_slot_1","feature_quest_pinata_hunt_slot_2","7_slots","sunshovel_lvl1","sunshovel_lvl2","pf_refresh","pf_slots_lvl1","starting_sun_lvl1","wallnut_firstaid","world_trophy_egypt","world_trophy_pirate","world_trophy_cowboy","world_trophy_future","world_trophy_dark","world_trophy_beach","world_trophy_iceage","world_trophy_lostcity","world_trophy_eighties","world_trophy_dino","world_trophy_modern","valuable_mowers","manual_mowers_1","feature_powerup_wizardfinger","feature_powerup_flick_zombie","feature_powerup_pinch","feature_powerup_snowball","feature_powerup_flamethrower","feature_powerup_vasebreaker_move","feature_powerup_vasebreaker_butter","feature_powerup_vasebreaker_reveal","feature_powerup_beghouled_shuffle","feature_powerup_beghouled_shovel","feature_powerup_beghouled_wizardfinger","upgrade_powerup_duration_1","upgrade_powerup_duration_2","feature_collectable_bacon"
+						]
+					},
+					{
+						"Type": "costume",
+						"#comment": "Individual allowed object Item entries",
+						"SubTypeFilters": [
+							"1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66","67","68","69","70","71","72","73","74","75","76","77","78","79","80","81","82","83","84","85","86","87","88","89","90","91","92","93","94","95","96","97","98","99","100","101","102","103","104","105","106","107","108","109","110","111","112","113","114","115","116","117","118","119","120","121","122","123","124","125","126","127","128","129","130","131","132","133","134","135","136","137","138","139","140","141","142","143","144","145","146","147","148","149","150","151","152","153","154","155","156","157","158","159","160","161","162","163","164","165","166","167","168","169","170","171","172","173","174","175","176","177","178","179","180","181","182","183","184","185","186","187","188","189","190","191","192","193","194","195","196","197","198","199","200","201","202","205","206","207","208","209","258","259","260","261","262","263","264","265","266","267","268","269","270","271","272"
+						]
+					},
+					{
+						"Type": "pinata",
+						"WarnEnsureGemsOnly": false,
+						"WarnEnsureRealMoneyOnly": false
+					}
+				]
+			}
+		}
+	]
+}

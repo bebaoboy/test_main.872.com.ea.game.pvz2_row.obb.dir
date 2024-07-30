@@ -1,0 +1,14 @@
+{
+	"objects": [
+ {
+ 	"aliases": [
+  "JoustSchedule"
+ 	],
+ 	"objclass": "JoustSchedule",
+ 	"objdata": {
+  "TournamentDefinitions": []
+ 	}
+ }
+	],
+	"version": 1
+}

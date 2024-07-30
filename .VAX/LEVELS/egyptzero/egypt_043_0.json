@@ -1,0 +1,1443 @@
+{
+"objects": [
+{
+"objclass": "LevelDefinition",
+"objdata": {
+"Description": "[PLAYERS_ZERO]",
+"FirstRewardParam": "moneybag_zero",
+"StartingSun": 420,
+"LevelNumber": 43,
+"ForceNextLevel": "egyptzero/egypt_044",
+"DisablePlantBoosts": true,
+"DisableSaveGame": true,
+"SuppressPlantfoodPurchase": true,
+"SuppressAccountUpgrades": true,
+"Loot": "RTID(ZeroLoot@LevelModules)",
+"Modules": [
+"RTID(StandardIntro@LevelModules)",
+"RTID(ZeroSunDropper@LevelModules)",
+"RTID(DefaultZombieWinCondition@LevelModules)",
+"RTID(ZombiesDeadWinCon@LevelModules)",
+"RTID(EgyptMowers@LevelModules)",
+"RTID(ZeroSeedBank@LevelModules)",
+"RTID(Escalation@.)",
+"RTID(NewWaves@.)",
+"RTID(ZombiePotions@.)",
+"RTID(Gravestones@.)",
+"RTID(EgyptZeroSwap@LevelModules)"
+],
+"Name": "[EGYPT_ZERO_LEVEL_NAME]",
+"StageModule": "RTID(EgyptStageNoPowerUps@LevelModules)"
+}
+},
+{
+"aliases": [
+"Escalation"
+],
+"objclass": "LevelEscalationModuleProperties",
+"objdata": {
+"FlagCount": 5,
+"PlantfoodToSpawnCount": 1,
+"PointIncrementPerWave": 800,
+"StartingPoints": 140,
+"WaveManagerProps": "RTID(WaveManager@.)",
+"WavesPerFlag": 5,
+"ZombiePool": [
+"RTID(tomb_raiser@ZombieTypes)",
+"RTID(cleopatra_flag@ZombieTypes)",
+"RTID(mummy_armor2@ZombieTypes)",
+"RTID(cleopatra@ZombieTypes)",
+"RTID(camel_onehump@ZombieTypes)",
+"RTID(pharaoh@ZombieTypes)",
+"RTID(camel_twohump@ZombieTypes)",
+"RTID(ra@ZombieTypes)",
+"RTID(egypt_imp@ZombieTypes)",
+"RTID(mummy_armor4@ZombieTypes)",
+"RTID(egypt_gargantuar@ZombieTypes)",
+"RTID(camel_manyhump@ZombieTypes)"
+]
+}
+},
+{
+"aliases": [
+"WaveManager"
+],
+"objclass": "WaveManagerProperties",
+"objdata": {
+"WaveSpendingPointIncrement": 0,
+"WaveSpendingPoints": 0,
+"ZombieCountdownFirstWaveSecs": 8.020000000000021,
+"MinNextWaveHealthPercentage": 0.8,
+"MaxNextWaveHealthPercentage": 0.83,
+"Waves": [
+[],
+[
+"RTID(S1@.)"
+],
+[
+"RTID(S2@.)"
+],
+[
+"RTID(S3@.)"
+],
+[
+"RTID(S4@.)"
+],
+[
+"RTID(S5@.)"
+],
+[
+"RTID(S6@.)"
+],
+[
+"RTID(S7@.)"
+],
+[
+"RTID(S8@.)"
+],
+[
+"RTID(S9@.)"
+],
+[
+"RTID(S10@.)"
+],
+[
+"RTID(S11@.)"
+],
+[
+"RTID(S12@.)"
+],
+[
+"RTID(S13@.)"
+],
+[
+"RTID(S14@.)"
+],
+[
+"RTID(S15@.)"
+],
+[
+"RTID(S16@.)"
+],
+[
+"RTID(S17@.)"
+],
+[
+"RTID(S18@.)"
+],
+[
+"RTID(S19@.)"
+],
+[
+"RTID(S20@.)"
+],
+[
+"RTID(S21@.)"
+],
+[
+"RTID(S22@.)"
+],
+[
+"RTID(S23@.)"
+],
+[
+"RTID(S24@.)"
+]
+]
+}
+},
+{
+"aliases": [
+"NewWaves"
+],
+"objclass": "WaveManagerModuleProperties",
+"objdata": {}
+},
+{
+"aliases": [
+"ZombiePotions"
+],
+"objclass": "ZombiePotionModuleProperties",
+"objdata": {
+"InitialPotionCount": 0,
+"MaxPotionCount": 4,
+"PotionSpawnTimer": {
+"Max": 15,
+"Min": 20
+},
+"PotionTypes": [
+"gravestone_egypt"
+]
+}
+},
+{
+"aliases": [
+"Gravestones"
+],
+"objclass": "GravestoneProperties",
+"objdata": {
+"GravestoneCount": 20,
+"SpawnColumnEnd": 9,
+"SpawnColumnStart": 2
+}
+},
+{
+"aliases": [
+"S5"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S10"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S15"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S20"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 1,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S24"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 7,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S23"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 2,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S22"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 2,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S21"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 9,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S19"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 6,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S18"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 5,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S17"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 1,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S16"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 2,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S14"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 6,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S13"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 5,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S12"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S11"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 13,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S9"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 2,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S8"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S7"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 1,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S6"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 2,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S4"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 14,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S3"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 5,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S2"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 2,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+},
+{
+"Type": "RTID(camel_onehump@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S1"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 1,
+"GroupSize": 6,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(cleopatra_flag@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(ra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(cleopatra@ZombieTypes)"
+},
+{
+"Type": "RTID(pharaoh@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_gargantuar@ZombieTypes)"
+}
+]
+}
+}
+],
+"version": 1
+}

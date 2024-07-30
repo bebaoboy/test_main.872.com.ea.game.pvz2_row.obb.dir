@@ -1,0 +1,3421 @@
+{
+    "objects": [
+        {
+            "aliases": [
+                "MainMarketSchedule"
+            ],
+            "objclass": "MarketScheduleProps",
+            "objdata": {
+                "MarketScheduleEntries": [
+                    {
+                        "EndDateTime": 0,
+                        "Name": "Arena Player Bundles for sale, always!",
+                        "ScheduledProducts": [],
+                        "Segments": [
+                            "BattlezEligible"
+                        ],
+                        "StartDateTime": 0
+                    },
+					{
+						"EndDateTime": 1900000000,
+						"Name": "New Player Bundles for sale, always!",
+						"ScheduledProducts": [
+							{
+								"Comment": "Popular Peashooter Bundle",
+								"Category": "Bundles",
+								"Priority": "featured",
+								"ABTest": "",
+								"PromotionGroup": "SeasonOffers",
+								"AdditionalSegment": "",
+								"SmartKey": "",
+								"SoftCurrency": "",
+								"SoftCost": -1,
+								"MaxPurchase": -1,
+								"SoftCostPerPurchase": -1,
+								"Visuals": [
+									"value2x",
+									"sale"
+								],
+								"Sku": [
+									"com.popcap.pvz2.bundle.special.1.nonconsume.t10",
+									"com.popcap.pvz2.android.bundle.special.1.nonconsume.t10"
+								]
+							},
+							{
+								"Comment": "Apple Mortar Starter Bundle",
+								"Category": "Bundles",
+								"Priority": "featured",
+								"ABTest": "",
+								"PromotionGroup": "SeasonOffers",
+								"AdditionalSegment": "",
+								"SmartKey": "",
+								"SoftCurrency": "",
+								"SoftCost": -1,
+								"MaxPurchase": -1,
+								"SoftCostPerPurchase": -1,
+								"Visuals": [
+									"sale"
+								],
+								"Sku": [
+									"com.popcap.pvz2.bundle.starter.nonconsume",
+									"com.popcap.pvz2.android.bundle.starter.nonconsume"
+								]
+							}
+						],
+						"StartDateTime": 1300000000
+					},
+					{
+						"EndDateTime": 1900000000,
+						"Name": "New Player Spender Bundles for sale, always!",
+						"ScheduledProducts": [
+							{
+								"Comment": "Electric Peashooter Bundle",
+								"Category": "Bundles",
+								"Priority": "featured",
+								"ABTest": "",
+								"PromotionGroup": "SeasonOffers",
+								"AdditionalSegment": "",
+								"SmartKey": "",
+								"SoftCurrency": "",
+								"SoftCost": -1,
+								"MaxPurchase": -1,
+								"SoftCostPerPurchase": -1,
+								"Visuals": [
+									"sale"
+								],
+								"Sku": [
+									"com.popcap.pvz2.bundle.electricpeashooter.nonconsume.t10",
+									"com.popcap.pvz2.android.bundle.electricpeashooter.nonconsume.t10"
+								]
+							},
+							{
+								"Comment": "Popular Plant $15 Bundle",
+								"Category": "Bundles",
+								"Priority": "featured",
+								"ABTest": "",
+								"PromotionGroup": "SeasonOffers",
+								"AdditionalSegment": "Own_ElectricPeashooter",
+								"SmartKey": "",
+								"SoftCurrency": "",
+								"SoftCost": -1,
+								"MaxPurchase": -1,
+								"SoftCostPerPurchase": -1,
+								"Visuals": [
+									"sale"
+								],
+								"Sku": [
+									"com.popcap.pvz2.bundle.special.2.nonconsume.t15",
+									"com.popcap.pvz2.android.bundle.special.2.nonconsume.t15"
+								]
+							}
+						],
+						"StartDateTime": 1300000000
+					},
+                    {
+						"EndDateTime": 1900000000,
+						"Name": "Bundles for sales",
+						"ScheduledProducts": [
+							{
+								"Comment": "Springening $5 Bundle",
+								"Category": "Bundles",
+								"Priority": "featured",
+								"ABTest": "",
+								"PromotionGroup": "SeasonOffers",
+								"AdditionalSegment": "",
+								"SmartKey": "",
+								"SoftCurrency": "",
+								"SoftCost": -1,
+								"MaxPurchase": -1,
+								"SoftCostPerPurchase": -1,
+								"Visuals": [
+									"timeremaining",
+									"value2x"
+								],
+								"Sku": [
+									"com.popcap.pvz2.bundle.special.9.consume.t5",
+									"com.popcap.pvz2.android.bundle.special.9.consume.t5"
+								]
+							},
+                            {
+								"Comment": "Reforestation $500 Bundle",
+								"Category": "Bundles",
+								"Priority": "featured",
+								"ABTest": "",
+								"PromotionGroup": "SeasonOffers",
+								"AdditionalSegment": "",
+								"SmartKey": "",
+								"SoftCurrency": "",
+								"SoftCost": -1,
+								"MaxPurchase": -1,
+								"SoftCostPerPurchase": -1,
+								"Visuals": [
+									"timeremaining"
+								],
+								"Sku": [
+                                    "com.popcap.pvz2.android.bundle.reforestation.nonconsume",
+                                    "com.popcap.pvz2.bundle.reforestation.nonconsume"
+								]
+							}
+						],
+						"StartDateTime": 1200000000
+					},
+                    {
+                        "EndDateTime": 0,
+                        "Name": "Plants for sale, always!",
+                        "ScheduledProducts": [
+                            {
+                                "Comment": "Electric Peashooter",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": [
+                                    "mostpopular"
+                                ],
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.electricpeashooter.nonconsume.t5",
+                                    "com.popcap.pvz2.android.plant.electricpeashooter.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Snow Pea",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.snowpea.nonconsume.t5",
+                                    "com.popcap.pvz2.android.plant.snowpea.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Gold Bloom",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.goldbloom.nonconsume.t5",
+                                    "com.popcap.pvz2.android.plant.goldbloom.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Caulipower",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.caulipower.nonconsume.t5",
+                                    "com.popcap.pvz2.android.plant.caulipower.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Cold Snapdragon",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.coldsnapdragon.nonconsume.t5",
+                                    "com.popcap.pvz2.android.plant.coldsnapdragon.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Wasabi Whip",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.wasabiwhip.nonconsume.t5",
+                                    "com.popcap.pvz2.android.plant.wasabiwhip.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Electric Blueberry",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.electricblueberry.nonconsume.t5",
+                                    "com.popcap.pvz2.android.plant.electricblueberry.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Grapeshot",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.grapeshot.nonconsume.t5",
+                                    "com.popcap.pvz2.android.plant.grapeshot.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Kiwibeast",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.kiwibeast.nonconsume.t5",
+                                    "com.popcap.pvz2.android.plant.kiwibeast.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Cactus",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.cactus.nonconsume",
+                                    "com.popcap.pvz2.android.plant.cactus.nonconsume"
+                                ]
+                            },
+                            {
+                                "Comment": "Torchwood",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.torchwood.nonconsume.t5",
+                                    "com.popcap.pvz2.android.plant.torchwood.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Toadstool",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.toadstool.nonconsume",
+                                    "com.popcap.pvz2.android.plant.toadstool.nonconsumet5"
+                                ]
+                            },
+                            {
+                                "Comment": "Chomper",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.chomper.nonconsume.t5",
+                                    "com.popcap.pvz2.android.plant.chomper.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Power Lily",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.powerlily.nonconsume.t5",
+                                    "com.popcap.pvz2.android.plant.powerlily.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Imitator",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.imitater.nonconsume.t5",
+                                    "com.popcap.pvz2.android.plant.imitater.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Escape Root",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.escaperoot.nonconsume.t5",
+                                    "com.popcap.pvz2.android.plant.escaperoot.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Fire Peashooter",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.firepeashooter.nonconsume.g100",
+                                    "com.popcap.pvz2.android.plant.firepeashooter.nonconsume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Squash",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.squash.nonconsume.g100",
+                                    "com.popcap.pvz2.android.plant.squash.nonconsume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Jalapeno",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.jalapeno.nonconsume.g100",
+                                    "com.popcap.pvz2.android.plant.jalapeno.nonconsume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Hypnoshroom",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.hypnoshroom.nonconsume.g100",
+                                    "com.popcap.pvz2.android.plant.hypnoshroom.nonconsume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Peanut",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.peanut.nonconsume.g100",
+                                    "com.popcap.pvz2.android.plant.peanut.nonconsume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Lavaguava",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.lavaguava.nonconsume.g100",
+                                    "com.popcap.pvz2.android.plant.lavaguava.nonconsume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Homing Thistle",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.homingthistle.nonconsume.g100",
+                                    "com.popcap.pvz2.android.plant.homingthistle.nonconsume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Shrinking Violent",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.shrinkingviolet.nonconsume.g100",
+                                    "com.popcap.pvz2.android.plant.shrinkingviolet.nonconsume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Electric Currant",
+                                "Category": "Plants",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.plant.electriccurrant.nonconsume.g100",
+                                    "com.popcap.pvz2.android.plant.electriccurrant.nonconsume.g100"
+                                ]
+                            }
+                        ],
+                        "StartDateTime": 0
+                    },
+                    {
+                        "EndDateTime": 1900000000,
+                        "Name": "Promotion stuffs!",
+                        "RepeatStyle": "RepeatDaily",
+                        "ScheduledProducts": [
+                            {
+                                "Comment": "$5 Mystery Pinata",
+                                "Category": "Daily Offers",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "HolidayOffers",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": 1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.mystery.consume.t5",
+                                    "com.popcap.pvz2.android.pinata.mystery.consume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "$2 Gem Offer",
+                                "Category": "Daily Offers",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": 1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gems.5.consume",
+                                    "com.popcap.pvz2.android.gems.5.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$2 Coin Offer",
+                                "Category": "Daily Offers",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": 1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.coins.5000.consume",
+                                    "com.popcap.pvz2.android.coins.5000.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "3 Free Sprouts",
+                                "Category": "Daily Offers",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": 2,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.sprout.3.consume",
+                                    "com.popcap.pvz2.android.sprout.3.consume"
+                                ]
+                            }
+                        ],
+                        "StartDateTime": 1300000000
+                    },
+                    {
+                        "EndDateTime": 0,
+                        "Name": "Pinatas for sale, always!",
+                        "ScheduledProducts": [
+                            {
+                                "Comment": "$5 Mystery Pinata",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.mystery.consume.t5",
+                                    "com.popcap.pvz2.android.pinata.mystery.consume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Soil) 20 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.soil.egypt.consume.g20",
+                                    "com.popcap.pvz2.android.pinata.soil.egypt.consume.g20"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Soil) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.soil.egypt.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.soil.egypt.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Pirate (Soil) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": [
+                                    "mostpopular"
+                                ],
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.soil.pirate.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.soil.pirate.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata West (Soil) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.soil.west.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.soil.west.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Ice Age (Soil) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.soil.iceage.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.soil.iceage.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Lost (Soil) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.soil.lost.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.soil.lost.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Future (Soil) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.soil.future.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.soil.future.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dark (Soil) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.soil.dark.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.soil.dark.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Eighties (Soil) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.soil.eighties.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.soil.eighties.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dino (Soil) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.soil.dino.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.soil.dino.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Beach (Soil) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.soil.beach.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.soil.beach.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Modern (Soil) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.soil.modern.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.soil.modern.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Wood) 20 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.wood.egypt.consume.g20",
+                                    "com.popcap.pvz2.android.pinata.wood.egypt.consume.g20"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Wood) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.wood.egypt.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.wood.egypt.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Pirate (Wood) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.wood.pirate.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.wood.pirate.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata West (Wood) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.wood.west.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.wood.west.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Ice Age (Wood) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.wood.iceage.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.wood.iceage.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Lost (Wood) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.wood.lost.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.wood.lost.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Future (Wood) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": [
+                                    "mostpopular"
+                                ],
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.wood.future.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.wood.future.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dark (Wood) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.wood.dark.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.wood.dark.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Eighties (Wood) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.wood.eighties.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.wood.eighties.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dino (Wood) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.wood.dino.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.wood.dino.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Beach (Wood) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.wood.beach.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.wood.beach.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Modern (Wood) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.wood.modern.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.wood.modern.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Brick) 20 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.brick.egypt.consume.g20",
+                                    "com.popcap.pvz2.android.pinata.brick.egypt.consume.g20"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Brick) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.brick.egypt.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.brick.egypt.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Pirate (Brick) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.brick.pirate.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.brick.pirate.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata West (Brick) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.brick.west.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.brick.west.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Ice Age (Brick) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.brick.iceage.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.brick.iceage.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Lost (Brick) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.brick.lost.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.brick.lost.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Future (Brick) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.brick.future.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.brick.future.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dark (Brick) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": [
+                                    "mostpopular"
+                                ],
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.brick.dark.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.brick.dark.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Eighties (Brick) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.brick.eighties.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.brick.eighties.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dino (Brick) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.brick.dino.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.brick.dino.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Beach (Brick) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.brick.beach.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.brick.beach.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Modern (Brick) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.brick.modern.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.brick.modern.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Iron) 20 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.iron.egypt.consume.g20",
+                                    "com.popcap.pvz2.android.pinata.iron.egypt.consume.g20"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Iron) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.iron.egypt.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.iron.egypt.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Pirate (Iron) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.iron.pirate.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.iron.pirate.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata West (Iron) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": [
+                                    "mostpopular"
+                                ],
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.iron.west.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.iron.west.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Ice Age (Iron) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.iron.iceage.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.iron.iceage.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Lost (Iron) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.iron.lost.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.iron.lost.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Future (Iron) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.iron.future.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.iron.future.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dark (Iron) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.iron.dark.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.iron.dark.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Eighties (Iron) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.iron.eighties.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.iron.eighties.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dino (Iron) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.iron.dino.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.iron.dino.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Beach (Iron) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.iron.beach.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.iron.beach.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Modern (Iron) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.iron.modern.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.iron.modern.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Bronze) 20 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.bronze.egypt.consume.g20",
+                                    "com.popcap.pvz2.android.pinata.bronze.egypt.consume.g20"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Bronze) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.bronze.egypt.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.bronze.egypt.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Pirate (Bronze) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.bronze.pirate.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.bronze.pirate.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata West (Bronze) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.bronze.west.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.bronze.west.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Ice Age (Bronze) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.bronze.iceage.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.bronze.iceage.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Lost (Bronze) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.bronze.lost.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.bronze.lost.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Future (Bronze) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.bronze.future.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.bronze.future.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dark (Bronze) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.bronze.dark.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.bronze.dark.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Eighties (Bronze) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": [
+                                    "mostpopular"
+                                ],
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.bronze.eighties.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.bronze.eighties.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dino (Bronze) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.bronze.dino.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.bronze.dino.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Beach (Bronze) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.bronze.beach.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.bronze.beach.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Modern (Bronze) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.bronze.modern.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.bronze.modern.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Silver) 20 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.silver.egypt.consume.g20",
+                                    "com.popcap.pvz2.android.pinata.silver.egypt.consume.g20"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Silver) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.silver.egypt.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.silver.egypt.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Pirate (Silver) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.silver.pirate.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.silver.pirate.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata West (Silver) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.silver.west.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.silver.west.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Ice Age (Silver) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.silver.iceage.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.silver.iceage.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Lost (Silver) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.silver.lost.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.silver.lost.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Future (Silver) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.silver.future.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.silver.future.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dark (Silver) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.silver.dark.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.silver.dark.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Eighties (Silver) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.silver.eighties.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.silver.eighties.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dino (Silver) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.silver.dino.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.silver.dino.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Beach (Silver) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.silver.beach.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.silver.beach.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Modern (Silver) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": [
+                                    "mostpopular"
+                                ],
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.silver.modern.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.silver.modern.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Gold) 20 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.gold.egypt.consume.g20",
+                                    "com.popcap.pvz2.android.pinata.gold.egypt.consume.g20"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Gold) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.gold.egypt.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.gold.egypt.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Pirate (Gold) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.gold.pirate.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.gold.pirate.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata West (Gold) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.gold.west.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.gold.west.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Ice Age (Gold) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.gold.iceage.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.gold.iceage.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Lost (Gold) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.gold.lost.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.gold.lost.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Future (Gold) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.gold.future.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.gold.future.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dark (Gold) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.gold.dark.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.gold.dark.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Eighties (Gold) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.gold.eighties.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.gold.eighties.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dino (Gold) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.gold.dino.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.gold.dino.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Beach (Gold) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": [
+                                    "mostpopular"
+                                ],
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.gold.beach.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.gold.beach.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Modern (Gold) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.gold.modern.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.gold.modern.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Jade) 20 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.jade.egypt.consume.g20",
+                                    "com.popcap.pvz2.android.pinata.jade.egypt.consume.g20"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Egypt (Jade) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.jade.egypt.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.jade.egypt.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Pirate (Jade) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.jade.pirate.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.jade.pirate.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata West (Jade) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.jade.west.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.jade.west.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Ice Age (Jade) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.jade.iceage.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.jade.iceage.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Lost (Jade) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.jade.lost.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.jade.lost.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Future (Jade) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.jade.future.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.jade.future.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dark (Jade) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.jade.dark.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.jade.dark.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Eighties (Jade) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.jade.eighties.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.jade.eighties.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Dino (Jade) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": [
+                                    "mostpopular"
+                                ],
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.jade.dino.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.jade.dino.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Beach (Jade) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.jade.beach.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.jade.beach.consume.g100"
+                                ]
+                            },
+                            {
+                                "Comment": "Pinata Modern (Jade) 100 Gems",
+                                "Category": "Pinatas",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.pinata.jade.modern.consume.g100",
+                                    "com.popcap.pvz2.android.pinata.jade.modern.consume.g100"
+                                ]
+                            }
+                        ],
+                        "StartDateTime": 0
+                    },
+                    {
+                        "EndDateTime": 0,
+                        "Name": "Upgrades for sale, always!",
+                        "ScheduledProducts": [
+                            {
+                                "Comment": "Pinata Tracker Bundle",
+                                "Category": "Upgrades",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": 1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": [
+                                    "mostpopular"
+                                ],
+                                "Sku": [
+                                    "com.popcap.pvz2.bundle.pinatahuntall.nonconsume.t12",
+                                    "com.popcap.pvz2.android.bundle.pinatahuntall.nonconsume.t12"
+                                ]
+                            },
+                            {
+                                "Comment": "4th Pinata Tracker Slot",
+                                "Category": "Upgrades",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": 1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gameupgrade.pinatahunt1.nonconsume.t5",
+                                    "com.popcap.pvz2.android.gameupgrade.pinatahunt1.nonconsume.t5"
+                                ]
+                            },
+                            {
+                                "Comment": "5th Pinata Tracker Slot",
+                                "Category": "Upgrades",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": 1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gameupgrade.pinatahunt2.nonconsume.t10",
+                                    "com.popcap.pvz2.android.gameupgrade.pinatahunt2.nonconsume.t10"
+                                ]
+                            },
+                            {
+                                "Comment": "Extra Plant Food Slot",
+                                "Category": "Upgrades",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": 1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gameupgrade.pfslot2.nonconsume.t1",
+                                    "com.popcap.pvz2.android.gameupgrade.pfslot2.nonconsume.t1"
+                                ]
+                            },
+                            {
+                                "Comment": "Starting Sun",
+                                "Category": "Upgrades",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": 1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gameupgrade.startingsun2.nonconsume.t1",
+                                    "com.popcap.pvz2.android.gameupgrade.startingsun2.nonconsume.t1"
+                                ]
+                            },
+                            {
+                                "Comment": "Extra Seed Slot",
+                                "Category": "Upgrades",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": 1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gameupgrade.seedslot2.nonconsume.t1",
+                                    "com.popcap.pvz2.android.gameupgrade.seedslot2.nonconsume.t1"
+                                ]
+                            },
+                            {
+                                "Comment": "Extra Shovel",
+                                "Category": "Upgrades",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": 1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gameupgrade.sunshovel3.nonconsume.t1",
+                                    "com.popcap.pvz2.android.gameupgrade.sunshovel3.nonconsume.t1"
+                                ]
+                            }
+                        ],
+                        "StartDateTime": 0
+                    },
+                    {
+                        "EndDateTime": 0,
+                        "Name": "Currency for sale, always!",
+                        "ScheduledProducts": [
+                            {
+                                "Comment": "$5 Gem Offer",
+                                "Category": "Gems",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gems.50.consume",
+                                    "com.popcap.pvz2.android.gems.50.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$2 Gem Offer",
+                                "Category": "Gems",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gems.20.consume",
+                                    "com.popcap.pvz2.android.gems.20.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$10 Gem Offer",
+                                "Category": "Gems",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gems.110.consume",
+                                    "com.popcap.pvz2.android.gems.110.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$50 Gem Offer",
+                                "Category": "Gems",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gems.700.consume",
+                                    "com.popcap.pvz2.android.gems.700.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$20 Gem Offer",
+                                "Category": "Gems",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": [
+                                    "mostpopular"
+                                ],
+                                "Sku": [
+                                    "com.popcap.pvz2.gems.250.consume",
+                                    "com.popcap.pvz2.android.gems.250.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$100 Gem Offer",
+                                "Category": "Gems",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gems.1800.consume.t100",
+                                    "com.popcap.pvz2.android.gems.1800.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$5 Coin Offer",
+                                "Category": "Coins",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.coins.10000.consume",
+                                    "com.popcap.pvz2.android.coins.10000.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$2 Coin Offer",
+                                "Category": "Coins",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.coins.5000.consume",
+                                    "com.popcap.pvz2.android.coins.5000.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$10 Coin Offer",
+                                "Category": "Coins",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.coins.22000.consume.t10",
+                                    "com.popcap.pvz2.android.coins.22000.consume.t10"
+                                ]
+                            },
+                            {
+                                "Comment": "$50 Coin Offer",
+                                "Category": "Coins",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.coins.150000.consume.t50",
+                                    "com.popcap.pvz2.android.coins.150000.consume.t50"
+                                ]
+                            },
+                            {
+                                "Comment": "$20 Coin Offer",
+                                "Category": "Coins",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": [
+                                    "mostpopular"
+                                ],
+                                "Sku": [
+                                    "com.popcap.pvz2.coins.50000.consume.t20",
+                                    "com.popcap.pvz2.android.coins.50000.consume.t20"
+                                ]
+                            },
+                            {
+                                "Comment": "$100 Coin Offer",
+                                "Category": "Coins",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.coins.350000.consume.t100",
+                                    "com.popcap.pvz2.android.coins.350000.consume.t100"
+                                ]
+                            },
+                            {
+                                "Comment": "4 Gauntlets for 20 Gems",
+                                "Category": "Tickets",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.ticket.consume.g20",
+                                    "com.popcap.pvz2.android.ticket.consume.g20"
+                                ]
+                            },
+                            {
+                                "Comment": "16 Gauntlets for 75 Gems",
+                                "Category": "Tickets",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.ticket.consume.g75",
+                                    "com.popcap.pvz2.android.ticket.consume.g75"
+                                ]
+                            },
+                            {
+                                "Comment": "36 Gauntlets 150 Gems",
+                                "Category": "Tickets",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.ticket.consume.g150",
+                                    "com.popcap.pvz2.android.ticket.consume.g150"
+                                ]
+                            },
+                            {
+                                "Comment": "15 Fuel for 30 Gems",
+                                "Category": "Tickets",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.fuel.15.consume.g30",
+                                    "com.popcap.pvz2.android.fuel.15.consume.g30"
+                                ]
+                            }
+                        ],
+                        "StartDateTime": 0
+                    },
+                    {
+                        "EndDateTime": 0,
+                        "Name": "Currency quick store for sale, always!",
+                        "ScheduledProducts": [
+                            {
+                                "Comment": "$5 Gem Offer",
+                                "Category": "QuickGems",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gems.50.consume",
+                                    "com.popcap.pvz2.android.gems.50.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$2 Gem Offer",
+                                "Category": "QuickGems",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gems.20.consume",
+                                    "com.popcap.pvz2.android.gems.20.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$10 Gem Offer",
+                                "Category": "QuickGems",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gems.110.consume",
+                                    "com.popcap.pvz2.android.gems.110.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$50 Gem Offer",
+                                "Category": "QuickGems",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gems.700.consume",
+                                    "com.popcap.pvz2.android.gems.700.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$20 Gem Offer",
+                                "Category": "QuickGems",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": [
+                                    "mostpopular"
+                                ],
+                                "Sku": [
+                                    "com.popcap.pvz2.gems.250.consume",
+                                    "com.popcap.pvz2.android.gems.250.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$100 Gem Offer",
+                                "Category": "QuickGems",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.gems.1800.consume.t100",
+                                    "com.popcap.pvz2.android.gems.1800.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$5 Coin Offer",
+                                "Category": "QuickCoins",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.coins.10000.consume",
+                                    "com.popcap.pvz2.android.coins.10000.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$2 Coin Offer",
+                                "Category": "QuickCoins",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.coins.5000.consume",
+                                    "com.popcap.pvz2.android.coins.5000.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "$10 Coin Offer",
+                                "Category": "QuickCoins",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.coins.22000.consume.t10",
+                                    "com.popcap.pvz2.android.coins.22000.consume.t10"
+                                ]
+                            },
+                            {
+                                "Comment": "$50 Coin Offer",
+                                "Category": "QuickCoins",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.coins.150000.consume.t50",
+                                    "com.popcap.pvz2.android.coins.150000.consume.t50"
+                                ]
+                            },
+                            {
+                                "Comment": "$20 Coin Offer",
+                                "Category": "QuickCoins",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": [
+                                    "mostpopular"
+                                ],
+                                "Sku": [
+                                    "com.popcap.pvz2.coins.50000.consume.t20",
+                                    "com.popcap.pvz2.android.coins.50000.consume.t20"
+                                ]
+                            },
+                            {
+                                "Comment": "$100 Coin Offer",
+                                "Category": "QuickCoins",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.coins.350000.consume.t100",
+                                    "com.popcap.pvz2.android.coins.350000.consume.t100"
+                                ]
+                            },
+                            {
+                                "Comment": "4 Gauntlets for 20 Gems",
+                                "Category": "QuickGauntlets",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.ticket.consume.g20",
+                                    "com.popcap.pvz2.android.ticket.consume.g20"
+                                ]
+                            },
+                            {
+                                "Comment": "16 Gauntlets for 75 Gems",
+                                "Category": "QuickGauntlets",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.ticket.consume.g75",
+                                    "com.popcap.pvz2.android.ticket.consume.g75"
+                                ]
+                            },
+                            {
+                                "Comment": "36 Gauntlets 150 Gems",
+                                "Category": "QuickGauntlets",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.ticket.consume.g150",
+                                    "com.popcap.pvz2.android.ticket.consume.g150"
+                                ]
+                            },
+                            {
+                                "Comment": "15 Fuel for 30 Gems",
+                                "Category": "QuickFuel",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.fuel.15.consume.g30",
+                                    "com.popcap.pvz2.android.fuel.15.consume.g30"
+                                ]
+                            },
+                            {
+                                "Comment": "3 Free Sprouts",
+                                "Category": "QuickSprouts",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.sprout.3.consume",
+                                    "com.popcap.pvz2.android.sprout.3.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "5 Sprouts for Gems",
+                                "Category": "QuickSprouts",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.sprout.5.consume",
+                                    "com.popcap.pvz2.android.sprout.5.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "10 Sprouts for Gems",
+                                "Category": "QuickSprouts",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.sprout.10.consume",
+                                    "com.popcap.pvz2.android.sprout.10.consume"
+                                ]
+                            },
+                            {
+                                "Comment": "25 Sprouts for Gems",
+                                "Category": "QuickSprouts",
+                                "Priority": "",
+                                "ABTest": "",
+                                "PromotionGroup": "",
+                                "AdditionalSegment": "",
+                                "SmartKey": "",
+                                "SoftCurrency": "",
+                                "SoftCost": -1,
+                                "MaxPurchase": -1,
+                                "SoftCostPerPurchase": -1,
+                                "Visuals": "RTID(0)",
+                                "Sku": [
+                                    "com.popcap.pvz2.sprout.25.consume",
+                                    "com.popcap.pvz2.android.sprout.25.consume"
+                                ]
+                            },
+                            
+							{
+								"Comment": "LTE - Energy - Gem - Small",
+								"Category": "QuickEnergy1",
+								"Priority": "",
+								"ABTest": "",
+								"PromotionGroup": "",
+								"AdditionalSegment": "",
+								"SmartKey": "",
+								"SoftCurrency": "",
+								"SoftCost": -1,
+								"MaxPurchase": -1,
+								"SoftCostPerPurchase": -1,
+								"Visuals": "RTID(0)",
+								"Sku": [
+									"lte_energy_gem_sm",
+									"lte_energy_gem_sm"
+								]
+							},
+							{
+								"Comment": "LTE - Energy - Gem - Large",
+								"Category": "QuickEnergy1",
+								"Priority": "",
+								"ABTest": "",
+								"PromotionGroup": "",
+								"AdditionalSegment": "",
+								"SmartKey": "",
+								"SoftCurrency": "",
+								"SoftCost": -1,
+								"MaxPurchase": -1,
+								"SoftCostPerPurchase": -1,
+								"Visuals": "RTID(0)",
+								"Sku": [
+									"lte_energy_gem_lg",
+									"lte_energy_gem_lg"
+								]
+							},
+							{
+								"Comment": "LTE - Energy - Coin - Small",
+								"Category": "QuickEnergy1",
+								"Priority": "",
+								"ABTest": "",
+								"PromotionGroup": "",
+								"AdditionalSegment": "",
+								"SmartKey": "",
+								"SoftCurrency": "",
+								"SoftCost": -1,
+								"MaxPurchase": -1,
+								"SoftCostPerPurchase": -1,
+								"Visuals": "RTID(0)",
+								"Sku": [
+									"lte_energy_coin_sm",
+									"lte_energy_coin_sm"
+								]
+							},
+							{
+								"Comment": "LTE - Energy - Coin - Large",
+								"Category": "QuickEnergy1",
+								"Priority": "",
+								"ABTest": "",
+								"PromotionGroup": "",
+								"AdditionalSegment": "",
+								"SmartKey": "",
+								"SoftCurrency": "",
+								"SoftCost": -1,
+								"MaxPurchase": -1,
+								"SoftCostPerPurchase": -1,
+								"Visuals": "RTID(0)",
+								"Sku": [
+									"lte_energy_coin_lg",
+									"lte_energy_coin_lg"
+								]
+							}
+                        ],
+                        "StartDateTime": 0
+                    },
+                    {
+                        "EndDateTime": 0,
+                        "Name": "Plant rental, always!",
+                        "ScheduledProducts": [],
+                        "StartDateTime": 0
+                    },
+                    {
+                        "EndDateTime": 0,
+                        "Name": "Legacy Skus for App Support",
+                        "ScheduledProducts": [],
+                        "StartDateTime": 0
+                    },
+                    {
+						"EndDateTime": 0,
+						"Name": "Tutorial",
+						"ScheduledProducts": [
+							{
+								"Comment": "Pinata Egypt Tutorial",
+								"Category": "Tutorial",
+								"Priority": "",
+								"ABTest": "",
+								"PromotionGroup": "",
+								"AdditionalSegment": "",
+								"SmartKey": "",
+								"SoftCurrency": "gems",
+								"SoftCost": 20,
+								"MaxPurchase": 1,
+								"SoftCostPerPurchase": -1,
+								"Visuals": [
+									"tutorial"
+								],
+								"Sku": [
+									"com.popcap.pvz2.pinata.egypt.consume.tutorial",
+									"com.popcap.pvz2.android.pinata.egypt.consume.tutorial"
+								]
+							}
+						],
+						"StartDateTime": 0
+					},
+                    {
+						"EndDateTime": 0,
+						"Name": "Tutorial50MB",
+						"ScheduledProducts": [
+							{
+								"Comment": "Pinata Egypt Tutorial 50MB",
+								"Category": "Tutorial50MB",
+								"Priority": "",
+								"ABTest": "",
+								"PromotionGroup": "",
+								"AdditionalSegment": "",
+								"SmartKey": "",
+								"SoftCurrency": "gems",
+								"SoftCost": 20,
+								"MaxPurchase": 1,
+								"SoftCostPerPurchase": -1,
+								"Visuals": [
+									"tutorial"
+								],
+								"Sku": [
+									"com.popcap.pvz2.pinata.egypt.consume.tutorial",
+									"com.popcap.pvz2.android.pinata.egypt.consume.tutorial"
+								]
+							}
+						],
+						"StartDateTime": 0
+					}
+                ],
+                "SegmentFilter": "All"
+
+            }
+        }
+    ],
+    "version": 1
+}

@@ -1,0 +1,658 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"QuestEntryWidget"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "QuestEntryWidget",
+				"Resources": [],
+				"Width": {
+					"Value": "770"
+				},
+				"Height": {
+					"Value": "150"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(QuestTypeCard@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"QuestTypeCard"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "QuestTypeCard",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_QUESTS_TRAVEL_LOG_PANEL_DEFAULT",
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "4.0"
+					},
+					"Right": {
+						"Value": "4.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0"
+					},
+					"Top": {
+						"Value": "6"
+					},
+					"Right": {
+						"Value": "0"
+					},
+					"Bottom": {
+						"Value": "6"
+					}
+				},
+				"Children": [
+					"RTID(ClaimedBorder@.)",
+					"RTID(QuestBadge@.)",
+					"RTID(QuestTypeIcon@.)",
+					"RTID(QuestProgressArea@.)",
+					"RTID(RewardContainer@.)",
+					"RTID(ClaimButton@.)",
+					"RTID(PlayButton@.)",
+					"RTID(TimeRibbon@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"QuestBadge"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "QuestBadge",
+				"Width": {
+					"Value": "4%"
+				},
+				"Height": {
+					"Value": "20%"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "-5.0"
+					}
+				},
+				"Children": [
+					"RTID(AlertText@.)"
+				],
+				"Image": "IMAGE_UI_HUD_INGAME_NOTIFICATION_ICON",
+				"DrawType": "stretched_aspectY",
+				"DrawStyle": "stretched_aspectY"
+			}
+		},
+		{
+			"aliases": [
+				"QuestProgressArea"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "QuestProgressArea",
+				"Width": {
+					"Value": "72%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "10%"
+					}
+				},
+				"Children": [
+					"RTID(ProgressBar@.)",
+					"RTID(ProgressText@.)",
+					"RTID(RowConnectorLine@.)",
+					"RTID(NodeList@.)",
+					"RTID(QuestTitle@.)"
+				],
+				"Image": "IMAGE_UI_HUD_INGAME_NOTIFICATION_ICON",
+				"DrawType": "stretched_aspectY",
+				"DrawStyle": "stretched_aspectY"
+			}
+		},
+		{
+			"aliases": [
+				"ClaimedBorder"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ClaimedBorder",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Image": "IMAGE_UI_QUESTS_TRAVEL_LOG_PANEL_COMPLETE",
+				"DrawType": "9slice",
+				"IgnoreMouseInput": true,
+				"DrawStyle": "normal",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "4.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"QuestTitle"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "QuestTitle",
+				"Width": {
+					"Value": "96%"
+				},
+				"Height": {
+					"Value": "30%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "6.0"
+					},
+					"OffsetX": {
+						"Value": "20.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24",
+				"Color": "DarkBrown"
+			}
+		},
+		{
+			"aliases": [
+				"AlertText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "AlertText",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Label": "!",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"QuestTypeIcon"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "QuestTypeIcon",
+				"Width": {
+					"Value": "10%"
+				},
+				"Height": {
+					"Value": "55%"
+				},
+				"Resources": [
+					"UI_Rift_Common"
+				],
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "8.0"
+					}
+				},
+				"Image": "",
+				"DrawType": "stretched_aspectY",
+				"DrawStyle": "stretched"
+			}
+		},
+		{
+			"aliases": [
+				"RowConnectorLine"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RowConnectorLine",
+				"Width": {
+					"Value": "87%"
+				},
+				"Height": {
+					"Value": "38%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "38.0"
+					},
+					"OffsetX": {
+						"Value": "-47.0"
+					}
+				},
+				"Image": "IMAGE_UI_QUESTS_LEVEL_NODE_CONNECTOR_ROW_CONNECTION_EMPTY",
+				"DrawType": "stretched",
+				"DrawStyle": "stretched"
+			}
+		},
+		{
+			"aliases": [
+				"NodeList"
+			],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "NodeList",
+				"Width": {
+					"Value": "440"
+				},
+				"Height": {
+					"Value": "200"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "12.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "75.0"
+					},
+					"OffsetX": {
+						"Value": "-47.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"ProgressBar"
+			],
+			"objclass": "HotUIProgressBarProperties",
+			"objdata": {
+				"Name": "ProgressBar",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "8%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "20.0"
+					},
+					"OffsetX": {
+						"Value": "4.0"
+					}
+				},
+				"ProgressBarBackground": "IMAGE_UI_QUESTS_QUEST_POINTS_FILLBAR_BG",
+				"ProgressBarImage": "IMAGE_UI_QUESTS_QUEST_POINTS_FILLBAR_FILL_GREEN"
+			}
+		},
+		{
+			"aliases": [
+				"ProgressText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "ProgressText",
+				"Width": {
+					"Value": "90%"
+				},
+				"Height": {
+					"Value": "20"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "20.0"
+					},
+					"OffsetX": {
+						"Value": "4.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"RewardContainer"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "RewardContainer",
+				"Width": {
+					"Value": "15%"
+				},
+				"Height": {
+					"Value": "15%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-16%"
+					},
+					"OffsetY": {
+						"Value": "10%"
+					}
+				},
+				"Children": [
+					"RTID(RewardImage@.)",
+					"RTID(RewardSeedPacket@.)",
+					"RTID(AmountText@.)",
+					"RTID(InfoButton@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"RewardImage"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "RewardImage",
+				"Width": {
+					"Value": "60%"
+				},
+				"Height": {
+					"Value": "60%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Resources": [
+					"UI_QuestTinyPinatas"
+				],
+				"Image": "",
+				"DrawStyle": "stretched_aspectX",
+				"DrawType": "stretched_aspectX",
+				"IgnoreMouseInput": true
+			}
+		},
+		{
+			"aliases": [
+				"RewardSeedPacket"
+			],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "RewardSeedPacket",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "13.0"
+					}
+				},
+				"PlantType": ""
+			}
+		},
+		{
+			"aliases": [
+				"AmountText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "AmountText",
+				"Width": {
+					"Value": "85%"
+				},
+				"Height": {
+					"Value": "25"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "10"
+					},
+					"OffsetX": {
+						"Value": "0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "bottom",
+				"Font": "BLACK_22_THICKOUTLINE",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"InfoButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "InfoButton",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottomleft",
+					"ParentAnchorPoint": "bottomleft",
+					"OffsetX": {
+						"Value": "8.0"
+					},
+					"OffsetY": {
+						"Value": "40.0"
+					}
+				},
+				"Label": "i",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_INFO_BUTTON_UP",
+				"DownImage": "IMAGE_UI_GENERIC_INFO_BUTTON_DOWN",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"UpAudio": "Play_UI_Menu_Cancel_Release"
+			}
+		},
+		{
+			"aliases": [
+				"TimeRibbon"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "TimeRibbon",
+				"Width": {
+					"Value": "80"
+				},
+				"Height": {
+					"Value": "25"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-27"
+					},
+					"OffsetY": {
+						"Value": "10"
+					}
+				},
+				"Image": "IMAGE_UI_QUESTS_EARMARK_PRIMARY",
+				"DrawStyle": "normal",
+				"DrawType": "normal",
+				"IgnoreMouseInput": true,
+				"Children": [
+					"RTID(TimerText@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"TimerText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "TimerText",
+				"Width": {
+					"Value": "70"
+				},
+				"Height": {
+					"Value": "23"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "15"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "11:11",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_18",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"ClaimButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "ClaimButton",
+				"Width": {
+					"Value": "15%"
+				},
+				"Height": {
+					"Value": "40%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-20"
+					},
+					"OffsetY": {
+						"Value": "23"
+					}
+				},
+				"Label": "[INGAME_RESTORE_PURCHASE_ITEM_BUTTON]",
+				"UpImage": "IMAGE_UI_GENERIC_PURPLEBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_PURPLEBUTTON_DOWN",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"ButtomImageDrawStyle": "normal"
+			}
+		},
+		{
+			"aliases": [
+				"PlayButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "PlayButton",
+				"Width": {
+					"Value": "15%"
+				},
+				"Height": {
+					"Value": "40%"
+				},
+				"Anchor": {
+					"AnchorPoint": "right",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "-20"
+					},
+					"OffsetY": {
+						"Value": "23"
+					}
+				},
+				"Label": "[MAINMENU_PLAY]",
+				"UpImage": "IMAGE_UI_GENERIC_GREENBUTTON",
+				"DownImage": "IMAGE_UI_GENERIC_GREENBUTTON_DOWN",
+				"UpAudio": "Play_UI_Menu_Cancel_Release",
+				"DownAudio": "Play_UI_Menu_Cancel_Press",
+				"ButtomImageDrawStyle": "normal"
+			}
+		}
+	]
+}

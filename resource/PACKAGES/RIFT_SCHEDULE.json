@@ -1,0 +1,1015 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"RiftSchedule"
+			],
+			"objclass": "RiftSchedule",
+			"objdata": {
+				"Events": [
+					{
+						"EndDate": 1705251600,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift78ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift78",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1704646800,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_79]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_pirate2",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "teleportatomine",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1705856400,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift72ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift72",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1705251600,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_73]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_future1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "boomflower",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1706461200,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift67ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift67",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1705856400,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_174]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_lostcity2",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "explodeonut",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1707066000,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift85ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift85",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1706461200,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_175]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_circus1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "iceweed",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1707670800,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift31ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift31",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1707066000,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_33]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_cowboy1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "chillypepper",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1708275600,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift44ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift44",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1707670800,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_44]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_dino1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "icebloom",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1708880400,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift57ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift57",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1708275600,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_178]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_dark1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "boingsetta",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1709485200,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift38ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift38",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1708880400,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_101]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_future3",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "noctarine",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1710090000,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift52ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift52",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1709485200,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_180]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_pirate3",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "shadowpeashooter",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1710694800,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift86ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift86",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1710090000,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_181]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_roman1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "murkadamia",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1711299600,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift54ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift54",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1710694800,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_54]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_egypt4",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "concealmint",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1711904400,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift59ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift59",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1711299600,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_183]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_iceage3",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "pvine",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1712509200,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift18ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift18",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1711904400,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_184]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_lostcity1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "blastberry",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1713114000,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift51ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift51",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1712509200,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_185]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_cowboy3",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "pyrevine",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1713718800,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift61ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift61",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1713114000,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_61]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_dino2",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "explodeovine",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1714323600,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift801ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift801",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1713718800,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_187]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_dark4",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "ultomato",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1714928400,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift802ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift802",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1714323600,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_188]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_future2",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "electricitea",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1715533200,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift803ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift803",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1714928400,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_189]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_pirate1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "buzzbutton",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1716138000,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift804ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift804",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1715533200,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_190]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_lostcity3",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "filamint",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1716742800,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift805ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift805",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1716138000,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_191]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_roman2",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "aloe",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1717347600,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift806ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift806",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1716742800,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_192]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_circus2",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "blockoli",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1717952400,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift23ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift23",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1717347600,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_84]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_egypt2",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "gumnut",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1718557200,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift56ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift56",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1717952400,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_102]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_pirate2",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "reinforcemint",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1719162000,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift41ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift41",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1718557200,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_42]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_cowboy4",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "pokra",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1719766800,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift32ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift32",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1719162000,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_33]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_future1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "seaflora",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1720371600,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift37ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift37",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1719766800,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_106]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_dark2",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "dartichoke",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1720976400,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift36ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift36",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1720371600,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_85]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_iceage1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "spearmint",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1721581200,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift49ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift49",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1720976400,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_122]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_dino3",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "bamboospartan",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1722186000,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift85ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift85",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1721581200,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_200]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_circus1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "hotdate",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1722790800,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift39ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift39",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1722186000,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_201]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_lostcity1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "jalapeno",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1723395600,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift28ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift28",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1722790800,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_202]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_pirate1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "firepeashooter",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1724000400,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift19ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift19",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1723395600,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_203]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_future1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "stickybombrice",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1724605200,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift33ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift33",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1724000400,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_COMMON]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_egypt1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "slingpea",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1725210000,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift66ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift66",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1724605200,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_COMMON]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_pirate1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "boomberry",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1725814800,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift60ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift60",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1725210000,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_COMMON]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_cowboy1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "armamint",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1726419600,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift17ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift17",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1725814800,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_COMMON]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_iceage1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "olivepit",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1727024400,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift45ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift45",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1726419600,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_COMMON]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_lostcity1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "draftodil",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1727629200,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift27ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift27",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1727024400,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_COMMON]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_future1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "buttercup",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1728234000,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift30ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift30",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1727629200,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_COMMON]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_dark1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "containmint",
+						"FeaturedPinata": ""
+					},
+					{
+						"EndDate": 1728838800,
+						"NumberOfNodes": 5,
+						"PerkProgressionKey": "Rift22ProgressionKey",
+						"RiftConfigKey": "RiftBase1ConfigKey",
+						"RiftLevelFirstClearRewardsKey": "FeaturedPlantRewardKey",
+						"RiftWorld": "rift22",
+						"RiftZombieSwapPropsKey": "",
+						"StartDate": 1728234000,
+						"SubEvents": [
+							{
+								"StartDeltaDays": 0,
+								"EndDeltaDays": 7
+							},
+							{
+								"StartDeltaDays": 7,
+								"EndDeltaDays": 1
+							}
+						],
+						"TitleText": "[RIFT_TITLE_TEXT_COMMON]",
+						"ZombossLevel": "rifts/rift_zombosses/rift_zomboss_dino1",
+						"ZombossRewards": "FeaturedPlantZombossRewards",
+						"FeaturedPlant": "hocus",
+						"FeaturedPinata": ""
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

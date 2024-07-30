@@ -1,0 +1,263 @@
+{
+"objects": [
+{
+"objclass": "LevelDefinition",
+"objdata": {
+"Description": "[PLAYERS_ZERO]",
+"FirstRewardParam": "moneybag_zero",
+"StartingSun": 0,
+"LevelNumber": 4,
+"ForceNextLevel": "egyptzero/egypt_005",
+"DisablePlantBoosts": true,
+"DisableSaveGame": true,
+"SuppressPlantfoodPurchase": true,
+"SuppressAccountUpgrades": true,
+"Loot": "RTID(ZeroLoot@LevelModules)",
+"Modules": [
+"RTID(StandardIntro@LevelModules)",
+"RTID(ZeroSunDropper@LevelModules)",
+"RTID(DefaultZombieWinCondition@LevelModules)",
+"RTID(ZombiesDeadWinCon@LevelModules)",
+"RTID(EgyptMowers@LevelModules)",
+"RTID(ZeroSeedBank@LevelModules)",
+"RTID(Escalation@.)",
+"RTID(NewWaves@.)",
+"RTID(ZombiePotions@.)",
+"RTID(Gravestones@.)",
+"RTID(EgyptZeroSwap@LevelModules)"
+],
+"Name": "[EGYPT_ZERO_LEVEL_NAME]",
+"StageModule": "RTID(EgyptStageNoPowerUps@LevelModules)"
+}
+},
+{
+"aliases": [
+"Escalation"
+],
+"objclass": "LevelEscalationModuleProperties",
+"objdata": {
+"FlagCount": 1,
+"PlantfoodToSpawnCount": 1,
+"PointIncrementPerWave": 260,
+"StartingPoints": 140,
+"WaveManagerProps": "RTID(WaveManager@.)",
+"WavesPerFlag": 15,
+"ZombiePool": [
+"RTID(egypt_imp@ZombieTypes)",
+"RTID(camel_twohump@ZombieTypes)",
+"RTID(ra@ZombieTypes)",
+"RTID(mummy_armor1@ZombieTypes)"
+]
+}
+},
+{
+"aliases": [
+"WaveManager"
+],
+"objclass": "WaveManagerProperties",
+"objdata": {
+"WaveSpendingPointIncrement": 0,
+"WaveSpendingPoints": 0,
+"ZombieCountdownFirstWaveSecs": 15.430000000000001,
+"MinNextWaveHealthPercentage": 0.24,
+"MaxNextWaveHealthPercentage": 0.48000000000000004,
+"Waves": [
+[],
+[],
+[],
+[],
+[],
+[],
+[],
+[
+"RTID(S7@.)"
+],
+[],
+[],
+[],
+[],
+[
+"RTID(S12@.)"
+],
+[
+"RTID(S13@.)"
+],
+[
+"RTID(S14@.)"
+]
+]
+}
+},
+{
+"aliases": [
+"NewWaves"
+],
+"objclass": "WaveManagerModuleProperties",
+"objdata": {}
+},
+{
+"aliases": [
+"ZombiePotions"
+],
+"objclass": "ZombiePotionModuleProperties",
+"objdata": {
+"InitialPotionCount": 0,
+"MaxPotionCount": 4,
+"PotionSpawnTimer": {
+"Max": 15,
+"Min": 20
+},
+"PotionTypes": [
+"gravestone_egypt"
+]
+}
+},
+{
+"aliases": [
+"Gravestones"
+],
+"objclass": "GravestoneProperties",
+"objdata": {
+"GravestoneCount": 3,
+"SpawnColumnEnd": 9,
+"SpawnColumnStart": 8
+}
+},
+{
+"aliases": [
+"S7"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 6,
+"GroupSize": 1,
+"TimeBetweenGroups": 0.74,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S14"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 6,
+"GroupSize": 1,
+"TimeBetweenGroups": 0.74,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S13"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 6,
+"GroupSize": 2,
+"TimeBetweenGroups": 0.74,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S12"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 6,
+"GroupSize": 2,
+"TimeBetweenGroups": 0.74,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+}
+],
+"version": 1
+}

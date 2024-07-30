@@ -1,0 +1,14 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"JoustSeasonSchedule"
+			],
+			"objclass": "JoustSeasonSchedule",
+			"objdata": {
+				"SeasonDefinitions": []
+			}
+		}
+	],
+	"version": 1
+}

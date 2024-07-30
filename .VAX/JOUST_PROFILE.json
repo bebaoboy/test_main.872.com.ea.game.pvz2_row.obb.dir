@@ -1,0 +1,12 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"JoustProfilePropertySheet"
+			],
+			"objclass": "JoustProfilePropertySheet",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

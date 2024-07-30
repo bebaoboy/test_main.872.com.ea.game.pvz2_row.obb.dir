@@ -1,0 +1,6221 @@
+{
+  "objects": [
+    {
+      "aliases": [
+        "CalendarSchedule"
+      ],
+      "objclass": "CalendarSchedule",
+      "objdata": {
+        "CalendarBaseStartDate": 1546300800,
+        "Calendars": [
+          {
+            "Category": "event14",
+            "EndDateTime": 1900000000,
+            "LoginType": "cumulative",
+            "Name": "[EVENT_BIRTHDAYZ]",
+            "Rewards": [
+              {
+                "Award": "plantXP",
+                "AwardParam": "laser_bean",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "spikerock",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "spearmint",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "kernelpult",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "dartichoke",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "firepeashooter",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free_birthdayz_2022_15",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "heathseeker",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "firepeashooter",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "homingthistle",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "laser_bean",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "spikerock",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "kernelpult",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free_birthdayz_2022_15",
+                "AwardQuantity": 2
+              }
+            ],
+            "ShowTimer": true,
+            "StartDateTime": 1651363200,
+            "Theme": "Birthdayz",
+            "UniqueID": 17
+          },
+          {
+            "Category": "event14",
+            "EndDateTime": 1654041600,
+            "LoginType": "cumulative",
+            "Name": "[EVENT_BIRTHDAYZ_2]",
+            "Rewards": [
+              {
+                "Award": "plantXP",
+                "AwardParam": "kernelpult",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "firepeashooter",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "heathseeker",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "spikerock",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "homingthistle",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "cactus",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free_birthdayz_2022_15",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "dartichoke",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "firepeashooter",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "cactus",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "spearmint",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "primalpotatomine",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "grimrose",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free_birthdayz_2022_15",
+                "AwardQuantity": 2
+              }
+            ],
+            "ShowTimer": true,
+            "StartDateTime": 1652659200,
+            "Theme": "Birthdayz",
+            "UniqueID": 18
+          },
+          {
+            "Category": "event14",
+            "EndDateTime": 1655424100,
+            "LoginType": "cumulative",
+            "Name": "[EVENT_BIRTHDAYZ_2]",
+            "Rewards": [
+              {
+                "Award": "plantXP",
+                "AwardParam": "sunflower",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "peashooter",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "wallnut",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "potatomine",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "cherry_bomb",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "cabbagepult",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "sunflower",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "peashooter",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "wallnut",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "potatomine",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "cherry_bomb",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "cabbagepult",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free_birthdayz_2022_15",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free_birthdayz_2022_15",
+                "AwardQuantity": 6
+              }
+            ],
+            "ShowTimer": true,
+            "StartDateTime": 1654041700,
+            "Theme": "",
+            "UniqueID": 19
+          },
+          {
+            "Category": "event7",
+            "EndDateTime": 1900000000,
+            "LoginType": "cumulative",
+            "Name": "[EVENT_CALENDAR_LAWNBOWL]",
+            "Rewards": [
+              {
+                "Award": "plantXP",
+                "AwardParam": "appeasemint",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "torchwood",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "threepeater",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "starfruit",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "hypnoshroom",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "plantXP",
+                "AwardParam": "headbutter",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lawnbowl_pinata_2022",
+                "AwardQuantity": 1
+              }
+            ],
+            "ShowTimer": true,
+            "StartDateTime": 1654041601,
+            "Theme": "Sportzball",
+            "UniqueID": 20
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1659337199,
+            "LoginType": "cumulative",
+            "Name": "JUL 2022",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dino",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "future",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "future",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1656658800,
+            "Theme": "",
+            "UniqueID": 21
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1662015599,
+            "LoginType": "cumulative",
+            "Name": "AUG 2022",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "sun",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1659337200,
+            "Theme": "",
+            "UniqueID": 22
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1664693999,
+            "LoginType": "cumulative",
+            "Name": "SEP 2022",
+            "Rewards": [
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "explosive",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "tutorial",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "tutorial",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 1
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1662015600,
+            "Theme": "",
+            "UniqueID": 23
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1667372399,
+            "LoginType": "cumulative",
+            "Name": "OCT 2022",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lawnofdoom",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "foodfight",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dino",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "nuts",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1664694000,
+            "Theme": "",
+            "UniqueID": 24
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1670050799,
+            "LoginType": "cumulative",
+            "Name": "NOV 2022",
+            "Rewards": [
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "explosive",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "foodfight",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "eighties",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7750
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1667372400,
+            "Theme": "",
+            "UniqueID": 25
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1672729199,
+            "LoginType": "cumulative",
+            "Name": "DEC 2022",
+            "Rewards": [
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "feastivus",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "explosive",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "foodfight",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1500
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7500
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lawnofdoom",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 3
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1670050800,
+            "Theme": "",
+            "UniqueID": 26
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1675407599,
+            "LoginType": "cumulative",
+            "Name": "JAN 2023",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3500
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 3
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1672729200,
+            "Theme": "",
+            "UniqueID": 27
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1678085999,
+            "LoginType": "cumulative",
+            "Name": "FEB 2023",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "sun",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9500
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lawnofdoom",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1675407600,
+            "Theme": "",
+            "UniqueID": 28
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1680764399,
+            "LoginType": "cumulative",
+            "Name": "MARCH 2023",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "eighties",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "sun",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4500
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3750
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1678086000,
+            "Theme": "",
+            "UniqueID": 29
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1683442799,
+            "LoginType": "cumulative",
+            "Name": "APR 2023",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "nuts",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "eighties",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "future",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "nuts",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "foodfight",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1680764400,
+            "Theme": "",
+            "UniqueID": 30
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1686121199,
+            "LoginType": "cumulative",
+            "Name": "MAY 2023",
+            "Rewards": [
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "foodfight",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "eighties",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dino",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "tutorial",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7000
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1683442800,
+            "Theme": "",
+            "UniqueID": 31
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1688799599,
+            "LoginType": "cumulative",
+            "Name": "JNE 2023",
+            "Rewards": [
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "feastivus",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "explosive",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "tutorial",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "sun",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5500
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "explosive",
+                "AwardQuantity": 3
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1686121200,
+            "Theme": "",
+            "UniqueID": 32
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1691477999,
+            "LoginType": "cumulative",
+            "Name": "JUL 2023",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "lawnofdoom",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "tutorial",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4500
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "feastivus",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "explosive",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 1
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1688799600,
+            "Theme": "",
+            "UniqueID": 33
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1694156399,
+            "LoginType": "cumulative",
+            "Name": "AUG 2023",
+            "Rewards": [
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lawnofdoom",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "eighties",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7750
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "foodfight",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6500
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1691478000,
+            "Theme": "",
+            "UniqueID": 34
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1696834799,
+            "LoginType": "cumulative",
+            "Name": "SEP 2023",
+            "Rewards": [
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "eighties",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9500
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "feastivus",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5750
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1500
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1694156400,
+            "Theme": "",
+            "UniqueID": 35
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1699513199,
+            "LoginType": "cumulative",
+            "Name": "OCT 2023",
+            "Rewards": [
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5500
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "eighties",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "future",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dino",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "tutorial",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "future",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "nuts",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "eighties",
+                "AwardQuantity": 1
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1696834800,
+            "Theme": "",
+            "UniqueID": 36
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1702191599,
+            "LoginType": "cumulative",
+            "Name": "NOV 2023",
+            "Rewards": [
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5500
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "tutorial",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "explosive",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dino",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5750
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "nuts",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "nuts",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1699513200,
+            "Theme": "",
+            "UniqueID": 37
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1704869999,
+            "LoginType": "cumulative",
+            "Name": "DEC 2023",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "lawnofdoom",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8750
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dino",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "future",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7500
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "sun",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "sun",
+                "AwardQuantity": 3
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1702191600,
+            "Theme": "",
+            "UniqueID": 38
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1707548399,
+            "LoginType": "cumulative",
+            "Name": "JAN 2024",
+            "Rewards": [
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1500
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8500
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lawnofdoom",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "explosive",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lawnofdoom",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1704870000,
+            "Theme": "",
+            "UniqueID": 39
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1710226799,
+            "LoginType": "cumulative",
+            "Name": "FEB 2024",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "foodfight",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dino",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "foodfight",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1707548400,
+            "Theme": "",
+            "UniqueID": 40
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1712905199,
+            "LoginType": "cumulative",
+            "Name": "MARCH 2024",
+            "Rewards": [
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "foodfight",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6500
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "nuts",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "explosive",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1710226800,
+            "Theme": "",
+            "UniqueID": 41
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1715583599,
+            "LoginType": "cumulative",
+            "Name": "APR 2024",
+            "Rewards": [
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4500
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "foodfight",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lawnofdoom",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "sun",
+                "AwardQuantity": 3
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1712905200,
+            "Theme": "",
+            "UniqueID": 42
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1718261999,
+            "LoginType": "cumulative",
+            "Name": "MAY 2024",
+            "Rewards": [
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8500
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lawnofdoom",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "nuts",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dino",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3750
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5500
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 2
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1715583600,
+            "Theme": "",
+            "UniqueID": 43
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1720940399,
+            "LoginType": "cumulative",
+            "Name": "JNE 2024",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3750
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "feastivus",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "future",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7750
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1718262000,
+            "Theme": "",
+            "UniqueID": 44
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1723618799,
+            "LoginType": "cumulative",
+            "Name": "JUL 2024",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "feastivus",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "feastivus",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "feastivus",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "future",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "eighties",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "tutorial",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1720940400,
+            "Theme": "",
+            "UniqueID": 45
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1726297199,
+            "LoginType": "cumulative",
+            "Name": "AUG 2024",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "sun",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dino",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5750
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9750
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "foodfight",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2500
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "future",
+                "AwardQuantity": 3
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1723618800,
+            "Theme": "",
+            "UniqueID": 46
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1728975599,
+            "LoginType": "cumulative",
+            "Name": "SEP 2024",
+            "Rewards": [
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3750
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "sun",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "future",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "sun",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1750
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1726297200,
+            "Theme": "",
+            "UniqueID": 47
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1731653999,
+            "LoginType": "cumulative",
+            "Name": "OCT 2024",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "tutorial",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "feastivus",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "tutorial",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "sun",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lawnofdoom",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "foodfight",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "nuts",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1728975600,
+            "Theme": "",
+            "UniqueID": 48
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1734332399,
+            "LoginType": "cumulative",
+            "Name": "NOV 2024",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "nuts",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "feastivus",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "tutorial",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "nuts",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dino",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 2
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1731654000,
+            "Theme": "",
+            "UniqueID": 49
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1737010799,
+            "LoginType": "cumulative",
+            "Name": "DEC 2024",
+            "Rewards": [
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "future",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4500
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "feastivus",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1500
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "foodfight",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1734332400,
+            "Theme": "",
+            "UniqueID": 50
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1739689199,
+            "LoginType": "cumulative",
+            "Name": "JAN 2025",
+            "Rewards": [
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5500
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "explosive",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "eighties",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "beach",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lawnofdoom",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "explosive",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3500
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dino",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 2
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1737010800,
+            "Theme": "",
+            "UniqueID": 51
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1742367599,
+            "LoginType": "cumulative",
+            "Name": "FEB 2025",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "sun",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "feastivus",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "future",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 3
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1739689200,
+            "Theme": "",
+            "UniqueID": 52
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1745045999,
+            "LoginType": "cumulative",
+            "Name": "MARCH 2025",
+            "Rewards": [
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fruit",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 3000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "feastivus",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9500
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8750
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 1
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1742367600,
+            "Theme": "",
+            "UniqueID": 53
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1747724399,
+            "LoginType": "cumulative",
+            "Name": "APR 2025",
+            "Rewards": [
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dino",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 6
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7500
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cold",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 10
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1745046000,
+            "Theme": "",
+            "UniqueID": 54
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1750402799,
+            "LoginType": "cumulative",
+            "Name": "MAY 2025",
+            "Rewards": [
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 8
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6750
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6750
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "cowboy",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "sun",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 9
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "electricity",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "foodfight",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "greens",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 6750
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 5
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 4500
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "mushroom",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 9250
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "dark",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "pirate",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1747724400,
+            "Theme": "",
+            "UniqueID": 55
+          },
+          {
+            "Category": "monthly",
+            "EndDateTime": 1753081199,
+            "LoginType": "cumulative",
+            "Name": "JNE 2025",
+            "Rewards": [
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "sun",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "nuts",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "iceage",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "eighties",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 2
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 2000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5250
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "fire",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "egypt",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lostcity",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "free",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 7750
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 1000
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "carnival",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lawnofdoom",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 5250
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "modern",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 4
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "feastivus",
+                "AwardQuantity": 3
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 7
+              },
+              {
+                "Award": "coins",
+                "AwardParam": "",
+                "AwardQuantity": 8000
+              },
+              {
+                "Award": "gems",
+                "AwardParam": "",
+                "AwardQuantity": 1
+              },
+              {
+                "Award": "pinata",
+                "AwardParam": "lunarnewyear",
+                "AwardQuantity": 2
+              }
+            ],
+            "ShowTimer": false,
+            "StartDateTime": 1750402800,
+            "Theme": "",
+            "UniqueID": 56
+          }
+        ]
+      }
+    }
+  ],
+  "version": 1
+}

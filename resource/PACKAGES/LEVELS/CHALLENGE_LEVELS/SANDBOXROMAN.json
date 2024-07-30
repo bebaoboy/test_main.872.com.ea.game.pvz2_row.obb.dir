@@ -1,0 +1,34 @@
+{
+	"IgnoreForValidation": "true",
+	"#comment": "SandboxRoman",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "Roman Sandbox Level",
+				"LevelNumber": 42,
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(RomanMowers@LevelModules)",
+					"RTID(SandboxRomanSeedBank@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)"
+				],
+				"Name": "Roman Sandbox",
+				"StageModule": "RTID(RomanStage@LevelModules)"
+			}
+		},
+		{
+			"aliases": [
+				"SandboxRomanSeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [],
+				"SelectionMethod": "chooser"
+			}
+		}
+	],
+	"version": 1
+}

@@ -1,0 +1,3131 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"LevelOfTheDayEvents"
+			],
+			"objclass": "LevelOfTheDayEvents",
+			"objdata": {
+				"Events": [
+					{
+						"Name": "LOD_AUTO_COMMON",
+						"AutocadoKey": "LOD_AUTO_COMMON"
+					},
+					{
+						"Name": "LOD_BIRTHDAY_DAY_1",
+						"Holiday": "birthday",
+						"HolidayBannerName": "BirthdayDefault",
+						"LootCommonPinata": "Common_Birthdayz",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_155"
+					},
+					{
+						"Name": "LOD_BIRTHDAY_DAY_2",
+						"Holiday": "birthday",
+						"HolidayBannerName": "BirthdayDefault",
+						"LootCommonPinata": "Common_Birthdayz",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_022"
+					},
+					{
+						"Name": "LOD_BIRTHDAY_DAY_3",
+						"Holiday": "birthday",
+						"HolidayBannerName": "BirthdayDefault",
+						"LootCommonPinata": "Common_Birthdayz_2022",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_030"
+					},
+					{
+						"Name": "LOD_BIRTHDAY_DAY_4",
+						"Holiday": "birthday",
+						"HolidayBannerName": "BirthdayDefault",
+						"LootCommonPinata": "Common_Birthdayz_2022",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_018"
+					},
+					{
+						"Name": "LOD_BIRTHDAY_DAY_5",
+						"Holiday": "birthday",
+						"HolidayBannerName": "BirthdayDefault",
+						"LootCommonPinata": "Common_Birthdayz_2022",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_012"
+					},
+					{
+						"Name": "LOD_BIRTHDAY_DAY_6",
+						"Holiday": "birthday",
+						"HolidayBannerName": "BirthdayDefault",
+						"LootCommonPinata": "Common_Birthdayz_2022",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_023"
+					},
+					{
+						"Name": "LOD_BIRTHDAY_DAY_7",
+						"Holiday": "birthday",
+						"HolidayBannerName": "BirthdayDefault",
+						"LootCommonPinata": "Common_Birthdayz_2022",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_113"
+					},
+					{
+						"Name": "LOD_BIRTHDAY_DAY_8",
+						"Holiday": "birthday",
+						"HolidayBannerName": "BirthdayDefault",
+						"LootCommonPinata": "Common_Birthdayz_2022",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_011"
+					},
+					{
+						"Name": "LOD_BIRTHDAY_DAY_9",
+						"Holiday": "birthday",
+						"HolidayBannerName": "BirthdayDefault",
+						"LootCommonPinata": "Common_Birthdayz_2022",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_021"
+					},
+					{
+						"Name": "LOD_BIRTHDAY_DAY_10",
+						"Holiday": "birthday",
+						"HolidayBannerName": "BirthdayDefault",
+						"LootCommonPinata": "Common_Birthdayz_2022_2",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_032"
+					},
+					{
+						"Name": "LOD_BIRTHDAY_DAY_11",
+						"Holiday": "birthday",
+						"HolidayBannerName": "BirthdayDefault",
+						"LootCommonPinata": "Common_Birthdayz_2022_2",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_019"
+					},
+					{
+						"Name": "LOD_BIRTHDAY_DAY_12",
+						"Holiday": "birthday",
+						"HolidayBannerName": "BirthdayDefault",
+						"LootCommonPinata": "Common_Birthdayz_2022_2",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_003"
+					},
+					{
+						"Name": "LOD_LEAPYEAR",
+						"Holiday": "birthday",
+						"HolidayBannerName": "LeapYear",
+						"LootCommonPinata": "Common",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_leapyear"
+					},
+					{
+						"Name": "LOD_SUMMER_NIGHTS_DAY_1",
+						"Holiday": "summernights",
+						"HolidayBannerName": "SummerNightsStrawburst",
+						"LootCommonPinata": "Common_Summernights",
+						"LootValuablePinata": "Valuable_Summernights",
+						"PrimaryLevelName": "lod_162"
+					},
+					{
+						"Name": "LOD_SUMMER_NIGHTS_DAY_2",
+						"Holiday": "summernights",
+						"HolidayBannerName": "SummerNightsVasebreaker",
+						"LootCommonPinata": "Common_Summernights",
+						"LootValuablePinata": "Valuable_Summernights",
+						"PrimaryLevelName": "lod_vase_fire_010"
+					},
+					{
+						"Name": "LOD_SUMMER_NIGHTS_DAY_3",
+						"Holiday": "summernights",
+						"HolidayBannerName": "SummerNightsPepperMint",
+						"LootCommonPinata": "Common_Summernights",
+						"LootValuablePinata": "Valuable_Summernights",
+						"PrimaryLevelName": "lod_029"
+					},
+					{
+						"Name": "LOD_SUMMER_NIGHTS_DAY_4",
+						"Holiday": "summernights",
+						"HolidayBannerName": "SummerNightsStrawburst",
+						"LootCommonPinata": "Common_Summernights",
+						"LootValuablePinata": "Valuable_Summernights",
+						"PrimaryLevelName": "lod_159"
+					},
+					{
+						"Name": "LOD_SUMMER_NIGHTS_DAY_5",
+						"Holiday": "summernights",
+						"HolidayBannerName": "SummerNightsVasebreaker",
+						"LootCommonPinata": "Common_Summernights",
+						"LootValuablePinata": "Valuable_Summernights",
+						"PrimaryLevelName": "lod_vase_fire_012"
+					},
+					{
+						"Name": "LOD_SUMMER_NIGHTS_DAY_6",
+						"Holiday": "summernights",
+						"HolidayBannerName": "SummerNightsPepperMint",
+						"LootCommonPinata": "Common_Summernights_alt",
+						"LootValuablePinata": "Valuable_Summernights",
+						"PrimaryLevelName": "lod_129"
+					},
+					{
+						"Name": "LOD_SUMMER_NIGHTS_DAY_7",
+						"Holiday": "summernights",
+						"HolidayBannerName": "SummerNightsVasebreaker",
+						"LootCommonPinata": "Common_Summernights_alt",
+						"LootValuablePinata": "Valuable_Summernights",
+						"PrimaryLevelName": "lod_vase_fire_013"
+					},
+					{
+						"Name": "LOD_SUMMER_NIGHTS_DAY_8",
+						"Holiday": "summernights",
+						"HolidayBannerName": "SummerNightsStrawburst",
+						"LootCommonPinata": "Common_Summernights_alt",
+						"LootValuablePinata": "Valuable_Summernights",
+						"PrimaryLevelName": "lod_158"
+					},
+					{
+						"Name": "LOD_SUMMER_NIGHTS_DAY_9",
+						"Holiday": "summernights",
+						"HolidayBannerName": "SummerNightsVasebreaker",
+						"LootCommonPinata": "Common_Summernights_alt",
+						"LootValuablePinata": "Valuable_Summernights",
+						"PrimaryLevelName": "lod_vase_fire_008"
+					},
+					{
+						"Name": "LOD_SUMMER_NIGHTS_DAY_10",
+						"Holiday": "summernights",
+						"HolidayBannerName": "SummerNightsPepperMint",
+						"LootCommonPinata": "Common_Summernights_alt",
+						"LootValuablePinata": "Valuable_Summernights",
+						"PrimaryLevelName": "lod_149"
+					},
+					{
+						"Name": "LOD_SUMMER_NIGHTS_DAY_11",
+						"Holiday": "summernights",
+						"HolidayBannerName": "SummerNightsVasebreaker",
+						"LootCommonPinata": "Common_Summernights",
+						"LootValuablePinata": "Valuable_Summernights",
+						"PrimaryLevelName": "lod_vase_fire_011"
+					},
+					{
+						"Name": "LOD_TIME_TWIST_DAY_1",
+						"Holiday": "timetwist1",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Timetwist",
+						"LootValuablePinata": "Valuable_Timetwist",
+						"PrimaryLevelName": "lod_230"
+					},
+					{
+						"Name": "LOD_TIME_TWIST_DAY_2",
+						"Holiday": "timetwist1",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Timetwist",
+						"LootValuablePinata": "Valuable_Timetwist",
+						"PrimaryLevelName": "lod_224"
+					},
+					{
+						"Name": "LOD_TIME_TWIST_DAY_3",
+						"Holiday": "timetwist1",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Timetwist",
+						"LootValuablePinata": "Valuable_Timetwist",
+						"PrimaryLevelName": "lod_231"
+					},
+					{
+						"Name": "LOD_TIME_TWIST_DAY_4",
+						"Holiday": "timetwist1",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Timetwist",
+						"LootValuablePinata": "Valuable_Timetwist",
+						"PrimaryLevelName": "lod_222"
+					},
+					{
+						"Name": "LOD_TIME_TWIST_DAY_5",
+						"Holiday": "timetwist1",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Timetwist",
+						"LootValuablePinata": "Valuable_Timetwist",
+						"PrimaryLevelName": "lod_227"
+					},
+					{
+						"Name": "LOD_TIME_TWIST_DAY_6",
+						"Holiday": "timetwist1",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Timetwist",
+						"LootValuablePinata": "Valuable_Timetwist",
+						"PrimaryLevelName": "lod_225"
+					},
+					{
+						"Name": "LOD_TIME_TWIST_DAY_7",
+						"Holiday": "timetwist1",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Timetwist",
+						"LootValuablePinata": "Valuable_Timetwist",
+						"PrimaryLevelName": "lod_228"
+					},
+					{
+						"Name": "LOD_TIME_TWIST_DAY_8",
+						"Holiday": "timetwist1",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Timetwist",
+						"LootValuablePinata": "Valuable_Timetwist",
+						"PrimaryLevelName": "lod_221"
+					},
+					{
+						"Name": "LOD_TIME_TWIST_DAY_9",
+						"Holiday": "timetwist1",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Timetwist",
+						"LootValuablePinata": "Valuable_Timetwist",
+						"PrimaryLevelName": "lod_226"
+					},
+					{
+						"Name": "LOD_TIME_TWIST_DAY_10",
+						"Holiday": "timetwist1",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Timetwist",
+						"LootValuablePinata": "Valuable_Timetwist",
+						"PrimaryLevelName": "lod_229"
+					},
+					{
+						"Name": "LOD_BEGHOULED_BEYOND_DAY_1",
+						"Holiday": "beghouledbeyond",
+						"HolidayBannerName": "Kiwibeast",
+						"LootCommonPinata": "Common_BeghouledBeyond",
+						"LootValuablePinata": "Valuable_BeghouledBeyond",
+						"PrimaryLevelName": "lod_273"
+					},
+					{
+						"Name": "LOD_BEGHOULED_BEYOND_DAY_2",
+						"Holiday": "beghouledbeyond",
+						"HolidayBannerName": "Match3",
+						"LootCommonPinata": "Common_BeghouledBeyond",
+						"LootValuablePinata": "Valuable_BeghouledBeyond",
+						"PrimaryLevelName": "lod_274"
+					},
+					{
+						"Name": "LOD_BEGHOULED_BEYOND_DAY_3",
+						"Holiday": "beghouledbeyond",
+						"HolidayBannerName": "Kiwibeast",
+						"LootCommonPinata": "Common_BeghouledBeyond",
+						"LootValuablePinata": "Valuable_BeghouledBeyond",
+						"PrimaryLevelName": "lod_275"
+					},
+					{
+						"Name": "LOD_BEGHOULED_BEYOND_DAY_4",
+						"Holiday": "beghouledbeyond",
+						"HolidayBannerName": "Match3",
+						"LootCommonPinata": "Common_BeghouledBeyond",
+						"LootValuablePinata": "Valuable_BeghouledBeyond",
+						"PrimaryLevelName": "lod_276"
+					},
+					{
+						"Name": "LOD_BEGHOULED_BEYOND_DAY_5",
+						"Holiday": "beghouledbeyond",
+						"HolidayBannerName": "Kiwibeast",
+						"LootCommonPinata": "Common_BeghouledBeyond",
+						"LootValuablePinata": "Valuable_BeghouledBeyond",
+						"PrimaryLevelName": "lod_277"
+					},
+					{
+						"Name": "LOD_BEGHOULED_BEYOND_DAY_6",
+						"Holiday": "beghouledbeyond",
+						"HolidayBannerName": "Match3",
+						"LootCommonPinata": "Common_BeghouledBeyond",
+						"LootValuablePinata": "Valuable_BeghouledBeyond",
+						"PrimaryLevelName": "lod_282"
+					},
+					{
+						"Name": "LOD_BEGHOULED_BEYOND_DAY_7",
+						"Holiday": "beghouledbeyond",
+						"HolidayBannerName": "Kiwibeast",
+						"LootCommonPinata": "Common_BeghouledBeyond",
+						"LootValuablePinata": "Valuable_BeghouledBeyond",
+						"PrimaryLevelName": "lod_279"
+					},
+					{
+						"Name": "LOD_BIG_BRAINZ_DAY_1",
+						"Holiday": "bigbrainz",
+						"HolidayBannerName": "BigBrainzChomper",
+						"LootCommonPinata": "Common_BigBrainz",
+						"LootValuablePinata": "Valuable_Bigbrainz",
+						"PrimaryLevelName": "lod_078"
+					},
+					{
+						"Name": "LOD_BIG_BRAINZ_DAY_2",
+						"Holiday": "bigbrainz",
+						"HolidayBannerName": "BigBrainzSnowPea",
+						"LootCommonPinata": "Common_BigBrainz",
+						"LootValuablePinata": "Valuable_Bigbrainz",
+						"PrimaryLevelName": "lod_016"
+					},
+					{
+						"Name": "LOD_BIG_BRAINZ_DAY_3",
+						"Holiday": "bigbrainz",
+						"HolidayBannerName": "BigBrainzSnapDragon",
+						"LootCommonPinata": "Common_BigBrainz",
+						"LootValuablePinata": "Valuable_Bigbrainz",
+						"PrimaryLevelName": "lod_114"
+					},
+					{
+						"Name": "LOD_BIG_BRAINZ_DAY_4",
+						"Holiday": "bigbrainz",
+						"HolidayBannerName": "BigBrainzChomper",
+						"LootCommonPinata": "Common_BigBrainz",
+						"LootValuablePinata": "Valuable_Bigbrainz",
+						"PrimaryLevelName": "lod_079"
+					},
+					{
+						"Name": "LOD_BIG_BRAINZ_DAY_5",
+						"Holiday": "bigbrainz",
+						"HolidayBannerName": "BigBrainzSnowPea",
+						"LootCommonPinata": "Common_BigBrainz",
+						"LootValuablePinata": "Valuable_Bigbrainz",
+						"PrimaryLevelName": "lod_060"
+					},
+					{
+						"Name": "LOD_BIG_BRAINZ_DAY_6",
+						"Holiday": "bigbrainz",
+						"HolidayBannerName": "BigBrainzSnapDragon",
+						"LootCommonPinata": "Common_BigBrainz",
+						"LootValuablePinata": "Valuable_Bigbrainz",
+						"PrimaryLevelName": "lod_109"
+					},
+					{
+						"Name": "LOD_BIG_BRAINZ_DAY_7",
+						"Holiday": "bigbrainz",
+						"HolidayBannerName": "BigBrainzChomper",
+						"LootCommonPinata": "Common_BigBrainz",
+						"LootValuablePinata": "Valuable_Bigbrainz",
+						"PrimaryLevelName": "lod_077"
+					},
+					{
+						"Name": "LOD_BIG_BRAINZ_DAY_8",
+						"Holiday": "bigbrainz",
+						"HolidayBannerName": "BigBrainzSnowPea",
+						"LootCommonPinata": "Common_BigBrainz_2",
+						"LootValuablePinata": "Valuable_Bigbrainz",
+						"PrimaryLevelName": "lod_052"
+					},
+					{
+						"Name": "LOD_BIG_BRAINZ_DAY_9",
+						"Holiday": "bigbrainz",
+						"HolidayBannerName": "BigBrainzSnapDragon",
+						"LootCommonPinata": "Common_BigBrainz_2",
+						"LootValuablePinata": "Valuable_Bigbrainz",
+						"PrimaryLevelName": "lod_271"
+					},
+					{
+						"Name": "LOD_BIG_BRAINZ_DAY_10",
+						"Holiday": "bigbrainz",
+						"HolidayBannerName": "BigBrainzChomper",
+						"LootCommonPinata": "Common_BigBrainz_3",
+						"LootValuablePinata": "Valuable_Bigbrainz",
+						"PrimaryLevelName": "lod_083"
+					},
+					{
+						"Name": "LOD_BIG_BRAINZ_DAY_11",
+						"Holiday": "bigbrainz",
+						"HolidayBannerName": "BigBrainzImp",
+						"LootCommonPinata": "Common_BigBrainz_3",
+						"LootValuablePinata": "Valuable_Bigbrainz",
+						"PrimaryLevelName": "lod_008"
+					},
+					{
+						"Name": "LOD_BIG_BRAINZ_DAY_12",
+						"Holiday": "bigbrainz",
+						"HolidayBannerName": "BigBrainzZombie",
+						"LootCommonPinata": "Common_BigBrainz_3",
+						"LootValuablePinata": "Valuable_Bigbrainz",
+						"PrimaryLevelName": "lod_145"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_1",
+						"Holiday": "halloween",
+						"HolidayBannerName": "Ghost",
+						"LootCommonPinata": "Common_Halloween_2021",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_088"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_2",
+						"Holiday": "halloween",
+						"HolidayBannerName": "WitchHazel",
+						"LootCommonPinata": "Common_Halloween_2021_2",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_296"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_3",
+						"Holiday": "halloween",
+						"HolidayBannerName": "Ghost",
+						"LootCommonPinata": "Common_Halloween_2021_2",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_092"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_4",
+						"Holiday": "halloween",
+						"HolidayBannerName": "Jack",
+						"LootCommonPinata": "Common_Halloween_2021_2",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_178"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_5",
+						"Holiday": "halloween",
+						"HolidayBannerName": "WitchHazel",
+						"LootCommonPinata": "Common_Halloween_2021_2",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_291"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_6",
+						"Holiday": "halloween",
+						"HolidayBannerName": "Ghost",
+						"LootCommonPinata": "Common_Halloween_2021_2",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_089"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_7",
+						"Holiday": "halloween",
+						"HolidayBannerName": "Jack",
+						"LootCommonPinata": "Common_Halloween_2021_2",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_180"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_8",
+						"Holiday": "halloween",
+						"HolidayBannerName": "WitchHazel",
+						"LootCommonPinata": "Common_Halloween_2021_2",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_299"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_9",
+						"Holiday": "halloween",
+						"HolidayBannerName": "Ghost",
+						"LootCommonPinata": "Common_Halloween_2021_3",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_093"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_10",
+						"Holiday": "halloween",
+						"HolidayBannerName": "WitchHazel",
+						"LootCommonPinata": "Common_Halloween_2021_3",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_294"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_11",
+						"Holiday": "halloween",
+						"HolidayBannerName": "Ghost",
+						"LootCommonPinata": "Common_Halloween_2021_3",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_091"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_12",
+						"Holiday": "halloween",
+						"HolidayBannerName": "Jack",
+						"LootCommonPinata": "Common_Halloween_2021_3",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_177"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_13",
+						"Holiday": "halloween",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Halloween_2021_3",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_300"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_14",
+						"Holiday": "halloween",
+						"HolidayBannerName": "Ghost",
+						"LootCommonPinata": "Common_Halloween_2021_3",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_090"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_15",
+						"Holiday": "halloween",
+						"HolidayBannerName": "Jack",
+						"LootCommonPinata": "Common_Halloween_2021_3",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_179"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_16",
+						"Holiday": "halloween",
+						"HolidayBannerName": "Jack",
+						"LootCommonPinata": "Common_Halloween_2021_3",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_179"
+					},
+					{
+						"Name": "LOD_HALLOWEEN_DAY_17",
+						"Holiday": "halloween",
+						"HolidayBannerName": "WitchHazel",
+						"LootCommonPinata": "Common_Halloween_2021_3",
+						"LootValuablePinata": "Valuable_Halloween",
+						"PrimaryLevelName": "lod_292"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_1",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Parsnip",
+						"LootCommonPinata": "Common_Foodfight_2021",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_305"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_2",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Parsnip",
+						"LootCommonPinata": "Common_Foodfight_2021",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_306"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_3",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Foodfight_2021_2",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_096"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_4",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Foodfight_2021_2",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_111"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_5",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Parsnip",
+						"LootCommonPinata": "Common_Foodfight_2021_2",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_301"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_6",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Foodfight_2021_2",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_099"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_7",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Foodfight_2021_2",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_034"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_8",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Parsnip",
+						"LootCommonPinata": "Common_Foodfight_2021_2",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_302"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_9",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Foodfight_2021_2",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_191"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_10",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Foodfight_2021_3",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_067"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_11",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Parsnip",
+						"LootCommonPinata": "Common_Foodfight_2021_3",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_304"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_12",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Foodfight_2021_3",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_297"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_13",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Parsnip",
+						"LootCommonPinata": "Common_Foodfight_2021_3",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_303"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_14",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Foodfight_2021_3",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_097"
+					},
+					{
+						"Name": "LOD_FOODFIGHT_DAY_15",
+						"Holiday": "foodfight",
+						"HolidayBannerName": "Default",
+						"LootCommonPinata": "Common_Foodfight_2021_3",
+						"LootValuablePinata": "Valuable_Foodfight",
+						"PrimaryLevelName": "lod_008"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_1",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusMissiletoe",
+						"LootCommonPinata": "Common_Feastivus_2021",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_310"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_2",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusSapfling",
+						"LootCommonPinata": "Common_Feastivus_2021",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_110"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_3",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusHolly",
+						"LootCommonPinata": "Common_Feastivus_2021",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_349"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_4",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusDefault_Cone",
+						"LootCommonPinata": "Common_Feastivus_2021",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_212"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_5",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusSapfling",
+						"LootCommonPinata": "Common_Feastivus_2021",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_107"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_6",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusMissiletoe",
+						"LootCommonPinata": "Common_Feastivus_2021",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_307"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_7",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusSapfling",
+						"LootCommonPinata": "Common_Feastivus_2021",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_104"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_8",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusSapfling",
+						"LootCommonPinata": "Common_Feastivus_2021",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_106"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_9",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusDefault_Snow",
+						"LootCommonPinata": "Common_Feastivus_2021_2",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_215"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_10",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusSapfling",
+						"LootCommonPinata": "Common_Feastivus_2021_2",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_108"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_11",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusHolly",
+						"LootCommonPinata": "Common_Feastivus_2021_2",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_344"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_12",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusSapfling",
+						"LootCommonPinata": "Common_Feastivus_2021_2",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_103"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_13",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusHolly",
+						"LootCommonPinata": "Common_Feastivus_2021_2",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_345"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_14",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusMissiletoe",
+						"LootCommonPinata": "Common_Feastivus_2021_2",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_308"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_15",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusSapfling",
+						"LootCommonPinata": "Common_Feastivus_2021_2",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_109"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_16",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusMissiletoe",
+						"LootCommonPinata": "Common_Feastivus_2021_3",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_312"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_17",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusHolly",
+						"LootCommonPinata": "Common_Feastivus_2021_3",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_346"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_18",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusMissiletoe",
+						"LootCommonPinata": "Common_Feastivus_2021_3",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_309"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_19",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusHolly",
+						"LootCommonPinata": "Common_Feastivus_2021_3",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_347"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_20",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusMissiletoe",
+						"LootCommonPinata": "Common_Feastivus_2021_3",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_311"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_21",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusHolly",
+						"LootCommonPinata": "Common_Feastivus_2021_3",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_348"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_22_NEW_YEAR",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusNewyear",
+						"LootCommonPinata": "Common_Feastivus_2021_3",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_325"
+					},
+					{
+						"Name": "LOD_FEASTIVUS_DAY_23",
+						"Holiday": "xmas",
+						"HolidayBannerName": "FeastivusDefault",
+						"LootCommonPinata": "Common_Feastivus_2021_3",
+						"LootValuablePinata": "Valuable_Feastivus",
+						"PrimaryLevelName": "lod_327"
+					},
+					{
+						"Name": "LOD_PROGRESSIVE_2018_DAY_1",
+						"Holiday": "progressive",
+						"HolidayBannerName": "ProgressiveDefault",
+						"LootCommonPinata": "Common_Progressive",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_330",
+						"NumReplaysAtDiscountedCost": 1,
+						"ReplayLevelCostCoins": 0
+					},
+					{
+						"Name": "LOD_PROGRESSIVE_2018_DAY_2",
+						"Holiday": "progressive",
+						"HolidayBannerName": "ProgressiveDefault",
+						"LootCommonPinata": "Common_Progressive",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_331",
+						"NumReplaysAtDiscountedCost": 1,
+						"ReplayLevelCostCoins": 0
+					},
+					{
+						"Name": "LOD_PROGRESSIVE_2018_DAY_3",
+						"Holiday": "progressive",
+						"HolidayBannerName": "ProgressiveDefault",
+						"LootCommonPinata": "Common_Progressive",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_332",
+						"NumReplaysAtDiscountedCost": 1,
+						"ReplayLevelCostCoins": 0
+					},
+					{
+						"Name": "LOD_PROGRESSIVE_2018_DAY_4",
+						"Holiday": "progressive",
+						"HolidayBannerName": "ProgressiveDefault",
+						"LootCommonPinata": "Common_Progressive",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_333",
+						"NumReplaysAtDiscountedCost": 1,
+						"ReplayLevelCostCoins": 0
+					},
+					{
+						"Name": "LOD_PROGRESSIVE_2018_DAY_5",
+						"Holiday": "progressive",
+						"HolidayBannerName": "ProgressiveDefault",
+						"LootCommonPinata": "Common_Progressive",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_334",
+						"NumReplaysAtDiscountedCost": 1,
+						"ReplayLevelCostCoins": 0
+					},
+					{
+						"Name": "LOD_PROGRESSIVE_2018_DAY_6",
+						"Holiday": "progressive",
+						"HolidayBannerName": "ProgressiveDefault",
+						"LootCommonPinata": "Common_Progressive",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_335",
+						"NumReplaysAtDiscountedCost": 1,
+						"ReplayLevelCostCoins": 0
+					},
+					{
+						"Name": "LOD_PROGRESSIVE_2018_DAY_7",
+						"Holiday": "progressive",
+						"HolidayBannerName": "ProgressiveDefault",
+						"LootCommonPinata": "Common_Progressive",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_336",
+						"NumReplaysAtDiscountedCost": 1,
+						"ReplayLevelCostCoins": 0
+					},
+					{
+						"Name": "LOD_PROGRESSIVE_2018_DAY_8",
+						"Holiday": "progressive",
+						"HolidayBannerName": "ProgressiveDefault",
+						"LootCommonPinata": "Common_Progressive",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_337",
+						"NumReplaysAtDiscountedCost": 1,
+						"ReplayLevelCostCoins": 0
+					},
+					{
+						"Name": "LOD_PROGRESSIVE_2018_DAY_9",
+						"Holiday": "progressive",
+						"HolidayBannerName": "ProgressiveDefault",
+						"LootCommonPinata": "Common_Progressive",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_338",
+						"NumReplaysAtDiscountedCost": 1,
+						"ReplayLevelCostCoins": 0
+					},
+					{
+						"Name": "LOD_PROGRESSIVE_2018_DAY_10",
+						"Holiday": "progressive",
+						"HolidayBannerName": "ProgressiveDefault",
+						"LootCommonPinata": "Common_Progressive",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_339",
+						"NumReplaysAtDiscountedCost": 1,
+						"ReplayLevelCostCoins": 0
+					},
+					{
+						"Name": "LOD_PROGRESSIVE_2018_DAY_11",
+						"Holiday": "progressive",
+						"HolidayBannerName": "ProgressiveDefault",
+						"LootCommonPinata": "Common_Progressive",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_340",
+						"NumReplaysAtDiscountedCost": 1,
+						"ReplayLevelCostCoins": 0
+					},
+					{
+						"Name": "LOD_PROGRESSIVE_2018_DAY_12",
+						"Holiday": "progressive",
+						"HolidayBannerName": "ProgressiveDefault",
+						"PrimaryLevelName": "lod_341",
+						"NumReplaysAtDiscountedCost": 1,
+						"ReplayLevelCostCoins": 0
+					},
+					{
+						"Name": "LOD_PROGRESSIVE_2018_DAY_12",
+						"Holiday": "progressive",
+						"HolidayBannerName": "ProgressiveDefault",
+						"LootCommonPinata": "Common_Progressive",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_342",
+						"NumReplaysAtDiscountedCost": 1,
+						"ReplayLevelCostCoins": 0
+					},
+					{
+						"Name": "LOD_PROGRESSIVE_2018_DAY_13",
+						"Holiday": "progressive",
+						"HolidayBannerName": "ProgressiveDefault",
+						"LootCommonPinata": "Common_Progressive",
+						"LootValuablePinata": "Valuable_Progressive",
+						"PrimaryLevelName": "lod_343",
+						"NumReplaysAtDiscountedCost": 1,
+						"ReplayLevelCostCoins": 0
+					},
+					{
+						"Name": "LOD_LUCK_DAY_1",
+						"Holiday": "stpatrick",
+						"HolidayBannerName": "StpatrickCaulipower",
+						"LootCommonPinata": "Common_Lotz_2022",
+						"LootValuablePinata": "Valuable_StPatrick",
+						"PrimaryLevelName": "lod_320"
+					},
+					{
+						"Name": "LOD_LUCK_DAY_2",
+						"Holiday": "stpatrick",
+						"HolidayBannerName": "StpatrickDefault",
+						"LootCommonPinata": "Common_Lotz_2022",
+						"LootValuablePinata": "Valuable_StPatrick",
+						"PrimaryLevelName": "lod_134"
+					},
+					{
+						"Name": "LOD_LUCK_DAY_3",
+						"Holiday": "stpatrick",
+						"HolidayBannerName": "StpatrickCaulipower",
+						"LootCommonPinata": "Common_Lotz_2022",
+						"LootValuablePinata": "Valuable_StPatrick",
+						"PrimaryLevelName": "lod_322"
+					},
+					{
+						"Name": "LOD_LUCK_DAY_4",
+						"Holiday": "stpatrick",
+						"HolidayBannerName": "StpatrickCaulipower",
+						"LootCommonPinata": "Common_Lotz_2022",
+						"LootValuablePinata": "Valuable_StPatrick",
+						"PrimaryLevelName": "lod_stpats_052"
+					},
+					{
+						"Name": "LOD_LUCK_DAY_5",
+						"Holiday": "stpatrick",
+						"HolidayBannerName": "StpatrickCaulipower",
+						"LootCommonPinata": "Common_Lotz_2022",
+						"LootValuablePinata": "Valuable_StPatrick",
+						"PrimaryLevelName": "lod_stpats_113"
+					},
+					{
+						"Name": "LOD_LUCK_DAY_6",
+						"Holiday": "stpatrick",
+						"HolidayBannerName": "StpatrickCaulipower",
+						"LootCommonPinata": "Common_Lotz_2022",
+						"LootValuablePinata": "Valuable_StPatrick",
+						"PrimaryLevelName": "lod_318"
+					},
+					{
+						"Name": "LOD_LUCK_DAY_7",
+						"Holiday": "stpatrick",
+						"HolidayBannerName": "StpatrickCaulipower",
+						"LootCommonPinata": "Common_Lotz_2022",
+						"LootValuablePinata": "Valuable_StPatrick",
+						"PrimaryLevelName": "lod_121"
+					},
+					{
+						"Name": "LOD_LUCK_DAY_8",
+						"Holiday": "stpatrick",
+						"HolidayBannerName": "StpatrickCaulipower",
+						"LootCommonPinata": "Common_Lotz_2022_2",
+						"LootValuablePinata": "Valuable_StPatrick",
+						"PrimaryLevelName": "lod_stpats_180"
+					},
+					{
+						"Name": "LOD_LUCK_DAY_9",
+						"Holiday": "stpatrick",
+						"HolidayBannerName": "StpatrickCaulipower",
+						"LootCommonPinata": "Common_Lotz_2022_2",
+						"LootValuablePinata": "Valuable_StPatrick",
+						"PrimaryLevelName": "lod_255"
+					},
+					{
+						"Name": "LOD_LUCK_DAY_10",
+						"Holiday": "stpatrick",
+						"HolidayBannerName": "StpatrickCaulipower",
+						"LootCommonPinata": "Common_Lotz_2022_2",
+						"LootValuablePinata": "Valuable_StPatrick",
+						"PrimaryLevelName": "lod_stpats_042"
+					},
+					{
+						"Name": "LOD_VALENBRAINZ_DAY_1",
+						"Holiday": "valentines",
+						"HolidayBannerName": "ValentinesHotDate",
+						"LootCommonPinata": "Common_Valenbrainz_2022",
+						"LootValuablePinata": "Valuable_Valentines",
+						"PrimaryLevelName": "lod_313"
+					},
+					{
+						"Name": "LOD_VALENBRAINZ_DAY_2",
+						"Holiday": "valentines",
+						"HolidayBannerName": "ValentinesBloomingHeart",
+						"LootCommonPinata": "Common_Valenbrainz_2022",
+						"LootValuablePinata": "Valuable_Valentines",
+						"PrimaryLevelName": "lod_200"
+					},
+					{
+						"Name": "LOD_VALENBRAINZ_DAY_3",
+						"Holiday": "valentines",
+						"HolidayBannerName": "ValentinesHotDate",
+						"LootCommonPinata": "Common_Valenbrainz_2022",
+						"LootValuablePinata": "Valuable_Valentines",
+						"PrimaryLevelName": "lod_314"
+					},
+					{
+						"Name": "LOD_VALENBRAINZ_DAY_4",
+						"Holiday": "valentines",
+						"HolidayBannerName": "ValentinesBloomingHeart",
+						"LootCommonPinata": "Common_Valenbrainz_2022",
+						"LootValuablePinata": "Valuable_Valentines",
+						"PrimaryLevelName": "lod_201"
+					},
+					{
+						"Name": "LOD_VALENBRAINZ_DAY_5",
+						"Holiday": "valentines",
+						"HolidayBannerName": "ValentinesHotDate",
+						"LootCommonPinata": "Common_Valenbrainz_2022",
+						"LootValuablePinata": "Valuable_Valentines",
+						"PrimaryLevelName": "lod_315"
+					},
+					{
+						"Name": "LOD_VALENBRAINZ_DAY_6",
+						"Holiday": "valentines",
+						"HolidayBannerName": "ValentinesBloomingHeart",
+						"LootCommonPinata": "Common_Valenbrainz_2022",
+						"LootValuablePinata": "Valuable_Valentines",
+						"PrimaryLevelName": "lod_203"
+					},
+					{
+						"Name": "LOD_VALENBRAINZ_DAY_7",
+						"Holiday": "valentines",
+						"HolidayBannerName": "ValentinesHotDate",
+						"LootCommonPinata": "Common_Valenbrainz_2022",
+						"LootValuablePinata": "Valuable_Valentines",
+						"PrimaryLevelName": "lod_316"
+					},
+					{
+						"Name": "LOD_VALENBRAINZ_DAY_8",
+						"Holiday": "valentines",
+						"HolidayBannerName": "ValentinesBloomingHeart",
+						"LootCommonPinata": "Common_Valenbrainz_2022",
+						"LootValuablePinata": "Valuable_Valentines",
+						"PrimaryLevelName": "lod_198"
+					},
+					{
+						"Name": "LOD_VALENBRAINZ_DAY_9",
+						"Holiday": "valentines",
+						"HolidayBannerName": "ValentinesHotDate",
+						"LootCommonPinata": "Common_Valenbrainz_2022_2",
+						"LootValuablePinata": "Valuable_Valentines",
+						"PrimaryLevelName": "lod_317"
+					},
+					{
+						"Name": "LOD_VALENBRAINZ_DAY_10",
+						"Holiday": "valentines",
+						"HolidayBannerName": "ValentinesBloomingHeart",
+						"LootCommonPinata": "Common_Valenbrainz_2022_2",
+						"LootValuablePinata": "Valuable_Valentines",
+						"PrimaryLevelName": "lod_202"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_1",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterDefault",
+						"LootCommonPinata": "Common_Springening_2022",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_134"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_2",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterDefault",
+						"LootCommonPinata": "Common_Springening_2022",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_121"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_3",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterDandelion",
+						"LootCommonPinata": "Common_Springening_2022_2",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_137"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_4",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterAprilFools",
+						"LootCommonPinata": "Common_Springening_2022_2",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_210"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_5",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterDandelion",
+						"LootCommonPinata": "Common_Springening_2022_2",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_135"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_6",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterDefault",
+						"LootCommonPinata": "Common_Springening_2022_2",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_120"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_7",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterDandelion",
+						"LootCommonPinata": "Common_Springening_2022_2",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_136"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_8",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterDefault",
+						"LootCommonPinata": "Common_Springening_2022_2",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_123"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_9",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterDefault",
+						"LootCommonPinata": "Common_Springening_2022_2",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_143"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_10",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterDefault",
+						"LootCommonPinata": "Common_Springening_2022_3",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_047"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_11",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterDefault",
+						"LootCommonPinata": "Common_Springening_2022_3",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_180"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_12",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterDefault",
+						"LootCommonPinata": "Common_Springening_2022_3",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_vase_egg_001"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_13",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterDefault",
+						"LootCommonPinata": "Common_Spring",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_151"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_14",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterDefault",
+						"LootCommonPinata": "Common_Spring",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_096"
+					},
+					{
+						"Name": "LOD_SPRING_DAY_15",
+						"Holiday": "easter",
+						"HolidayBannerName": "EasterDefault",
+						"LootCommonPinata": "Common_Spring",
+						"LootValuablePinata": "Valuable_Spring",
+						"PrimaryLevelName": "lod_234"
+					},
+					{
+						"Name": "LOD_HARVEST_DAY_1",
+						"Holiday": "harvest",
+						"HolidayBannerName": "HarvestGeneric",
+						"LootCommonPinata": "Common_Harvest",
+						"LootValuablePinata": "Valuable_Harvest",
+						"PrimaryLevelName": "lod_267"
+					},
+					{
+						"Name": "LOD_HARVEST_DAY_2",
+						"Holiday": "harvest",
+						"HolidayBannerName": "HarvestGeneric",
+						"LootCommonPinata": "Common_Harvest",
+						"LootValuablePinata": "Valuable_Harvest",
+						"PrimaryLevelName": "lod_174"
+					},
+					{
+						"Name": "LOD_HARVEST_DAY_3",
+						"Holiday": "harvest",
+						"HolidayBannerName": "HarvestGeneric",
+						"LootCommonPinata": "Common_Harvest",
+						"LootValuablePinata": "Valuable_Harvest",
+						"PrimaryLevelName": "lod_269"
+					},
+					{
+						"Name": "LOD_HARVEST_DAY_4",
+						"Holiday": "harvest",
+						"HolidayBannerName": "HarvestGeneric",
+						"LootCommonPinata": "Common_Harvest_2",
+						"LootValuablePinata": "Valuable_Harvest",
+						"PrimaryLevelName": "lod_173"
+					},
+					{
+						"Name": "LOD_HARVEST_DAY_5",
+						"Holiday": "harvest",
+						"HolidayBannerName": "HarvestGeneric",
+						"LootCommonPinata": "Common_Harvest_2",
+						"LootValuablePinata": "Valuable_Harvest",
+						"PrimaryLevelName": "lod_272"
+					},
+					{
+						"Name": "LOD_HARVEST_DAY_6",
+						"Holiday": "harvest",
+						"HolidayBannerName": "HarvestGeneric",
+						"LootCommonPinata": "Common_Harvest_2",
+						"LootValuablePinata": "Valuable_Harvest",
+						"PrimaryLevelName": "lod_048"
+					},
+					{
+						"Name": "LOD_HARVEST_DAY_7",
+						"Holiday": "harvest",
+						"HolidayBannerName": "HarvestGeneric",
+						"LootCommonPinata": "Common_Harvest_2",
+						"LootValuablePinata": "Valuable_Harvest",
+						"PrimaryLevelName": "lod_270"
+					},
+					{
+						"Name": "LOD_HARVEST_DAY_8",
+						"Holiday": "harvest",
+						"HolidayBannerName": "HarvestGeneric",
+						"LootCommonPinata": "Common_Harvest_2",
+						"LootValuablePinata": "Valuable_Harvest",
+						"PrimaryLevelName": "lod_182"
+					},
+					{
+						"Name": "LOD_HARVEST_DAY_9",
+						"Holiday": "harvest",
+						"HolidayBannerName": "HarvestGeneric",
+						"LootCommonPinata": "Common_Harvest_2",
+						"LootValuablePinata": "Valuable_Harvest",
+						"PrimaryLevelName": "lod_287"
+					},
+					{
+						"Name": "LOD_HARVEST_DAY_10",
+						"Holiday": "harvest",
+						"HolidayBannerName": "HarvestGeneric",
+						"LootCommonPinata": "Common_Harvest_2",
+						"LootValuablePinata": "Valuable_Harvest",
+						"PrimaryLevelName": "lod_186"
+					},
+					{
+						"Name": "LOD_BASIC_001",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_001"
+					},
+					{
+						"Name": "LOD_BASIC_002",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_002"
+					},
+					{
+						"Name": "LOD_BASIC_003",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_003"
+					},
+					{
+						"Name": "LOD_BASIC_004",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_004"
+					},
+					{
+						"Name": "LOD_BASIC_005",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_005"
+					},
+					{
+						"Name": "LOD_BASIC_006",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_006"
+					},
+					{
+						"Name": "LOD_BASIC_007",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_007"
+					},
+					{
+						"Name": "LOD_BASIC_008",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_008"
+					},
+					{
+						"Name": "LOD_BASIC_009",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_009"
+					},
+					{
+						"Name": "LOD_BASIC_010",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_010"
+					},
+					{
+						"Name": "LOD_BASIC_011",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_011"
+					},
+					{
+						"Name": "LOD_BASIC_012",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_012"
+					},
+					{
+						"Name": "LOD_BASIC_013",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_013"
+					},
+					{
+						"Name": "LOD_BASIC_014",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_014"
+					},
+					{
+						"Name": "LOD_BASIC_015",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_015"
+					},
+					{
+						"Name": "LOD_BASIC_016",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_016"
+					},
+					{
+						"Name": "LOD_BASIC_017",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_017"
+					},
+					{
+						"Name": "LOD_BASIC_018",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_018"
+					},
+					{
+						"Name": "LOD_BASIC_019",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_019"
+					},
+					{
+						"Name": "LOD_BASIC_020",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_020"
+					},
+					{
+						"Name": "LOD_BASIC_021",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_021"
+					},
+					{
+						"Name": "LOD_BASIC_022",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_022"
+					},
+					{
+						"Name": "LOD_BASIC_023",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_023"
+					},
+					{
+						"Name": "LOD_BASIC_024",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_024"
+					},
+					{
+						"Name": "LOD_BASIC_025",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_025"
+					},
+					{
+						"Name": "LOD_BASIC_026",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_026"
+					},
+					{
+						"Name": "LOD_BASIC_027",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_027"
+					},
+					{
+						"Name": "LOD_BASIC_028",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_028"
+					},
+					{
+						"Name": "LOD_BASIC_029",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_029"
+					},
+					{
+						"Name": "LOD_BASIC_030",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_030"
+					},
+					{
+						"Name": "LOD_BASIC_031",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_031"
+					},
+					{
+						"Name": "LOD_BASIC_032",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_032"
+					},
+					{
+						"Name": "LOD_BASIC_033",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_033"
+					},
+					{
+						"Name": "LOD_BASIC_034",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_034"
+					},
+					{
+						"Name": "LOD_BASIC_035",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_035"
+					},
+					{
+						"Name": "LOD_BASIC_036",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_036"
+					},
+					{
+						"Name": "LOD_BASIC_037",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_037"
+					},
+					{
+						"Name": "LOD_BASIC_038",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_038"
+					},
+					{
+						"Name": "LOD_BASIC_039",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_039"
+					},
+					{
+						"Name": "LOD_BASIC_040",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_040"
+					},
+					{
+						"Name": "LOD_BASIC_041",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_041"
+					},
+					{
+						"Name": "LOD_BASIC_042",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_042"
+					},
+					{
+						"Name": "LOD_BASIC_043",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_043"
+					},
+					{
+						"Name": "LOD_BASIC_044",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_044"
+					},
+					{
+						"Name": "LOD_BASIC_045",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_045"
+					},
+					{
+						"Name": "LOD_BASIC_046",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_046"
+					},
+					{
+						"Name": "LOD_BASIC_047",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_047"
+					},
+					{
+						"Name": "LOD_BASIC_048",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_048"
+					},
+					{
+						"Name": "LOD_BASIC_049",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_049"
+					},
+					{
+						"Name": "LOD_BASIC_050",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_050"
+					},
+					{
+						"Name": "LOD_BASIC_051",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_051"
+					},
+					{
+						"Name": "LOD_BASIC_052",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_052"
+					},
+					{
+						"Name": "LOD_BASIC_053",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_053"
+					},
+					{
+						"Name": "LOD_BASIC_054",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_054"
+					},
+					{
+						"Name": "LOD_BASIC_055",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_055"
+					},
+					{
+						"Name": "LOD_BASIC_056",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_056"
+					},
+					{
+						"Name": "LOD_BASIC_057",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_057"
+					},
+					{
+						"Name": "LOD_BASIC_058",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_058"
+					},
+					{
+						"Name": "LOD_BASIC_059",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_059"
+					},
+					{
+						"Name": "LOD_BASIC_060",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_060"
+					},
+					{
+						"Name": "LOD_BASIC_061",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_061"
+					},
+					{
+						"Name": "LOD_BASIC_062",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_062"
+					},
+					{
+						"Name": "LOD_BASIC_063",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_063"
+					},
+					{
+						"Name": "LOD_BASIC_064",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_064"
+					},
+					{
+						"Name": "LOD_BASIC_065",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_065"
+					},
+					{
+						"Name": "LOD_BASIC_066",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_066"
+					},
+					{
+						"Name": "LOD_BASIC_067",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_067"
+					},
+					{
+						"Name": "LOD_BASIC_068",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_068"
+					},
+					{
+						"Name": "LOD_BASIC_069",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_069"
+					},
+					{
+						"Name": "LOD_BASIC_070",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_070"
+					},
+					{
+						"Name": "LOD_BASIC_071",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_071"
+					},
+					{
+						"Name": "LOD_BASIC_072",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_072"
+					},
+					{
+						"Name": "LOD_BASIC_073",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_073"
+					},
+					{
+						"Name": "LOD_BASIC_074",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_074"
+					},
+					{
+						"Name": "LOD_BASIC_075",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_075"
+					},
+					{
+						"Name": "LOD_BASIC_076",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_076"
+					},
+					{
+						"Name": "LOD_BASIC_077",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_077"
+					},
+					{
+						"Name": "LOD_BASIC_078",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_078"
+					},
+					{
+						"Name": "LOD_BASIC_079",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_079"
+					},
+					{
+						"Name": "LOD_BASIC_080",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_080"
+					},
+					{
+						"Name": "LOD_BASIC_081",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_081"
+					},
+					{
+						"Name": "LOD_BASIC_082",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_082"
+					},
+					{
+						"Name": "LOD_BASIC_083",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_083"
+					},
+					{
+						"Name": "LOD_BASIC_084",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_084"
+					},
+					{
+						"Name": "LOD_BASIC_085",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_085"
+					},
+					{
+						"Name": "LOD_BASIC_086",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_086"
+					},
+					{
+						"Name": "LOD_BASIC_087",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_087"
+					},
+					{
+						"Name": "LOD_BASIC_088",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_088"
+					},
+					{
+						"Name": "LOD_BASIC_089",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_089"
+					},
+					{
+						"Name": "LOD_BASIC_090",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_090"
+					},
+					{
+						"Name": "LOD_BASIC_091",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_091"
+					},
+					{
+						"Name": "LOD_BASIC_092",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_092"
+					},
+					{
+						"Name": "LOD_BASIC_093",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_093"
+					},
+					{
+						"Name": "LOD_BASIC_094",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_094"
+					},
+					{
+						"Name": "LOD_BASIC_095",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_095"
+					},
+					{
+						"Name": "LOD_BASIC_096",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_096"
+					},
+					{
+						"Name": "LOD_BASIC_097",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_097"
+					},
+					{
+						"Name": "LOD_BASIC_098",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_098"
+					},
+					{
+						"Name": "LOD_BASIC_099",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_099"
+					},
+					{
+						"Name": "LOD_BASIC_100",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_100"
+					},
+					{
+						"Name": "LOD_BASIC_101",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_101"
+					},
+					{
+						"Name": "LOD_BASIC_102",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_102"
+					},
+					{
+						"Name": "LOD_BASIC_103",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_103"
+					},
+					{
+						"Name": "LOD_BASIC_104",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_104"
+					},
+					{
+						"Name": "LOD_BASIC_105",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_105"
+					},
+					{
+						"Name": "LOD_BASIC_106",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_106"
+					},
+					{
+						"Name": "LOD_BASIC_107",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_107"
+					},
+					{
+						"Name": "LOD_BASIC_108",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_108"
+					},
+					{
+						"Name": "LOD_BASIC_109",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_109"
+					},
+					{
+						"Name": "LOD_BASIC_110",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_110"
+					},
+					{
+						"Name": "LOD_BASIC_111",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_111"
+					},
+					{
+						"Name": "LOD_BASIC_112",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_112"
+					},
+					{
+						"Name": "LOD_BASIC_113",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_113"
+					},
+					{
+						"Name": "LOD_BASIC_114",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_114"
+					},
+					{
+						"Name": "LOD_BASIC_115",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_115"
+					},
+					{
+						"Name": "LOD_BASIC_116",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_116"
+					},
+					{
+						"Name": "LOD_BASIC_117",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_117"
+					},
+					{
+						"Name": "LOD_BASIC_118",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_118"
+					},
+					{
+						"Name": "LOD_BASIC_119",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_119"
+					},
+					{
+						"Name": "LOD_BASIC_120",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_120"
+					},
+					{
+						"Name": "LOD_BASIC_121",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_121"
+					},
+					{
+						"Name": "LOD_BASIC_122",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_122"
+					},
+					{
+						"Name": "LOD_BASIC_123",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_123"
+					},
+					{
+						"Name": "LOD_BASIC_124",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_124"
+					},
+					{
+						"Name": "LOD_BASIC_125",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_125"
+					},
+					{
+						"Name": "LOD_BASIC_126",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_126"
+					},
+					{
+						"Name": "LOD_BASIC_127",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_127"
+					},
+					{
+						"Name": "LOD_BASIC_128",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_128"
+					},
+					{
+						"Name": "LOD_BASIC_129",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_129"
+					},
+					{
+						"Name": "LOD_BASIC_130",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_130"
+					},
+					{
+						"Name": "LOD_BASIC_131",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_131"
+					},
+					{
+						"Name": "LOD_BASIC_132",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_132"
+					},
+					{
+						"Name": "LOD_BASIC_133",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_133"
+					},
+					{
+						"Name": "LOD_BASIC_134",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_134"
+					},
+					{
+						"Name": "LOD_BASIC_135",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_135"
+					},
+					{
+						"Name": "LOD_BASIC_136",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_136"
+					},
+					{
+						"Name": "LOD_BASIC_137",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_137"
+					},
+					{
+						"Name": "LOD_BASIC_138",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_138"
+					},
+					{
+						"Name": "LOD_BASIC_139",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_139"
+					},
+					{
+						"Name": "LOD_BASIC_140",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_140"
+					},
+					{
+						"Name": "LOD_BASIC_141",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_141"
+					},
+					{
+						"Name": "LOD_BASIC_142",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_142"
+					},
+					{
+						"Name": "LOD_BASIC_143",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_143"
+					},
+					{
+						"Name": "LOD_BASIC_144",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_144"
+					},
+					{
+						"Name": "LOD_BASIC_145",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_145"
+					},
+					{
+						"Name": "LOD_BASIC_146",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_146"
+					},
+					{
+						"Name": "LOD_BASIC_147",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_147"
+					},
+					{
+						"Name": "LOD_BASIC_148",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_148"
+					},
+					{
+						"Name": "LOD_BASIC_149",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_149"
+					},
+					{
+						"Name": "LOD_BASIC_150",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_150"
+					},
+					{
+						"Name": "LOD_BASIC_151",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_151"
+					},
+					{
+						"Name": "LOD_BASIC_152",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_152"
+					},
+					{
+						"Name": "LOD_BASIC_153",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_153"
+					},
+					{
+						"Name": "LOD_BASIC_154",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_154"
+					},
+					{
+						"Name": "LOD_BASIC_155",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_155"
+					},
+					{
+						"Name": "LOD_BASIC_156",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_156"
+					},
+					{
+						"Name": "LOD_BASIC_157",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_157"
+					},
+					{
+						"Name": "LOD_BASIC_158",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_158"
+					},
+					{
+						"Name": "LOD_BASIC_159",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_159"
+					},
+					{
+						"Name": "LOD_BASIC_160",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_160"
+					},
+					{
+						"Name": "LOD_BASIC_161",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_161"
+					},
+					{
+						"Name": "LOD_BASIC_162",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_162"
+					},
+					{
+						"Name": "LOD_BASIC_163",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_163"
+					},
+					{
+						"Name": "LOD_BASIC_164",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_164"
+					},
+					{
+						"Name": "LOD_BASIC_165",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_165"
+					},
+					{
+						"Name": "LOD_BASIC_166",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_166"
+					},
+					{
+						"Name": "LOD_BASIC_167",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_167"
+					},
+					{
+						"Name": "LOD_BASIC_168",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_168"
+					},
+					{
+						"Name": "LOD_BASIC_169",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_169"
+					},
+					{
+						"Name": "LOD_BASIC_170",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_170"
+					},
+					{
+						"Name": "LOD_BASIC_171",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_171"
+					},
+					{
+						"Name": "LOD_BASIC_172",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_172"
+					},
+					{
+						"Name": "LOD_BASIC_173",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_173"
+					},
+					{
+						"Name": "LOD_BASIC_174",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_174"
+					},
+					{
+						"Name": "LOD_BASIC_175",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_175"
+					},
+					{
+						"Name": "LOD_BASIC_176",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_176"
+					},
+					{
+						"Name": "LOD_BASIC_177",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_177"
+					},
+					{
+						"Name": "LOD_BASIC_178",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_178"
+					},
+					{
+						"Name": "LOD_BASIC_179",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_179"
+					},
+					{
+						"Name": "LOD_BASIC_180",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_180"
+					},
+					{
+						"Name": "LOD_BASIC_181",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_181"
+					},
+					{
+						"Name": "LOD_BASIC_182",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_182"
+					},
+					{
+						"Name": "LOD_BASIC_183",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_183"
+					},
+					{
+						"Name": "LOD_BASIC_184",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_184"
+					},
+					{
+						"Name": "LOD_BASIC_185",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_185"
+					},
+					{
+						"Name": "LOD_BASIC_186",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_186"
+					},
+					{
+						"Name": "LOD_BASIC_187",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_187"
+					},
+					{
+						"Name": "LOD_BASIC_188",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_188"
+					},
+					{
+						"Name": "LOD_BASIC_189",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_189"
+					},
+					{
+						"Name": "LOD_BASIC_190",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_190"
+					},
+					{
+						"Name": "LOD_BASIC_191",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_191"
+					},
+					{
+						"Name": "LOD_BASIC_192",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_192"
+					},
+					{
+						"Name": "LOD_BASIC_193",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_193"
+					},
+					{
+						"Name": "LOD_BASIC_194",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_194"
+					},
+					{
+						"Name": "LOD_BASIC_195",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_195"
+					},
+					{
+						"Name": "LOD_BASIC_196",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_196"
+					},
+					{
+						"Name": "LOD_BASIC_197",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_197"
+					},
+					{
+						"Name": "LOD_BASIC_198",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_198"
+					},
+					{
+						"Name": "LOD_BASIC_199",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_199"
+					},
+					{
+						"Name": "LOD_BASIC_200",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_200"
+					},
+					{
+						"Name": "LOD_BASIC_201",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_201"
+					},
+					{
+						"Name": "LOD_BASIC_202",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_202"
+					},
+					{
+						"Name": "LOD_BASIC_203",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_203"
+					},
+					{
+						"Name": "LOD_BASIC_204",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_204"
+					},
+					{
+						"Name": "LOD_BASIC_205",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_205"
+					},
+					{
+						"Name": "LOD_BASIC_206",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_206"
+					},
+					{
+						"Name": "LOD_BASIC_207",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_207"
+					},
+					{
+						"Name": "LOD_BASIC_208",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_208"
+					},
+					{
+						"Name": "LOD_BASIC_209",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_209"
+					},
+					{
+						"Name": "LOD_BASIC_210",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_210"
+					},
+					{
+						"Name": "LOD_BASIC_211",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_211"
+					},
+					{
+						"Name": "LOD_BASIC_212",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_212"
+					},
+					{
+						"Name": "LOD_BASIC_213",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_213"
+					},
+					{
+						"Name": "LOD_BASIC_214",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_214"
+					},
+					{
+						"Name": "LOD_BASIC_215",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_215"
+					},
+					{
+						"Name": "LOD_BASIC_216",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_216"
+					},
+					{
+						"Name": "LOD_BASIC_217",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_217"
+					},
+					{
+						"Name": "LOD_BASIC_218",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_218"
+					},
+					{
+						"Name": "LOD_BASIC_219",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_219"
+					},
+					{
+						"Name": "LOD_BASIC_220",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_220"
+					},
+					{
+						"Name": "LOD_BASIC_221",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_221"
+					},
+					{
+						"Name": "LOD_BASIC_222",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_222"
+					},
+					{
+						"Name": "LOD_BASIC_223",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_223"
+					},
+					{
+						"Name": "LOD_BASIC_224",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_224"
+					},
+					{
+						"Name": "LOD_BASIC_225",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_225"
+					},
+					{
+						"Name": "LOD_BASIC_226",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_226"
+					},
+					{
+						"Name": "LOD_BASIC_227",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_227"
+					},
+					{
+						"Name": "LOD_BASIC_228",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_228"
+					},
+					{
+						"Name": "LOD_BASIC_229",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_229"
+					},
+					{
+						"Name": "LOD_BASIC_230",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_230"
+					},
+					{
+						"Name": "LOD_BASIC_231",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_231"
+					},
+					{
+						"Name": "LOD_BASIC_232",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_232"
+					},
+					{
+						"Name": "LOD_BASIC_233",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_233"
+					},
+					{
+						"Name": "LOD_BASIC_234",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_234"
+					},
+					{
+						"Name": "LOD_BASIC_235",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_235"
+					},
+					{
+						"Name": "LOD_BASIC_236",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_236"
+					},
+					{
+						"Name": "LOD_BASIC_237",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_237"
+					},
+					{
+						"Name": "LOD_BASIC_238",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_238"
+					},
+					{
+						"Name": "LOD_BASIC_239",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_239"
+					},
+					{
+						"Name": "LOD_BASIC_240",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_240"
+					},
+					{
+						"Name": "LOD_BASIC_241",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_241"
+					},
+					{
+						"Name": "LOD_BASIC_242",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_242"
+					},
+					{
+						"Name": "LOD_BASIC_243",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_243"
+					},
+					{
+						"Name": "LOD_BASIC_244",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_244"
+					},
+					{
+						"Name": "LOD_BASIC_245",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_245"
+					},
+					{
+						"Name": "LOD_BASIC_246",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_246"
+					},
+					{
+						"Name": "LOD_BASIC_247",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_247"
+					},
+					{
+						"Name": "LOD_BASIC_248",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_248"
+					},
+					{
+						"Name": "LOD_BASIC_249",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_249"
+					},
+					{
+						"Name": "LOD_BASIC_250",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_250"
+					},
+					{
+						"Name": "LOD_BASIC_251",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_251"
+					},
+					{
+						"Name": "LOD_BASIC_252",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_252"
+					},
+					{
+						"Name": "LOD_BASIC_253",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_253"
+					},
+					{
+						"Name": "LOD_BASIC_254",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_254"
+					},
+					{
+						"Name": "LOD_BASIC_255",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_255"
+					},
+					{
+						"Name": "LOD_BASIC_256",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_256"
+					},
+					{
+						"Name": "LOD_BASIC_257",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_257"
+					},
+					{
+						"Name": "LOD_BASIC_258",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_258"
+					},
+					{
+						"Name": "LOD_BASIC_259",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_259"
+					},
+					{
+						"Name": "LOD_BASIC_260",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_260"
+					},
+					{
+						"Name": "LOD_BASIC_261",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_261"
+					},
+					{
+						"Name": "LOD_BASIC_262",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_262"
+					},
+					{
+						"Name": "LOD_BASIC_263",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_263"
+					},
+					{
+						"Name": "LOD_BASIC_264",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_264"
+					},
+					{
+						"Name": "LOD_BASIC_265",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_265"
+					},
+					{
+						"Name": "LOD_BASIC_266",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_266"
+					},
+					{
+						"Name": "LOD_BASIC_267",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_267"
+					},
+					{
+						"Name": "LOD_BASIC_268",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_268"
+					},
+					{
+						"Name": "LOD_BASIC_269",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_269"
+					},
+					{
+						"Name": "LOD_BASIC_270",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_270"
+					},
+					{
+						"Name": "LOD_BASIC_271",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_271"
+					},
+					{
+						"Name": "LOD_BASIC_272",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_272"
+					},
+					{
+						"Name": "LOD_BASIC_273",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_273"
+					},
+					{
+						"Name": "LOD_BASIC_274",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_274"
+					},
+					{
+						"Name": "LOD_BASIC_275",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_275"
+					},
+					{
+						"Name": "LOD_BASIC_276",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_276"
+					},
+					{
+						"Name": "LOD_BASIC_277",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_277"
+					},
+					{
+						"Name": "LOD_BASIC_278",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_278"
+					},
+					{
+						"Name": "LOD_BASIC_279",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_279"
+					},
+					{
+						"Name": "LOD_BASIC_280",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_280"
+					},
+					{
+						"Name": "LOD_BASIC_281",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_281"
+					},
+					{
+						"Name": "LOD_BASIC_282",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_282"
+					},
+					{
+						"Name": "LOD_BASIC_283",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_283"
+					},
+					{
+						"Name": "LOD_BASIC_284",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_284"
+					},
+					{
+						"Name": "LOD_BASIC_285",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_285"
+					},
+					{
+						"Name": "LOD_BASIC_286",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_286"
+					},
+					{
+						"Name": "LOD_BASIC_287",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_287"
+					},
+					{
+						"Name": "LOD_BASIC_288",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_288"
+					},
+					{
+						"Name": "LOD_BASIC_289",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_289"
+					},
+					{
+						"Name": "LOD_BASIC_290",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_290"
+					},
+					{
+						"Name": "LOD_BASIC_291",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_291"
+					},
+					{
+						"Name": "LOD_BASIC_292",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_292"
+					},
+					{
+						"Name": "LOD_BASIC_293",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_293"
+					},
+					{
+						"Name": "LOD_BASIC_294",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_294"
+					},
+					{
+						"Name": "LOD_BASIC_295",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_295"
+					},
+					{
+						"Name": "LOD_BASIC_296",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_296"
+					},
+					{
+						"Name": "LOD_BASIC_297",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_297"
+					},
+					{
+						"Name": "LOD_BASIC_298",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_298"
+					},
+					{
+						"Name": "LOD_BASIC_299",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_299"
+					},
+					{
+						"Name": "LOD_BASIC_300",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_300"
+					},
+					{
+						"Name": "LOD_BASIC_301",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_301"
+					},
+					{
+						"Name": "LOD_BASIC_302",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_302"
+					},
+					{
+						"Name": "LOD_BASIC_303",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_303"
+					},
+					{
+						"Name": "LOD_BASIC_304",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_304"
+					},
+					{
+						"Name": "LOD_BASIC_305",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_305"
+					},
+					{
+						"Name": "LOD_BASIC_306",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_306"
+					},
+					{
+						"Name": "LOD_BASIC_307",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_307"
+					},
+					{
+						"Name": "LOD_BASIC_308",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_308"
+					},
+					{
+						"Name": "LOD_BASIC_309",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_309"
+					},
+					{
+						"Name": "LOD_BASIC_310",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_310"
+					},
+					{
+						"Name": "LOD_BASIC_311",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_311"
+					},
+					{
+						"Name": "LOD_BASIC_312",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_312"
+					},
+					{
+						"Name": "LOD_BASIC_313",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_313"
+					},
+					{
+						"Name": "LOD_BASIC_314",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_314"
+					},
+					{
+						"Name": "LOD_BASIC_315",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_315"
+					},
+					{
+						"Name": "LOD_BASIC_316",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_316"
+					},
+					{
+						"Name": "LOD_BASIC_317",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_317"
+					},
+					{
+						"Name": "LOD_BASIC_318",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_318"
+					},
+					{
+						"Name": "LOD_BASIC_319",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_319"
+					},
+					{
+						"Name": "LOD_BASIC_320",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_320"
+					},
+					{
+						"Name": "LOD_BASIC_321",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_321"
+					},
+					{
+						"Name": "LOD_BASIC_322",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_322"
+					},
+					{
+						"Name": "LOD_BASIC_323",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_323"
+					},
+					{
+						"Name": "LOD_BASIC_324",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_324"
+					},
+					{
+						"Name": "LOD_BASIC_325",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_325"
+					},
+					{
+						"Name": "LOD_BASIC_326",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_326"
+					},
+					{
+						"Name": "LOD_BASIC_327",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_327"
+					},
+					{
+						"Name": "LOD_BASIC_328",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_328"
+					},
+					{
+						"Name": "LOD_BASIC_329",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_329"
+					},
+					{
+						"Name": "LOD_BASIC_330",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_330"
+					},
+					{
+						"Name": "LOD_BASIC_331",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_331"
+					},
+					{
+						"Name": "LOD_BASIC_332",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_332"
+					},
+					{
+						"Name": "LOD_BASIC_333",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_333"
+					},
+					{
+						"Name": "LOD_BASIC_334",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_334"
+					},
+					{
+						"Name": "LOD_BASIC_335",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_335"
+					},
+					{
+						"Name": "LOD_BASIC_336",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_336"
+					},
+					{
+						"Name": "LOD_BASIC_337",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_337"
+					},
+					{
+						"Name": "LOD_BASIC_338",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_338"
+					},
+					{
+						"Name": "LOD_BASIC_339",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_339"
+					},
+					{
+						"Name": "LOD_BASIC_340",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_340"
+					},
+					{
+						"Name": "LOD_BASIC_341",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_341"
+					},
+					{
+						"Name": "LOD_BASIC_342",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_342"
+					},
+					{
+						"Name": "LOD_BASIC_343",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_343"
+					},
+					{
+						"Name": "LOD_BASIC_344",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_344"
+					},
+					{
+						"Name": "LOD_BASIC_345",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_345"
+					},
+					{
+						"Name": "LOD_BASIC_346",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_346"
+					},
+					{
+						"Name": "LOD_BASIC_347",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_347"
+					},
+					{
+						"Name": "LOD_BASIC_348",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_348"
+					},
+					{
+						"Name": "LOD_BASIC_349",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_349"
+					},
+					{
+						"Name": "LOD_BASIC_350",
+						"Holiday": "default",
+						"PrimaryLevelName": "lod_350"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

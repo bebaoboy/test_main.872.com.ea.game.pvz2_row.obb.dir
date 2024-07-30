@@ -1,0 +1,26 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"comment": "Spacer object to offset the top and or bottom of JoustSeasonSchedule list",
+			"aliases": [
+				"JoustSeasonEventItemSpacer"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "JoustSeasonEventItemSpacer",
+				"Width": {
+					"Value": "760"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"IgnoreMouseInput": false
+			}
+		}
+	]
+}

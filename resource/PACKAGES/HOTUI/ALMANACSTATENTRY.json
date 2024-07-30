@@ -1,0 +1,158 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"AlmanacStatEntry"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "AlmanacStatEntry",
+				"EntryPoint": true,
+				"DarkenBackground": 0.0,
+				"Width": {
+					"Value": "230"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "center"
+				},
+				"IgnoreSafeArea": true,
+				"IgnoreMouseInput": false,
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(StatIcon@.)",
+					"RTID(StatNameLabel@.)",
+					"RTID(StatValueLabel@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"StatIcon"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "StatIcon",
+				"Width": {
+					"Value": "49"
+				},
+				"Height": {
+					"Value": "49"
+				},
+				"Anchor": {
+					"AnchorPoint": "left"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Resources": [],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "",
+				"ImageInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"StatNameLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "StatNameLabel",
+				"Width": {
+					"Value": "180"
+				},
+				"Height": {
+					"Value": "50%"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "25.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "$STAT_NAME_LABEL",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24_SHADED",
+				"Color": "LightGrey"
+			}
+		},
+		{
+			"aliases": [
+				"StatValueLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "StatValueLabel",
+				"Width": {
+					"Value": "180"
+				},
+				"Height": {
+					"Value": "60%"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "25.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "$STAT_VALUE_LABEL",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_30_HARDSHADOW",
+				"Color": "White"
+			}
+		}
+	]
+}

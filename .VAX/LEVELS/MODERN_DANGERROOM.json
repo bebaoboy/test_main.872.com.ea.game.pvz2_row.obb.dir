@@ -1,0 +1,1590 @@
+{
+	"#comment": "Modern Danger Room",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "[PLAYERS_TRIP_TO_DANGER_ROOM]",
+				"ForceNextLevel": "modern_dangerroom",
+				"IsDangerRoom": true,
+				"LevelNumber": 666,
+				"Loot": "RTID(DangerRoomLoot@LevelModules)",
+				"Modules": [
+					"RTID(DangerRoomIntro@CurrentLevel)",
+					"RTID(DangerRoomModule@CurrentLevel)",
+					"RTID(ModernMowers@LevelModules)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(LevelGenZombiePotions@.)"
+				],
+				"Name": "[DANGER_ROOM_MODERN_LEVEL_NAME]",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"SuppressAwardScreen": true,
+				"StageModule": "RTID(ModernStage@LevelModules)"
+			}
+		},
+		{
+			"objclass": "WaveManagerModuleProperties",
+			"aliases": [
+				"NewWaves"
+			],
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"LevelGenZombiePotions"
+			],
+			"objclass": "ZombiePotionModuleProperties",
+			"objdata": {
+				"InitialPotionCount": 4,
+				"MaxPotionCount": 8,
+				"PotionSpawnTimer": {
+					"Max": 15,
+					"Min": 20
+				},
+				"PotionTypes": [
+					"surfboard", "gravestone_sprout", "gravestone_modern", "speaker", "gravestonePlantfoodOnDestruction", "gravestoneSunOnDestruction", "gravestoneZombieOnDestruction", "gravestoneZombieTimeSpawner_wideImpCrown"
+				]
+			}
+		},
+		{
+			"objclass": "DangerRoomModuleProperties",
+			"aliases": [
+				"DangerRoomModule"
+			],
+			"objdata": {
+				"WorldSpecificProperties": "RTID(ModernDangerRoomProps@PropertySheets)",
+				"LevelDesigners": [
+					"RTID(ModernDangerRoomWaveGenerator@CurrentLevel)",
+					"RTID(PortalDesigner@CurrentLevel)",
+					"RTID(DarkEventGenerator@CurrentLevel)",
+					"RTID(RailcartDesigner@CurrentLevel)",
+					"RTID(DangerRoomGoldTilePlacer@CurrentLevel)",
+					"RTID(PowerTileDesigner@CurrentLevel)",
+					"RTID(DinosaurDesigner@CurrentLevel)",
+					"RTID(IceBlockDesigner@CurrentLevel)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"IceBlockDesigner"
+			],
+			"objclass": "DangerRoomIceBlockDesigner",
+			"objdata": {
+				"LevelRange": {
+					"Min": 1,
+					"Max": 60
+				},
+				"PlantColumnMin": {
+					"Min": 0,
+					"Max": 0
+				},
+				"PlantColumnMax": {
+					"Min": 2,
+					"Max": 9
+				},
+				"ZombieColumnMin": {
+					"Min": 6,
+					"Max": 1
+				},
+				"ZombieColumnMax": {
+					"Min": 8,
+					"Max": 8
+				},
+				"BlocksMin": {
+					"Min": 1,
+					"Max": 2
+				},
+				"BlocksMax": {
+					"Min": 3,
+					"Max": 5
+				},
+				"PctGoodBlocks": {
+					"Min": 25,
+					"Max": 5
+				},
+				"PlantTypeNames": [
+					"sunflower",
+					"sunflower_zero",
+					"burnade",
+					"nuclearshroom",
+					"peashooter",
+					"minipeashooter",
+					"peashooter_fourpeas",
+					"wallnut",
+					"potatomine",
+					"bloomerang",
+					"cabbagepult",
+					"iceburg",
+					"gravebuster",
+					"twinsunflower",
+					"bonkchoy",
+					"repeater",
+					"snowpea",
+					"kernelpult",
+					"snapdragon",
+					"powerlily",
+					"spikeweed",
+					"coconutcannon",
+					"alwayspea",
+					"cherry_bomb",
+					"springbean",
+					"springbean_springback",
+					"spikerock",
+					"threepeater",
+					"squash",
+					"splitpea",
+					"chilibean",
+					"torchwood",
+					"lightningreed",
+					"tallnut",
+					"jalapeno",
+					"peapod",
+					"melonpult",
+					"wintermelon",
+					"imitater",
+					"marigold",
+					"marigold_lawn",
+					"sprout",
+					"laser_bean",
+					"blover",
+					"blover_slowdown",
+					"citron",
+					"empea",
+					"starfruit",
+					"holonut",
+					"magnifyinggrass",
+					"powerplant",
+					"hypnoshroom",
+					"sunshroom",
+					"puffshroom",
+					"fumeshroom",
+					"sunbean",
+					"peanut",
+					"magnetshroom",
+					"chomper",
+					"lilypad",
+					"tanglekelp",
+					"bowlingbulb",
+					"homingthistle",
+					"guacodile",
+					"banana",
+					"ghostpepper",
+					"ghostplant",
+					"sweetpotato",
+					"sapfling",
+					"hurrikale",
+					"icybloom",
+					"hotpotato",
+					"pepperpult",
+					"chardguard",
+					"firepeashooter",
+					"stunion",
+					"xshot",
+					"dandelion",
+					"lavaguava",
+					"redstinger",
+					"akee",
+					"endurian",
+					"toadstool",
+					"sunpod",
+					"stallia",
+					"goldleaf",
+					"strawburst",
+					"cactus",
+					"phatbeet",
+					"celerystalker",
+					"thymewarp",
+					"electricblueberry",
+					"garlic",
+					"sporeshroom",
+					"intensivecarrot",
+					"jackolantern",
+					"grapeshot",
+					"primalpeashooter",
+					"lvtt",
+					"primalwallnut",
+					"perfumeshroom",
+					"coldsnapdragon",
+					"primalsunflower",
+					"primalpotatomine",
+					"shrinkingviolet",
+					"moonflower",
+					"moonflower_day",
+					"nightshade",
+					"shadowshroom",
+					"bloominghearts",
+					"dusklobber",
+					"escaperoot",
+					"grimrose",
+					"goldbloom",
+					"electriccurrant",
+					"wasabiwhip",
+					"explodeonut",
+					"kiwibeast",
+					"aloe",
+					"applemortar",
+					"bombegranate",
+					"witchhazel",
+					"parsnip",
+					"missiletoe",
+					"hotdate",
+					"caulipower",
+					"solartomato",
+					"electricpeashooter",
+					"hollyknight",
+					"shadowpeashooter",
+					"poisonpeashooter",
+					"slingpea",
+					"snappea",
+					"zoybeanpod",
+					"dazeychain",
+					"electricitea",
+					"blastberry",
+					"pokra",
+					"imppear",
+					"pumpkin",
+					"pyrevine",
+					"icebloom",
+					"dartichoke",
+					"dartichoke_gargantuar",
+					"dartichoke_yeet",
+					"ultomato",
+					"gumnut",
+					"shinevine",
+					"tumbleweed",
+					"tumblerock",
+					"tumble_flamecatcher",
+					"tumbleweed_juggling",
+					"tumbleweed_stars",
+					"olivepit",
+					"puffball",
+					"explodeovine",
+					"murkadamia",
+					"turkeypult",
+					"headbutter",
+					"boingsetta",
+					"stickybombrice",
+					"hocus",
+					"gloomvine",
+					"draftodil",
+					"boomflower",
+					"pvine",
+					"inferno",
+					"solarsage",
+					"powervine",
+					"noctarine",
+					"heathseeker",
+					"iceweed",
+					"tigergrass",
+					"teleportatomine",
+					"filamint",
+					"peppermint",
+					"wintermint",
+					"enlightenmint",
+					"reinforcemint",
+					"bombardmint",
+					"ailmint",
+					"enchantmint",
+					"containmint",
+					"enforcemint",
+					"armamint",
+					"concealmint",
+					"spearmint",
+					"appeasemint",
+					"astonishingmint"
+				],
+				"ZombieTypeNames": [
+					"tutorial",
+					"tutorial_armor1",
+					"tutorial_armor2",
+					"tutorial_armor4",
+					"tutorial_flag",
+					"tutorial_flag_veteran",
+					"tutorial_imp",
+					"tutorial_gargantuar",
+					"vase_gargantuar",
+					"mummy",
+					"mummy_armor1",
+					"mummy_armor2",
+					"mummy_armor4",
+					"mummy_flag",
+					"mummy_flag_veteran",
+					"ra",
+					"camel_almanac",
+					"camel_segment",
+					"camel_onehump",
+					"camel_twohump",
+					"camel_manyhump",
+					"explorer",
+					"explorer_veteran",
+					"tomb_raiser",
+					"cleopatra",
+					"cleopatra_flag",
+					"pharaoh",
+					"egypt_imp",
+					"egypt_gargantuar",
+					"pirate",
+					"pirate_armor1",
+					"pirate_armor2",
+					"pirate_armor4",
+					"pirate_flag",
+					"pirate_flag_veteran",
+					"swashbuckler",
+					"seagull",
+					"pelican",
+					"barrelroller",
+					"pirate_imp",
+					"cannon",
+					"pirate_captain",
+					"pirate_captain_parrot",
+					"pirate_gargantuar",
+					"cowboy",
+					"cowboy_armor1",
+					"cowboy_armor2",
+					"cowboy_armor4",
+					"cowboy_flag",
+					"cowboy_flag_veteran",
+					"prospector",
+					"piano",
+					"poncho",
+					"chicken_farmer",
+					"chicken",
+					"west_bull",
+					"west_bull_veteran",
+					"west_bullrider",
+					"cowboy_gargantuar",
+					"treasureyeti",
+					"future",
+					"future_armor1",
+					"future_armor2",
+					"future_armor4",
+					"future_flag",
+					"future_flag_veteran",
+					"future_jetpack",
+					"future_jetpack_veteran",
+					"future_protector",
+					"future_imp",
+					"mech_cone",
+					"disco_mech",
+					"future_jetpack_disco",
+					"football_mech",
+					"future_gargantuar",
+					"dark",
+					"dark_armor1",
+					"dark_armor2",
+					"dark_armor3",
+					"dark_flag",
+					"dark_imp",
+					"dark_juggler",
+					"dark_gargantuar",
+					"dark_wizard",
+					"dark_king",
+					"dark_imp_dragon",
+					"beach",
+					"beach_armor1",
+					"beach_armor2",
+					"beach_flag",
+					"beach_fem",
+					"beach_fem_armor1",
+					"beach_fem_armor2",
+					"beach_snorkel",
+					"beach_imp",
+					"beach_surfer",
+					"beach_gargantuar",
+					"beach_fisherman",
+					"beach_octopus",
+					"iceage",
+					"iceage_armor1",
+					"iceage_armor2",
+					"iceage_armor3",
+					"iceage_flag",
+					"iceage_hunter",
+					"iceage_imp",
+					"iceage_dodo",
+					"iceage_troglobite",
+					"iceage_weaselhoarder",
+					"iceage_weasel",
+					"iceage_gargantuar",
+					"lostcity",
+					"lostcity_armor1",
+					"lostcity_armor2",
+					"lostcity_flag",
+					"lostcity_imp",
+					"lostcity_lostpilot",
+					"lostcity_excavator",
+					"lostcity_jane",
+					"lostcity_bug",
+					"lostcity_gargantuar",
+					"lostcity_impporter",
+					"lostcity_relichunter",
+					"lostcity_crystalskull",
+					"eighties",
+					"eighties_armor1",
+					"eighties_armor2",
+					"eighties_flag",
+					"eighties_punk",
+					"eighties_glitter",
+					"eighties_mc",
+					"eighties_imp",
+					"eighties_gargantuar",
+					"eighties_breakdancer",
+					"eighties_arcade",
+					"eighties_8bit",
+					"eighties_boombox",
+					"dino",
+					"dino_armor1",
+					"dino_armor2",
+					"dino_armor3",
+					"dino_armor4",
+					"dino_flag",
+					"dino_flag_veteran",
+					"dino_imp",
+					"dino_gargantuar",
+					"dino_bully",
+					"dino_bully_veteran",
+					"modern_newspaper",
+					"newspaper_veteran",
+					"modern_balloon",
+					"modern_allstar",
+					"modern_superfanimp",
+					"imppear_imp",
+					"roman",
+					"roman_armor1",
+					"roman_armor2",
+					"roman_armor3",
+					"roman_armor4",
+					"roman_flag",
+					"roman_healer",
+					"roman_shield_almanac",
+					"roman_gargantuar",
+					"roman_imp",
+					"roman_ballista",
+					"roman_medusa",
+					"zcorp_imp",
+					"zcorp_gargantuar",
+					"zcorp",
+					"zcorp_fem",
+					"zcorp_armor1",
+					"zcorp_armor2",
+					"zcorp_fem_armor1",
+					"zcorp_fem_armor2",
+					"zcorp_flag",
+					"zcorp_consultant",
+					"zcorp_helpdesk",
+					"zcorp_racer_chair",
+					"carnie",
+					"carnie_armor1",
+					"carnie_armor2",
+					"carnie_armor4",
+					"carnie_flag",
+					"carnie_cannon",
+					"carnie_imp",
+					"carnie_imp_twins",
+					"carnie_gargantuar",
+					"carnie_imp_split",
+					"carnie_magician",
+					"carnie_firebreather",
+					"carnie_stiltwalker"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"RailcartDesigner"
+			],
+			"objclass": "DangerRoomRailcartDesigner",
+			"objdata": {
+				"BaseRailcartCount": 1,
+				"BaseRailcartCountPerLevel": 0.3,
+				"MaxGeneratedRailcarts": 2,
+				"Layouts": [
+					"11100",
+					"11110",
+					"11111",
+					"01111",
+					"00111",
+					"01110",
+					"11022"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"DangerRoomIntro"
+			],
+			"objclass": "DangerRoomLevelIntroProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [],
+				"SelectionMethod": "chooser",
+				"AlwaysUseChooser": true
+			}
+		},
+		{
+			"aliases": [
+				"DinosaurDesigner"
+			],
+			"objclass": "DangerRoomDinoDesigner",
+			"objdata": {
+				"LevelRange": {
+					"Min": 1,
+					"Max": 5
+				},
+				"DinoTypesMin": {
+					"Min": 0,
+					"Max": 1
+				},
+				"DinoTypesMax": {
+					"Min": 1,
+					"Max": 2
+				},
+				"FirstDinoWavesMin": {
+					"Min": 8,
+					"Max": 9
+				},
+				"FirstDinoWavesMax": {
+					"Min": 7,
+					"Max": 6
+				},
+				"NextDinoWavesMin": {
+					"Min": 9,
+					"Max": 10
+				},
+				"NextDinoWavesMax": {
+					"Min": 10,
+					"Max": 16
+				},
+				"DinoCountInWaveMin": {
+					"Min": 1,
+					"Max": 2
+				},
+				"DinoCountInWaveMax": {
+					"Min": 3,
+					"Max": 4
+				}
+			}
+		},
+		{
+			"aliases": [
+				"PowerTileDesigner"
+			],
+			"objclass": "DangerRoomPowerTileDesigner",
+			"objdata": {
+				"PickByRowColumn": false,
+				"BaseTileSetCount": 1,
+				"BaseTileSetCountPerLevel": 0.3,
+				"MaxTileSetCount": 1,
+				"ColumnCount": 4,
+				"TileSetLayouts": [
+					[
+						"11"
+					],
+					[
+						"101"
+					],
+					[
+						"10101"
+					],
+					[
+						"1",
+						"1"
+					],
+					[
+						"1",
+						"0",
+						"1"
+					],
+					[
+						"10",
+						"01",
+						"10"
+					],
+					[
+						"01",
+						"10",
+						"01"
+					],
+					[
+						"1",
+						"1",
+						"1"
+					],
+					[
+						"1",
+						"0",
+						"0",
+						"0",
+						"1"
+					],
+					[
+						"1",
+						"0",
+						"1",
+						"0",
+						"1"
+					],
+					[
+						"10",
+						"00",
+						"01",
+						"00",
+						"10"
+					],
+					[
+						"01",
+						"00",
+						"10",
+						"00",
+						"01"
+					],
+					[
+						"01",
+						"00",
+						"10",
+						"00",
+						"01"
+					],
+					[
+						"101",
+						"000",
+						"101"
+					],
+					[
+						"101",
+						"000",
+						"101",
+						"000",
+						"000"
+					],
+					[
+						"000",
+						"000",
+						"101",
+						"000",
+						"101"
+					],
+					[
+						"001",
+						"000",
+						"100",
+						"000",
+						"001"
+					],
+					[
+						"010",
+						"101",
+						"010"
+					],
+					[
+						"00001",
+						"00000",
+						"00001",
+						"00000",
+						"00001"
+					],
+					[
+						"01001",
+						"01001"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"DangerRoomGoldTilePlacer"
+			],
+			"objclass": "GridItemPatternPlacer",
+			"objdata": {
+				"//": "All properties are a function of level",
+				"NumberOfTiles": {
+					"LowerBound": {
+						"SlopeCoefficient": 0.125,
+						"YIntercept": 1.725,
+						"LowerLimit": {
+							"Value": "2"
+						},
+						"UpperLimit": {
+							"Value": "8"
+						}
+					},
+					"UpperBound": {
+						"SlopeCoefficient": 0.25,
+						"YIntercept": 2.0,
+						"LowerLimit": {
+							"Value": "2"
+						},
+						"UpperLimit": {
+							"Value": "8"
+						}
+					}
+				},
+				"GridItemSpawnerPatterns": [
+					"RTID(GoldTilesPattern1@CurrentLevel)",
+					"RTID(GoldTilesPattern2@CurrentLevel)",
+					"RTID(GoldTilesPattern3@CurrentLevel)",
+					"RTID(GoldTilesPattern4@CurrentLevel)",
+					"RTID(GoldTilesPattern5@CurrentLevel)",
+					"RTID(GoldTilesPattern6@CurrentLevel)",
+					"RTID(GoldTilesPattern7@CurrentLevel)",
+					"RTID(GoldTilesPattern8@CurrentLevel)",
+					"RTID(GoldTilesPattern9@CurrentLevel)",
+					"RTID(GoldTilesPattern10@CurrentLevel)",
+					"RTID(GoldTilesPattern11@CurrentLevel)",
+					"RTID(GoldTilesPattern12@CurrentLevel)",
+					"RTID(GoldTilesPattern13@CurrentLevel)",
+					"RTID(GoldTilesPattern14@CurrentLevel)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GoldTilesPattern1"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 2,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 1,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 2,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 1,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 2,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GoldTilesPattern2"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GoldTilesPattern3"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 1,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GoldTilesPattern4"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 2,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 1,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GoldTilesPattern5"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 7,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 1,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 1,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GoldTilesPattern6"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 4,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 0,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 1,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GoldTilesPattern7"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 1,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 2,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GoldTilesPattern8"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 8,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 2,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 0,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GoldTilesPattern9"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 3,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 1,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GoldTilesPattern10"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GoldTilesPattern11"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 2,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GoldTilesPattern12"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 1,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 0,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 2,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 8,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 1,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GoldTilesPattern13"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 4,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 1,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"GoldTilesPattern14"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 2,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 1,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 1,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 7,
+						"GridY": 2,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 4,
+						"GridY": 3,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 2,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "goldtile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"DarkEventGenerator"
+			],
+			"objclass": "DangerRoomDarkEventGenerator",
+			"objdata": {
+				"#Comment": "All ranges are evaluated as a function of level (x = level)",
+				"GravestoneSpawnEventsPerFlagWaveMin": {
+					"YIntercept": 0
+				},
+				"GravestoneSpawnEffectsPerFlagWaveMax": {
+					"SlopeCoefficient": 0.5,
+					"UpperLimit": {
+						"Value": "1"
+					}
+				},
+				"GravestonesPerSpawnEventMin": {
+					"YIntercept": 1
+				},
+				"GravestonesPerSpawnEventMax": {
+					"SlopeCoefficient": 0.5,
+					"UpperLimit": {
+						"Value": "2"
+					}
+				},
+				"BeneficialGravestonesPerSpawnEventMin": {
+					"YIntercept": 0
+				},
+				"BeneficialGravestonesPerSpawnEventMax": {
+					"YIntercept": 2
+				},
+				"ChanceThatBeneficialGravestoneIsPlantfoodNotSun": 0.15,
+				"GravestoneSpawnColumnMin": {
+					"SlopeCoefficient": -0.2,
+					"YIntercept": 5,
+					"LowerLimit": {
+						"Value": "3"
+					},
+					"UpperLimit": {
+						"Value": "5"
+					}
+				},
+				"GravestoneSpawnColumnMax": {
+					"YIntercept": 9
+				},
+				"NecromancyEventsPerFlagWaveMin": {
+					"YIntercept": 0
+				},
+				"NecromancyEventsPerFlagWaveMax": {
+					"SlopeCoefficient": 0.2,
+					"UpperLimit": {
+						"Value": "2"
+					}
+				},
+				"ZombiesPerNecromancyEventMin": {
+					"YIntercept": 1
+				},
+				"ZombiesPerNecromancyEventMax": {
+					"SlopeCoefficient": 0.5,
+					"UpperLimit": {
+						"Value": "3"
+					}
+				},
+				"SpawnZombieType": "modern_superfanimp"
+			}
+		},
+		{
+			"aliases": [
+				"PortalDesigner"
+			],
+			"objclass": "DangerRoomModernDesigner",
+			"objdata": {
+				"LevelRange": {
+					"Min": 1,
+					"Max": 30
+				},
+				"PortalTypesMin": {
+					"Min": 1,
+					"Max": 1
+				},
+				"PortalTypesMax": {
+					"Min": 4,
+					"Max": 4
+				},
+				"FirstPortalWavesMin": {
+					"Min": 4,
+					"Max": 4
+				},
+				"FirstPortalWavesMax": {
+					"Min": 2,
+					"Max": 3
+				},
+				"NextPortalWavesMin": {
+					"Min": 4,
+					"Max": 4
+				},
+				"NextPortalWavesMax": {
+					"Min": 2,
+					"Max": 2
+				},
+				"PortalCountInWaveMin": {
+					"Min": 1,
+					"Max": 1
+				},
+				"PortalCountInWaveMax": {
+					"Min": 3,
+					"Max": 4
+				},
+				"ColumnToSpawnMin": {
+					"Min": 8,
+					"Max": 8
+				},
+				"ColumnToSpawnMax": {
+					"Min": 5,
+					"Max": 6
+				},
+				"ZombiesToSpawnMin": {
+					"Min": 1,
+					"Max": 2
+				},
+				"ZombiesToSpawnMax": {
+					"Min": 3,
+					"Max": 4
+				},
+				"ZombieRandomListStartMin": {
+					"Min": 0,
+					"Max": 0
+				},
+				"ZombieRandomListStartMax": {
+					"Min": 0,
+					"Max": 0
+				},
+				"ZombieRandomListEndMin": {
+					"Min": 0,
+					"Max": 0
+				},
+				"ZombieRandomListEndMax": {
+					"Min": 3,
+					"Max": 3
+				}
+			}
+		},
+		{
+			"aliases": [
+				"ModernDangerRoomWaveGenerator"
+			],
+			"objclass": "DangerRoomJitteredWaveGenerator",
+			"objdata": {
+				"StartingPoints": 100,
+				"BasePointIncrementPerWave": 20,
+				"BasePointIncrementPerLevel": 5,
+				"ZombiePool": [
+					"RTID(tutorial@ZombieTypes)",
+					"RTID(tutorial_armor1@ZombieTypes)",
+					"RTID(tutorial_armor2@ZombieTypes)",
+					"RTID(tutorial_imp@ZombieTypes)",
+					"RTID(tutorial_gargantuar@ZombieTypes)",
+					"RTID(modern_newspaper@ZombieTypes)",
+					"RTID(modern_balloon@ZombieTypes)",
+					"RTID(modern_allstar@ZombieTypes)",
+					"RTID(modern_superfanimp@ZombieTypes)",
+					"RTID(newspaper_veteran@ZombieTypes)",
+					"RTID(tutorial_armor4@ZombieTypes)",
+					"RTID(vase_gargantuar@ZombieTypes)"
+				]
+			}
+		}
+	],
+	"version": 1
+}

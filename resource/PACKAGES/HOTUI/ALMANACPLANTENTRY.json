@@ -1,0 +1,109 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"AlmanacPlantEntry"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "AlmanacPlantEntry",
+				"Resources": [],
+				"Width": {
+					"Value": "140"
+				},
+				"Height": {
+					"Value": "90"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "2.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(ItemSeedPacket@.)",
+					"RTID(XpProgressBar@.)",
+					"RTID(PlantButton@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"PlantButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "PlantButton",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"DownAudio": "Play_UI_Button_Almanac_Tab_Small",
+				"HideButtonImages": true
+			}
+		},
+		{
+			"aliases": [
+				"ItemSeedPacket"
+			],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "ItemSeedPacket",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "75"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"XpProgressBar"
+			],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "XpProgressBar",
+				"Width": {
+					"Value": "72%"
+				},
+				"Height": {
+					"Value": "24"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "-4"
+					},
+					"OffsetY": {
+						"Value": "-34"
+					}
+				},
+				"UIFileName": "PlantLevelProgressBar",
+				"AdaptorClassName": "AdaptorPlantLevelProgressBarCompact"
+			}
+		}
+	]
+}

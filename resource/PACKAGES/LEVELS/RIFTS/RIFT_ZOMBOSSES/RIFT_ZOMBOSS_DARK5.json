@@ -1,0 +1,620 @@
+{
+	"#comment": "Dark Zomboss - joust 85 v2",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "[PLAYERS_TRIP_TO_RIFT]",
+				"DisablePlantBoosts": false,
+				"GridItemLevel": -1,
+				"LevelMutator": "RTID(LevelMutator@CurrentLevel)",
+				"LevelNumber": 0,
+				"LevelPowerupSet": "",
+				"Loot": "RTID(NoLoot@LevelModules)",
+				"LossModule": "RTID(RiftOutro@LevelModules)",
+				"Modules": [
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(FutureMowers@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(LastStand@CurrentLevel)",
+					"RTID(LevelDifficultyScaling@CurrentLevel)",
+					"RTID(SeedPacketHalfTimeModule@LevelModules)",
+					"RTID(ZombossBattle@CurrentLevel)",
+					"RTID(WaveDuplicator@CurrentLevel)",
+					"RTID(PerkActivator@CurrentLevel)",
+					"RTID(DefaultZombossRiftPointOfLoss@LevelModules)"
+				],
+				"Name": "",
+				"NormalPresentTable": "dark_normal_01",
+				"PerksDisabledInLevel": [
+					"moarscore"
+				],
+				"PerksDisabledPerDifficulty": [
+					[],
+					[],
+					[]
+				],
+				"ShinyPresentTable": "dark_shiny_01",
+				"StageModule": "RTID(RiftStage@LevelModules)",
+				"SuppressAccountUpgrades": true,
+				"SuppressDynamicTutorial": true,
+				"SuppressPlantfoodPurchase": false,
+				"VictoryModule": "RTID(RiftOutro@LevelModules)"
+			}
+		},
+		{
+			"aliases": [
+				"PerkActivator"
+			],
+			"objclass": "PerkHandlerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"LevelMutator"
+			],
+			"objclass": "LevelMutatorModuleProperties",
+			"objdata": {
+				"MutatorTables": [
+					"RTID(MutatorPropsRiftZomboss_Dark@LevelMutatorTables)",
+					"RTID(MutatorRiftZombossBattery1@LevelMutatorTables)",
+					"RTID(MutatorGridRiftGravestones5@LevelMutatorTables)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveDuplicator"
+			],
+			"objclass": "WaveDuplicatorModuleProperties",
+			"objdata": {
+				"PeriodOfWavesToLoop": 4,
+				"WaveSetsToAppend": 60
+			}
+		},
+		{
+			"aliases": [
+				"ZombossBattle"
+			],
+			"objclass": "ZombossRiftBattleModuleProperties",
+			"objdata": {
+				"ReservedColumnCount": 2,
+				"ShowInStreetView": true,
+				"SlideInStreetView": true,
+				"ZombossDeathColumn": 5,
+				"ZombossDeathRow": 3,
+				"ZombossMechType": "zombossmech_dark_rift",
+				"ZombossPhases": 3,
+				"ZombossSpawnGridPosition": {
+					"mX": 6,
+					"mY": 3
+				}
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "RiftFeaturedPlantSeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "FeaturedPlant"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"LevelDifficultyScaling"
+			],
+			"objclass": "LevelDifficultyScalingModuleProperties",
+			"objdata": {
+				"DifficultyRulesType": "RiftDifficulty",
+				"ZombieLevelSwaps": [
+					{
+						"Level": 3,
+						"Swaps": [
+							{
+								"From": "RTID(dark@ZombieTypes)",
+								"To": [
+									"RTID(dark_imp@ZombieTypes)",
+									"RTID(dark@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(dark_armor1@ZombieTypes)",
+								"To": [
+									"RTID(future@ZombieTypes)",
+									"RTID(dark_armor1@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(dark_armor2@ZombieTypes)",
+								"To": [
+									"RTID(dark_armor2@ZombieTypes)",
+									"RTID(future_armor1@ZombieTypes)"
+								]
+							}
+						]
+					},
+					{
+						"Level": 6,
+						"Swaps": [
+							{
+								"From": "RTID(dark@ZombieTypes)",
+								"To": [
+									"RTID(dark_imp@ZombieTypes)",
+									"RTID(dark@ZombieTypes)",
+									"RTID(dark@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(dark_armor1@ZombieTypes)",
+								"To": [
+									"RTID(future_jetpack@ZombieTypes)",
+									"RTID(dark_armor1@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(dark_armor2@ZombieTypes)",
+								"To": [
+									"RTID(dark_armor2@ZombieTypes)",
+									"RTID(dark_wizard@ZombieTypes)"
+								]
+							}
+						]
+					},
+					{
+						"Level": 9,
+						"Swaps": [
+							{
+								"From": "RTID(dark@ZombieTypes)",
+								"To": [
+									"RTID(dark_imp@ZombieTypes)",
+									"RTID(dark@ZombieTypes)",
+									"RTID(dark_armor1@ZombieTypes)",
+									"RTID(dark_armor2@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(dark_armor1@ZombieTypes)",
+								"To": [
+									"RTID(future_jetpack@ZombieTypes)",
+									"RTID(future_jetpack@ZombieTypes)",
+									"RTID(future_protector@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(dark_armor2@ZombieTypes)",
+								"To": [
+									"RTID(future_armor4@ZombieTypes)",
+									"RTID(mech_cone@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(football_mech@ZombieTypes)",
+								"To": [
+									"RTID(football_mech@ZombieTypes)",
+									"RTID(dark_juggler@ZombieTypes)"
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LastStand"
+			],
+			"objclass": "LastStandMinigameProperties",
+			"objdata": {
+				"PreSeedchooserFlow": "rift",
+				"StartingPlantfood": 0,
+				"StartingSun": 1550
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"DynamicZombies": [
+					{
+						"PointIncrementPerWave": -1,
+						"StartingPoints": -1,
+						"StartingWave": 3,
+						"ZombiePool": [
+							"RTID(future@ZombieTypes)",
+							"RTID(future_armor1@ZombieTypes)",
+							"RTID(future_armor2@ZombieTypes)",
+							"RTID(dark@ZombieTypes)",
+							"RTID(dark_armor1@ZombieTypes)",
+							"RTID(dark_armor2@ZombieTypes)",
+							"RTID(dark_armor3@ZombieTypes)"
+						]
+					},
+					{
+						"PointIncrementPerWave": -1,
+						"StartingPoints": -1,
+						"StartingWave": 4,
+						"ZombiePool": [
+							"RTID(future@ZombieTypes)",
+							"RTID(future_armor1@ZombieTypes)",
+							"RTID(future_armor2@ZombieTypes)",
+							"RTID(dark@ZombieTypes)",
+							"RTID(dark_armor1@ZombieTypes)",
+							"RTID(dark_armor2@ZombieTypes)",
+							"RTID(dark_armor3@ZombieTypes)"
+						]
+					},
+					{
+						"PointIncrementPerWave": -1,
+						"StartingPoints": -1,
+						"StartingWave": 5,
+						"ZombiePool": [
+							"RTID(future@ZombieTypes)",
+							"RTID(future_armor1@ZombieTypes)",
+							"RTID(future_armor2@ZombieTypes)",
+							"RTID(dark@ZombieTypes)",
+							"RTID(dark_armor1@ZombieTypes)",
+							"RTID(dark_armor2@ZombieTypes)",
+							"RTID(dark_armor3@ZombieTypes)"
+						]
+					},
+					{
+						"MaxPoints": 3000,
+						"PointIncrementPerWave": 150,
+						"StartingPoints": 100,
+						"StartingWave": 3,
+						"ZombiePool": [
+							"RTID(future@ZombieTypes)",
+							"RTID(future_armor1@ZombieTypes)",
+							"RTID(future_armor4@ZombieTypes)",
+							"RTID(future_jetpack@ZombieTypes)",
+							"RTID(future_gargantuar@ZombieTypes)",
+							"RTID(dark@ZombieTypes)",
+							"RTID(dark_wizard@ZombieTypes)"
+						]
+					},
+					{
+						"PointIncrementPerWave": 1,
+						"StartingPoints": 1,
+						"StartingWave": 5,
+						"ZombiePool": [
+							"RTID(future@ZombieTypes)",
+							"RTID(future_armor1@ZombieTypes)",
+							"RTID(future_armor2@ZombieTypes)",
+							"RTID(dark@ZombieTypes)",
+							"RTID(dark_armor1@ZombieTypes)",
+							"RTID(dark_armor2@ZombieTypes)",
+							"RTID(dark_armor3@ZombieTypes)"
+						]
+					},
+					{
+						"PointIncrementPerWave": 1,
+						"StartingPoints": 1,
+						"StartingWave": 4,
+						"ZombiePool": [
+							"RTID(future@ZombieTypes)",
+							"RTID(future_armor1@ZombieTypes)",
+							"RTID(future_armor2@ZombieTypes)",
+							"RTID(dark@ZombieTypes)",
+							"RTID(dark_armor1@ZombieTypes)",
+							"RTID(dark_armor2@ZombieTypes)",
+							"RTID(dark_armor3@ZombieTypes)"
+						]
+					},
+					{
+						"PointIncrementPerWave": 1,
+						"StartingPoints": 1,
+						"StartingWave": 3,
+						"ZombiePool": [
+							"RTID(future@ZombieTypes)",
+							"RTID(future_armor1@ZombieTypes)",
+							"RTID(future_armor2@ZombieTypes)",
+							"RTID(dark@ZombieTypes)",
+							"RTID(dark_armor1@ZombieTypes)",
+							"RTID(dark_armor2@ZombieTypes)",
+							"RTID(dark_armor3@ZombieTypes)"
+						]
+					}
+				],
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 10000,
+				"WaveCount": 1000,
+				"WaveSpendingPointIncrement": 200,
+				"WaveSpendingPoints": 100,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					]
+				],
+				"WavesAlwaysRandomized": false
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(dark_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(dark_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(dark_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(dark_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(dark_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(football_mech@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_imp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_wizard@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_wizard@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(dark_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_imp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(football_mech@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(dark_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(dark_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(dark_juggler@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_juggler@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(future_protector@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(future_armor4@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_wizard@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

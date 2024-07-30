@@ -1,0 +1,378 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"PlantFilterPopupMenu"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.75,
+				"Name": "PlantFilterPopupMenu",
+				"Resources": [
+					"UI_Almanac"
+				],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "40.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(Background@.)"
+				],
+				"IgnoreSafeArea": true
+			}
+		},
+		{
+			"aliases": [
+				"Background"
+			],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "Background",
+				"Resources": [],
+				"Width": {
+					"Value": "850"
+				},
+				"Height": {
+					"Value": "420"
+				},
+				"Anchor": {
+					"AnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(Title@.)",
+					"RTID(ScrollBackground@.)",
+					"RTID(CloseButton@.)"
+				],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "10.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "10.0"
+					},
+					"Bottom": {
+						"Value": "15.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "-6.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "-6.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"Title"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "Title",
+				"Width": {
+					"Value": "90.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "15.0"
+					}
+				},
+				"Label": "[ALMANAC_FILTER_POPUP_TITLE]",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Yellow_Dialog_Header_Color"
+			}
+		},
+		{
+			"aliases": [
+				"ScrollBackground"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ScrollBackground",
+				"Width": {
+					"Value": "92%"
+				},
+				"Height": {
+					"Value": "325"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetY": {
+						"Value": "-25.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Image": "IMAGE_UI_ALMANAC_ALMANAC_STAT_BACKGROUND",
+				"DrawStyle": "stretched",
+				"DrawType": "9slice",
+				"Children": [
+					"RTID(ScrollList@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ScrollList"
+			],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "ScrollList",
+				"Width": {
+					"Value": "770"
+				},
+				"Height": {
+					"Value": "308.5"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "10.0"
+					}
+				},
+				"Children": [
+					"RTID(FullList@.)"
+				],
+				"ScrollMode": "vertical",
+				"ShowScrollIndicators": true
+			}
+		},
+		{
+			"aliases": [
+				"FullList"
+			],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "FullList",
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "308.5"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "5.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"NumColumns": "1",
+				"Children": [
+					"RTID(ShowAllEntriesList@.)",
+					"RTID(LineDividerImage@.)",
+					"RTID(OptionsList@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ShowAllEntriesList"
+			],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "ShowAllEntriesList",
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "0.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"NumColumns": "3"
+			}
+		},
+		{
+			"aliases": [
+				"LineDividerImage"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "LineDividerImage",
+				"Width": {
+					"Value": "93%"
+				},
+				"Height": {
+					"Value": "2"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_CARDS_CARD_TABLE_LINE_HORIZONTAL",
+				"DrawStyle": "stretched",
+				"DrawType": "stretched",
+				"ImageColor": "DarkGrey"
+			}
+		},
+		{
+			"aliases": [
+				"OptionsList"
+			],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "OptionsList",
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "5.0"
+					}
+				},
+				"NumColumns": "3"
+			}
+		},
+		{
+			"aliases": [
+				"CloseButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CloseButton",
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-50"
+					},
+					"OffsetY": {
+						"Value": "65"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Button_Click_Press",
+				"DownAudio": "Play_UI_Button_Click_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE_DOWN",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		}
+	]
+}

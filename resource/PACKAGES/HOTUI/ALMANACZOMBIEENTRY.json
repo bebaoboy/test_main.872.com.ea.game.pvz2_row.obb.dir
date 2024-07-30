@@ -1,0 +1,132 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"AlmanacZombieEntry"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "AlmanacZombieEntry",
+				"Resources": [],
+				"Width": {
+					"Value": "90"
+				},
+				"Height": {
+					"Value": "150"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "70.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "60.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(ItemZombiePacketBorder@.)",
+					"RTID(ItemZombiePacket@.)",
+					"RTID(HiddenButton@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"HiddenButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "HiddenButton",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "120"
+				},
+				"DownAudio": "Play_UI_Button_Almanac_Tab_Small",
+				"HideButtonImages": true,
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"ItemZombiePacketBorder"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ItemZombiePacketBorder",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "120"
+				},
+				"Resources": [],
+				"Image": "IMAGE_UI_ALMANAC_PACKETS_ZOMBIES_READY",
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"ItemZombiePacket"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ItemZombiePacket",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "120"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				}
+			}
+		}
+	]
+}

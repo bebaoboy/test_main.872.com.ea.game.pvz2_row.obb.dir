@@ -1,0 +1,469 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"DialogScreen"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"Name": "DialogScreen",
+				"DarkenBackground": 0.7,
+				"Resources": [
+					"AudioJoust"
+				],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(Dialog@.)",
+					"RTID(DialogDismiss@.)",
+					"RTID(DialogXButton@.)",
+					"RTID(DialogButtonList@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"DialogDismiss"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DialogDismiss",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"IgnoreMouseInput": false
+			}
+		},
+		{
+			"aliases": [
+				"DialogXButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DialogXButton",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "topright",
+					"Parent": "RTID(Dialog@.)",
+					"OffsetX": {
+						"Value": "-60.0"
+					},
+					"OffsetY": {
+						"Value": "2.0"
+					}
+				},
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_BTN",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_DOWN",
+				"UpAudio": "Play_UI_Button_X_Close_Release",
+				"DownAudio": "Play_UI_Button_X_Close_Press"
+			}
+		},
+		{
+			"aliases": [
+				"Dialog"
+			],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "Dialog",
+				"Resources": [],
+				"Width": {
+					"Value": "580"
+				},
+				"Height": {
+					"Value": "300"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "48.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [
+					"RTID(DialogCard@.)"
+				],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "13.0"
+					},
+					"Top": {
+						"Value": "12.0"
+					},
+					"Right": {
+						"Value": "13.0"
+					},
+					"Bottom": {
+						"Value": "16.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"DialogCard"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogCard",
+				"Width": {
+					"Value": "98%"
+				},
+				"Height": {
+					"Value": "98%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"IgnoreMouseInput": true,
+				"Image": "$CARD_IMAGE",
+				"Children": [
+					"RTID(DialogTitle@.)",
+					"RTID(DialogContentsLabel@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"DialogTitle"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "96.0%"
+				},
+				"Height": {
+					"Value": "100.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "5.0"
+					}
+				},
+				"Label": "$DIALOG_TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		},
+		{
+			"aliases": [
+				"DialogContentsLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogContentsLabel",
+				"Width": {
+					"Value": "96.0%"
+				},
+				"Height": {
+					"Value": "80"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetY": {
+						"Value": "100.0"
+					}
+				},
+				"Label": "$DESCRIPTION",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_24",
+				"Color": "Black"
+			}
+		},
+		{
+			"aliases": [
+				"DialogButtonList"
+			],
+			"objclass": "HotUIButtonListProperties",
+			"objdata": {
+				"Name": "DialogButtonList",
+				"Width": {
+					"Value": "500"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "20.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "20.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(Dialog@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-40.0"
+					}
+				},
+				"Children": [
+					"RTID(DialogButtonWatch@.)",
+					"RTID(DialogButtonOffers@.)"
+				],
+				"Layout": "horizontal",
+				"LayoutJustification": "centered"
+			}
+		},
+		{
+			"aliases": [
+				"DialogButtonWatchImage"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogButtonWatchImage",
+				"Width": {
+					"Value": "20%"
+				},
+				"Height": {
+					"Value": "15"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "10%"
+					},
+					"OffsetY": {
+						"Value": "-3"
+					}
+				},
+				"Image": "IMAGE_UI_ICON_WATCH_VIDEO",
+				"DrawStyle": "stretched_aspectX"
+			}
+		},
+		{
+			"aliases": [
+				"DialogButtonWatchLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogButtonWatchLabel",
+				"Width": {
+					"Value": "60%"
+				},
+				"Height": {
+					"Value": "80%"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"OffsetX": {
+						"Value": "35%"
+					},
+					"OffsetY": {
+						"Value": "-5"
+					}
+				},
+				"Label": "$BUTTON_WATCH_LABEL",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"HorizontalJustification": "left"
+			}
+		},
+		{
+			"aliases": [
+				"DialogButtonWatchConnectionImage"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogButtonWatchConnectionImage",
+				"Width": {
+					"Value": "20%"
+				},
+				"Height": {
+					"Value": "15"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Resources": [
+					"UI_Calendar"
+				],
+				"Image": "IMAGE_UI_CALENDAR_BADGE_CONNECTION",
+				"DrawStyle": "stretched_aspectX"
+			}
+		},
+		{
+			"aliases": [
+				"DialogButtonWatch"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DialogButtonWatch",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"ButtonImageType": "3slice",
+				"ButtonImage": "$IMAGE_BUTTON_IMAGE",
+				"IncludelistID": "BASIC_DIALOG_BUTTON_RETRY",
+				"UpAudio": "Play_UI_Battlez_Continue_Press",
+				"DownAudio": "Play_UI_Battlez_Continue_Release",
+				"Children": [
+					"RTID(DialogButtonWatchImage@.)",
+					"RTID(DialogButtonWatchLabel@.)",
+					"RTID(DialogButtonWatchConnectionImage@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"DialogButtonOffersConnectionImage"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "DialogButtonOffersConnectionImage",
+				"Width": {
+					"Value": "20%"
+				},
+				"Height": {
+					"Value": "15"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Resources": [
+					"UI_Calendar"
+				],
+				"Image": "IMAGE_UI_CALENDAR_BADGE_CONNECTION",
+				"DrawStyle": "stretched_aspectX"
+			}
+		},
+		{
+			"aliases": [
+				"DialogButtonOffers"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DialogButtonOffers",
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Label": "$BUTTON_OFFERS_LABEL",
+				"Font": "Dialog_Button_Label_Font_26",
+				"Color": "Dialog_Button_Label_Color",
+				"ButtonImageType": "3slice",
+				"ButtonImage": "$IMAGE_BUTTON_IMAGE",
+				"IncludelistID": "BASIC_DIALOG_BUTTON_RETRY",
+				"UpAudio": "Play_UI_Battlez_Continue_Press",
+				"DownAudio": "Play_UI_Battlez_Continue_Release",
+				"Children": [
+					"RTID(DialogButtonOffersConnectionImage@.)"
+				]
+			}
+		}
+	]
+}

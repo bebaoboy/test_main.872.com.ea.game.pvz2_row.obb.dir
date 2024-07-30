@@ -1,0 +1,733 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"PauseScreen"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.7,
+				"Name": "PauseScreen",
+				"Resources": [
+					"UI_PauseMenu"
+				],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [
+					"RTID(PauseDialog@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"PauseDialog"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "PauseDialog",
+				"Width": {
+					"Value": "640.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [
+					"RTID(DialogTitle@.)",
+					"RTID(Dialog@.)",
+					"RTID(DialogTopper@.)",
+					"RTID(DialogButtonList@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"DialogTitle"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"Parent": "RTID(PauseDialog@.)"
+				},
+				"Label": "$DIALOG_TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		},
+		{
+			"aliases": [
+				"Dialog"
+			],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "Dialog",
+				"Resources": [],
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(DialogTitle@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "80.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "24.0"
+					},
+					"Top": {
+						"Value": "24.0"
+					},
+					"Right": {
+						"Value": "24.0"
+					},
+					"Bottom": {
+						"Value": "58.0"
+					}
+				},
+				"Children": [
+					"RTID(TopPaddingWidget@.)",
+					"RTID(ObjectivesBackground@.)",
+					"RTID(SliderArea@.)"
+				],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"DialogTopper"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "DialogTopper",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "125.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "top",
+					"Parent": "RTID(Dialog@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "40.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [
+					"RTID(sunflowertopper@.)",
+					"RTID(holidaysunflowertopper@.)",
+					"RTID(zombosstopper@.)",
+					"RTID(zombosstopperanim@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"sunflowertopper"
+			],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "sunflowertopper",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "128"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [],
+				"UIFileName": "SunflowerTopper",
+				"AdaptorClassName": "AdaptorSunflowerTopper"
+			}
+		},
+		{
+			"aliases": [
+				"holidaysunflowertopper"
+			],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "holidaysunflowertopper",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "128"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [],
+				"UIFileName": "HolidaySunflowerTopper",
+				"AdaptorClassName": "AdaptorHolidaySunflowerTopper"
+			}
+		},
+		{
+			"aliases": [
+				"zombosstopper"
+			],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "zombosstopper",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "128"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [],
+				"UIFileName": "ZombossTopper",
+				"AdaptorClassName": "AdaptorZombossTopper"
+			}
+		},
+		{
+			"aliases": [
+				"zombosstopperanim"
+			],
+			"objclass": "HotUIPrefabProperties",
+			"objdata": {
+				"Name": "zombosstopperanim",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "128"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [],
+				"UIFileName": "ZombossTopperAnim",
+				"AdaptorClassName": "AdaptorZombossTopperAnim"
+			}
+		},
+		{
+			"aliases": [
+				"TopPaddingWidget"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "TopPaddingWidget",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "5"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"ObjectivesBackground"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "ObjectivesBackground",
+				"Resources": [
+					"UI_PauseMenu"
+				],
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100"
+				},
+				"MaxHeight": {
+					"Value": "145"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"Parent": "RTID(Dialog@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "40.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "25.0"
+					},
+					"Top": {
+						"Value": "25.0"
+					},
+					"Right": {
+						"Value": "25.0"
+					},
+					"Bottom": {
+						"Value": "25.0"
+					}
+				},
+				"Children": [
+					"RTID(ObjectivesList@.)"
+				],
+				"DrawType": "9slice",
+				"DrawStyle": "normal",
+				"Image": "IMAGE_UI_PAUSEMENU_BLANK_CARD"
+			}
+		},
+		{
+			"aliases": [
+				"ObjectivesList"
+			],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "ObjectivesList",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "10.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"NumColumns": "1"
+			}
+		},
+		{
+			"aliases": [
+				"SliderArea"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "SliderArea",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(ObjectivesBackground@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "16.0"
+					},
+					"Top": {
+						"Value": "20.0"
+					},
+					"Right": {
+						"Value": "16.0"
+					},
+					"Bottom": {
+						"Value": "20.0"
+					}
+				},
+				"Children": [
+					"RTID(MusicLabel@.)",
+					"RTID(MusicSlider@.)",
+					"RTID(SoundLabel@.)",
+					"RTID(SoundSlider@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"SoundLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "SoundLabel",
+				"Width": {
+					"Value": "214.0"
+				},
+				"Height": {
+					"Value": "42.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "bottomleft",
+					"Parent": "RTID(MusicLabel@.)"
+				},
+				"Label": "$LABEL1_TEXT",
+				"HorizontalJustification": "right",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		},
+		{
+			"aliases": [
+				"SoundSlider"
+			],
+			"objclass": "HotUISliderProperties",
+			"objdata": {
+				"Name": "SoundSlider",
+				"Resources": [
+					"UI_PauseMenu"
+				],
+				"Width": {
+					"Value": "270.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "right",
+					"Parent": "RTID(SoundLabel@.)"
+				},
+				"SliderKnobImage": "IMAGE_UI_PAUSEMENU_SLIDER_BOLT",
+				"SliderFillImage": "IMAGE_UI_GENERIC_AUDIO_FILL",
+				"SliderBarImage": "IMAGE_UI_GENERIC_AUDIO_BAR"
+			}
+		},
+		{
+			"aliases": [
+				"MusicLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "MusicLabel",
+				"Width": {
+					"Value": "214.0"
+				},
+				"Height": {
+					"Value": "42.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft"
+				},
+				"Label": "$LABEL2_TEXT",
+				"HorizontalJustification": "right",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Header_Font_36",
+				"Color": "Dialog_Header_Color"
+			}
+		},
+		{
+			"aliases": [
+				"MusicSlider"
+			],
+			"objclass": "HotUISliderProperties",
+			"objdata": {
+				"Name": "MusicSlider",
+				"Resources": [
+					"UI_PauseMenu"
+				],
+				"Width": {
+					"Value": "270.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "right",
+					"Parent": "RTID(MusicLabel@.)"
+				},
+				"SliderKnobImage": "IMAGE_UI_PAUSEMENU_SLIDER_BOLT",
+				"SliderFillImage": "IMAGE_UI_GENERIC_AUDIO_FILL",
+				"SliderBarImage": "IMAGE_UI_GENERIC_AUDIO_BAR"
+			}
+		},
+		{
+			"aliases": [
+				"DialogButtonList"
+			],
+			"objclass": "HotUIButtonListProperties",
+			"objdata": {
+				"Name": "DialogButtonList",
+				"Width": {
+					"Value": "96.0%"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "20.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "20.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"Parent": "RTID(Dialog@.)",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-37.0"
+					}
+				},
+				"Children": [
+					"RTID(DialogButton1@.)",
+					"RTID(DialogButton2@.)",
+					"RTID(DialogButton3@.)"
+				],
+				"Layout": "horizontal",
+				"LayoutJustification": "centered"
+			}
+		},
+		{
+			"aliases": [
+				"DialogButton1"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DialogButton1",
+				"Resources": [],
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "-10"
+					}
+				},
+				"Label": "$BUTTON_1_LABEL",
+				"Font": "BLACK_24_SHADED",
+				"Color": "Dialog_Button_Label_Color",
+				"ColorTouched": "Dialog_Button_Label_Touched_Color",
+				"UpImage": "$IMAGE_BUTTON_IMAGE_UP_1",
+				"DownImage": "$IMAGE_BUTTON_IMAGE_DOWN_1",
+				"ButtonImageType": "3slice",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		},
+		{
+			"aliases": [
+				"DialogButton2"
+			],
+			"defaults": "DialogButton1@.",
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DialogButton2",
+				"Resources": [],
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "-10"
+					}
+				},
+				"Label": "$BUTTON_2_LABEL",
+				"Font": "BLACK_24_SHADED",
+				"Color": "Dialog_Button_Label_Color",
+				"ColorTouched": "Dialog_Button_Label_Touched_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "$IMAGE_BUTTON_IMAGE_UP_2",
+				"DownImage": "$IMAGE_BUTTON_IMAGE_DOWN_2",
+				"TappedEvent": "DialogButton2Tapped"
+			}
+		},
+		{
+			"aliases": [
+				"DialogButton3"
+			],
+			"defaults": "DialogButton1@.",
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "DialogButton3",
+				"Resources": [],
+				"Width": {
+					"Value": "150.0"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "-10"
+					}
+				},
+				"Label": "$BUTTON_3_LABEL",
+				"Font": "BLACK_24_SHADED",
+				"Color": "Dialog_Button_Label_Color",
+				"ColorTouched": "Dialog_Button_Label_Touched_Color",
+				"ButtonImageType": "3slice",
+				"UpImage": "$IMAGE_BUTTON_IMAGE_UP_3",
+				"DownImage": "$IMAGE_BUTTON_IMAGE_DOWN_3",
+				"TappedEvent": "DialogButton3Tapped"
+			}
+		}
+	]
+}

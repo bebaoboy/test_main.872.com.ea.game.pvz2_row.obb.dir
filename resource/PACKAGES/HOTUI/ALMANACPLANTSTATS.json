@@ -1,0 +1,452 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"AlmanacPlantStats"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "AlmanacPlantStats",
+				"EntryPoint": true,
+				"DarkenBackground": 0.0,
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "center"
+				},
+				"IgnoreSafeArea": true,
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(PlantStatsArea@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"PlantStatsArea"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "PlantStatsArea",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "100.0%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": "center"
+				},
+				"IgnoreMouseInput": true,
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(ScrollList@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ScrollList"
+			],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "ScrollList",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(StatsVerticalList@.)"
+				],
+				"ScrollMode": "vertical",
+				"ShowScrollIndicators": false,
+				"ScrollIndicatorDistanceFromEdge": {
+					"Value": "-1"
+				},
+				"ScrollIndicatorInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "4.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "4.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"StatsVerticalList"
+			],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "StatsVerticalList",
+				"Width": {
+					"Value": "460"
+				},
+				"Height": {
+					"Value": "1000"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "0.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(StatsList@.)",
+					"RTID(FamilyList@.)",
+					"RTID(PlantFoodContainer@.)",
+					"RTID(DescriptionList@.)"
+				],
+				"NumColumns": "1"
+			}
+		},
+		{
+			"aliases": [
+				"PlantFoodContainer"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"Name": "PlantFoodContainer",
+				"Width": {
+					"Value": "460"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "top"
+				},
+				"IgnoreMouseInput": true,
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "20.0"
+					}
+				},
+				"Children": [
+					"RTID(PlantFoodIcon@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"PlantFoodIcon"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PlantFoodIcon",
+				"Width": {
+					"Value": "50"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "1.0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Resources": [
+					"UI_Almanac"
+				],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_ALMANAC_PLANT_FOOD_STAT_ICON",
+				"Children": [
+					"RTID(PlantFoodDescLabel@.)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"PlantFoodDescLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PlantFoodDescLabel",
+				"Width": {
+					"Value": "410"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "right",
+					"OffsetX": {
+						"Value": "1.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "20.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "center",
+				"Font": "BLACK_18_HARDSHADOW",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"DescriptionList"
+			],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "DescriptionList",
+				"Width": {
+					"Value": "460"
+				},
+				"Height": {
+					"Value": "350"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "20.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(PlantDescHeaderLabel@.)",
+					"RTID(PlantDescLabel@.)"
+				],
+				"NumColumns": "1"
+			}
+		},
+		{
+			"aliases": [
+				"StatsList"
+			],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "StatsList",
+				"Width": {
+					"Value": "460"
+				},
+				"Height": {
+					"Value": "500"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "20.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"NumColumns": "2"
+			}
+		},
+		{
+			"aliases": [
+				"FamilyList"
+			],
+			"objclass": "HotUIVerticalListProperties",
+			"objdata": {
+				"Name": "FamilyList",
+				"Width": {
+					"Value": "460"
+				},
+				"Height": {
+					"Value": "500"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "20.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					}
+				},
+				"NumColumns": "2"
+			}
+		},
+		{
+			"aliases": [
+				"PlantDescHeaderLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PlantDescHeaderLabel",
+				"Width": {
+					"Value": "460"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "2.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "4.0"
+					},
+					"Right": {
+						"Value": "20.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "BLACK_14_HARDSHADOW",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"PlantDescLabel"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PlantDescLabel",
+				"Width": {
+					"Value": "460"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "2.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "20.0"
+					},
+					"Bottom": {
+						"Value": "150.0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "left",
+				"VerticalJustification": "top",
+				"Font": "BLACK_14_HARDSHADOW",
+				"Color": "Yellow"
+			}
+		}
+	]
+}

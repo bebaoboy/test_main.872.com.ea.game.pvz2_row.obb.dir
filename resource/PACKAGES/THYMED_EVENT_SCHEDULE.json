@@ -1,0 +1,3991 @@
+{
+	"objects": [
+		{
+			"aliases": [
+				"ThymedEventSchedule"
+			],
+			"objclass": "ThymedEventSchedule",
+			"objdata": {
+				"MaxEventsToShow": 3,
+				"TriggeredLTECooldownPeriod": 0,
+				"ComingSoonLTECooldownPeriod": 0,
+				"TriggeredLTEDuration": 0,
+				"TriggeredLTEComingSoonDuration": 0,
+				"Events": [
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0302_00_zcorp",
+									"lte_0303_00_zcorp",
+									"lte_0304_00_zcorp",
+									"lte_0305_00_zcorp",
+									"lte_0306_00_zcorp",
+									"lte_0307_00_zcorp",
+									"lte_0308_00_zcorp",
+									"lte_0309_00_zcorp",
+									"lte_0310_00_zcorp",
+									"lte_0311_00_zcorp",
+									"lte_0312_00_zcorp",
+									"lte_0313_00_zcorp",
+									"lte_0314_00_zcorp",
+									"lte_0315_00_zcorp",
+									"lte_0316_00_zcorp"
+								],
+								"NumActions": 15,
+								"Param": "event/feature/zcorp",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "coins",
+													"SubType": "",
+													"Amount": 2500
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "zcorp24_pinata",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 7
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "rhubarbarian",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "buduhboom",
+													"Amount": 50
+												}
+											]
+										},
+										"NodeNum": 15
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_ZCORP]",
+						"ComingSoonEnableTime": 1704412800,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_ZCORP]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_ZCORP_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_ZCORP_DOWN",
+						"Description": "[LTE_EVENTS_DESC_ZCORP]",
+						"Disabled": false,
+						"EndDate": 1705449600,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_ZCORP_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "[EVENT_ZCORP]",
+						"FeaturedPlantsList": [
+							"poisonpeashooter",
+							"sporeshroom"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_ZCORPTAKEOVER]"
+						],
+						"StartDate": 1704672000,
+						"TrackDefinitionID": 1,
+						"UniqueID": 13,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 80,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0036_00_lunarzooyear",
+									"lte_0037_00_lunarzooyear",
+									"lte_0038_00_lunarzooyear",
+									"lte_0039_00_lunarzooyear",
+									"lte_0040_00_lunarzooyear",
+									"lte_0041_00_lunarzooyear",
+									"lte_0042_00_lunarzooyear",
+									"lte_0043_00_lunarzooyear",
+									"lte_0044_00_lunarzooyear",
+									"lte_0045_00_lunarzooyear",
+									"lte_0046_00_lunarzooyear",
+									"lte_0047_00_lunarzooyear",
+									"lte_0048_00_lunarzooyear",
+									"lte_0049_00_lunarzooyear",
+									"lte_0050_00_lunarzooyear"
+								],
+								"NumActions": 15,
+								"Param": "event/feature/lunarzooyear",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "coins",
+													"SubType": "",
+													"Amount": 2500
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "lunarzooyear_2024_pinata",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 7
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "waterrabbit",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "dragonbruit",
+													"Amount": 50
+												}
+											]
+										},
+										"NodeNum": 15
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_LUNARNEWYEAR]",
+						"ComingSoonEnableTime": 1707091200,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_LUNARNEWYEAR]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_LUNARNEWYEAR_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_LUNARNEWYEAR_DOWN",
+						"Description": "[LTE_EVENTS_DESC_LUNARNEWYEAR]",
+						"Disabled": false,
+						"EndDate": 1708387200,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_LUNARNEWYEAR_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "[EVENT_CALENDAR_LUNARNEWYEAR]",
+						"FeaturedPlantsList": [
+							"waterrabbit",
+							"tigergrass",
+							"dragonbruit"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_LNY]"
+						],
+						"StartDate": 1707350400,
+						"TrackDefinitionID": 1,
+						"UniqueID": 14,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 80,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0041_00_luckothezombiec",
+									"lte_0042_00_luckothezombiec",
+									"lte_0043_00_luckothezombiec",
+									"lte_0044_00_luckothezombiec",
+									"lte_0045_00_luckothezombiec",
+									"lte_0046_00_luckothezombiec",
+									"lte_0047_00_luckothezombiec",
+									"lte_0048_00_luckothezombiec",
+									"lte_0049_00_luckothezombiec",
+									"lte_0050_00_luckothezombiec",
+									"lte_0051_00_luckothezombiec",
+									"lte_0052_00_luckothezombiec",
+									"lte_0053_00_luckothezombiec",
+									"lte_0054_00_luckothezombiec",
+									"lte_0055_00_luckothezombiec"
+								],
+								"NumActions": 15,
+								"Param": "event/feature/luckothezombiec",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "coins",
+													"SubType": "",
+													"Amount": 2500
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "lotz_2023",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 7
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "hurrikale",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "goldbloom",
+													"Amount": 50
+												}
+											]
+										},
+										"NodeNum": 15
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_LUCKOTHEZOMBIE]",
+						"ComingSoonEnableTime": 1709596800,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_LUCKOTHEZOMBIE]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_LUCKOTHEZOMBIE_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_LUCKOTHEZOMBIE_DOWN",
+						"Description": "[LTE_EVENTS_DESC_LUCKOTHEZOMBIE]",
+						"Disabled": false,
+						"EndDate": 1710720000,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_LUCKOTHEZOMBIE_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "[EVENT_LUCKOTHEZOMBIE]",
+						"FeaturedPlantsList": [
+							"dragonbruit",
+							"blover",
+							"hurrikale",
+							"goldbloom"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_LOTZ]"
+						],
+						"StartDate": 1709856000,
+						"TrackDefinitionID": 1,
+						"UniqueID": 15,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 80,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0061_00_springeningb",
+									"lte_0062_00_springeningb",
+									"lte_0063_00_springeningb",
+									"lte_0064_00_springeningb",
+									"lte_0065_00_springeningb",
+									"lte_0066_00_springeningb",
+									"lte_0067_00_springeningb",
+									"lte_0068_00_springeningb",
+									"lte_0069_00_springeningb",
+									"lte_0070_00_springeningb",
+									"lte_0071_00_springeningb",
+									"lte_0072_00_springeningb",
+									"lte_0073_00_springeningb",
+									"lte_0074_00_springeningb",
+									"lte_0075_00_springeningb"
+								],
+								"NumActions": 15,
+								"Param": "event/feature/springeningb",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "coins",
+													"SubType": "",
+													"Amount": 2500
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "springening_2023",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 7
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "dandelion",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "maybee",
+													"Amount": 50
+												}
+											]
+										},
+										"NodeNum": 15
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_SPRINGENING]",
+						"ComingSoonEnableTime": 1711065600,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_SPRINGENING]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_SPRINGENING_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_SPRINGENING_DOWN",
+						"Description": "[LTE_EVENTS_DESC_SPRINGENING]",
+						"Disabled": false,
+						"EndDate": 1712620800,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_SPRINGENING_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "[EVENT_SPRINGENING]",
+						"FeaturedPlantsList": [
+							"maybee",
+							"dandelion",
+							"draftodil",
+							"buttercup"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_SPRING]"
+						],
+						"StartDate": 1711324800,
+						"TrackDefinitionID": 1,
+						"UniqueID": 16,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 80,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_beachb",
+									"lte_0002_00_beachb",
+									"lte_0003_00_beachb",
+									"lte_0004_00_beachb",
+									"lte_0005_00_beachb",
+									"lte_0006_00_beachb",
+									"lte_0007_00_beachb",
+									"lte_0008_00_beachb",
+									"lte_0009_00_beachb",
+									"lte_0010_00_beachb",
+									"lte_0011_00_beachb",
+									"lte_0012_00_beachb",
+									"lte_0013_00_beachb",
+									"lte_0014_00_beachb",
+									"lte_0015_00_beachb"
+								],
+								"NumActions": 15,
+								"Param": "event/feature/beachb",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "seashroom",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "bwb_lte_2023",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 7
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "electricpeel",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "seashroom",
+													"Amount": 40
+												}
+											]
+										},
+										"NodeNum": 15
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_BEACH]",
+						"ComingSoonEnableTime": 1712880000,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_BEACH]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_BEACH_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_BEACH_DOWN",
+						"Description": "[LTE_EVENTS_DESC_BEACH]",
+						"Disabled": false,
+						"EndDate": 1714262400,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_BEACH_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "[EVENT_BEACH]",
+						"FeaturedPlantsList": [
+							"seashroom",
+							"electricpeel"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_BEACH_BRAWL]"
+						],
+						"StartDate": 1713139200,
+						"TrackDefinitionID": 1,
+						"UniqueID": 17,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 80,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_birthday",
+									"lte_0002_00_birthday",
+									"lte_0003_00_birthday",
+									"lte_0004_00_birthday",
+									"lte_0005_00_birthday",
+									"lte_0006_00_birthday",
+									"lte_0007_00_birthday",
+									"lte_0008_00_birthday",
+									"lte_0009_00_birthday",
+									"lte_0010_00_birthday",
+									"lte_0011_00_birthday",
+									"lte_0012_00_birthday",
+									"lte_0013_00_birthday",
+									"lte_0014_00_birthday",
+									"lte_0015_00_birthday"
+								],
+								"NumActions": 15,
+								"Param": "event/feature/birthdayc",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "coins",
+													"SubType": "",
+													"Amount": 2500
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "bday_24_pinata",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 7
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "seashroom",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "guardshroom",
+													"Amount": 50
+												}
+											]
+										},
+										"NodeNum": 15
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_BIRTHDAYZ]",
+						"ComingSoonEnableTime": 1714694400,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_BIRTHDAYZ]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_BIRTHDAYZ_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_BIRTHDAYZ_DOWN",
+						"Description": "[LTE_EVENTS_DESC_BIRTHDAY]",
+						"Disabled": false,
+						"EndDate": 1716076800,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_BIRTHDAYZ_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "[EVENT_BIRTHDAYZ]",
+						"FeaturedPlantsList": [
+							"guardshroom",
+							"seashroom",
+							"nightcap"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_BIRTHDAYZ]"
+						],
+						"StartDate": 1714953600,
+						"TrackDefinitionID": 1,
+						"UniqueID": 18,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 80,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_romanworldc",
+									"lte_0002_00_romanworldc",
+									"lte_0003_00_romanworldc",
+									"lte_0004_00_romanworldc",
+									"lte_0005_00_romanworldc",
+									"lte_0006_00_romanworldc",
+									"lte_0007_00_romanworldc",
+									"lte_0008_00_romanworldc",
+									"lte_0009_00_romanworldc",
+									"lte_0010_00_romanworldc",
+									"lte_0011_00_romanworldc",
+									"lte_0012_00_romanworldc",
+									"lte_0013_00_romanworldc",
+									"lte_0014_00_romanworldc",
+									"lte_0015_00_romanworldc"
+								],
+								"NumActions": 15,
+								"Param": "event/feature/romanworldc",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "coins",
+													"SubType": "",
+													"Amount": 2500
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "seashroom",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "zombosseum_24_pinata",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 7
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "seaflora",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "guardshroom",
+													"Amount": 50
+												}
+											]
+										},
+										"NodeNum": 15
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_ROMANWORLD]",
+						"ComingSoonEnableTime": 1716508800,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_ROMANWORLD]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_ROMAN_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_ROMAN_DOWN",
+						"Description": "[LTE_EVENTS_DESC_ROMANWORLD]",
+						"Disabled": false,
+						"EndDate": 1717891200,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_ROMAN_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "[EVENT_CALENDAR_ROMANWORLD]",
+						"FeaturedPlantsList": [
+							"guardshroom",
+							"seaflora"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_ROMANWORLD]"
+						],
+						"StartDate": 1716768000,
+						"TrackDefinitionID": 1,
+						"UniqueID": 19,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 80,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0016_00_summernights",
+									"lte_0017_00_summernights",
+									"lte_0018_00_summernights",
+									"lte_0019_00_summernights",
+									"lte_0020_00_summernights",
+									"lte_0021_00_summernights",
+									"lte_0022_00_summernights",
+									"lte_0023_00_summernights",
+									"lte_0024_00_summernights",
+									"lte_0025_00_summernights",
+									"lte_0026_00_summernights",
+									"lte_0027_00_summernights",
+									"lte_0028_00_summernights",
+									"lte_0029_00_summernights",
+									"lte_0030_00_summernights"
+								],
+								"NumActions": 15,
+								"Param": "event/feature/summernights",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "coins",
+													"SubType": "",
+													"Amount": 2500
+												}
+											]
+										},
+										"NodeNum": 2
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "summer_24_pinata",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 5
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "strawburst",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "homingthistle",
+													"Amount": 50
+												}
+											]
+										},
+										"NodeNum": 15
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_SUMMERNIGHTS]",
+						"ComingSoonEnableTime": 1718928000,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_SUMMERNIGHTS]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_SUMMERNIGHTS_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_SUMMERNIGHTS_DOWN",
+						"Description": "[LTE_EVENTS_DESC_SUMMERNIGHTS]",
+						"Disabled": false,
+						"EndDate": 1720310400,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_SUMMERNIGHT_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "[EVENT_SUMMERNIGHTS]",
+						"FeaturedPlantsList": [
+							"strawburst"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_SUMMERNIGHTS]"
+						],
+						"StartDate": 1719187200,
+						"TrackDefinitionID": 1,
+						"UniqueID": 20,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 80,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0016_00_sportzballc",
+									"lte_0017_00_sportzballc",
+									"lte_0018_00_sportzballc",
+									"lte_0019_00_sportzballc",
+									"lte_0020_00_sportzballc",
+									"lte_0021_00_sportzballc",
+									"lte_0022_00_sportzballc",
+									"lte_0023_00_sportzballc",
+									"lte_0024_00_sportzballc",
+									"lte_0025_00_sportzballc",
+									"lte_0026_00_sportzballc",
+									"lte_0027_00_sportzballc",
+									"lte_0028_00_sportzballc",
+									"lte_0029_00_sportzballc",
+									"lte_0030_00_sportzballc"
+								],
+								"NumActions": 15,
+								"Param": "event/feature/sportzballc",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "coins",
+													"SubType": "",
+													"Amount": 2500
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "lawnbowl_24_pinata",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 5
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "hotdate",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "aquavine",
+													"Amount": 50
+												}
+											]
+										},
+										"NodeNum": 15
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_LAWNBOWL]",
+						"ComingSoonEnableTime": 1721347200,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_LAWNBOWL]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_SPORTZBALL_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_SPORTZBALL_DOWN",
+						"Description": "[LTE_EVENTS_DESC_LAWNBOWL2]",
+						"Disabled": false,
+						"EndDate": 1722729600,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_SPORTZBALL_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "[EVENT_CALENDAR_LAWNBOWL]",
+						"FeaturedPlantsList": [
+							"aquavine",
+							"hotdate"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_LAWNBOWL]"
+						],
+						"StartDate": 1721606400,
+						"TrackDefinitionID": 1,
+						"UniqueID": 21,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 80,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_circusactfour",
+									"lte_0002_00_circusactfour",
+									"lte_0003_00_circusactfour",
+									"lte_0004_00_circusactfour",
+									"lte_0005_00_circusactfour",
+									"lte_0006_00_circusactfour",
+									"lte_0007_00_circusactfour",
+									"lte_0008_00_circusactfour",
+									"lte_0009_00_circusactfour",
+									"lte_0010_00_circusactfour",
+									"lte_0011_00_circusactfour",
+									"lte_0012_00_circusactfour",
+									"lte_0013_00_circusactfour",
+									"lte_0014_00_circusactfour",
+									"lte_0015_00_circusactfour"
+								],
+								"NumActions": 15,
+								"Param": "event/feature/circusactfour",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "coins",
+													"SubType": "",
+													"Amount": 2500
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "carnival_2023",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 7
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "solartomato",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "chillypepper",
+													"Amount": 50
+												}
+											]
+										},
+										"NodeNum": 15
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_CARNIVAL]",
+						"ComingSoonEnableTime": 1723766400,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_CARNIVAL]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_CARNIVAL_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_CARNIVAL_DOWN",
+						"Description": "[LTE_EVENTS_DESC_CARNIVAL]",
+						"Disabled": false,
+						"EndDate": 1725148800,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_CARNIVAL_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "[EVENT_CALENDAR_CARNIVAL]",
+						"FeaturedPlantsList": [
+							"chillypepper",
+							"solartomato"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_CARNIVAL]"
+						],
+						"StartDate": 1724025600,
+						"TrackDefinitionID": 1,
+						"UniqueID": 22,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 80,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_harvestfestival",
+									"lte_0002_00_harvestfestival",
+									"lte_0003_00_harvestfestival",
+									"lte_0004_00_harvestfestival",
+									"lte_0005_00_harvestfestival",
+									"lte_0006_00_harvestfestival",
+									"lte_0007_00_harvestfestival",
+									"lte_0008_00_harvestfestival",
+									"lte_0009_00_harvestfestival",
+									"lte_0010_00_harvestfestival",
+									"lte_0011_00_harvestfestival",
+									"lte_0012_00_harvestfestival",
+									"lte_0013_00_harvestfestival",
+									"lte_0014_00_harvestfestival",
+									"lte_0015_00_harvestfestival"
+								],
+								"NumActions": 15,
+								"Param": "event/feature/harvestfestivalb",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "coins",
+													"SubType": "",
+													"Amount": 2500
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "lotz_2023",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 7
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "sundewtangler",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "stickybombrice",
+													"Amount": 50
+												}
+											]
+										},
+										"NodeNum": 15
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_HARVEST]",
+						"ComingSoonEnableTime": 1725580800,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_HARVEST]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_HARVESTFESTIVAL_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_HARVESTFESTIVAL_DOWN",
+						"Description": "[LTE_EVENTS_DESC_HARVESTFESTIVAL]",
+						"Disabled": false,
+						"EndDate": 1726963200,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_HARVESTFESTIVAL_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "[EVENT_CALENDAR_HARVEST_FESTIVAL]",
+						"FeaturedPlantsList": [
+							"sundewtangler",
+							"stickybombrice"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_HARVESTFESTIVAL]"
+						],
+						"StartDate": 1725840000,
+						"TrackDefinitionID": 1,
+						"UniqueID": 23,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 80,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_tombastic",
+									"lte_0002_00_tombastic",
+									"lte_0003_00_tombastic",
+									"lte_0004_00_tombastic",
+									"lte_0005_00_tombastic",
+									"lte_0006_00_tombastic",
+									"lte_0007_00_tombastic",
+									"lte_0008_00_tombastic",
+									"lte_0009_00_tombastic",
+									"lte_0010_00_tombastic",
+									"lte_0011_00_tombastic",
+									"lte_0012_00_tombastic",
+									"lte_0013_00_tombastic",
+									"lte_0014_00_tombastic",
+									"lte_0015_00_tombastic"
+								],
+								"NumActions": 15,
+								"Param": "event/feature/tombastic",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "coins",
+													"SubType": "",
+													"Amount": 2500
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "carnival_2023",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 7
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "tombtangler",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "bamboospartan",
+													"Amount": 50
+												}
+											]
+										},
+										"NodeNum": 15
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_TOMBASTIC]",
+						"ComingSoonEnableTime": 1727481600,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_TOMBASTIC]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_TOMBTANGLER_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_TOMBTANGLER_DOWN",
+						"Description": "[LTE_EVENTS_DESC_TOMBASTIC]",
+						"Disabled": false,
+						"EndDate": 1728864000,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_TOMBTANGLED_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "[EVENT_CALENDAR_TOMBASTIC]",
+						"FeaturedPlantsList": [
+							"bamboospartan",
+							"tombtangler"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_TOMBASTIC]"
+						],
+						"StartDate": 1727740800,
+						"TrackDefinitionID": 1,
+						"UniqueID": 24,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 80,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0020_00_lawnofdoom",
+									"lte_0019_00_lawnofdoom",
+									"lte_0018_00_lawnofdoom",
+									"lte_0017_00_lawnofdoom",
+									"lte_0016_00_lawnofdoom",
+									"lte_0015_00_lawnofdoom",
+									"lte_0014_00_lawnofdoom",
+									"lte_0013_00_lawnofdoom",
+									"lte_0012_00_lawnofdoom",
+									"lte_0011_00_lawnofdoom",
+									"lte_0010_00_lawnofdoom",
+									"lte_0009_00_lawnofdoom",
+									"lte_0008_00_lawnofdoom",
+									"lte_0007_00_lawnofdoom",
+									"lte_0006_00_lawnofdoom",
+									"lte_0005_00_lawnofdoom",
+									"lte_0004_00_lawnofdoom",
+									"lte_0003_00_lawnofdoom",
+									"lte_0002_00_lawnofdoom",
+									"lte_0001_00_lawnofdoom"
+								],
+								"NumActions": 20,
+								"Param": "event/feature/lawnofdoom",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "coins",
+													"SubType": "",
+													"Amount": 2500
+												}
+											]
+										},
+										"NodeNum": 5
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "lfd23_pinata",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "peashooter",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 15
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "peashooter",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 18
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "peashooter",
+													"Amount": 50
+												}
+											]
+										},
+										"NodeNum": 20
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_LAWNOFDOOM]",
+						"ComingSoonEnableTime": 1729296000,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_LAWNOFDOOM]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_LAWNOFDOOM_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_LAWNOFDOOM_DOWN",
+						"Description": "[LTE_EVENTS_DESC_LAWN_OF_DOOM]",
+						"Disabled": false,
+						"EndDate": 1730678400,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_LAWNOFDOOM_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "[LTE_LAWN_OF_DOOM]",
+						"FeaturedPlantsList": [
+							"peashooter"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_LAWN_OF_DOOM]"
+						],
+						"StartDate": 1729555200,
+						"TrackDefinitionID": 1,
+						"UniqueID": 25,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 80,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_noctarine",
+									"lte_0002_00_noctarine",
+									"lte_0003_00_noctarine",
+									"lte_0004_00_noctarine",
+									"lte_0005_00_noctarine"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/noctarine",
+								"PlantTypeName": "noctarine",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "noctarine",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "noctarine",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "noctarine",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1709423940,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"noctarine"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1708819200,
+						"TrackDefinitionID": 2,
+						"UniqueID": 72,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_shadowpeashooter",
+									"lte_0002_00_shadowpeashooter",
+									"lte_0003_00_shadowpeashooter",
+									"lte_0004_00_shadowpeashooter",
+									"lte_0005_00_shadowpeashooter"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/shadowpeashooter",
+								"PlantTypeName": "shadowpeashooter",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "shadowpeashooter",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "shadowpeashooter",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "shadowpeashooter",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1710028740,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"shadowpeashooter"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1709424000,
+						"TrackDefinitionID": 2,
+						"UniqueID": 73,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_murkadamia",
+									"lte_0002_00_murkadamia",
+									"lte_0003_00_murkadamia",
+									"lte_0004_00_murkadamia",
+									"lte_0005_00_murkadamia"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/murkadamia",
+								"PlantTypeName": "murkadamia",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "murkadamia",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "murkadamia",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "murkadamia",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1710633540,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"murkadamia"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1710028800,
+						"TrackDefinitionID": 2,
+						"UniqueID": 74,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_concealmint",
+									"lte_0002_00_concealmint",
+									"lte_0003_00_concealmint",
+									"lte_0004_00_concealmint",
+									"lte_0005_00_concealmint"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/concealmint",
+								"PlantTypeName": "concealmint",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "concealmint",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "concealmint",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "concealmint",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1711238340,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"concealmint"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1710633600,
+						"TrackDefinitionID": 2,
+						"UniqueID": 75,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_pvine",
+									"lte_0002_00_pvine",
+									"lte_0003_00_pvine",
+									"lte_0004_00_pvine",
+									"lte_0005_00_pvine"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/pvine",
+								"PlantTypeName": "pvine",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "pvine",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "pvine",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "pvine",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1711843140,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"pvine"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1711238400,
+						"TrackDefinitionID": 2,
+						"UniqueID": 76,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_blastberry",
+									"lte_0002_00_blastberry",
+									"lte_0003_00_blastberry",
+									"lte_0004_00_blastberry",
+									"lte_0005_00_blastberry"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/blastberry",
+								"PlantTypeName": "blastberry",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "blastberry",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "blastberry",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "blastberry",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1712447940,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"blastberry"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1711843200,
+						"TrackDefinitionID": 2,
+						"UniqueID": 77,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_pyrevine",
+									"lte_0002_00_pyrevine",
+									"lte_0003_00_pyrevine",
+									"lte_0004_00_pyrevine",
+									"lte_0005_00_pyrevine"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/pyrevine",
+								"PlantTypeName": "pyrevine",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "pyrevine",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "pyrevine",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "pyrevine",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1713052740,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"pyrevine"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1712448000,
+						"TrackDefinitionID": 2,
+						"UniqueID": 78,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_explodeovine",
+									"lte_0002_00_explodeovine",
+									"lte_0003_00_explodeovine",
+									"lte_0004_00_explodeovine",
+									"lte_0005_00_explodeovine"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/explodeovine",
+								"PlantTypeName": "explodeovine",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "explodeovine",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "explodeovine",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "explodeovine",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1713657540,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"explodeovine"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1713052800,
+						"TrackDefinitionID": 2,
+						"UniqueID": 79,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_seashroom",
+									"lte_0002_00_seashroom",
+									"lte_0003_00_seashroom",
+									"lte_0004_00_seashroom",
+									"lte_0005_00_seashroom"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/seashroom",
+								"PlantTypeName": "seashroom",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "seashroom",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "seashroom",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "seashroom",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1714262340,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"seashroom"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1713657600,
+						"TrackDefinitionID": 2,
+						"UniqueID": 80,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_electricitea",
+									"lte_0002_00_electricitea",
+									"lte_0003_00_electricitea",
+									"lte_0004_00_electricitea",
+									"lte_0005_00_electricitea"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/electricitea",
+								"PlantTypeName": "electricitea",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "electricitea",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "electricitea",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "electricitea",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1714867140,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"electricitea"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1714262400,
+						"TrackDefinitionID": 2,
+						"UniqueID": 81,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_buzzbutton",
+									"lte_0002_00_buzzbutton",
+									"lte_0003_00_buzzbutton",
+									"lte_0004_00_buzzbutton",
+									"lte_0005_00_buzzbutton"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/buzzbutton",
+								"PlantTypeName": "buzzbutton",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "buzzbutton",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "buzzbutton",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "buzzbutton",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1715471940,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"buzzbutton"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1714867200,
+						"TrackDefinitionID": 2,
+						"UniqueID": 82,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_filamint",
+									"lte_0002_00_filamint",
+									"lte_0003_00_filamint",
+									"lte_0004_00_filamint",
+									"lte_0005_00_filamint"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/filamint",
+								"PlantTypeName": "filamint",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "filamint",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "filamint",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "filamint",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1716076740,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"filamint"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1715472000,
+						"TrackDefinitionID": 2,
+						"UniqueID": 83,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_aloe",
+									"lte_0002_00_aloe",
+									"lte_0003_00_aloe",
+									"lte_0004_00_aloe",
+									"lte_0005_00_aloe"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/aloe",
+								"PlantTypeName": "aloe",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "aloe",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "aloe",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "aloe",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1716681540,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"aloe"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1716076800,
+						"TrackDefinitionID": 2,
+						"UniqueID": 84,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_blockoli",
+									"lte_0002_00_blockoli",
+									"lte_0003_00_blockoli",
+									"lte_0004_00_blockoli",
+									"lte_0005_00_blockoli"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/blockoli",
+								"PlantTypeName": "blockoli",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "blockoli",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "blockoli",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "blockoli",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1717286340,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"blockoli"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1716681600,
+						"TrackDefinitionID": 2,
+						"UniqueID": 85,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_gumnut",
+									"lte_0002_00_gumnut",
+									"lte_0003_00_gumnut",
+									"lte_0004_00_gumnut",
+									"lte_0005_00_gumnut"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/gumnut",
+								"PlantTypeName": "gumnut",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "gumnut",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "gumnut",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "gumnut",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1717891140,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"gumnut"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1717286400,
+						"TrackDefinitionID": 2,
+						"UniqueID": 86,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_reinforcemint",
+									"lte_0002_00_reinforcemint",
+									"lte_0003_00_reinforcemint",
+									"lte_0004_00_reinforcemint",
+									"lte_0005_00_reinforcemint"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/reinforcemint",
+								"PlantTypeName": "reinforcemint",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "reinforcemint",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "reinforcemint",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "reinforcemint",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1718495940,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"reinforcemint"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1717891200,
+						"TrackDefinitionID": 2,
+						"UniqueID": 87,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_pokra",
+									"lte_0002_00_pokra",
+									"lte_0003_00_pokra",
+									"lte_0004_00_pokra",
+									"lte_0005_00_pokra"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/pokra",
+								"PlantTypeName": "pokra",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "pokra",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "pokra",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "pokra",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1719100740,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"pokra"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1718496000,
+						"TrackDefinitionID": 2,
+						"UniqueID": 88,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_seaflora",
+									"lte_0002_00_seaflora",
+									"lte_0003_00_seaflora",
+									"lte_0004_00_seaflora",
+									"lte_0005_00_seaflora"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/seaflora",
+								"PlantTypeName": "seaflora",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "seaflora",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "seaflora",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "seaflora",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1719705540,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"seaflora"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1719100800,
+						"TrackDefinitionID": 2,
+						"UniqueID": 89,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_dartichoke",
+									"lte_0002_00_dartichoke",
+									"lte_0003_00_dartichoke",
+									"lte_0004_00_dartichoke",
+									"lte_0005_00_dartichoke"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/dartichoke",
+								"PlantTypeName": "dartichoke",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "dartichoke",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "dartichoke",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "dartichoke",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1720310340,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"dartichoke"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1719705600,
+						"TrackDefinitionID": 2,
+						"UniqueID": 90,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_spearmint",
+									"lte_0002_00_spearmint",
+									"lte_0003_00_spearmint",
+									"lte_0004_00_spearmint",
+									"lte_0005_00_spearmint"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/spearmint",
+								"PlantTypeName": "spearmint",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "spearmint",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "spearmint",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "spearmint",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1720915140,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"spearmint"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1720310400,
+						"TrackDefinitionID": 2,
+						"UniqueID": 91,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_bamboospartan",
+									"lte_0002_00_bamboospartan",
+									"lte_0003_00_bamboospartan",
+									"lte_0004_00_bamboospartan",
+									"lte_0005_00_bamboospartan"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/bamboospartan",
+								"PlantTypeName": "bamboospartan",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "bamboospartan",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "bamboospartan",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "bamboospartan",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1721519940,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"bamboospartan"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1720915200,
+						"TrackDefinitionID": 2,
+						"UniqueID": 92,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_hotdate",
+									"lte_0002_00_hotdate",
+									"lte_0003_00_hotdate",
+									"lte_0004_00_hotdate",
+									"lte_0005_00_hotdate"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/hotdate",
+								"PlantTypeName": "hotdate",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "hotdate",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "hotdate",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "hotdate",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1722124740,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"hotdate"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1721520000,
+						"TrackDefinitionID": 2,
+						"UniqueID": 93,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_jalapeno",
+									"lte_0002_00_jalapeno",
+									"lte_0003_00_jalapeno",
+									"lte_0004_00_jalapeno",
+									"lte_0005_00_jalapeno"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/jalapeno",
+								"PlantTypeName": "jalapeno",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "jalapeno",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "jalapeno",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "jalapeno",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1722729540,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"jalapeno"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1722124800,
+						"TrackDefinitionID": 2,
+						"UniqueID": 94,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_firepeashooter",
+									"lte_0002_00_firepeashooter",
+									"lte_0003_00_firepeashooter",
+									"lte_0004_00_firepeashooter",
+									"lte_0005_00_firepeashooter"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/firepeashooter",
+								"PlantTypeName": "firepeashooter",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "firepeashooter",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "firepeashooter",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "firepeashooter",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1723334340,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"firepeashooter"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1722729600,
+						"TrackDefinitionID": 2,
+						"UniqueID": 95,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_stickybombrice",
+									"lte_0002_00_stickybombrice",
+									"lte_0003_00_stickybombrice",
+									"lte_0004_00_stickybombrice",
+									"lte_0005_00_stickybombrice"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/stickybombrice",
+								"PlantTypeName": "stickybombrice",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "stickybombrice",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "stickybombrice",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "stickybombrice",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1723939140,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"stickybombrice"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1723334400,
+						"TrackDefinitionID": 2,
+						"UniqueID": 96,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_slingpea",
+									"lte_0002_00_slingpea",
+									"lte_0003_00_slingpea",
+									"lte_0004_00_slingpea",
+									"lte_0005_00_slingpea"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/slingpea",
+								"PlantTypeName": "slingpea",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "slingpea",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "slingpea",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "slingpea",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1724543940,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"slingpea"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1723939200,
+						"TrackDefinitionID": 2,
+						"UniqueID": 97,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_boomberry",
+									"lte_0002_00_boomberry",
+									"lte_0003_00_boomberry",
+									"lte_0004_00_boomberry",
+									"lte_0005_00_boomberry"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/boomberry",
+								"PlantTypeName": "boomberry",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "boomberry",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "boomberry",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "boomberry",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1725148740,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"boomberry"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1724544000,
+						"TrackDefinitionID": 2,
+						"UniqueID": 98,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_armamint",
+									"lte_0002_00_armamint",
+									"lte_0003_00_armamint",
+									"lte_0004_00_armamint",
+									"lte_0005_00_armamint"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/armamint",
+								"PlantTypeName": "armamint",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "armamint",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "armamint",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "armamint",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1725753540,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"armamint"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1725148800,
+						"TrackDefinitionID": 2,
+						"UniqueID": 99,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_olivepit",
+									"lte_0002_00_olivepit",
+									"lte_0003_00_olivepit",
+									"lte_0004_00_olivepit",
+									"lte_0005_00_olivepit"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/olivepit",
+								"PlantTypeName": "olivepit",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "olivepit",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "olivepit",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "olivepit",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1726358340,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"olivepit"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1725753600,
+						"TrackDefinitionID": 2,
+						"UniqueID": 100,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_draftodil",
+									"lte_0002_00_draftodil",
+									"lte_0003_00_draftodil",
+									"lte_0004_00_draftodil",
+									"lte_0005_00_draftodil"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/draftodil",
+								"PlantTypeName": "draftodil",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "draftodil",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "draftodil",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "draftodil",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1726963140,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"draftodil"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1726358400,
+						"TrackDefinitionID": 2,
+						"UniqueID": 101,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"POTWThymedEventActionData": {
+								"Levels": [
+									"lte_0001_00_buttercup",
+									"lte_0002_00_buttercup",
+									"lte_0003_00_buttercup",
+									"lte_0004_00_buttercup",
+									"lte_0005_00_buttercup"
+								],
+								"NumActions": 5,
+								"Param": "event/plant/buttercup",
+								"PlantTypeName": "buttercup",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "buttercup",
+													"Amount": 5
+												}
+											]
+										},
+										"NodeNum": 1
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "buttercup",
+													"Amount": 10
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "buttercup",
+													"Amount": 20
+												}
+											]
+										},
+										"NodeNum": 5
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_POTW]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_POTW]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_POTW_DOWN",
+						"Description": "[LTE_EVENTS_DESC_POTW]",
+						"Disabled": false,
+						"EndDate": 1727567940,
+						"EnergyStackImage": "EventEnergySetGreen",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_POTW_EVENT_BG",
+						"EventCurrencyType": "energy_green",
+						"EventName": "[EVENT_NAME_POTW]",
+						"FeaturedPlantsList": [
+							"buttercup"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC_POTW]",
+						"Priority": 2,
+						"QuickStoreName": "EventEnergyQuickStoreGreen",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_POTW]"
+						],
+						"StartDate": 1726963200,
+						"TrackDefinitionID": 2,
+						"UniqueID": 102,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 40,
+						"EnergyRefillPeriodSeconds": 360
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

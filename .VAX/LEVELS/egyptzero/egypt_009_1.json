@@ -1,0 +1,515 @@
+{
+"objects": [
+{
+"objclass": "LevelDefinition",
+"objdata": {
+"Description": "[PLAYERS_ZERO]",
+"FirstRewardParam": "moneybag_zero",
+"StartingSun": 70,
+"LevelNumber": 9,
+"ForceNextLevel": "egyptzero/egypt_010",
+"DisablePlantBoosts": true,
+"DisableSaveGame": true,
+"SuppressPlantfoodPurchase": true,
+"SuppressAccountUpgrades": true,
+"Loot": "RTID(ZeroLoot@LevelModules)",
+"Modules": [
+"RTID(StandardIntro@LevelModules)",
+"RTID(ZeroSunDropper@LevelModules)",
+"RTID(DefaultZombieWinCondition@LevelModules)",
+"RTID(ZombiesDeadWinCon@LevelModules)",
+"RTID(EgyptMowers@LevelModules)",
+"RTID(ZeroSeedBank@LevelModules)",
+"RTID(Escalation@.)",
+"RTID(NewWaves@.)",
+"RTID(ZombiePotions@.)",
+"RTID(Gravestones@.)",
+"RTID(EgyptZeroSwap@LevelModules)"
+],
+"Name": "[EGYPT_ZERO_LEVEL_NAME]",
+"StageModule": "RTID(EgyptStageNoPowerUps@LevelModules)"
+}
+},
+{
+"aliases": [
+"Escalation"
+],
+"objclass": "LevelEscalationModuleProperties",
+"objdata": {
+"FlagCount": 2,
+"PlantfoodToSpawnCount": 1,
+"PointIncrementPerWave": 610,
+"StartingPoints": 140,
+"WaveManagerProps": "RTID(WaveManager@.)",
+"WavesPerFlag": 5,
+"ZombiePool": [
+"RTID(egypt_imp@ZombieTypes)",
+"RTID(ra@ZombieTypes)",
+"RTID(mummy_armor1@ZombieTypes)",
+"RTID(cleopatra_flag@ZombieTypes)",
+"RTID(mummy@ZombieTypes)"
+]
+}
+},
+{
+"aliases": [
+"WaveManager"
+],
+"objclass": "WaveManagerProperties",
+"objdata": {
+"WaveSpendingPointIncrement": 0,
+"WaveSpendingPoints": 0,
+"ZombieCountdownFirstWaveSecs": 14.480000000000004,
+"MinNextWaveHealthPercentage": 0.45,
+"MaxNextWaveHealthPercentage": 0.83,
+"Waves": [
+[],
+[
+"RTID(S1@.)"
+],
+[
+"RTID(S2@.)"
+],
+[
+"RTID(S3@.)"
+],
+[
+"RTID(S4@.)"
+],
+[
+"RTID(S5@.)"
+],
+[
+"RTID(S6@.)"
+],
+[
+"RTID(S7@.)"
+],
+[
+"RTID(S8@.)"
+],
+[
+"RTID(S9@.)"
+]
+]
+}
+},
+{
+"aliases": [
+"NewWaves"
+],
+"objclass": "WaveManagerModuleProperties",
+"objdata": {}
+},
+{
+"aliases": [
+"ZombiePotions"
+],
+"objclass": "ZombiePotionModuleProperties",
+"objdata": {
+"InitialPotionCount": 0,
+"MaxPotionCount": 4,
+"PotionSpawnTimer": {
+"Max": 15,
+"Min": 20
+},
+"PotionTypes": [
+"gravestone_egypt"
+]
+}
+},
+{
+"aliases": [
+"Gravestones"
+],
+"objclass": "GravestoneProperties",
+"objdata": {
+"GravestoneCount": 7,
+"SpawnColumnEnd": 9,
+"SpawnColumnStart": 7
+}
+},
+{
+"aliases": [
+"S5"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 5,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S9"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 5,
+"GroupSize": 1,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S8"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 5,
+"GroupSize": 5,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S7"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 5,
+"GroupSize": 1,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S6"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 5,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S4"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 5,
+"GroupSize": 2,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S3"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 5,
+"GroupSize": 7,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S2"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 5,
+"GroupSize": 3,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+}
+]
+}
+},
+{
+"aliases": [
+"S1"
+],
+"objclass": "StormZombieSpawnerProps",
+"objdata": {
+"ColumnEnd": 8,
+"ColumnStart": 5,
+"GroupSize": 5,
+"TimeBetweenGroups": 0.5,
+"Type": "sandstorm",
+"Zombies": [
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+},
+{
+"Type": "RTID(egypt_imp@ZombieTypes)"
+},
+{
+"Type": "RTID(mummy@ZombieTypes)"
+}
+]
+}
+}
+],
+"version": 1
+}

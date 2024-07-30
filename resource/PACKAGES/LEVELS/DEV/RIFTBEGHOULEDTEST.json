@@ -1,0 +1,429 @@
+{
+	"#comment": "Beghouled test in Rift",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "[PLAYERS_TRIP_TO_RIFT]",
+				"DisablePlantBoosts": false,
+				"LevelMutator": "RTID(LevelMutator@CurrentLevel)",
+				"LevelNumber": 1,
+				"Loot": "",
+				"LevelPowerupSet": "LevelPowerupsBeghouled",
+				"Modules": [
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(BeghouledRiftIntro@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(FutureMowers@LevelModules)",
+					"RTID(BeghouledSeedBank@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(RandomSpawner@CurrentLevel)",
+					"RTID(PerkActivator@CurrentLevel)",
+					"RTID(LevelDifficultyScaling@CurrentLevel)",
+					"RTID(BeghouledProps@.)"
+				],
+				"MusicType": "MiniGame_B",
+				"Name": "[RIFT_LEVEL_NAME]",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"StageModule": "RTID(RiftStage@LevelModules)",
+				"VictoryModule": "RTID(RiftOutro@LevelModules)",
+				"PerksDisabledInLevel": [
+					"moarscore",
+					"bossbustercannon",
+					"zombieinhibitorgargantuar",
+					"mineisyours"
+				],
+				"PerksDisabledPerDifficulty": [
+					[],
+					[],
+					[]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"PerkActivator"
+			],
+			"objclass": "PerkHandlerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"LevelMutator"
+			],
+			"objclass": "LevelMutatorModuleProperties",
+			"objdata": {
+				"MutatorTables": [
+					"RTID(MutatorPropsBeghouled@LevelMutatorTables)",
+					"RTID(LocalChallengeMutator@CurrentLevel)",
+					"RTID(LocalMainChallengeMutator@CurrentLevel)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LocalMainChallengeMutator"
+			],
+			"objclass": "LevelMutatorTableProps",
+			"objdata": {
+				"Tables": [
+					{
+						"Level": 0,
+						"Modules": [
+							"RTID(BeatTheLevel@CurrentLevel)"
+						],
+						"ModuleType": "mainchallenge"
+					},
+					{
+						"Level": 1,
+						"Modules": [
+							"RTID(BeatTheLevel@CurrentLevel)"
+						],
+						"ModuleType": "mainchallenge"
+					},
+					{
+						"Level": 2,
+						"Modules": [
+							"RTID(BeatTheLevel@CurrentLevel)"
+						],
+						"ModuleType": "mainchallenge"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_RIFT_NORMAL]",
+				"DescriptiveName": "[STARCHALLENGE_RIFT_NORMAL_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"LocalChallengeMutator"
+			],
+			"objclass": "LevelMutatorTableProps",
+			"objdata": {
+				"Tables": [
+					{
+						"Level": 0,
+						"ModuleType": "bonuschallenge",
+						"Modules": [
+							"RTID(ApplyZombieConditions1@CurrentLevel)"
+						]
+					},
+					{
+						"Level": 1,
+						"ModuleType": "bonuschallenge",
+						"Modules": [
+							"RTID(ApplyZombieConditions2@CurrentLevel)"
+						]
+					},
+					{
+						"Level": 2,
+						"ModuleType": "bonuschallenge",
+						"Modules": [
+							"RTID(ApplyZombieConditions3@CurrentLevel)"
+						]
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ApplyZombieConditions1"
+			],
+			"objclass": "ApplyZombieConditionsChallengeProps",
+			"objdata": {
+				"ConditionToInflict": [
+					"chill",
+					"freeze"
+				],
+				"NumZombieConditionsToApply": 50
+			}
+		},
+		{
+			"aliases": [
+				"ApplyZombieConditions2"
+			],
+			"objclass": "ApplyZombieConditionsChallengeProps",
+			"objdata": {
+				"ConditionToInflict": [
+					"chill",
+					"freeze"
+				],
+				"NumZombieConditionsToApply": 75
+			}
+		},
+		{
+			"aliases": [
+				"ApplyZombieConditions3"
+			],
+			"objclass": "ApplyZombieConditionsChallengeProps",
+			"objdata": {
+				"ConditionToInflict": [
+					"chill",
+					"freeze"
+				],
+				"NumZombieConditionsToApply": 100
+			}
+		},
+		{
+			"aliases": [
+				"LevelDifficultyScaling"
+			],
+			"objclass": "LevelDifficultyScalingModuleProperties",
+			"objdata": {
+				"DifficultyRulesType": "RiftDifficulty",
+				"ZombieLevelSwaps": [
+					{
+						"Level": 0,
+						"Swaps": [
+							{
+								"From": "RTID(tutorial@ZombieTypes)",
+								"To": [
+									"RTID(roman@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(tutorial_armor1@ZombieTypes)",
+								"To": [
+									"RTID(roman_armor1@ZombieTypes)",
+									"RTID(roman@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(tutorial_armor2@ZombieTypes)",
+								"To": [
+									"RTID(roman_armor2@ZombieTypes)",
+									"RTID(roman_armor1@ZombieTypes)"
+								]
+							}
+						]
+					},
+					{
+						"Level": 4,
+						"Swaps": [
+							{
+								"From": "RTID(tutorial@ZombieTypes)",
+								"To": [
+									"RTID(roman@ZombieTypes)",
+									"RTID(roman_armor1@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(tutorial_armor1@ZombieTypes)",
+								"To": [
+									"RTID(roman_armor1@ZombieTypes)",
+									"RTID(roman_armor2@ZombieTypes)",
+									"RTID(roman@ZombieTypes)",
+									"RTID(modern_newspaper@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(tutorial_armor2@ZombieTypes)",
+								"To": [
+									"RTID(roman_armor2@ZombieTypes)",
+									"RTID(roman_armor1@ZombieTypes)",
+									"RTID(beach_surfer@ZombieTypes)"
+								]
+							}
+						]
+					},
+					{
+						"Level": 7,
+						"Swaps": [
+							{
+								"From": "RTID(tutorial@ZombieTypes)",
+								"To": [
+									"RTID(roman_armor2@ZombieTypes)",
+									"RTID(roman_armor1@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(tutorial_armor1@ZombieTypes)",
+								"To": [
+									"RTID(dark_juggler@ZombieTypes)",
+									"RTID(roman_armor2@ZombieTypes)",
+									"RTID(modern_newspaper@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(tutorial_armor2@ZombieTypes)",
+								"To": [
+									"RTID(roman_armor2@ZombieTypes)",
+									"RTID(beach_surfer@ZombieTypes)",
+									"RTID(disco_mech@ZombieTypes)"
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"objclass": "BeghouledSeedBankProperties",
+			"aliases": [
+				"BeghouledSeedBank"
+			],
+			"objdata": {
+				"PresetPlantList": [
+					{
+						"PlantType": "snowpea",
+						"Level": -1
+					},
+					{
+						"PlantType": "bloomerang",
+						"Level": -1
+					},
+					{
+						"PlantType": "tallnut",
+						"Level": -1
+					},
+					{
+						"PlantType": "phatbeet",
+						"Level": -1
+					}
+				],
+				"BeghouledUpgradeList": [
+					"akee"
+				],
+				"SelectionMethod": "beghouled"
+			}
+		},
+		{
+			"objclass": "BeghouledPresetProperties",
+			"aliases": [
+				"BeghouledProps"
+			],
+			"objdata": {
+				"MatchesToWin": 125,
+				"InitialPlants": [
+					"peashooter",
+					"kernelpult",
+					"wallnut",
+					"bonkchoy"
+				],
+				"UpgradeMap": [
+					{
+						"BasePlant": "peashooter",
+						"Level": -1,
+						"UpgradedPlant": "snowpea"
+					},
+					{
+						"BasePlant": "kernelpult",
+						"Level": -1,
+						"UpgradedPlant": "bloomerang"
+					},
+					{
+						"BasePlant": "bloomerang",
+						"Level": -1,
+						"UpgradedPlant": "akee"
+					},
+					{
+						"BasePlant": "wallnut",
+						"Level": -1,
+						"UpgradedPlant": "tallnut"
+					},
+					{
+						"BasePlant": "bonkchoy",
+						"Level": -1,
+						"UpgradedPlant": "phatbeet"
+					}
+				]
+			}
+		},
+		{
+			"objclass": "BeghouledZombieSpawnerProperties",
+			"aliases": [
+				"RandomSpawner"
+			],
+			"objdata": {
+				"MatchCountsToStageAdvance": [
+					{
+						"MatchCount": 25,
+						"StageNumber": 1
+					},
+					{
+						"MatchCount": 60,
+						"StageNumber": 2
+					},
+					{
+						"MatchCount": 100,
+						"StageNumber": 3
+					}
+				],
+				"Stages": [
+					{
+						"#comment": "Stage 0",
+						"Types": [
+							{
+								"ZombieType": "ra"
+							},
+							{
+								"ZombieType": "egypt_imp"
+							},
+							{
+								"ZombieType": "mummy"
+							}
+						],
+						"SpawnDelay": 2.0
+					},
+					{
+						"#comment": "Stage 1",
+						"Types": [
+							{
+								"ZombieType": "explorer"
+							},
+							{
+								"ZombieType": "mummy"
+							},
+							{
+								"ZombieType": "mummy_armor1"
+							}
+						],
+						"SpawnDelay": 2.0
+					},
+					{
+						"#comment": "Stage 2",
+						"Types": [
+							{
+								"ZombieType": "explorer"
+							},
+							{
+								"ZombieType": "pharaoh"
+							},
+							{
+								"ZombieType": "mummy"
+							},
+							{
+								"ZombieType": "mummy_armor1"
+							}
+						],
+						"SpawnDelay": 1.9
+					},
+					{
+						"#comment": "Stage 3",
+						"Types": [
+							{
+								"ZombieType": "explorer"
+							},
+							{
+								"ZombieType": "pharaoh"
+							},
+							{
+								"ZombieType": "mummy_armor2"
+							}
+						],
+						"SpawnDelay": 1.8
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

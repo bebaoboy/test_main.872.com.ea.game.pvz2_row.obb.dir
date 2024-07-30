@@ -1,0 +1,503 @@
+{
+	"version": 1,
+	"objects": [
+		{
+			"aliases": [
+				"AlmanacFindMoreDialog"
+			],
+			"objclass": "HotUIWidgetProperties",
+			"objdata": {
+				"EntryPoint": true,
+				"DarkenBackground": 0.75,
+				"Name": "AlmanacFindMoreDialog",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"Parent": ""
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": false,
+				"Children": [
+					"RTID(ScreenDialog@.)",
+					"RTID(TouchTranslationLayer@.)"
+				],
+				"IgnoreSafeArea": true
+			}
+		},
+		{
+			"aliases": [
+				"TouchTranslationLayer"
+			],
+			"objclass": "HotUIToUIWidgetTouchLayerProperties",
+			"objdata": {
+				"Name": "TouchTranslationLayer",
+				"Width": {
+					"Value": "70.0%"
+				},
+				"Height": {
+					"Value": "50"
+				},
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"Parent": "topright"
+				},
+				"IgnoreSafeArea": true
+			}
+		},
+		{
+			"aliases": [
+				"ScreenDialog"
+			],
+			"objclass": "HotUIImageBorderProperties",
+			"objdata": {
+				"Name": "ScreenDialog",
+				"Resources": [],
+				"Width": {
+					"Value": "750"
+				},
+				"Height": {
+					"Value": "450"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"IgnoreMouseInput": true,
+				"Children": [
+					"RTID(DialogTitle@.)",
+					"RTID(CloseButton@.)",
+					"RTID(Background@.)",
+					"RTID(ItemSeedPacket@.)",
+					"RTID(NotAvailableText@.)"
+				],
+				"DrawType": "normal",
+				"DrawStyle": "stretched",
+				"Image": "IMAGE_UI_DIALOG_ASSET_DIALOGTEXTURE",
+				"ImageInsets": {
+					"Left": {
+						"Value": "12.0"
+					},
+					"Top": {
+						"Value": "10.0"
+					},
+					"Right": {
+						"Value": "12.0"
+					},
+					"Bottom": {
+						"Value": "13.0"
+					}
+				},
+				"BorderDrawType": "9slice",
+				"BorderDrawStyle": "normal",
+				"BorderImage": "IMAGE_UI_DIALOG_ASSET_DIALOGBORDER",
+				"BorderInsets": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"Background"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "Background",
+				"Width": {
+					"Value": "96%"
+				},
+				"Height": {
+					"Value": "340"
+				},
+				"Anchor": {
+					"AnchorPoint": "bottom",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-15.0"
+					}
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(ScrollAreaWidget@.)"
+				],
+				"IgnoreMouseInput": true,
+				"Image": "IMAGE_UI_GENERIC_CONTENT_WELL",
+				"DrawType": "9slice",
+				"DrawStyle": "stretched"
+			}
+		},
+		{
+			"aliases": [
+				"NotAvailableText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "NotAvailableText",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "100%"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "$ALMANAC_FIND_MORE_NO_PRODUCTS",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "Dialog_Contents_Font_24",
+				"Color": "Yellow"
+			}
+		},
+		{
+			"aliases": [
+				"CloseButton"
+			],
+			"objclass": "HotUIButtonProperties",
+			"objdata": {
+				"Name": "CloseButton",
+				"Resources": [
+					"UI_Quests"
+				],
+				"Anchor": {
+					"AnchorPoint": "topright",
+					"ParentAnchorPoint": "topright",
+					"OffsetX": {
+						"Value": "-20.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"Width": {
+					"Value": "image_width"
+				},
+				"Height": {
+					"Value": "image_height"
+				},
+				"UpAudio": "Play_UI_Quests_Button_Press",
+				"DownAudio": "Play_UI_Quests_Button_Release",
+				"ButtonImageType": "normal",
+				"UpImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE",
+				"DownImage": "IMAGE_UI_GENERIC_CLOSE_CIRCLE_DOWN",
+				"TappedEvent": "DialogButton1Tapped"
+			}
+		},
+		{
+			"aliases": [
+				"DialogTitle"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogTitle",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "20.0"
+					}
+				},
+				"Children": [
+					"RTID(DialogDescription@.)"
+				],
+				"Label": "$ALMANAC_FIND_MORE_TITLE",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_18_THICKOUTLINE",
+				"Color": "Yellow_Dialog_Header_Color"
+			}
+		},
+		{
+			"aliases": [
+				"DialogDescription"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "DialogDescription",
+				"Width": {
+					"Value": "100.0%"
+				},
+				"Height": {
+					"Value": "48.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "25.0"
+					}
+				},
+				"Label": "$ALMANAC_FIND_MORE_DESCRIPTION",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "BLACK_18_OUTLINE",
+				"Color": "Dialog_Header_Color"
+			}
+		},
+		{
+			"aliases": [
+				"ScrollAreaWidget"
+			],
+			"objclass": "HotUIScrollWidgetProperties",
+			"objdata": {
+				"Name": "ScrollAreaWidget",
+				"Width": {
+					"Value": "99.5%"
+				},
+				"Height": {
+					"Value": "330"
+				},
+				"Padding": {
+					"Left": {
+						"Value": "0.0"
+					},
+					"Top": {
+						"Value": "0.0"
+					},
+					"Right": {
+						"Value": "0.0"
+					},
+					"Bottom": {
+						"Value": "0.0"
+					}
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "top",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "0.0"
+					}
+				},
+				"Children": [
+					"RTID(StorePanelsHorizontalList@.)"
+				],
+				"ScrollMode": "horizontal",
+				"ShowEdgeGradients": false,
+				"ShowScrollIndicators": false
+			}
+		},
+		{
+			"aliases": [
+				"StorePanelsHorizontalList"
+			],
+			"objclass": "HotUIHorizontalListProperties",
+			"objdata": {
+				"Name": "StorePanelsHorizontalList",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "330"
+				},
+				"SpaceBetweenWidgets": {
+					"Value": "30.0"
+				},
+				"Anchor": {
+					"AnchorPoint": "topleft",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "150.0"
+					}
+				}
+			}
+		},
+		{
+			"aliases": [
+				"ItemSeedPacket"
+			],
+			"objclass": "HotUISeedPacketProperties",
+			"objdata": {
+				"Name": "ItemSeedPacket",
+				"Width": {
+					"Value": "93"
+				},
+				"Height": {
+					"Value": "60"
+				},
+				"Resources": [],
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "topleft",
+					"OffsetX": {
+						"Value": "73"
+					},
+					"OffsetY": {
+						"Value": "50"
+					}
+				},
+				"Children": [
+					"RTID(PlantXPProgressBar@.)"
+				],
+				"PacketConfig": {
+					"PlantType": "$ITEMSEEDPACKET",
+					"DrawEnvelope": false
+				}
+			}
+		},
+		{
+			"aliases": [
+				"PlantXPProgressBar"
+			],
+			"objclass": "HotUIProgressBarProperties",
+			"objdata": {
+				"Name": "PlantXPProgressBar",
+				"Width": {
+					"Value": "93%"
+				},
+				"Height": {
+					"Value": "12"
+				},
+				"Anchor": {
+					"AnchorPoint": "top",
+					"ParentAnchorPoint": "bottom",
+					"OffsetX": {
+						"Value": "0.0"
+					},
+					"OffsetY": {
+						"Value": "-2.0"
+					}
+				},
+				"Children": [
+					"RTID(PlantXPProgressText@.)",
+					"RTID(PlantXPProgressIcon@.)"
+				],
+				"ProgressBarBackground": "IMAGE_UI_GENERIC_XP_PROGRESS_BAR",
+				"ProgressBarImage": "IMAGE_UI_GENERIC_XP_PROGRESS_BAR_FILL_YELLOW"
+			}
+		},
+		{
+			"aliases": [
+				"PlantXPProgressText"
+			],
+			"objclass": "HotUILabelProperties",
+			"objdata": {
+				"Name": "PlantXPProgressText",
+				"Width": {
+					"Value": "100%"
+				},
+				"Height": {
+					"Value": "22"
+				},
+				"Anchor": {
+					"AnchorPoint": "center",
+					"ParentAnchorPoint": "center",
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Label": "",
+				"HorizontalJustification": "center",
+				"VerticalJustification": "center",
+				"Font": "AVENIR_13_HARDSHADOW",
+				"Color": "White"
+			}
+		},
+		{
+			"aliases": [
+				"PlantXPProgressIcon"
+			],
+			"objclass": "HotUIImageProperties",
+			"objdata": {
+				"Name": "PlantXPProgressIcon",
+				"Width": {
+					"Value": "content_size"
+				},
+				"Height": {
+					"Value": "content_size"
+				},
+				"Anchor": {
+					"AnchorPoint": "left",
+					"ParentAnchorPoint": "left",
+					"OffsetX": {
+						"Value": "0"
+					},
+					"OffsetY": {
+						"Value": "0"
+					}
+				},
+				"Image": "IMAGE_UI_GENERIC_XP_PROGRESS_ICON_GREEN",
+				"DrawStyle": "stretched"
+			}
+		}
+	]
+}
