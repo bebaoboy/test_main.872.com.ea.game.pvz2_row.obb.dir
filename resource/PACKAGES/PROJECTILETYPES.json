@@ -3483,7 +3483,7 @@
 			],
 			"objdata": {
 				"ClassName": "BloomerangProjectile",
-				"BaseDamage": 20,
+				"BaseDamage": 10,
 				"CollisionFlags": [
 					"griditems",
 					"all_zombies",
@@ -3497,12 +3497,12 @@
 				"DiesOnImpact": false,
 				"InitialVelocity": [
 					{
-						"Min": 400.0,
-						"Max": 450.0
+						"Min": 180.0,
+						"Max": 210.0
 					},
 					{
-						"Min": 0.0,
-						"Max": 0.0
+						"Min": -90.0,
+						"Max": 90.0
 					},
 					{
 						"Min": 0.0,
@@ -3511,8 +3511,8 @@
 				],
 				"InitialAcceleration": [
 					{
-						"Min": 0.0,
-						"Max": 0.0
+						"Min": 30.0,
+						"Max": 35.0
 					},
 					{
 						"Min": 0.0,
@@ -3555,9 +3555,9 @@
 				],
 				"CollisionRect": {
 					"mX": -5.0,
-					"mY": -5.0,
+					"mY": -25.0,
 					"mWidth": 10.0,
-					"mHeight": 10.0
+					"mHeight": 50.0
 				}
 			}
 		},

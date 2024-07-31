@@ -22,8 +22,8 @@
 			],
 			"objdata": {
 				"#comment": "CDN ip",
-				"timeout": 30,
-				"ip": "https://pvz2-live.ecs.popcap.com"
+				"timeout": 1,
+				"ip": "https://pvz2"
 			}
 		},
 		{

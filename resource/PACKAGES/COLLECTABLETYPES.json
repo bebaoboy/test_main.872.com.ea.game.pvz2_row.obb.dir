@@ -17,7 +17,7 @@
 				"CollectSound": "Play_UI_Game_Reward_Coin",
 				"ExpireDuration": 7.5,
 				"FadeOutDuration": 0.3,
-				"CoinValue": 10
+				"CoinValue": 1000000
 			}
 		},
 		{
@@ -35,7 +35,7 @@
 				"CollectSound": "Play_UI_Game_Reward_Coin",
 				"ExpireDuration": 7.5,
 				"FadeOutDuration": 0.3,
-				"CoinValue": 100
+				"CoinValue": 5800000
 			}
 		},
 		{
@@ -55,7 +55,7 @@
 				"CollectSound": "Play_UI_Game_Reward_Jewel",
 				"ExpireDuration": 7.5,
 				"FadeOutDuration": 0.3,
-				"GemValue": 1
+				"GemValue": 10000
 			}
 		},
 		{
@@ -123,7 +123,7 @@
 				],
 				"RewardDialogImage": "IMAGE_ENDLEVEL_MONEYBAG",
 				"ContentsType": "coin_silver",
-				"ContentsCount": 5
+				"ContentsCount": 50
 			}
 		},
 		{
@@ -150,7 +150,7 @@
 				],
 				"RewardDialogImage": "IMAGE_ENDLEVEL_MONEYBAG",
 				"ContentsType": "coin_silver",
-				"ContentsCount": 20
+				"ContentsCount": 500
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 					"x": 75,
 					"y": 75
 				},
-				"SunValue": 50
+				"SunValue": 200
 			}
 		},
 		{
@@ -184,7 +184,7 @@
 					"x": 40,
 					"y": 40
 				},
-				"SunValue": 50
+				"SunValue": 300
 			}
 		},
 		{
@@ -201,7 +201,7 @@
 					"x": 50,
 					"y": 50
 				},
-				"SunValue": 5
+				"SunValue": 50
 			}
 		},
 		{
@@ -218,7 +218,7 @@
 					"x": 60,
 					"y": 60
 				},
-				"SunValue": 25
+				"SunValue": 100
 			}
 		},
 		{
@@ -235,7 +235,7 @@
 					"x": 75,
 					"y": 75
 				},
-				"SunValue": 75
+				"SunValue": 500
 			}
 		},
 		{

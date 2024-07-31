@@ -240,49 +240,6 @@
 				"Waves": [
 					[
 						"RTID(Wave1@CurrentLevel)"
-					],
-					[
-						"RTID(Wave2@CurrentLevel)"
-					],
-					[
-						"RTID(Wave3@CurrentLevel)"
-					],
-					[
-						"RTID(Wave4@CurrentLevel)",
-						"RTID(Wave4StormEvent0@CurrentLevel)"
-					],
-					[
-						"RTID(Wave5@CurrentLevel)"
-					],
-					[
-						"RTID(Wave6@CurrentLevel)"
-					],
-					[
-						"RTID(Wave7@CurrentLevel)"
-					],
-					[
-						"RTID(Wave8@CurrentLevel)",
-						"RTID(Wave8StormEvent0@CurrentLevel)"
-					],
-					[
-						"RTID(Wave9@CurrentLevel)"
-					],
-					[
-						"RTID(Wave10@CurrentLevel)",
-						"RTID(Wave10StormEvent0@CurrentLevel)"
-					],
-					[
-						"RTID(Wave11@CurrentLevel)"
-					],
-					[
-						"RTID(Wave12@CurrentLevel)"
-					],
-					[
-						"RTID(Wave13@CurrentLevel)",
-						"RTID(Wave13StormEvent0@CurrentLevel)"
-					],
-					[
-						"RTID(Wave14@CurrentLevel)"
 					]
 				]
 			}

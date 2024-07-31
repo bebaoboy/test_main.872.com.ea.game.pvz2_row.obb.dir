@@ -105,18 +105,6 @@
 				"Waves": [
 					[
 						"RTID(Wave1@CurrentLevel)"
-					],
-					[
-						"RTID(Wave2@CurrentLevel)"
-					],
-					[
-						"RTID(Wave3@CurrentLevel)"
-					],
-					[
-						"RTID(Wave4@CurrentLevel)"
-					],
-					[
-						"RTID(Wave5@CurrentLevel)"
 					]
 				],
 				"ZombieCountdownFirstWaveSecs": 2

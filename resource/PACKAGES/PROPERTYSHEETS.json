@@ -324,13 +324,13 @@
 			],
 			"objdata": {
 				"PlantTargetingXThreshold": 820,
-				"MaxSunCurrency": 9900,
-				"ZombieThreatLowAlert_TriggerPositionX": 130.0,
-				"ZombieThreatHighAlert_TriggerPositionX": 80.0,
-				"ZombieThreatLowAlert_StarChallengeOffsetX": 130.0,
-				"ZombieThreatHighAlert_StarChallengeOffsetX": 80.0,
-				"ZombieThreatLowAlert_ProtectPlantOffsetX": 130.0,
-				"ZombieThreatHighAlert_ProtectPlantOffsetX": 80.0,
+				"MaxSunCurrency": 99900,
+				"ZombieThreatLowAlert_TriggerPositionX": -130.0,
+				"ZombieThreatHighAlert_TriggerPositionX": -80.0,
+				"ZombieThreatLowAlert_StarChallengeOffsetX": -130.0,
+				"ZombieThreatHighAlert_StarChallengeOffsetX": -80.0,
+				"ZombieThreatLowAlert_ProtectPlantOffsetX": -130.0,
+				"ZombieThreatHighAlert_ProtectPlantOffsetX": -80.0,
 				"CoinAlert_LowBalanceThreshold": 1000,
 				"RequiredSubsystems": [
 					"ZombieThreatAlertSubSystem"

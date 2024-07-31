@@ -10914,7 +10914,7 @@
 				"SunCountdownBase": 6,
 				"SunCountdownRange": 3,
 				"SunCountdownIncreasePerSun": 0.1,
-				"SunCountdownMax": 12
+				"SunCountdownMax": 20
 			}
 		},
 		{

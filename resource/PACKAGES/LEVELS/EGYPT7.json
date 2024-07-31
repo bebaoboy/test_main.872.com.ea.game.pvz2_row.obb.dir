@@ -223,32 +223,6 @@
 				"Waves": [
 					[
 						"RTID(Wave1@CurrentLevel)"
-					],
-					[
-						"RTID(Wave2@CurrentLevel)"
-					],
-					[
-						"RTID(Wave3@CurrentLevel)"
-					],
-					[
-						"RTID(Wave4@CurrentLevel)",
-						"RTID(Wave4StormEvent0@CurrentLevel)"
-					],
-					[
-						"RTID(Wave5@CurrentLevel)"
-					],
-					[
-						"RTID(Wave6@CurrentLevel)"
-					],
-					[
-						"RTID(Wave7@CurrentLevel)",
-						"RTID(Wave7StormEvent0@CurrentLevel)"
-					],
-					[
-						"RTID(Wave8@CurrentLevel)"
-					],
-					[
-						"RTID(Wave9@CurrentLevel)"
 					]
 				]
 			}

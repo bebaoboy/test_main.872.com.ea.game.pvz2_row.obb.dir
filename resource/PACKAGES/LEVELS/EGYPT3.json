@@ -146,19 +146,6 @@
 					[
 						"RTID(Wave1GravestoneEvent@CurrentLevel)",
 						"RTID(Wave1@CurrentLevel)"
-					],
-					[
-						"RTID(Wave2@CurrentLevel)"
-					],
-					[
-						"RTID(Wave3@CurrentLevel)"
-					],
-					[
-						"RTID(Wave4SandstormEvent0@CurrentLevel)",
-						"RTID(Wave4@CurrentLevel)"
-					],
-					[
-						"RTID(Wave5@CurrentLevel)"
 					]
 				]
 			}

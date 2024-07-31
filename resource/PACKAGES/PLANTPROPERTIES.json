@@ -180,7 +180,7 @@
 				"PlantGridType": "ground",
 				"PlantFoodPlayCount": 2,
 				"PlantFoodActivationSound": "Play_Plant_Sunflower_Nitro",
-				"PlantFoodSunCount": 3,
+				"PlantFoodSunCount": 50,
 				"Powers": {
 					"List": [
 						{
@@ -4486,28 +4486,114 @@
 				"BloomerangDefault"
 			],
 			"objdata": {
-				"Cost": 175,
+				"Cost": 300,
 				"BeghouledCost": 2000,
 				"Hitpoints": 300.0,
-				"PacketCooldown": 5.0,
+				"PacketCooldown": 10.0,
 				"PlantGridType": "ground",
-				"PlantFoodPlayCount": 1,
-				"PlantFoodProjectileCount": 16,
+				"PlantFoodPlayCount": 2,
+				"PlantFoodProjectileCount": 2000,
 				"PlantFoodActivationSound": "Play_Plant_Bloomerang_Nitro",
-				"BoomerangHitCount": 3,
+				"BoomerangHitCount": 9999,
 				"BoomerangSlowdownRadius": 75.0,
 				"BoomerangMinSpeedPercentage": 0.1,
-				"BoomerangPauseDuration": 0.25,
-				"BoomerangStunsZombies": false,
+				"BoomerangPauseDuration": 1,
+				"BoomerangStunsZombies": true,
 				"Actions": [
 					{
 						"Type": "projectile",
 						"Projectile": "RTID(BloomerangDefault@ProjectileTypes)",
-						"InitialMinCooldownTime": 1.5,
-						"CooldownTimeMin": 2.85,
-						"CooldownTimeMax": 3.0,
+						"InitialMinCooldownTime": 0,
+						"CooldownTimeMin": 1.45,
+						"CooldownTimeMax": 1.65,
 						"SpawnOffset": {
-							"x": 35.0,
+							"x": 35.0, 
+							"y": -32.0
+						}
+					}
+				],
+				"PacketPosition": {
+					"x": -10.0,
+					"y": -10.0,
+					"z": 0.55
+				},
+				"ArtCenter": {
+					"x": 99,
+					"y": 116
+				},
+				"PlantStats": [
+					{
+						"Type": "damage",
+						"Value": "damage2"
+					},
+					{
+						"Type": "range",
+						"Value": "multihit"
+					},
+					{
+						"Type": "recharge",
+						"Value": "recharge4"
+					}
+				],
+				"ScaledProps": [
+					{
+						"Key": "MasteryBoostChance",
+						"Formula": "boost_mastery",
+						"Arg1": 10,
+						"Arg2": 0.01,
+						"comment": "arg2 every arg1 levels"
+					},
+					{
+						"Key": "MasteryResistancePiercing",
+						"Formula": "flat",
+						"Arg1": 0.01
+					}
+				],
+				"ZenGardenSproutWeight": 25,
+				"ZenGardenBoostCost": 10,
+				"ZenGardenDurationOverrideSeconds": 12600,
+				"Boosts": [
+					{
+						"PlantBoostProps": "RTID(BoostFirstStrike@PropertySheets)",
+						"Value": 1,
+						"CooldownDurationSeconds": 28800
+					}
+				],
+				"SuggestionAlts": [
+					"homingthistle",
+					"repeater",
+					"peashooter"
+				]
+			}
+		},
+		{
+			"objclass": "BloomerangProps",
+			"aliases": [
+				"BloomerangReverseDefault"
+			],
+			"objdata": {
+				"Cost": 200,
+				"BeghouledCost": 2000,
+				"Hitpoints": 300.0,
+				"PacketCooldown": 2.0,
+				"PlantGridType": "ground",
+				"PlantFoodPlayCount": 2,
+				"PlantFoodProjectileCount": 54,
+				"PlantFoodActivationSound": "Play_Plant_Bloomerang_Nitro",
+				"BoomerangHitCount": 9999,
+				"BoomerangSlowdownRadius": 75.0,
+				"BoomerangMinSpeedPercentage": 0.1,
+				"BoomerangPauseDuration": 0.15,
+				"BoomerangStunsZombies": true,
+				"Actions": [
+					{
+						"Type": "projectile",
+						"Projectile": "RTID(BloomerangDefault@ProjectileTypes)",
+						"InitialMinCooldownTime": 0.5,
+						"CooldownTimeMin": 1.25,
+						"CooldownTimeMax": 1.5,
+						"SpawnOffset": {
+							"x": -50.0, 
 							"y": -32.0
 						}
 					}

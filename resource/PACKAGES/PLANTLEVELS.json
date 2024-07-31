@@ -10,116 +10,46 @@
 					{
 						"Name": "Cost",
 						"Values": [
-							50,
-							50,
-							50,
-							50,
-							50,
-							50,
-							50,
-							25,
-							25,
-							25
+							50
 						]
 					},
 					{
 						"Name": "PacketCooldown",
 						"Values": [
-							5,
-							4.5,
-							4.5,
-							4,
-							4,
-							3.5,
-							3,
-							3,
-							2.5,
-							2.5
+							5
 						]
 					},
 					{
 						"Name": "Hitpoints",
 						"Values": [
-							300,
-							350,
-							400,
-							450,
-							550,
-							600,
-							650,
-							700,
-							800,
-							900
+							300
 						]
 					},
 					{
 						"Name": "PlantTier",
 						"Values": [
-							1,
-							1,
-							2,
-							2,
-							2,
-							2,
-							3,
-							3,
-							3,
-							3
+							1
 						]
 					}
 				],
-				"LevelCap": 10,
+				"LevelCap": 1,
 				"LevelCoins": [
-					1000,
-					5000,
-					10000,
-					20000,
-					30000,
-					40000,
-					50000,
-					60000,
-					75000
+					1000
 				],
 				"LevelXP": [
-					10,
-					75,
-					200,
-					400,
-					750,
-					1000,
-					1250,
-					1500,
-					2000
+					10
 				],
 				"PlantTier": [
-					1,
-					1,
-					2,
-					2,
-					2,
-					2,
-					3,
-					3,
-					3,
-					3
+					1
 				],
-				"SeedPacketCost": 10,
+				"SeedPacketCost": 1,
 				"StringStats": [
 					{
 						"Name": "SunflowerSunProduction",
 						"SubType": "SunProducer",
 						"Type": "Power",
 						"Values": [
-							"SunProducer50",
-							"SunProducer50",
-							"SunProducer50",
-							"SunProducer50",
-							"SunProducer60",
-							"SunProducer60",
-							"SunProducer60",
-							"SunProducer60",
-							"SunProducer60",
-							"SunProducer75"
+							"SunProducer50"
 						]
 					}
 				],
@@ -150,7 +80,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -249,7 +179,7 @@
 						]
 					}
 				],
-				"TypeName": "sunshroom"
+				"UsesLeveling": false, "TypeName": "sunshroom"
 			}
 		},
 		{
@@ -286,7 +216,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -465,7 +395,7 @@
 						]
 					}
 				],
-				"LevelCap": 20,
+				"LevelCap": 1,
 				"LevelCoins": [
 					50,
 					200,
@@ -536,7 +466,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "peashooter"
+				"UsesLeveling": false, "TypeName": "peashooter"
 			}
 		},
 		{
@@ -578,7 +508,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							90,
 							90,
 							90,
@@ -653,7 +583,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "thymewarp"
+				"UsesLeveling": false, "TypeName": "thymewarp"
 			}
 		},
 		{
@@ -690,7 +620,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							20,
 							19,
@@ -789,7 +719,7 @@
 						]
 					}
 				],
-				"LevelCap": 20,
+				"LevelCap": 1,
 				"LevelCoins": [
 					50,
 					200,
@@ -884,7 +814,7 @@
 						]
 					}
 				],
-				"TypeName": "wallnut"
+				"UsesLeveling": false, "TypeName": "wallnut"
 			}
 		},
 		{
@@ -911,7 +841,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -1012,7 +942,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "intensivecarrot"
+				"UsesLeveling": false, "TypeName": "intensivecarrot"
 			}
 		},
 		{
@@ -1025,101 +955,25 @@
 					{
 						"Name": "Cost",
 						"Values": [
-							175,
-							175,
-							150,
-							150,
-							150,
-							150,
-							150,
-							125,
-							125,
-							125,
-							125,
-							125,
-							100,
-							100,
-							100,
-							100,
-							100,
-							75,
-							75,
-							75
+							300
 						]
 					},
 					{
 						"Name": "Hitpoints",
 						"Values": [
-							300,
-							350,
-							400,
-							450,
-							500,
-							550,
-							600,
-							650,
-							700,
-							750,
-							800,
-							850,
-							900,
-							900,
-							900,
-							900,
-							900,
-							900,
-							900,
-							900
+							300
 						]
 					},
 					{
 						"Name": "PacketCooldown",
 						"Values": [
-							5,
-							4.5,
-							4.5,
-							4.5,
-							4,
-							4,
-							3.5,
-							3.5,
-							3.5,
-							3.5,
-							3,
-							3,
-							3,
-							3,
-							3,
-							2.5,
-							2.5,
-							2.5,
-							2.5,
-							2
+							10
 						]
 					},
 					{
 						"Name": "Bloomerang_HitCount",
 						"Values": [
-							3,
-							3,
-							3,
-							3,
-							3,
-							3,
-							3,
-							3,
-							4,
-							4,
-							4,
-							4,
-							4,
-							4,
-							5,
-							5,
-							5,
-							5,
-							6,
-							6
+							9999
 						]
 					},
 					{
@@ -1127,171 +981,40 @@
 						"SubType": "0",
 						"Type": "ActionDamage",
 						"Values": [
-							20,
-							25,
-							30,
-							35,
-							40,
-							45,
-							50,
-							55,
-							60,
-							65,
-							70,
-							75,
-							80,
-							85,
-							90,
-							95,
-							100,
-							100,
-							100,
-							100
+							10
 						]
 					},
 					{
 						"Name": "ActionXVelocity",
 						"SubType": "0",
 						"Values": [
-							450,
-							450,
-							450,
-							450,
-							650,
-							650,
-							650,
-							650,
-							650,
-							650,
-							650,
-							650,
-							850,
-							850,
-							850,
-							850,
-							850,
-							850,
-							850,
-							850
+							180
 						]
 					},
 					{
 						"Name": "Bloomerang_PlantfoodProjectileCount",
 						"Values": [
-							16,
-							18,
-							18,
-							20,
-							20,
-							20,
-							22,
-							22,
-							22,
-							24,
-							24,
-							26,
-							26,
-							28,
-							28,
-							28,
-							30,
-							30,
-							30,
-							32
+							2000
 						]
 					},
 					{
 						"Name": "PlantTier",
 						"Values": [
-							1,
-							1,
-							1,
-							1,
-							2,
-							2,
-							2,
-							2,
-							2,
-							2,
-							2,
-							2,
-							3,
-							3,
-							3,
-							3,
-							3,
-							3,
-							3,
-							3
+							2
 						]
 					}
 				],
-				"LevelCap": 20,
+				"LevelCap": 1,
 				"LevelCoins": [
-					50,
-					200,
-					1500,
-					2000,
-					3000,
-					4000,
-					5000,
-					6000,
-					8000,
-					10000,
-					15000,
-					20000,
-					25000,
-					30000,
-					35000,
-					40000,
-					45000,
-					50000,
-					55000
+					50
 				],
 				"LevelXP": [
-					3,
-					10,
-					25,
-					50,
-					75,
-					100,
-					125,
-					175,
-					225,
-					300,
-					350,
-					350,
-					400,
-					450,
-					500,
-					550,
-					600,
-					700,
-					800
-				],
-				"PlantTier": [
-					1,
-					1,
-					1,
-					1,
-					2,
-					2,
-					2,
-					2,
-					2,
-					2,
-					2,
-					2,
-					3,
-					3,
-					3,
-					3,
-					3,
-					3,
-					3,
 					3
 				],
-				"SeedPacketCost": 40,
+				"PlantTier": [
+					2
+				],
+				"SeedPacketCost": 1,
 				"StringStats": [
 					{
 						"Name": "Range",
@@ -1364,7 +1087,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -1570,7 +1293,7 @@
 						]
 					}
 				],
-				"LevelCap": 20,
+				"LevelCap": 1,
 				"LevelCoins": [
 					50,
 					200,
@@ -1642,7 +1365,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "cabbagepult"
+				"UsesLeveling": false, "TypeName": "cabbagepult"
 			}
 		},
 		{
@@ -1704,7 +1427,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -1803,7 +1526,7 @@
 						]
 					}
 				],
-				"LevelCap": 20,
+				"LevelCap": 1,
 				"LevelCoins": [
 					50,
 					200,
@@ -1937,7 +1660,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "potatomine"
+				"UsesLeveling": false, "TypeName": "potatomine"
 			}
 		},
 		{
@@ -1974,7 +1697,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -2126,7 +1849,7 @@
 						]
 					}
 				],
-				"LevelCap": 20,
+				"LevelCap": 1,
 				"LevelCoins": [
 					50,
 					200,
@@ -2224,7 +1947,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "iceburg"
+				"UsesLeveling": false, "TypeName": "iceburg"
 			}
 		},
 		{
@@ -2266,7 +1989,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							10,
 							9,
@@ -2373,7 +2096,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "gravebuster"
+				"UsesLeveling": false, "TypeName": "gravebuster"
 			}
 		},
 		{
@@ -2435,7 +2158,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -2563,7 +2286,7 @@
 						]
 					}
 				],
-				"LevelCap": 20,
+				"LevelCap": 1,
 				"LevelCoins": [
 					50,
 					200,
@@ -2635,7 +2358,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "bonkchoy"
+				"UsesLeveling": false, "TypeName": "bonkchoy"
 			}
 		},
 		{
@@ -2677,7 +2400,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							9.5,
 							9,
@@ -2761,7 +2484,7 @@
 						]
 					}
 				],
-				"TypeName": "twinsunflower"
+				"UsesLeveling": false, "TypeName": "twinsunflower"
 			}
 		},
 		{
@@ -2823,7 +2546,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -2976,7 +2699,7 @@
 						]
 					}
 				],
-				"LevelCap": 20,
+				"LevelCap": 1,
 				"LevelCoins": [
 					50,
 					200,
@@ -3048,7 +2771,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "repeater"
+				"UsesLeveling": false, "TypeName": "repeater"
 			}
 		},
 		{
@@ -3080,7 +2803,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -3258,7 +2981,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "kernelpult"
+				"UsesLeveling": false, "TypeName": "kernelpult"
 			}
 		},
 		{
@@ -3300,7 +3023,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -3441,7 +3164,7 @@
 						]
 					}
 				],
-				"TypeName": "snapdragon"
+				"UsesLeveling": false, "TypeName": "snapdragon"
 			}
 		},
 		{
@@ -3483,7 +3206,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -3570,7 +3293,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "spikeweed"
+				"UsesLeveling": false, "TypeName": "spikeweed"
 			}
 		},
 		{
@@ -3597,7 +3320,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							5,
@@ -3755,7 +3478,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "coconutcannon"
+				"UsesLeveling": false, "TypeName": "coconutcannon"
 			}
 		},
 		{
@@ -3782,7 +3505,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							35,
 							34,
 							33,
@@ -3873,7 +3596,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "cherry_bomb"
+				"UsesLeveling": false, "TypeName": "cherry_bomb"
 			}
 		},
 		{
@@ -3925,7 +3648,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							19,
@@ -4081,7 +3804,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "springbean"
+				"UsesLeveling": false, "TypeName": "springbean"
 			}
 		},
 		{
@@ -4123,7 +3846,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							5,
@@ -4210,7 +3933,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "spikerock"
+				"UsesLeveling": false, "TypeName": "spikerock"
 			}
 		},
 		{
@@ -4272,7 +3995,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -4398,7 +4121,7 @@
 						]
 					}
 				],
-				"LevelCap": 20,
+				"LevelCap": 1,
 				"LevelCoins": [
 					50,
 					200,
@@ -4470,7 +4193,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "threepeater"
+				"UsesLeveling": false, "TypeName": "threepeater"
 			}
 		},
 		{
@@ -4532,7 +4255,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -4740,7 +4463,7 @@
 						]
 					}
 				],
-				"LevelCap": 20,
+				"LevelCap": 1,
 				"LevelCoins": [
 					50,
 					200,
@@ -4812,7 +4535,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "splitpea"
+				"UsesLeveling": false, "TypeName": "splitpea"
 			}
 		},
 		{
@@ -4854,7 +4577,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -4981,7 +4704,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "chilibean"
+				"UsesLeveling": false, "TypeName": "chilibean"
 			}
 		},
 		{
@@ -5013,7 +4736,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							5,
@@ -5170,7 +4893,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "lightningreed"
+				"UsesLeveling": false, "TypeName": "lightningreed"
 			}
 		},
 		{
@@ -5212,7 +4935,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -5311,7 +5034,7 @@
 						]
 					}
 				],
-				"TypeName": "tallnut"
+				"UsesLeveling": false, "TypeName": "tallnut"
 			}
 		},
 		{
@@ -5363,7 +5086,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -5524,7 +5247,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "peapod"
+				"UsesLeveling": false, "TypeName": "peapod"
 			}
 		},
 		{
@@ -5576,7 +5299,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -5781,7 +5504,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "melonpult"
+				"UsesLeveling": false, "TypeName": "melonpult"
 			}
 		},
 		{
@@ -5823,7 +5546,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -5979,7 +5702,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "wintermelon"
+				"UsesLeveling": false, "TypeName": "wintermelon"
 			}
 		},
 		{
@@ -6041,7 +5764,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -6220,7 +5943,7 @@
 						]
 					}
 				],
-				"LevelCap": 20,
+				"LevelCap": 1,
 				"LevelCoins": [
 					50,
 					200,
@@ -6292,7 +6015,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "puffshroom"
+				"UsesLeveling": false, "TypeName": "puffshroom"
 			}
 		},
 		{
@@ -6344,7 +6067,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -6504,7 +6227,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "fumeshroom"
+				"UsesLeveling": false, "TypeName": "fumeshroom"
 			}
 		},
 		{
@@ -6531,7 +6254,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							19,
@@ -6677,7 +6400,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "sunbean"
+				"UsesLeveling": false, "TypeName": "sunbean"
 			}
 		},
 		{
@@ -6719,7 +6442,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -6784,7 +6507,7 @@
 					3
 				],
 				"SeedPacketCost": 40,
-				"TypeName": "lilypad"
+				"UsesLeveling": false, "TypeName": "lilypad"
 			}
 		},
 		{
@@ -6811,7 +6534,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -6976,7 +6699,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "tanglekelp"
+				"UsesLeveling": false, "TypeName": "tanglekelp"
 			}
 		},
 		{
@@ -7003,7 +6726,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -7155,7 +6878,7 @@
 						]
 					}
 				],
-				"TypeName": "bowlingbulb"
+				"UsesLeveling": false, "TypeName": "bowlingbulb"
 			}
 		},
 		{
@@ -7207,7 +6930,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -7368,7 +7091,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "guacodile"
+				"UsesLeveling": false, "TypeName": "guacodile"
 			}
 		},
 		{
@@ -7410,7 +7133,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -7533,7 +7256,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "banana"
+				"UsesLeveling": false, "TypeName": "banana"
 			}
 		},
 		{
@@ -7585,7 +7308,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -7725,7 +7448,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "laser_bean"
+				"UsesLeveling": false, "TypeName": "laser_bean"
 			}
 		},
 		{
@@ -7752,7 +7475,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4,
@@ -7827,7 +7550,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "blover"
+				"UsesLeveling": false, "TypeName": "blover"
 			}
 		},
 		{
@@ -7839,7 +7562,7 @@
 				"FloatStats": [
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -8003,7 +7726,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "citron"
+				"UsesLeveling": false, "TypeName": "citron"
 			}
 		},
 		{
@@ -8045,7 +7768,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							25,
 							24,
 							23,
@@ -8146,7 +7869,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "empea"
+				"UsesLeveling": false, "TypeName": "empea"
 			}
 		},
 		{
@@ -8188,7 +7911,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							14,
 							13,
@@ -8283,7 +8006,7 @@
 					3
 				],
 				"SeedPacketCost": 60,
-				"TypeName": "holonut"
+				"UsesLeveling": false, "TypeName": "holonut"
 			}
 		},
 		{
@@ -8310,7 +8033,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							5,
@@ -8462,7 +8185,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "magnifyinggrass"
+				"UsesLeveling": false, "TypeName": "magnifyinggrass"
 			}
 		},
 		{
@@ -8474,7 +8197,7 @@
 				"FloatStats": [
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							9.5,
 							9,
@@ -8605,7 +8328,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "powerplant"
+				"UsesLeveling": false, "TypeName": "powerplant"
 			}
 		},
 		{
@@ -8647,7 +8370,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							10,
 							9,
@@ -8752,7 +8475,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "hotpotato"
+				"UsesLeveling": false, "TypeName": "hotpotato"
 			}
 		},
 		{
@@ -8804,7 +8527,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							19,
@@ -9008,7 +8731,7 @@
 						]
 					}
 				],
-				"TypeName": "pepperpult"
+				"UsesLeveling": false, "TypeName": "pepperpult"
 			}
 		},
 		{
@@ -9050,7 +8773,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							14,
 							13,
@@ -9146,7 +8869,7 @@
 					3
 				],
 				"SeedPacketCost": 40,
-				"TypeName": "chardguard"
+				"UsesLeveling": false, "TypeName": "chardguard"
 			}
 		},
 		{
@@ -9203,7 +8926,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -9293,7 +9016,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "stunion"
+				"UsesLeveling": false, "TypeName": "stunion"
 			}
 		},
 		{
@@ -9335,7 +9058,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -9453,7 +9176,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "xshot"
+				"UsesLeveling": false, "TypeName": "xshot"
 			}
 		},
 		{
@@ -9530,7 +9253,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -9618,7 +9341,7 @@
 						]
 					}
 				],
-				"TypeName": "redstinger"
+				"UsesLeveling": false, "TypeName": "redstinger"
 			}
 		},
 		{
@@ -9660,7 +9383,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -9811,7 +9534,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "akee"
+				"UsesLeveling": false, "TypeName": "akee"
 			}
 		},
 		{
@@ -9853,7 +9576,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							14,
 							13,
@@ -9958,7 +9681,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "endurian"
+				"UsesLeveling": false, "TypeName": "endurian"
 			}
 		},
 		{
@@ -9985,7 +9708,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							19,
@@ -10124,7 +9847,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "stallia"
+				"UsesLeveling": false, "TypeName": "stallia"
 			}
 		},
 		{
@@ -10151,7 +9874,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							50,
 							50,
 							45,
@@ -10211,7 +9934,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "goldleaf"
+				"UsesLeveling": false, "TypeName": "goldleaf"
 			}
 		},
 		{
@@ -10263,7 +9986,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -10450,7 +10173,7 @@
 						]
 					}
 				],
-				"TypeName": "phatbeet"
+				"UsesLeveling": false, "TypeName": "phatbeet"
 			}
 		},
 		{
@@ -10492,7 +10215,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							15,
 							14,
@@ -10594,7 +10317,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "celerystalker"
+				"UsesLeveling": false, "TypeName": "celerystalker"
 			}
 		},
 		{
@@ -10646,7 +10369,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -10807,7 +10530,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "sporeshroom"
+				"UsesLeveling": false, "TypeName": "sporeshroom"
 			}
 		},
 		{
@@ -10849,7 +10572,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -10939,7 +10662,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "garlic"
+				"UsesLeveling": false, "TypeName": "garlic"
 			}
 		},
 		{
@@ -10971,7 +10694,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							5,
@@ -11174,7 +10897,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "primalpeashooter"
+				"UsesLeveling": false, "TypeName": "primalpeashooter"
 			}
 		},
 		{
@@ -11226,7 +10949,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -11340,7 +11063,7 @@
 						]
 					}
 				],
-				"TypeName": "primalwallnut"
+				"UsesLeveling": false, "TypeName": "primalwallnut"
 			}
 		},
 		{
@@ -11367,7 +11090,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							30,
 							29,
 							28,
@@ -11457,7 +11180,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "perfumeshroom"
+				"UsesLeveling": false, "TypeName": "perfumeshroom"
 			}
 		},
 		{
@@ -11499,7 +11222,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -11583,7 +11306,7 @@
 						]
 					}
 				],
-				"TypeName": "primalsunflower"
+				"UsesLeveling": false, "TypeName": "primalsunflower"
 			}
 		},
 		{
@@ -11625,7 +11348,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							25,
 							24,
 							23,
@@ -11751,7 +11474,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "primalpotatomine"
+				"UsesLeveling": false, "TypeName": "primalpotatomine"
 			}
 		},
 		{
@@ -11793,7 +11516,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							9,
 							9,
@@ -11888,7 +11611,7 @@
 					3
 				],
 				"SeedPacketCost": 40,
-				"TypeName": "moonflower"
+				"UsesLeveling": false, "TypeName": "moonflower"
 			}
 		},
 		{
@@ -11930,7 +11653,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							10,
 							9,
@@ -12050,7 +11773,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "shadowshroom"
+				"UsesLeveling": false, "TypeName": "shadowshroom"
 			}
 		},
 		{
@@ -12092,7 +11815,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							10,
 							9,
@@ -12247,7 +11970,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "dusklobber"
+				"UsesLeveling": false, "TypeName": "dusklobber"
 			}
 		},
 		{
@@ -12289,7 +12012,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -12477,7 +12200,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "nightshade"
+				"UsesLeveling": false, "TypeName": "nightshade"
 			}
 		},
 		{
@@ -12504,7 +12227,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -12624,7 +12347,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "grimrose"
+				"UsesLeveling": false, "TypeName": "grimrose"
 			}
 		},
 		{
@@ -12651,7 +12374,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							75,
 							72,
 							70,
@@ -12721,7 +12444,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "goldbloom"
+				"UsesLeveling": false, "TypeName": "goldbloom"
 			}
 		},
 		{
@@ -12763,7 +12486,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							9,
 							9,
@@ -12909,7 +12632,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "electriccurrant"
+				"UsesLeveling": false, "TypeName": "electriccurrant"
 			}
 		},
 		{
@@ -12951,7 +12674,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -13120,7 +12843,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "snowpea"
+				"UsesLeveling": false, "TypeName": "snowpea"
 			}
 		},
 		{
@@ -13132,7 +12855,7 @@
 				"FloatStats": [
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							60,
 							58,
 							56,
@@ -13217,7 +12940,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "powerlily"
+				"UsesLeveling": false, "TypeName": "powerlily"
 			}
 		},
 		{
@@ -13244,7 +12967,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -13367,7 +13090,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "squash"
+				"UsesLeveling": false, "TypeName": "squash"
 			}
 		},
 		{
@@ -13394,7 +13117,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							5,
@@ -13493,7 +13216,7 @@
 					3
 				],
 				"SeedPacketCost": 100,
-				"TypeName": "torchwood"
+				"UsesLeveling": false, "TypeName": "torchwood"
 			}
 		},
 		{
@@ -13520,7 +13243,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							35,
 							34,
 							33,
@@ -13611,7 +13334,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "jalapeno"
+				"UsesLeveling": false, "TypeName": "jalapeno"
 			}
 		},
 		{
@@ -13653,7 +13376,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -13774,7 +13497,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "starfruit"
+				"UsesLeveling": false, "TypeName": "starfruit"
 			}
 		},
 		{
@@ -13831,7 +13554,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -13905,7 +13628,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "hypnoshroom"
+				"UsesLeveling": false, "TypeName": "hypnoshroom"
 			}
 		},
 		{
@@ -13947,7 +13670,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							14,
 							13,
@@ -14067,7 +13790,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "peanut"
+				"UsesLeveling": false, "TypeName": "peanut"
 			}
 		},
 		{
@@ -14109,7 +13832,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -14209,7 +13932,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "chomper"
+				"UsesLeveling": false, "TypeName": "chomper"
 			}
 		},
 		{
@@ -14251,7 +13974,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							14,
 							13,
@@ -14369,7 +14092,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "homingthistle"
+				"UsesLeveling": false, "TypeName": "homingthistle"
 			}
 		},
 		{
@@ -14411,7 +14134,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							14,
 							13,
@@ -14530,7 +14253,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "ghostpepper"
+				"UsesLeveling": false, "TypeName": "ghostpepper"
 			}
 		},
 		{
@@ -14572,7 +14295,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -14657,7 +14380,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "sweetpotato"
+				"UsesLeveling": false, "TypeName": "sweetpotato"
 			}
 		},
 		{
@@ -14699,7 +14422,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -14817,7 +14540,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "sapfling"
+				"UsesLeveling": false, "TypeName": "sapfling"
 			}
 		},
 		{
@@ -14844,7 +14567,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							14,
 							14,
@@ -14948,7 +14671,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "hurrikale"
+				"UsesLeveling": false, "TypeName": "hurrikale"
 			}
 		},
 		{
@@ -14990,7 +14713,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -15159,7 +14882,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "firepeashooter"
+				"UsesLeveling": false, "TypeName": "firepeashooter"
 			}
 		},
 		{
@@ -15201,7 +14924,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							14,
 							14,
@@ -15305,7 +15028,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "dandelion"
+				"UsesLeveling": false, "TypeName": "dandelion"
 			}
 		},
 		{
@@ -15347,7 +15070,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							15,
 							14,
@@ -15472,7 +15195,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "lavaguava"
+				"UsesLeveling": false, "TypeName": "lavaguava"
 			}
 		},
 		{
@@ -15514,7 +15237,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -15614,7 +15337,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "toadstool"
+				"UsesLeveling": false, "TypeName": "toadstool"
 			}
 		},
 		{
@@ -15656,7 +15379,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -15767,7 +15490,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "strawburst"
+				"UsesLeveling": false, "TypeName": "strawburst"
 			}
 		},
 		{
@@ -15809,7 +15532,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -15992,7 +15715,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "cactus"
+				"UsesLeveling": false, "TypeName": "cactus"
 			}
 		},
 		{
@@ -16034,7 +15757,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							45,
 							44,
 							43,
@@ -16164,7 +15887,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "electricblueberry"
+				"UsesLeveling": false, "TypeName": "electricblueberry"
 			}
 		},
 		{
@@ -16206,7 +15929,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							19,
@@ -16330,7 +16053,7 @@
 					3,
 					3
 				],
-				"TypeName": "jackolantern"
+				"UsesLeveling": false, "TypeName": "jackolantern"
 			}
 		},
 		{
@@ -16357,7 +16080,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							35,
 							34,
 							33,
@@ -16448,7 +16171,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "grapeshot"
+				"UsesLeveling": false, "TypeName": "grapeshot"
 			}
 		},
 		{
@@ -16475,7 +16198,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							5,
@@ -16595,7 +16318,7 @@
 						]
 					}
 				],
-				"TypeName": "coldsnapdragon"
+				"UsesLeveling": false, "TypeName": "coldsnapdragon"
 			}
 		},
 		{
@@ -16622,7 +16345,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							14,
 							14,
@@ -16726,7 +16449,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "shrinkingviolet"
+				"UsesLeveling": false, "TypeName": "shrinkingviolet"
 			}
 		},
 		{
@@ -16768,7 +16491,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -16872,7 +16595,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "bloominghearts"
+				"UsesLeveling": false, "TypeName": "bloominghearts"
 			}
 		},
 		{
@@ -16914,7 +16637,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							19,
@@ -17090,7 +16813,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "escaperoot"
+				"UsesLeveling": false, "TypeName": "escaperoot"
 			}
 		},
 		{
@@ -17117,7 +16840,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							8,
 							8,
 							7,
@@ -17316,7 +17039,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "applemortar"
+				"UsesLeveling": false, "TypeName": "applemortar"
 			}
 		},
 		{
@@ -17343,7 +17066,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							35,
 							34,
 							33,
@@ -17449,7 +17172,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "bombegranate"
+				"UsesLeveling": false, "TypeName": "bombegranate"
 			}
 		},
 		{
@@ -17560,7 +17283,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "imitater",
+				"UsesLeveling": false, "TypeName": "imitater",
 				"UsesLeveling": false
 			}
 		},
@@ -17588,7 +17311,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							5,
@@ -17722,7 +17445,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "wasabiwhip"
+				"UsesLeveling": false, "TypeName": "wasabiwhip"
 			}
 		},
 		{
@@ -17764,7 +17487,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							15,
 							14,
@@ -17889,7 +17612,7 @@
 					3
 				],
 				"SeedPacketCost": 40,
-				"TypeName": "magnetshroom"
+				"UsesLeveling": false, "TypeName": "magnetshroom"
 			}
 		},
 		{
@@ -17916,7 +17639,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							10,
 							9,
@@ -18051,7 +17774,7 @@
 						]
 					}
 				],
-				"TypeName": "explodeonut"
+				"UsesLeveling": false, "TypeName": "explodeonut"
 			}
 		},
 		{
@@ -18078,7 +17801,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -18224,7 +17947,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "aloe"
+				"UsesLeveling": false, "TypeName": "aloe"
 			}
 		},
 		{
@@ -18244,7 +17967,7 @@
 					1,
 					2
 				],
-				"TypeName": "marigold",
+				"UsesLeveling": false, "TypeName": "marigold",
 				"UsesLeveling": false
 			}
 		},
@@ -18272,7 +17995,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							15,
 							14,
@@ -18436,7 +18159,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "kiwibeast"
+				"UsesLeveling": false, "TypeName": "kiwibeast"
 			}
 		},
 		{
@@ -18463,7 +18186,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							5,
@@ -18649,7 +18372,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "missiletoe"
+				"UsesLeveling": false, "TypeName": "missiletoe"
 			}
 		},
 		{
@@ -18676,7 +18399,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							5,
@@ -18793,7 +18516,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "parsnip"
+				"UsesLeveling": false, "TypeName": "parsnip"
 			}
 		},
 		{
@@ -18835,7 +18558,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							30,
 							30,
 							25,
@@ -19044,7 +18767,7 @@
 						]
 					}
 				],
-				"TypeName": "witchhazel"
+				"UsesLeveling": false, "TypeName": "witchhazel"
 			}
 		},
 		{
@@ -19071,7 +18794,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							25,
 							24,
 							23,
@@ -19188,7 +18911,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "hotdate"
+				"UsesLeveling": false, "TypeName": "hotdate"
 			}
 		},
 		{
@@ -19230,7 +18953,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							45,
 							44,
 							43,
@@ -19360,7 +19083,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "caulipower"
+				"UsesLeveling": false, "TypeName": "caulipower"
 			}
 		},
 		{
@@ -19387,7 +19110,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							25,
 							24,
 							23,
@@ -19550,7 +19273,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "solartomato"
+				"UsesLeveling": false, "TypeName": "solartomato"
 			}
 		},
 		{
@@ -19577,7 +19300,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -19839,7 +19562,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "electricpeashooter"
+				"UsesLeveling": false, "TypeName": "electricpeashooter"
 			}
 		},
 		{
@@ -19866,7 +19589,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							14,
 							14,
@@ -20082,7 +19805,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "electricitea"
+				"UsesLeveling": false, "TypeName": "electricitea"
 			}
 		},
 		{
@@ -20124,7 +19847,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							15,
 							15,
@@ -20348,7 +20071,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "hollyknight"
+				"UsesLeveling": false, "TypeName": "hollyknight"
 			}
 		},
 		{
@@ -20390,7 +20113,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							0,
 							0,
 							0,
@@ -20475,7 +20198,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "hollybarrierleaf"
+				"UsesLeveling": false, "TypeName": "hollybarrierleaf"
 			}
 		},
 		{
@@ -20517,7 +20240,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							0,
 							0,
 							0,
@@ -20602,7 +20325,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "hollybarrierleafplantfood"
+				"UsesLeveling": false, "TypeName": "hollybarrierleafplantfood"
 			}
 		},
 		{
@@ -20644,7 +20367,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							85,
 							80,
 							80,
@@ -20795,7 +20518,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "filamint"
+				"UsesLeveling": false, "TypeName": "filamint"
 			}
 		},
 		{
@@ -20837,7 +20560,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							85,
 							80,
 							80,
@@ -20956,7 +20679,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "peppermint"
+				"UsesLeveling": false, "TypeName": "peppermint"
 			}
 		},
 		{
@@ -20998,7 +20721,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							85,
 							80,
 							80,
@@ -21087,7 +20810,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "wintermint"
+				"UsesLeveling": false, "TypeName": "wintermint"
 			}
 		},
 		{
@@ -21129,7 +20852,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							85,
 							80,
 							80,
@@ -21221,7 +20944,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "enlightenmint"
+				"UsesLeveling": false, "TypeName": "enlightenmint"
 			}
 		},
 		{
@@ -21263,7 +20986,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							85,
 							80,
 							80,
@@ -21352,7 +21075,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "reinforcemint"
+				"UsesLeveling": false, "TypeName": "reinforcemint"
 			}
 		},
 		{
@@ -21394,7 +21117,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							85,
 							80,
 							80,
@@ -21483,7 +21206,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "bombardmint"
+				"UsesLeveling": false, "TypeName": "bombardmint"
 			}
 		},
 		{
@@ -21525,7 +21248,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							85,
 							80,
 							80,
@@ -21629,7 +21352,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "ailmint"
+				"UsesLeveling": false, "TypeName": "ailmint"
 			}
 		},
 		{
@@ -21671,7 +21394,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							85,
 							80,
 							80,
@@ -21775,7 +21498,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "enchantmint"
+				"UsesLeveling": false, "TypeName": "enchantmint"
 			}
 		},
 		{
@@ -21817,7 +21540,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							85,
 							80,
 							80,
@@ -21906,7 +21629,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "containmint"
+				"UsesLeveling": false, "TypeName": "containmint"
 			}
 		},
 		{
@@ -21948,7 +21671,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							85,
 							80,
 							80,
@@ -22037,7 +21760,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "enforcemint"
+				"UsesLeveling": false, "TypeName": "enforcemint"
 			}
 		},
 		{
@@ -22079,7 +21802,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							85,
 							80,
 							80,
@@ -22216,7 +21939,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "armamint"
+				"UsesLeveling": false, "TypeName": "armamint"
 			}
 		},
 		{
@@ -22258,7 +21981,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							85,
 							80,
 							80,
@@ -22347,7 +22070,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "concealmint"
+				"UsesLeveling": false, "TypeName": "concealmint"
 			}
 		},
 		{
@@ -22389,7 +22112,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							85,
 							80,
 							80,
@@ -22508,7 +22231,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "spearmint"
+				"UsesLeveling": false, "TypeName": "spearmint"
 			}
 		},
 		{
@@ -22535,7 +22258,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -22727,7 +22450,7 @@
 					3
 				],
 				"SeedPacketCost": 250,
-				"TypeName": "shadowpeashooter"
+				"UsesLeveling": false, "TypeName": "shadowpeashooter"
 			}
 		},
 		{
@@ -22754,7 +22477,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -23062,7 +22785,7 @@
 					3
 				],
 				"SeedPacketCost": 250,
-				"TypeName": "poisonpeashooter"
+				"UsesLeveling": false, "TypeName": "poisonpeashooter"
 			}
 		},
 		{
@@ -23089,7 +22812,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -23306,7 +23029,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "slingpea"
+				"UsesLeveling": false, "TypeName": "slingpea"
 			}
 		},
 		{
@@ -23348,7 +23071,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							85,
 							80,
 							80,
@@ -23486,7 +23209,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "appeasemint"
+				"UsesLeveling": false, "TypeName": "appeasemint"
 			}
 		},
 		{
@@ -23523,7 +23246,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -23650,7 +23373,7 @@
 						]
 					}
 				],
-				"LevelCap": 20,
+				"LevelCap": 1,
 				"LevelCoins": [
 					50,
 					200,
@@ -23721,7 +23444,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "minipeashooter"
+				"UsesLeveling": false, "TypeName": "minipeashooter"
 			}
 		},
 		{
@@ -23748,7 +23471,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							10,
 							9,
@@ -23914,7 +23637,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "snappea"
+				"UsesLeveling": false, "TypeName": "snappea"
 			}
 		},
 		{
@@ -23951,7 +23674,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -24025,7 +23748,7 @@
 						]
 					}
 				],
-				"LevelCap": 20,
+				"LevelCap": 1,
 				"LevelCoins": [
 					50,
 					200,
@@ -24090,7 +23813,7 @@
 					3,
 					3
 				],
-				"TypeName": "burnade"
+				"UsesLeveling": false, "TypeName": "burnade"
 			}
 		},
 		{
@@ -24132,7 +23855,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							19,
@@ -24293,7 +24016,7 @@
 						]
 					}
 				],
-				"TypeName": "zoybeanpod"
+				"UsesLeveling": false, "TypeName": "zoybeanpod"
 			}
 		},
 		{
@@ -24320,7 +24043,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -24661,7 +24384,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "dazeychain"
+				"UsesLeveling": false, "TypeName": "dazeychain"
 			}
 		},
 		{
@@ -24688,7 +24411,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							9,
 							9,
@@ -24894,7 +24617,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "blastberry"
+				"UsesLeveling": false, "TypeName": "blastberry"
 			}
 		},
 		{
@@ -24921,7 +24644,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							7,
 							6.5,
 							6,
@@ -25182,7 +24905,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "pokra"
+				"UsesLeveling": false, "TypeName": "pokra"
 			}
 		},
 		{
@@ -25209,7 +24932,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -25329,7 +25052,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "imppear"
+				"UsesLeveling": false, "TypeName": "imppear"
 			}
 		},
 		{
@@ -25356,7 +25079,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							9,
 							9,
@@ -25515,7 +25238,7 @@
 						]
 					}
 				],
-				"TypeName": "pyrevine"
+				"UsesLeveling": false, "TypeName": "pyrevine"
 			}
 		},
 		{
@@ -25542,7 +25265,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							12,
 							12,
 							11,
@@ -25656,7 +25379,7 @@
 						]
 					}
 				],
-				"TypeName": "pumpkin"
+				"UsesLeveling": false, "TypeName": "pumpkin"
 			}
 		},
 		{
@@ -25698,7 +25421,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							25,
 							24,
 							24,
@@ -25886,7 +25609,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "icebloom"
+				"UsesLeveling": false, "TypeName": "icebloom"
 			}
 		},
 		{
@@ -25928,7 +25651,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							6.5,
 							6,
 							5.5,
@@ -26115,7 +25838,7 @@
 					3
 				],
 				"SeedPacketCost": 100,
-				"TypeName": "ultomato"
+				"UsesLeveling": false, "TypeName": "ultomato"
 			}
 		},
 		{
@@ -26157,7 +25880,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							8.5,
 							8,
 							7.5,
@@ -26373,7 +26096,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "dartichoke"
+				"UsesLeveling": false, "TypeName": "dartichoke"
 			}
 		},
 		{
@@ -26415,7 +26138,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							12,
 							11.5,
 							11,
@@ -26540,7 +26263,7 @@
 					3
 				],
 				"SeedPacketCost": 200,
-				"TypeName": "gumnut"
+				"UsesLeveling": false, "TypeName": "gumnut"
 			}
 		},
 		{
@@ -26582,7 +26305,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.25,
@@ -26801,7 +26524,7 @@
 						]
 					}
 				],
-				"TypeName": "shinevine"
+				"UsesLeveling": false, "TypeName": "shinevine"
 			}
 		},
 		{
@@ -26843,7 +26566,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5.5,
 							5,
 							4.5,
@@ -27023,7 +26746,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "tumbleweed"
+				"UsesLeveling": false, "TypeName": "tumbleweed"
 			}
 		},
 		{
@@ -27065,7 +26788,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -27168,7 +26891,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "puffball"
+				"UsesLeveling": false, "TypeName": "puffball"
 			}
 		},
 		{
@@ -27210,7 +26933,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							10,
 							9,
@@ -27401,7 +27124,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "stickybombrice"
+				"UsesLeveling": false, "TypeName": "stickybombrice"
 			}
 		},
 		{
@@ -27443,7 +27166,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							7,
 							6.5,
 							6,
@@ -27568,7 +27291,7 @@
 					3
 				],
 				"SeedPacketCost": 250,
-				"TypeName": "olivepit"
+				"UsesLeveling": false, "TypeName": "olivepit"
 			}
 		},
 		{
@@ -27595,7 +27318,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							13,
 							12,
 							11,
@@ -27773,7 +27496,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "murkadamia"
+				"UsesLeveling": false, "TypeName": "murkadamia"
 			}
 		},
 		{
@@ -27800,7 +27523,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							9,
 							8,
@@ -27974,7 +27697,7 @@
 						]
 					}
 				],
-				"TypeName": "explodeovine"
+				"UsesLeveling": false, "TypeName": "explodeovine"
 			}
 		},
 		{
@@ -28001,7 +27724,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -28166,7 +27889,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "turkeypult"
+				"UsesLeveling": false, "TypeName": "turkeypult"
 			}
 		},
 		{
@@ -28193,7 +27916,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							7,
 							6.5,
 							6,
@@ -28420,7 +28143,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "headbutter"
+				"UsesLeveling": false, "TypeName": "headbutter"
 			}
 		},
 		{
@@ -28447,7 +28170,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							30,
 							29,
 							28,
@@ -28737,7 +28460,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "boingsetta"
+				"UsesLeveling": false, "TypeName": "boingsetta"
 			}
 		},
 		{
@@ -28779,7 +28502,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -28925,7 +28648,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "boomflower"
+				"UsesLeveling": false, "TypeName": "boomflower"
 			}
 		},
 		{
@@ -28967,7 +28690,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -29092,7 +28815,7 @@
 					3
 				],
 				"SeedPacketCost": 250,
-				"TypeName": "hocus"
+				"UsesLeveling": false, "TypeName": "hocus"
 			}
 		},
 		{
@@ -29134,7 +28857,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -29240,7 +28963,7 @@
 						]
 					}
 				],
-				"TypeName": "gloomvine"
+				"UsesLeveling": false, "TypeName": "gloomvine"
 			}
 		},
 		{
@@ -29282,7 +29005,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -29526,7 +29249,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "draftodil"
+				"UsesLeveling": false, "TypeName": "draftodil"
 			}
 		},
 		{
@@ -29553,7 +29276,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -29719,7 +29442,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "pvine"
+				"UsesLeveling": false, "TypeName": "pvine"
 			}
 		},
 		{
@@ -29746,7 +29469,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							25,
 							24,
 							23,
@@ -29939,7 +29662,7 @@
 						]
 					}
 				],
-				"TypeName": "inferno"
+				"UsesLeveling": false, "TypeName": "inferno"
 			}
 		},
 		{
@@ -29981,7 +29704,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -30254,7 +29977,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "solarsage"
+				"UsesLeveling": false, "TypeName": "solarsage"
 			}
 		},
 		{
@@ -30281,7 +30004,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -30476,7 +30199,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "powervine"
+				"UsesLeveling": false, "TypeName": "powervine"
 			}
 		},
 		{
@@ -30503,7 +30226,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							14,
 							13,
@@ -30790,7 +30513,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "noctarine"
+				"UsesLeveling": false, "TypeName": "noctarine"
 			}
 		},
 		{
@@ -30832,7 +30555,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							0,
 							0,
 							0,
@@ -30918,7 +30641,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "noctarinecloud"
+				"UsesLeveling": false, "TypeName": "noctarinecloud"
 			}
 		},
 		{
@@ -30945,7 +30668,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							18,
@@ -31080,7 +30803,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "heathseeker"
+				"UsesLeveling": false, "TypeName": "heathseeker"
 			}
 		},
 		{
@@ -31152,7 +30875,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -31334,7 +31057,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "iceweed"
+				"UsesLeveling": false, "TypeName": "iceweed"
 			}
 		},
 		{
@@ -31391,7 +31114,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							7,
 							6.5,
 							6,
@@ -31601,7 +31324,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "tigergrass"
+				"UsesLeveling": false, "TypeName": "tigergrass"
 			}
 		},
 		{
@@ -31643,7 +31366,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							19,
 							19,
@@ -31784,7 +31507,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "teleportatomine"
+				"UsesLeveling": false, "TypeName": "teleportatomine"
 			}
 		},
 		{
@@ -31826,7 +31549,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							9,
 							8,
@@ -32006,7 +31729,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "buttercup"
+				"UsesLeveling": false, "TypeName": "buttercup"
 			}
 		},
 		{
@@ -32048,7 +31771,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							14,
 							13,
@@ -32211,7 +31934,7 @@
 						]
 					}
 				],
-				"TypeName": "blockoli"
+				"UsesLeveling": false, "TypeName": "blockoli"
 			}
 		},
 		{
@@ -32253,7 +31976,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -32372,7 +32095,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "bramblebush"
+				"UsesLeveling": false, "TypeName": "bramblebush"
 			}
 		},
 		{
@@ -32414,7 +32137,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							20,
 							20,
@@ -32613,7 +32336,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "rhubarbarian"
+				"UsesLeveling": false, "TypeName": "rhubarbarian"
 			}
 		},
 		{
@@ -32640,7 +32363,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4.5,
@@ -32805,7 +32528,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "megagatling"
+				"UsesLeveling": false, "TypeName": "megagatling"
 			}
 		},
 		{
@@ -32847,7 +32570,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							15,
 							15,
@@ -33038,7 +32761,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "levitater"
+				"UsesLeveling": false, "TypeName": "levitater"
 			}
 		},
 		{
@@ -33080,7 +32803,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							10,
 							10,
@@ -33260,7 +32983,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "tombtangler"
+				"UsesLeveling": false, "TypeName": "tombtangler"
 			}
 		},
 		{
@@ -33302,7 +33025,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							20,
 							20,
@@ -33463,7 +33186,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "vamporcini"
+				"UsesLeveling": false, "TypeName": "vamporcini"
 			}
 		},
 		{
@@ -33505,7 +33228,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							14,
 							13,
@@ -33662,7 +33385,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "chillypepper"
+				"UsesLeveling": false, "TypeName": "chillypepper"
 			}
 		},
 		{
@@ -33704,7 +33427,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							5,
@@ -33927,7 +33650,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "meteorflower"
+				"UsesLeveling": false, "TypeName": "meteorflower"
 			}
 		},
 		{
@@ -33969,7 +33692,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							12,
 							12,
 							12,
@@ -34145,7 +33868,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "waterrabbit"
+				"UsesLeveling": false, "TypeName": "waterrabbit"
 			}
 		},
 		{
@@ -34187,7 +33910,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							15,
 							15,
@@ -34472,7 +34195,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "buzzbutton"
+				"UsesLeveling": false, "TypeName": "buzzbutton"
 			}
 		},
 		{
@@ -34499,7 +34222,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							12,
 							12,
 							12,
@@ -34772,7 +34495,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "boomberry"
+				"UsesLeveling": false, "TypeName": "boomberry"
 			}
 		},
 		{
@@ -34814,7 +34537,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							5,
@@ -34979,7 +34702,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "nightcap"
+				"UsesLeveling": false, "TypeName": "nightcap"
 			}
 		},
 		{
@@ -35021,7 +34744,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							12,
 							12,
 							12,
@@ -35297,7 +35020,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "seaflora"
+				"UsesLeveling": false, "TypeName": "seaflora"
 			}
 		},
 		{
@@ -35339,7 +35062,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							20,
 							20,
@@ -35590,7 +35313,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "maybee"
+				"UsesLeveling": false, "TypeName": "maybee"
 			}
 		},
 		{
@@ -35632,7 +35355,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							4.5,
 							4.5,
@@ -35873,7 +35596,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "scaredyshroom"
+				"UsesLeveling": false, "TypeName": "scaredyshroom"
 			}
 		},
 		{
@@ -35915,7 +35638,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							15,
 							15,
@@ -36112,7 +35835,7 @@
 						]
 					}
 				],
-				"TypeName": "bamboospartan"
+				"UsesLeveling": false, "TypeName": "bamboospartan"
 			}
 		},
 		{
@@ -36154,7 +35877,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							15,
 							15,
@@ -36419,7 +36142,7 @@
 						]
 					}
 				],
-				"TypeName": "sundewtangler"
+				"UsesLeveling": false, "TypeName": "sundewtangler"
 			}
 		},
 		{
@@ -36461,7 +36184,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							12,
 							12,
 							12,
@@ -36611,7 +36334,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "beansprout"
+				"UsesLeveling": false, "TypeName": "beansprout"
 			}
 		},
 		{
@@ -36638,7 +36361,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							9,
 							9,
@@ -36780,7 +36503,7 @@
 					3
 				],
 				"SeedPacketCost": 250,
-				"TypeName": "cranjelly"
+				"UsesLeveling": false, "TypeName": "cranjelly"
 			}
 		},
 		{
@@ -36807,7 +36530,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							35,
 							35,
 							30,
@@ -36957,7 +36680,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "buduhboom"
+				"UsesLeveling": false, "TypeName": "buduhboom"
 			}
 		},
 		{
@@ -36999,7 +36722,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							12,
 							12,
 							12,
@@ -37191,7 +36914,7 @@
 					3
 				],
 				"SeedPacketCost": 250,
-				"TypeName": "iceshroom"
+				"UsesLeveling": false, "TypeName": "iceshroom"
 			}
 		},
 		{
@@ -37233,7 +36956,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							10,
 							10,
@@ -37454,7 +37177,7 @@
 					3
 				],
 				"SeedPacketCost": 250,
-				"TypeName": "dragonbruit"
+				"UsesLeveling": false, "TypeName": "dragonbruit"
 			}
 		},
 		{
@@ -37496,7 +37219,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							0,
 							0,
 							0,
@@ -37668,7 +37391,7 @@
 					3,
 					3
 				],
-				"TypeName": "dragonbabybruit"
+				"UsesLeveling": false, "TypeName": "dragonbabybruit"
 			}
 		},
 		{
@@ -37710,7 +37433,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							5,
 							5,
 							4,
@@ -37948,7 +37671,7 @@
 					3
 				],
 				"SeedPacketCost": 250,
-				"TypeName": "seashroom"
+				"UsesLeveling": false, "TypeName": "seashroom"
 			}
 		},
 		{
@@ -37990,7 +37713,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							15,
 							15,
 							15,
@@ -38181,7 +37904,7 @@
 					3
 				],
 				"SeedPacketCost": 250,
-				"TypeName": "electricpeel"
+				"UsesLeveling": false, "TypeName": "electricpeel"
 			}
 		},
 		{
@@ -38223,7 +37946,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							30,
 							30,
 							25,
@@ -38365,7 +38088,7 @@
 					3
 				],
 				"SeedPacketCost": 250,
-				"TypeName": "guardshroom"
+				"UsesLeveling": false, "TypeName": "guardshroom"
 			}
 		},
 		{
@@ -38407,7 +38130,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							0,
 							0,
 							0,
@@ -38548,7 +38271,7 @@
 					3,
 					3
 				],
-				"TypeName": "minishroom"
+				"UsesLeveling": false, "TypeName": "minishroom"
 			}
 		},
 		{
@@ -38590,7 +38313,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							10,
 							9,
@@ -38753,7 +38476,7 @@
 					3
 				],
 				"SeedPacketCost": 250,
-				"TypeName": "aquavine"
+				"UsesLeveling": false, "TypeName": "aquavine"
 			}
 		},
 		{
@@ -38795,7 +38518,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							8,
 							8,
 							8,
@@ -39032,7 +38755,7 @@
 					3
 				],
 				"SeedPacketCost": 250,
-				"TypeName": "mangofier"
+				"UsesLeveling": false, "TypeName": "mangofier"
 			}
 		},
 		{
@@ -39074,7 +38797,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							20,
 							20,
 							20,
@@ -39247,7 +38970,7 @@
 					3
 				],
 				"SeedPacketCost": 250,
-				"TypeName": "blastspinner"
+				"UsesLeveling": false, "TypeName": "blastspinner"
 			}
 		},
 		{
@@ -39289,7 +39012,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							0,
 							0,
 							0,
@@ -39415,7 +39138,7 @@
 					3,
 					3
 				],
-				"TypeName": "blastspinnercocoon"
+				"UsesLeveling": false, "TypeName": "blastspinnercocoon"
 			}
 		},
 		{
@@ -39457,7 +39180,7 @@
 					},
 					{
 						"Name": "PacketCooldown",
-						"Values": [
+						"Values": [2,
 							10,
 							9.5,
 							9.5,
@@ -39604,7 +39327,7 @@
 						"Values": []
 					}
 				],
-				"TypeName": "doomshroom"
+				"UsesLeveling": false, "TypeName": "doomshroom"
 			}
 		}
 	],

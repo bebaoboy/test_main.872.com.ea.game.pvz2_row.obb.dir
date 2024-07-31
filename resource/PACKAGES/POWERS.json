@@ -33,7 +33,7 @@
 			"objclass": "PowerPropsSunProducer",
 			"objdata": {
 				"TypeName": "SunProducer50",
-				"Amount": 50
+				"Amount": 100
 			}
 		},
 		{

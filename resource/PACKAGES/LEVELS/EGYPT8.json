@@ -171,34 +171,120 @@
 				"WaveSpendingPoints": 100,
 				"Waves": [
 					[
-						"RTID(Wave1@CurrentLevel)"
+						"RTID(Wave1@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)"
 					],
 					[
-						"RTID(Wave2@CurrentLevel)"
+						"RTID(Wave2@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave9SandstormEvent0@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)"
 					],
 					[
 						"RTID(Wave3@CurrentLevel)",
-						"RTID(Wave3SandstormEvent0@CurrentLevel)"
+						"RTID(Wave9SandstormEvent0@CurrentLevel)",
+						"RTID(Wave3SandstormEvent0@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)"
 					],
 					[
-						"RTID(Wave4@CurrentLevel)"
+						"RTID(Wave4@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave9SandstormEvent0@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)"
 					],
 					[
-						"RTID(Wave5@CurrentLevel)"
+						"RTID(Wave5@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)"
 					],
 					[
 						"RTID(Wave6@CurrentLevel)",
-						"RTID(Wave6SandstormEvent0@CurrentLevel)"
+						"RTID(Wave6SandstormEvent0@CurrentLevel)",
+						"RTID(Wave9SandstormEvent0@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)"
 					],
 					[
-						"RTID(Wave7@CurrentLevel)"
+						"RTID(Wave7@CurrentLevel)",
+						"RTID(Wave9SandstormEvent0@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)"
 					],
 					[
-						"RTID(Wave8@CurrentLevel)"
+						"RTID(Wave8@CurrentLevel)",
+						"RTID(Wave9SandstormEvent0@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)"
 					],
 					[
 						"RTID(Wave9@CurrentLevel)",
-						"RTID(Wave9SandstormEvent0@CurrentLevel)"
+						"RTID(Wave9SandstormEvent0@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3@CurrentLevel)"
 					]
 				]
 			}
@@ -240,16 +326,6 @@
 			],
 			"objclass": "SpawnZombiesJitteredWaveActionProps",
 			"objdata": {
-				"AdditionalPlantfood": 1,
-				"DynamicPlantfood": [
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					0
-				],
 				"Zombies": [
 					{
 						"Type": "RTID(mummy@ZombieTypes)"
@@ -417,11 +493,17 @@
 			"objdata": {
 				"ColumnEnd": 9,
 				"ColumnStart": 4,
-				"GroupSize": 2,
+				"GroupSize": 5,
 				"TimeBetweenGroups": 3,
 				"Waves": "",
 				"Type": "sandstorm",
 				"Zombies": [
+					{
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
 					{
 						"Type": "RTID(tomb_raiser@ZombieTypes)"
 					}
