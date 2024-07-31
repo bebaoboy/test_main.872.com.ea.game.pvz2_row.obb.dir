@@ -5073,103 +5073,7 @@
 				}
 			}
 		},
-		"DelayLoad_Background_Roman": {
-			"is_composite": true,
-			"subgroup": {
-				"DelayLoad_Background_Roman_1536": {
-					"category": [
-						1536,
-						null
-					],
-					"packet_info": {
-						"version": 4,
-						"compression_flags": 3,
-						"res": [
-							{
-								"path": [
-									"ATLASES",
-									"DELAYLOAD_BACKGROUND_ROMAN_1536_00.PTX"
-								],
-								"ptx_info": {
-									"id": 0,
-									"width": 4096,
-									"height": 4096
-								},
-								"ptx_property": {
-									"format": 147,
-									"pitch": 16384,
-									"alpha_size": null,
-									"alpha_format": null
-								}
-							},
-							{
-								"path": [
-									"ATLASES",
-									"DELAYLOAD_BACKGROUND_ROMAN_1536_01.PTX"
-								],
-								"ptx_info": {
-									"id": 1,
-									"width": 2048,
-									"height": 4096
-								},
-								"ptx_property": {
-									"format": 147,
-									"pitch": 8192,
-									"alpha_size": null,
-									"alpha_format": null
-								}
-							}
-						]
-					}
-				},
-				"DelayLoad_Background_Roman_768": {
-					"category": [
-						768,
-						null
-					],
-					"packet_info": {
-						"version": 4,
-						"compression_flags": 3,
-						"res": [
-							{
-								"path": [
-									"ATLASES",
-									"DELAYLOAD_BACKGROUND_ROMAN_768_01.PTX"
-								],
-								"ptx_info": {
-									"id": 1,
-									"width": 1024,
-									"height": 2048
-								},
-								"ptx_property": {
-									"format": 147,
-									"pitch": 4096,
-									"alpha_size": null,
-									"alpha_format": null
-								}
-							},
-							{
-								"path": [
-									"ATLASES",
-									"DELAYLOAD_BACKGROUND_ROMAN_768_00.PTX"
-								],
-								"ptx_info": {
-									"id": 0,
-									"width": 2048,
-									"height": 2048
-								},
-								"ptx_property": {
-									"format": 147,
-									"pitch": 8192,
-									"alpha_size": null,
-									"alpha_format": null
-								}
-							}
-						]
-					}
-				}
-			}
-		},
+		
 		"DelayLoad_Background_Sportzball": {
 			"is_composite": true,
 			"subgroup": {
@@ -10457,7 +10361,31 @@
 				}
 			}
 		},
-
+"LOD_World_SFX": {
+			"is_composite": false,
+			"subgroup": {
+				"LOD_World_SFX": {
+					"category": [
+						0,
+						null
+					],
+					"packet_info": {
+						"version": 4,
+						"compression_flags": 3,
+						"res": [
+							{
+								"path": [
+									"SOUNDBANKS",
+									"LOD_WORLD_SFX.BNK"
+								],
+								"ptx_info": null,
+								"ptx_property": null
+							}
+						]
+					}
+				}
+			}
+		},
 		"Lostcity_Gravestone": {
 			"is_composite": true,
 			"subgroup": {
@@ -67588,127 +67516,7 @@
 				}
 			}
 		},
-		"PlantDoomShroom": {
-			"is_composite": true,
-			"subgroup": {
-				"PlantDoomShroom_1536": {
-					"category": [
-						1536,
-						null
-					],
-					"packet_info": {
-						"version": 4,
-						"compression_flags": 3,
-						"res": [
-							{
-								"path": [
-									"ATLASES",
-									"PLANTDOOMSHROOM_1536_01.PTX"
-								],
-								"ptx_info": {
-									"id": 1,
-									"width": 2048,
-									"height": 2048
-								},
-								"ptx_property": {
-									"format": 147,
-									"pitch": 8192,
-									"alpha_size": null,
-									"alpha_format": null
-								}
-							},
-							{
-								"path": [
-									"ATLASES",
-									"PLANTDOOMSHROOM_1536_00.PTX"
-								],
-								"ptx_info": {
-									"id": 0,
-									"width": 4096,
-									"height": 4096
-								},
-								"ptx_property": {
-									"format": 147,
-									"pitch": 16384,
-									"alpha_size": null,
-									"alpha_format": null
-								}
-							}
-						]
-					}
-				},
-				"PlantDoomShroom_768": {
-					"category": [
-						768,
-						null
-					],
-					"packet_info": {
-						"version": 4,
-						"compression_flags": 3,
-						"res": [
-							{
-								"path": [
-									"ATLASES",
-									"PLANTDOOMSHROOM_768_00.PTX"
-								],
-								"ptx_info": {
-									"id": 0,
-									"width": 2048,
-									"height": 2048
-								},
-								"ptx_property": {
-									"format": 147,
-									"pitch": 8192,
-									"alpha_size": null,
-									"alpha_format": null
-								}
-							},
-							{
-								"path": [
-									"ATLASES",
-									"PLANTDOOMSHROOM_768_01.PTX"
-								],
-								"ptx_info": {
-									"id": 1,
-									"width": 1024,
-									"height": 1024
-								},
-								"ptx_property": {
-									"format": 147,
-									"pitch": 4096,
-									"alpha_size": null,
-									"alpha_format": null
-								}
-							}
-						]
-					}
-				},
-				"PlantDoomShroom_Common": {
-					"category": [
-						0,
-						null
-					],
-					"packet_info": {
-						"version": 4,
-						"compression_flags": 3,
-						"res": [
-							{
-								"path": [
-									"IMAGES",
-									"768",
-									"FULL",
-									"PLANT",
-									"DOOMSHROOM",
-									"DOOMSHROOM.PAM"
-								],
-								"ptx_info": null,
-								"ptx_property": null
-							}
-						]
-					}
-				}
-			}
-		},
+		
 		"PlantDraftodil": {
 			"is_composite": true,
 			"subgroup": {
@@ -102878,106 +102686,7 @@
 				}
 			}
 		},
-		"WorldMap_Iceage": {
-			"is_composite": true,
-			"subgroup": {
-				"WorldMap_Iceage_1536": {
-					"category": [
-						1536,
-						null
-					],
-					"packet_info": {
-						"version": 4,
-						"compression_flags": 3,
-						"res": [
-							{
-								"path": [
-									"ATLASES",
-									"WORLDMAP_ICEAGE_1536_00.PTX"
-								],
-								"ptx_info": {
-									"id": 0,
-									"width": 4096,
-									"height": 4096
-								},
-								"ptx_property": {
-									"format": 147,
-									"pitch": 16384,
-									"alpha_size": null,
-									"alpha_format": null
-								}
-							}
-						]
-					}
-				},
-				"WorldMap_Iceage_768": {
-					"category": [
-						768,
-						null
-					],
-					"packet_info": {
-						"version": 4,
-						"compression_flags": 3,
-						"res": [
-							{
-								"path": [
-									"ATLASES",
-									"WORLDMAP_ICEAGE_768_00.PTX"
-								],
-								"ptx_info": {
-									"id": 0,
-									"width": 2048,
-									"height": 2048
-								},
-								"ptx_property": {
-									"format": 147,
-									"pitch": 8192,
-									"alpha_size": null,
-									"alpha_format": null
-								}
-							}
-						]
-					}
-				},
-				"WorldMap_Iceage_Common": {
-					"category": [
-						0,
-						null
-					],
-					"packet_info": {
-						"version": 4,
-						"compression_flags": 3,
-						"res": [
-							{
-								"path": [
-									"IMAGES",
-									"768",
-									"FULL",
-									"WORLDMAP",
-									"ICEAGE",
-									"ANIM3",
-									"ANIM3.PAM"
-								],
-								"ptx_info": null,
-								"ptx_property": null
-							},
-							{
-								"path": [
-									"IMAGES",
-									"768",
-									"FULL",
-									"WORLDMAP",
-									"ZOMBOSS_NODE_ICEAGE",
-									"ZOMBOSS_NODE_ICEAGE.PAM"
-								],
-								"ptx_info": null,
-								"ptx_property": null
-							}
-						]
-					}
-				}
-			}
-		},
+		
 		"WorldMap_Iceage_NonPVR": {
 			"is_composite": true,
 			"subgroup": {
@@ -104016,159 +103725,7 @@
 				}
 			}
 		},
-		"WorldMap_Twister": {
-			"is_composite": true,
-			"subgroup": {
-				"WorldMap_Twister_1536": {
-					"category": [
-						1536,
-						null
-					],
-					"packet_info": {
-						"version": 4,
-						"compression_flags": 3,
-						"res": [
-							{
-								"path": [
-									"ATLASES",
-									"WORLDMAP_TWISTER_1536_00.PTX"
-								],
-								"ptx_info": {
-									"id": 0,
-									"width": 4096,
-									"height": 4096
-								},
-								"ptx_property": {
-									"format": 147,
-									"pitch": 16384,
-									"alpha_size": null,
-									"alpha_format": null
-								}
-							}
-						]
-					}
-				},
-				"WorldMap_Twister_768": {
-					"category": [
-						768,
-						null
-					],
-					"packet_info": {
-						"version": 4,
-						"compression_flags": 3,
-						"res": [
-							{
-								"path": [
-									"ATLASES",
-									"WORLDMAP_TWISTER_768_00.PTX"
-								],
-								"ptx_info": {
-									"id": 0,
-									"width": 2048,
-									"height": 2048
-								},
-								"ptx_property": {
-									"format": 147,
-									"pitch": 8192,
-									"alpha_size": null,
-									"alpha_format": null
-								}
-							}
-						]
-					}
-				},
-				"WorldMap_Twister_Common": {
-					"category": [
-						0,
-						null
-					],
-					"packet_info": {
-						"version": 4,
-						"compression_flags": 3,
-						"res": [
-							{
-								"path": [
-									"IMAGES",
-									"768",
-									"FULL",
-									"WORLDMAP",
-									"TWISTER",
-									"ANIM7",
-									"ANIM7.PAM"
-								],
-								"ptx_info": null,
-								"ptx_property": null
-							},
-							{
-								"path": [
-									"IMAGES",
-									"768",
-									"FULL",
-									"WORLDMAP",
-									"TWISTER",
-									"ANIM9",
-									"ANIM9.PAM"
-								],
-								"ptx_info": null,
-								"ptx_property": null
-							},
-							{
-								"path": [
-									"IMAGES",
-									"768",
-									"FULL",
-									"WORLDMAP",
-									"TWISTER",
-									"ANIM8",
-									"ANIM8.PAM"
-								],
-								"ptx_info": null,
-								"ptx_property": null
-							},
-							{
-								"path": [
-									"IMAGES",
-									"768",
-									"FULL",
-									"WORLDMAP",
-									"TWISTER",
-									"ANIM6",
-									"ANIM6.PAM"
-								],
-								"ptx_info": null,
-								"ptx_property": null
-							},
-							{
-								"path": [
-									"IMAGES",
-									"768",
-									"FULL",
-									"WORLDMAP",
-									"TWISTER",
-									"ANIM3",
-									"ANIM3.PAM"
-								],
-								"ptx_info": null,
-								"ptx_property": null
-							},
-							{
-								"path": [
-									"IMAGES",
-									"768",
-									"FULL",
-									"WORLDMAP",
-									"TWISTER",
-									"ANIM11",
-									"ANIM11.PAM"
-								],
-								"ptx_info": null,
-								"ptx_property": null
-							}
-						]
-					}
-				}
-			}
-		},
+		
 		"WorldMapSpine": {
 			"is_composite": true,
 			"subgroup": {
@@ -128761,39 +128318,7 @@
 				}
 			}
 		},
-		"ZombossGlobalAudio": {
-			"is_composite": false,
-			"subgroup": {
-				"ZombossGlobalAudio": {
-					"category": [
-						0,
-						null
-					],
-					"packet_info": {
-						"version": 4,
-						"compression_flags": 3,
-						"res": [
-							{
-								"path": [
-									"SOUNDBANKS",
-									"ZOMBOSS_MUSIC.BNK"
-								],
-								"ptx_info": null,
-								"ptx_property": null
-							},
-							{
-								"path": [
-									"SOUNDBANKS",
-									"ZOMBIE_GLOBAL_ZOMBOSS.BNK"
-								],
-								"ptx_info": null,
-								"ptx_property": null
-							}
-						]
-					}
-				}
-			}
-		},
+		
 		"ZombossIceAgeAudio": {
 			"is_composite": false,
 			"subgroup": {

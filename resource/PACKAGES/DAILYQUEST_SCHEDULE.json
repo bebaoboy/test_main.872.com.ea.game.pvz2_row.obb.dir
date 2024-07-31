@@ -41,7 +41,7 @@
 							},
 							{
 								"CompletionRequirement": 1,
-								"Disabled": false,
+								"Disabled": true,
 								"QuestID": "WATCH_1_AD_DQ"
 							},
 							{
@@ -67,7 +67,6 @@
 						],
 						"EndDate": 0,
 						"PlayerSegment": [
-							"Daily2_Rift_Players"
 						],
 						"StartDate": 0,
 						"UniqueName": "Rift_PR"
@@ -127,7 +126,6 @@
 						],
 						"EndDate": 0,
 						"PlayerSegment": [
-							"Daily2_Arena_Players"
 						],
 						"StartDate": 0,
 						"UniqueName": "Joust_PR"
@@ -182,7 +180,6 @@
 						],
 						"EndDate": 0,
 						"PlayerSegment": [
-							"Daily2_Zen_Garden_Players"
 						],
 						"StartDate": 0,
 						"UniqueName": "ZG_PR"

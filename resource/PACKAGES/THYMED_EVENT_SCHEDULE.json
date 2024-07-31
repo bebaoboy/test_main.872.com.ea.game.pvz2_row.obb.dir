@@ -87,7 +87,218 @@
 							}
 						},
 						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_ZCORP]",
-						"ComingSoonEnableTime": 1704412800,
+						"ComingSoonEnableTime": 1722391872,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_ZCORP]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_ZCORP_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_ZCORP_DOWN",
+						"Description": "[LTE_EVENTS_DESC_ZCORP]",
+						"Disabled": false,
+						"EndDate": 1999991872,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_ZCORP_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "VanilaX",
+						"FeaturedPlantsList": [
+							"poisonpeashooter",
+							"sporeshroom"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_ZCORPTAKEOVER]"
+						],
+						"StartDate": 1899391872,
+						"TrackDefinitionID": 1,
+						"UniqueID": 99,
+						"EnergyCostPerNode": [
+							1
+						],
+						"EnergyCap": 800,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0036_00_lunarzooyear",
+									"lte_0037_00_lunarzooyear",
+									"lte_0038_00_lunarzooyear",
+									"lte_0039_00_lunarzooyear",
+									"lte_0040_00_lunarzooyear",
+									"lte_0041_00_lunarzooyear",
+									"lte_0042_00_lunarzooyear",
+									"lte_0043_00_lunarzooyear",
+									"lte_0044_00_lunarzooyear",
+									"lte_0045_00_lunarzooyear",
+									"lte_0046_00_lunarzooyear",
+									"lte_0047_00_lunarzooyear",
+									"lte_0048_00_lunarzooyear",
+									"lte_0049_00_lunarzooyear",
+									"lte_0050_00_lunarzooyear"
+								],
+								"NumActions": 15,
+								"Param": "event/feature/lunarzooyear",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "coins",
+													"SubType": "",
+													"Amount": 2500
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "lunarzooyear_2024_pinata",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 7
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "waterrabbit",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "dragonbruit",
+													"Amount": 50
+												}
+											]
+										},
+										"NodeNum": 15
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_LUNARNEWYEAR]",
+						"ComingSoonEnableTime": 0,
+						"ComingSoonTagline": "[COMING_SOON_TAGLINE_LUNARNEWYEAR]",
+						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_LUNARNEWYEAR_UP",
+						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_LUNARNEWYEAR_DOWN",
+						"Description": "[LTE_EVENTS_DESC_LUNARNEWYEAR]",
+						"Disabled": false,
+						"EndDate": 1708387200,
+						"EnergyStackImage": "EventEnergySetPink",
+						"EventBackground": "IMAGE_UI_THYMED_EVENTS_LUNARNEWYEAR_EVENT_BG",
+						"EventCurrencyType": "energy_pink",
+						"EventName": "[EVENT_CALENDAR_LUNARNEWYEAR]",
+						"FeaturedPlantsList": [
+							"waterrabbit",
+							"tigergrass",
+							"dragonbruit"
+						],
+						"InfoText": "[LTE_EVENTS_INFO_GENERIC]",
+						"Priority": 1,
+						"QuickStoreName": "EventEnergyQuickStorePink",
+						"SpecialLevelIntroDescs": [
+							"[LTE_EVENTS_LVL_OBJ_1_LNY]"
+						],
+						"StartDate": 1707350400,
+						"TrackDefinitionID": 1,
+						"UniqueID": 14,
+						"EnergyCostPerNode": [
+							20
+						],
+						"EnergyCap": 80,
+						"EnergyRefillPeriodSeconds": 360
+					},
+					{
+						"Action": {
+							"LevelThymedEventActionData": {
+								"Levels": [
+									"lte_0302_00_zcorp",
+									"lte_0303_00_zcorp",
+									"lte_0304_00_zcorp",
+									"lte_0305_00_zcorp",
+									"lte_0306_00_zcorp",
+									"lte_0307_00_zcorp",
+									"lte_0308_00_zcorp",
+									"lte_0309_00_zcorp",
+									"lte_0310_00_zcorp",
+									"lte_0311_00_zcorp",
+									"lte_0312_00_zcorp",
+									"lte_0313_00_zcorp",
+									"lte_0314_00_zcorp",
+									"lte_0315_00_zcorp",
+									"lte_0316_00_zcorp"
+								],
+								"NumActions": 15,
+								"Param": "event/feature/zcorp",
+								"Prizes": [
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "coins",
+													"SubType": "",
+													"Amount": 2500
+												}
+											]
+										},
+										"NodeNum": 3
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "pinata",
+													"SubType": "zcorp24_pinata",
+													"Amount": 2
+												}
+											]
+										},
+										"NodeNum": 7
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "rhubarbarian",
+													"Amount": 25
+												}
+											]
+										},
+										"NodeNum": 10
+									},
+									{
+										"CompletionAwards": {
+											"Awards": [
+												{
+													"Type": "plantXP",
+													"SubType": "buduhboom",
+													"Amount": 50
+												}
+											]
+										},
+										"NodeNum": 15
+									}
+								]
+							}
+						},
+						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_ZCORP]",
+						"ComingSoonEnableTime": 0,
 						"ComingSoonTagline": "[COMING_SOON_TAGLINE_ZCORP]",
 						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_ZCORP_UP",
 						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_ZCORP_DOWN",
@@ -192,7 +403,7 @@
 							}
 						},
 						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_LUNARNEWYEAR]",
-						"ComingSoonEnableTime": 1707091200,
+						"ComingSoonEnableTime": 0,
 						"ComingSoonTagline": "[COMING_SOON_TAGLINE_LUNARNEWYEAR]",
 						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_LUNARNEWYEAR_UP",
 						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_LUNARNEWYEAR_DOWN",
@@ -298,7 +509,7 @@
 							}
 						},
 						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_LUCKOTHEZOMBIE]",
-						"ComingSoonEnableTime": 1709596800,
+						"ComingSoonEnableTime": 0,
 						"ComingSoonTagline": "[COMING_SOON_TAGLINE_LUCKOTHEZOMBIE]",
 						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_LUCKOTHEZOMBIE_UP",
 						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_LUCKOTHEZOMBIE_DOWN",
@@ -405,7 +616,7 @@
 							}
 						},
 						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_SPRINGENING]",
-						"ComingSoonEnableTime": 1711065600,
+						"ComingSoonEnableTime": 0,
 						"ComingSoonTagline": "[COMING_SOON_TAGLINE_SPRINGENING]",
 						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_SPRINGENING_UP",
 						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_SPRINGENING_DOWN",
@@ -512,7 +723,7 @@
 							}
 						},
 						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_BEACH]",
-						"ComingSoonEnableTime": 1712880000,
+						"ComingSoonEnableTime": 0,
 						"ComingSoonTagline": "[COMING_SOON_TAGLINE_BEACH]",
 						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_BEACH_UP",
 						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_BEACH_DOWN",
@@ -617,7 +828,7 @@
 							}
 						},
 						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_BIRTHDAYZ]",
-						"ComingSoonEnableTime": 1714694400,
+						"ComingSoonEnableTime": 0,
 						"ComingSoonTagline": "[COMING_SOON_TAGLINE_BIRTHDAYZ]",
 						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_BIRTHDAYZ_UP",
 						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_BIRTHDAYZ_DOWN",
@@ -735,7 +946,7 @@
 							}
 						},
 						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_ROMANWORLD]",
-						"ComingSoonEnableTime": 1716508800,
+						"ComingSoonEnableTime": 0,
 						"ComingSoonTagline": "[COMING_SOON_TAGLINE_ROMANWORLD]",
 						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_ROMAN_UP",
 						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_ROMAN_DOWN",
@@ -840,7 +1051,7 @@
 							}
 						},
 						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_SUMMERNIGHTS]",
-						"ComingSoonEnableTime": 1718928000,
+						"ComingSoonEnableTime": 0,
 						"ComingSoonTagline": "[COMING_SOON_TAGLINE_SUMMERNIGHTS]",
 						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_SUMMERNIGHTS_UP",
 						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_SUMMERNIGHTS_DOWN",
@@ -944,7 +1155,7 @@
 							}
 						},
 						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_LAWNBOWL]",
-						"ComingSoonEnableTime": 1721347200,
+						"ComingSoonEnableTime": 0,
 						"ComingSoonTagline": "[COMING_SOON_TAGLINE_LAWNBOWL]",
 						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_SPORTZBALL_UP",
 						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_SPORTZBALL_DOWN",
@@ -1049,7 +1260,7 @@
 							}
 						},
 						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_CARNIVAL]",
-						"ComingSoonEnableTime": 1723766400,
+						"ComingSoonEnableTime": 0,
 						"ComingSoonTagline": "[COMING_SOON_TAGLINE_CARNIVAL]",
 						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_CARNIVAL_UP",
 						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_CARNIVAL_DOWN",
@@ -1154,7 +1365,7 @@
 							}
 						},
 						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_HARVEST]",
-						"ComingSoonEnableTime": 1725580800,
+						"ComingSoonEnableTime": 0,
 						"ComingSoonTagline": "[COMING_SOON_TAGLINE_HARVEST]",
 						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_HARVESTFESTIVAL_UP",
 						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_HARVESTFESTIVAL_DOWN",
@@ -1259,7 +1470,7 @@
 							}
 						},
 						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_TOMBASTIC]",
-						"ComingSoonEnableTime": 1727481600,
+						"ComingSoonEnableTime": 0,
 						"ComingSoonTagline": "[COMING_SOON_TAGLINE_TOMBASTIC]",
 						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_TOMBTANGLER_UP",
 						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_TOMBTANGLER_DOWN",
@@ -1381,7 +1592,7 @@
 							}
 						},
 						"ComingSoonDescription": "[COMING_SOON_DESCRIPTION_LAWNOFDOOM]",
-						"ComingSoonEnableTime": 1729296000,
+						"ComingSoonEnableTime": 0,
 						"ComingSoonTagline": "[COMING_SOON_TAGLINE_LAWNOFDOOM]",
 						"DashboardIconImage": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_LAWNOFDOOM_UP",
 						"DashboardIconImageDown": "IMAGE_UI_HUD_EVENTBUTTON_EVENT_ICON_LAWNOFDOOM_DOWN",
