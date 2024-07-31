@@ -1,0 +1,994 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"AssociatedPlant": "dragonbruit",
+				"FirstIntroNarrative": "PLTE_DRAGONBRUIT_1",
+				"LevelNumber": 1,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(WestMowers@LevelModules)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(Gravestones@CurrentLevel)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)"
+				],
+				"Name": "[LTE_POTW_LEVEL_NAME]",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"StageModule": "RTID(WestStage@LevelModules)",
+				"StartingSun": 300
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(DoNotPlantBeforeLine@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"DoNotPlantBeforeLine"
+			],
+			"objclass": "MoldColonyChallengeProps",
+			"objdata": {
+				"Locations": "RTID(Row0_and_Row4@BoardGridMaps)"
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"GridX": 1,
+						"GridY": 2,
+						"TypeName": "dragonbruit"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"MasteryLevel": -1,
+						"PlantType": "dragonbruit"
+					},
+					{
+						"Level": -1,
+						"MasteryLevel": -1,
+						"PlantType": "twinsunflower"
+					},
+					{
+						"Level": -1,
+						"MasteryLevel": -1,
+						"PlantType": "cherry_bomb"
+					},
+					{
+						"Level": -1,
+						"MasteryLevel": -1,
+						"PlantType": "icebloom"
+					}
+				],
+				"SelectionMethod": "preset"
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 2,
+				"MaxPoints": 9000,
+				"PlantfoodToSpawnCount": 0,
+				"PointIncrementPerWave": 75,
+				"StartingPoints": 0,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 5,
+				"ZombiePool": [
+					"RTID(poncho_no_plate@ZombieTypes)",
+					"RTID(cowboy_armor1@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.85,
+				"MinNextWaveHealthPercentage": 0.7,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)",
+						"RTID(Wave2GravestoneEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3GravestoneEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)",
+						"RTID(Wave5GravestoneEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)",
+						"RTID(Wave6GravestoneEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)",
+						"RTID(Wave8GravestoneEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)",
+						"RTID(Wave9GravestoneEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					]
+				],
+				"WavesAlwaysRandomized": true,
+				"ZombieCountdownFirstWaveSecs": 8,
+				"ZombieCountdownHugeWaveDelay": 5
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(cowboy@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(piano@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(cowboy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(cowboy@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(piano@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(piano@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(cowboy_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(cowboy_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(piano@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy_armor4@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(cowboy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(piano@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(piano@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave2GravestoneEvent0"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 3,
+						"Type": "RTID(gravestone_dark@GridItemTypes)"
+					},
+					{
+						"Count": 0,
+						"Type": "RTID(gravestoneSunOnDestruction@GridItemTypes)"
+					},
+					{
+						"Count": 0,
+						"Type": "RTID(gravestonePlantfoodOnDestruction@GridItemTypes)"
+					}
+				],
+				"GridClassesToDestroy": [],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnPositionsPool": [
+					{
+						"mX": 5,
+						"mY": 0
+					},
+					{
+						"mX": 5,
+						"mY": 1
+					},
+					{
+						"mX": 5,
+						"mY": 2
+					},
+					{
+						"mX": 5,
+						"mY": 3
+					},
+					{
+						"mX": 5,
+						"mY": 4
+					},
+					{
+						"mX": 6,
+						"mY": 0
+					},
+					{
+						"mX": 6,
+						"mY": 1
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					},
+					{
+						"mX": 6,
+						"mY": 3
+					},
+					{
+						"mX": 6,
+						"mY": 4
+					},
+					{
+						"mX": 7,
+						"mY": 0
+					},
+					{
+						"mX": 7,
+						"mY": 1
+					},
+					{
+						"mX": 7,
+						"mY": 2
+					},
+					{
+						"mX": 7,
+						"mY": 3
+					},
+					{
+						"mX": 7,
+						"mY": 4
+					}
+				],
+				"SpawnPositionsRect": {},
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Wave3GravestoneEvent0"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 1,
+						"Type": "RTID(gravestone_dark@GridItemTypes)"
+					},
+					{
+						"Count": 0,
+						"Type": "RTID(gravestoneSunOnDestruction@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(gravestonePlantfoodOnDestruction@GridItemTypes)"
+					}
+				],
+				"GridClassesToDestroy": [],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnPositionsPool": [
+					{
+						"mX": 4,
+						"mY": 0
+					},
+					{
+						"mX": 4,
+						"mY": 1
+					},
+					{
+						"mX": 4,
+						"mY": 2
+					},
+					{
+						"mX": 4,
+						"mY": 3
+					},
+					{
+						"mX": 4,
+						"mY": 4
+					},
+					{
+						"mX": 5,
+						"mY": 0
+					},
+					{
+						"mX": 5,
+						"mY": 1
+					},
+					{
+						"mX": 5,
+						"mY": 2
+					},
+					{
+						"mX": 5,
+						"mY": 3
+					},
+					{
+						"mX": 5,
+						"mY": 4
+					},
+					{
+						"mX": 6,
+						"mY": 0
+					},
+					{
+						"mX": 6,
+						"mY": 1
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					},
+					{
+						"mX": 6,
+						"mY": 3
+					},
+					{
+						"mX": 6,
+						"mY": 4
+					}
+				],
+				"SpawnPositionsRect": {},
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Wave5GravestoneEvent0"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 0,
+						"Type": "RTID(gravestone_dark@GridItemTypes)"
+					},
+					{
+						"Count": 2,
+						"Type": "RTID(gravestoneSunOnDestruction@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(gravestonePlantfoodOnDestruction@GridItemTypes)"
+					}
+				],
+				"GridClassesToDestroy": [],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnPositionsPool": [
+					{
+						"mX": 4,
+						"mY": 0
+					},
+					{
+						"mX": 4,
+						"mY": 1
+					},
+					{
+						"mX": 4,
+						"mY": 2
+					},
+					{
+						"mX": 4,
+						"mY": 3
+					},
+					{
+						"mX": 4,
+						"mY": 4
+					},
+					{
+						"mX": 5,
+						"mY": 0
+					},
+					{
+						"mX": 5,
+						"mY": 1
+					},
+					{
+						"mX": 5,
+						"mY": 2
+					},
+					{
+						"mX": 5,
+						"mY": 3
+					},
+					{
+						"mX": 5,
+						"mY": 4
+					},
+					{
+						"mX": 6,
+						"mY": 0
+					},
+					{
+						"mX": 6,
+						"mY": 1
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					},
+					{
+						"mX": 6,
+						"mY": 3
+					},
+					{
+						"mX": 6,
+						"mY": 4
+					}
+				],
+				"SpawnPositionsRect": {},
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 4,
+						"GridY": 1,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 4,
+						"GridY": 3,
+						"TypeName": "gravestoneSunOnDestruction"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9GravestoneEvent0"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 2,
+						"Type": "RTID(gravestone_dark@GridItemTypes)"
+					},
+					{
+						"Count": 2,
+						"Type": "RTID(gravestoneSunOnDestruction@GridItemTypes)"
+					},
+					{
+						"Count": 0,
+						"Type": "RTID(gravestonePlantfoodOnDestruction@GridItemTypes)"
+					}
+				],
+				"GridClassesToDestroy": [],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnPositionsPool": [
+					{
+						"mX": 4,
+						"mY": 0
+					},
+					{
+						"mX": 4,
+						"mY": 1
+					},
+					{
+						"mX": 4,
+						"mY": 2
+					},
+					{
+						"mX": 4,
+						"mY": 3
+					},
+					{
+						"mX": 4,
+						"mY": 4
+					},
+					{
+						"mX": 5,
+						"mY": 0
+					},
+					{
+						"mX": 5,
+						"mY": 1
+					},
+					{
+						"mX": 5,
+						"mY": 2
+					},
+					{
+						"mX": 5,
+						"mY": 3
+					},
+					{
+						"mX": 5,
+						"mY": 4
+					},
+					{
+						"mX": 6,
+						"mY": 0
+					},
+					{
+						"mX": 6,
+						"mY": 1
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					},
+					{
+						"mX": 6,
+						"mY": 3
+					},
+					{
+						"mX": 6,
+						"mY": 4
+					}
+				],
+				"SpawnPositionsRect": {},
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Wave8GravestoneEvent0"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 1,
+						"Type": "RTID(gravestone_dark@GridItemTypes)"
+					},
+					{
+						"Count": 2,
+						"Type": "RTID(gravestoneSunOnDestruction@GridItemTypes)"
+					},
+					{
+						"Count": 1,
+						"Type": "RTID(gravestonePlantfoodOnDestruction@GridItemTypes)"
+					}
+				],
+				"GridClassesToDestroy": [],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnPositionsPool": [
+					{
+						"mX": 4,
+						"mY": 1
+					},
+					{
+						"mX": 4,
+						"mY": 2
+					},
+					{
+						"mX": 4,
+						"mY": 3
+					},
+					{
+						"mX": 4,
+						"mY": 4
+					},
+					{
+						"mX": 5,
+						"mY": 1
+					},
+					{
+						"mX": 5,
+						"mY": 2
+					},
+					{
+						"mX": 5,
+						"mY": 3
+					},
+					{
+						"mX": 5,
+						"mY": 4
+					},
+					{
+						"mX": 6,
+						"mY": 1
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					},
+					{
+						"mX": 6,
+						"mY": 3
+					},
+					{
+						"mX": 6,
+						"mY": 4
+					}
+				],
+				"SpawnPositionsRect": {},
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		},
+		{
+			"aliases": [
+				"Wave6GravestoneEvent0"
+			],
+			"objclass": "SpawnGravestonesWaveActionProps",
+			"objdata": {
+				"GravestonePool": [
+					{
+						"Count": 6,
+						"Type": "RTID(gravestone_dark@GridItemTypes)"
+					},
+					{
+						"Count": 0,
+						"Type": "RTID(gravestoneSunOnDestruction@GridItemTypes)"
+					},
+					{
+						"Count": 0,
+						"Type": "RTID(gravestonePlantfoodOnDestruction@GridItemTypes)"
+					}
+				],
+				"SpawnEffectAnimID": "POPANIM_EFFECTS_TOMBSTONE_DARK_SPAWN_EFFECT",
+				"SpawnPositionsPool": [
+					{
+						"mX": 4,
+						"mY": 0
+					},
+					{
+						"mX": 4,
+						"mY": 1
+					},
+					{
+						"mX": 4,
+						"mY": 2
+					},
+					{
+						"mX": 4,
+						"mY": 3
+					},
+					{
+						"mX": 4,
+						"mY": 4
+					},
+					{
+						"mX": 5,
+						"mY": 0
+					},
+					{
+						"mX": 5,
+						"mY": 1
+					},
+					{
+						"mX": 5,
+						"mY": 2
+					},
+					{
+						"mX": 5,
+						"mY": 3
+					},
+					{
+						"mX": 5,
+						"mY": 4
+					},
+					{
+						"mX": 6,
+						"mY": 0
+					},
+					{
+						"mX": 6,
+						"mY": 1
+					},
+					{
+						"mX": 6,
+						"mY": 2
+					},
+					{
+						"mX": 6,
+						"mY": 3
+					},
+					{
+						"mX": 6,
+						"mY": 4
+					},
+					{
+						"mX": 7,
+						"mY": 0
+					},
+					{
+						"mX": 7,
+						"mY": 1
+					},
+					{
+						"mX": 7,
+						"mY": 2
+					},
+					{
+						"mX": 7,
+						"mY": 3
+					},
+					{
+						"mX": 7,
+						"mY": 4
+					},
+					{
+						"mX": 8,
+						"mY": 0
+					},
+					{
+						"mX": 8,
+						"mY": 1
+					},
+					{
+						"mX": 8,
+						"mY": 2
+					},
+					{
+						"mX": 8,
+						"mY": 3
+					},
+					{
+						"mX": 8,
+						"mY": 4
+					}
+				],
+				"SpawnSoundID": "Play_Zomb_Egypt_TombRaiser_Grave_Rise"
+			}
+		}
+	],
+	"version": 1
+}

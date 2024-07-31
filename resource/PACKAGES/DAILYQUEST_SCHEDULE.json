@@ -15,6 +15,11 @@
 								"QuestID": "PLANT_SEED_IN_ZEN_GARDEN_DQ"
 							},
 							{
+								"CompletionRequirement": 999,
+								"Disabled": false,
+								"QuestID": "PLANT_SEED_IN_ZEN_GARDEN_DQ"
+							},
+							{
 								"CompletionRequirement": 1,
 								"Disabled": false,
 								"QuestID": "PLAY_SINGLE_RIFT_LEVEL_DQ"

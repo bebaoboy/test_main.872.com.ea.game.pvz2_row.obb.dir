@@ -1,0 +1,326 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Name": "[LTE_POTW_LEVEL_NAME]",
+				"LevelNumber": 2,
+				"StageModule": "RTID(FutureStage@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(FutureMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(FutureLinkedTileGroups@CurrentLevel)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)"
+				],
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"FirstIntroNarrative": "PLTE_COCONUTCANNON_2",
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"AssociatedPlant": "coconutcannon",
+				"StartingSun": 1000
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "coconutcannon"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"GridX": 2,
+						"GridY": 0,
+						"Level": "-1",
+						"TypeName": "coconutcannon"
+					},
+					{
+						"GridX": 2,
+						"GridY": 4,
+						"Level": "-1",
+						"TypeName": "coconutcannon"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"FutureLinkedTileGroups"
+			],
+			"objclass": "PowerTileProperties",
+			"objdata": {
+				"LinkedTiles": [
+					{
+						"Group": "alpha",
+						"Location": {
+							"mX": 2,
+							"mY": 0
+						},
+						"PropagationDelay": 0.25
+					},
+					{
+						"Group": "alpha",
+						"Location": {
+							"mX": 3,
+							"mY": 1
+						},
+						"PropagationDelay": 0.25
+					},
+					{
+						"Group": "alpha",
+						"Location": {
+							"mX": 1,
+							"mY": 2
+						},
+						"PropagationDelay": 0.25
+					},
+					{
+						"Group": "alpha",
+						"Location": {
+							"mX": 3,
+							"mY": 3
+						},
+						"PropagationDelay": 0.25
+					},
+					{
+						"Group": "alpha",
+						"Location": {
+							"mX": 2,
+							"mY": 4
+						},
+						"PropagationDelay": 0.25
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 1,
+				"PlantfoodToSpawnCount": 2,
+				"PointIncrementPerWave": 100,
+				"StartingPoints": 150,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 9,
+				"ZombiePool": [
+					"RTID(future@ZombieTypes)",
+					"RTID(future_armor1@ZombieTypes)",
+					"RTID(future_jetpack@ZombieTypes)",
+					"RTID(future_flag@ZombieTypes)",
+					"RTID(future_gargantuar@ZombieTypes)",
+					"RTID(iceage_troglobite_1block@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.9,
+				"MinNextWaveHealthPercentage": 0.8,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 2,
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor4@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

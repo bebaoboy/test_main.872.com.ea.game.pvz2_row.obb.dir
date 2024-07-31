@@ -1,0 +1,81 @@
+{
+	"#comment": "PaddedRoom - A level with no zombies, no plants, no nothing.",
+	"version": 1,
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Name": "Padded Room",
+				"Description": "There is nothing here but tears.",
+				"StageModule": "RTID(EgyptStage@LevelModules)",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(TestingSpawner@CurrentLevel)",
+					"RTID(TestingSeedBank@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(PaddedRoomProps@CurrentLevel)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"PaddedRoomProps"
+			],
+			"objclass": "PaddedRoomProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"TestingSeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"SelectionMethod": "preset",
+				"PresetPlantList": [
+					{
+						"PlantType": "lightningreed",
+						"Level": -1
+					},
+					{
+						"PlantType": "peashooter",
+						"Level": -1
+					},
+					{
+						"PlantType": "wallnut",
+						"Level": -1
+					},
+					{
+						"PlantType": "potatomine",
+						"Level": -1
+					},
+					{
+						"PlantType": "cherry_bomb",
+						"Level": -1
+					},
+					{
+						"PlantType": "empea",
+						"Level": -1
+					}
+				]
+			}
+		},
+		{
+			"objclass": "SimpleZombieSpawnerProperties",
+			"aliases": [
+				"TestingSpawner"
+			],
+			"objdata": {
+				"Stages": [
+					{
+						"Types": [
+							{
+								"ZombieType": "pirate_captain"
+							}
+						],
+						"SpawnDelay": 30.0
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,374 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "none",
+				"FirstOutroNarrative": "LUNARZOOYEAR_LTE_2024_6",
+				"LevelNumber": 15,
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)"
+				],
+				"Name": "[LTE_LEVEL_NAME_LUNARZOOYEAR]",
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"StageModule": "RTID(LunarStage@LevelModules)",
+				"StartingSun": 500,
+				"SuppressPlantfoodPurchase": true
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover",
+					"thymewarp"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "moonflower"
+					},
+					{
+						"Level": -1,
+						"PlantType": "dragonbruit"
+					},
+					{
+						"Level": -1,
+						"PlantType": "murkadamia"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"GridX": 3,
+						"GridY": 2,
+						"Level": -1,
+						"TypeName": "dragonbruit"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(DoNotPlantBeforeLine@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"DoNotPlantBeforeLine"
+			],
+			"objclass": "MoldColonyChallengeProps",
+			"objdata": {
+				"Locations": "RTID(Mold12@BoardGridMaps)"
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 2,
+				"PlantfoodToSpawnCount": 0,
+				"PointIncrementPerWave": 150,
+				"StartingPoints": 100,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 5,
+				"ZombiePool": [
+					"RTID(lunar@ZombieTypes)",
+					"RTID(lunar_flag@ZombieTypes)",
+					"RTID(lostcity_jane@ZombieTypes)",
+					"RTID(lunar_armor2@ZombieTypes)",
+					"RTID(lunar_camel_manyhump@ZombieTypes)",
+					"RTID(lunar_superfanimp@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 5,
+				"MaxNextWaveHealthPercentage": 0.6,
+				"MinNextWaveHealthPercentage": 0.5,
+				"WaveCount": 10,
+				"WaveSpendingPointIncrement": 150,
+				"WaveSpendingPoints": 100,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(lunar_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(lunar_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(lunar_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lunar@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lunar@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"ZombieSpawnPattern": "ZombieSpawnerPatternStaggered",
+				"Zombies": [
+					{
+						"Type": "RTID(lunar_camel_manyhump@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lunar@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lunar@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"ZombieSpawnPattern": "ZombieSpawnerPatternStaggered",
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(dark_wizard@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(dark_armor3@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(lunar_superfanimp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(lunar_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lunar@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(lunar@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(lunar_camel_manyhump@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(dark_armor3@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(dark_juggler@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"ZombieSpawnPattern": "ZombieSpawnerPatternStaggered",
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(dark_armor3@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(dark_wizard@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(dark_juggler@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(dark_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(dark_armor3@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

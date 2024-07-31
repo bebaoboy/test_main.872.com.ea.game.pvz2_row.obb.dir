@@ -1,0 +1,583 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"LevelNumber": 4,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ConveyorBelt@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)"
+				],
+				"Name": "[LTE_POTW_LEVEL_NAME]",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"StageModule": "RTID(FrontLawnStage@LevelModules)",
+				"AssociatedPlant": "boingsetta"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.9,
+				"MinNextWaveHealthPercentage": 0.8,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)",
+						"RTID(Wave2ModConveyor0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3DinoTimeEvent0@CurrentLevel)",
+						"RTID(Wave3DinoTimeEvent1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)",
+						"RTID(Wave4ModConveyor0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)",
+						"RTID(Wave5ModConveyor0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)",
+						"RTID(Wave6DinoTimeEvent0@CurrentLevel)",
+						"RTID(Wave6DinoTimeEvent1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)",
+						"RTID(Wave9DinoTimeEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					],
+					[
+						"RTID(Wave11@CurrentLevel)",
+						"RTID(Wave11DinoTimeEvent0@CurrentLevel)",
+						"RTID(Wave11DinoTimeEvent1@CurrentLevel)",
+						"RTID(Wave11DinoTimeEvent2@CurrentLevel)",
+						"RTID(Wave11DinoTimeEvent3@CurrentLevel)",
+						"RTID(Wave11DinoTimeEvent4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave12@CurrentLevel)"
+					]
+				],
+				"ZombieCountdownFirstWaveConveyorSecs": 5,
+				"ZombieCountdownFirstWaveSecs": 12,
+				"ZombieCountdownHugeWaveDelay": 5
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_troglobite_1block@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_fem@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_troglobite_2block@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_fem@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(iceage_troglobite_2block@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_troglobite_2block@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_troglobite_2block@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_fem@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(iceage_troglobite_1block@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(iceage_troglobite_1block@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 3,
+				"MaxPoints": 9000,
+				"PlantfoodToSpawnCount": 7,
+				"PointIncrementPerWave": 200,
+				"StartingPoints": 100,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 4,
+				"ZombiePool": [
+					"RTID(beach_surfer@ZombieTypes)",
+					"RTID(iceage_dodo@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"ConveyorBelt"
+			],
+			"objclass": "ConveyorSeedBankProperties",
+			"objdata": {
+				"DropDelayConditions": [
+					{
+						"Delay": 3
+					},
+					{
+						"Delay": 6,
+						"MaxPackets": 2
+					},
+					{
+						"Delay": 9,
+						"MaxPackets": 4
+					},
+					{
+						"Delay": 12,
+						"MaxPackets": 8
+					}
+				],
+				"InitialPlantList": [
+					{
+						"Level": -1,
+						"MaxDelivered": -1,
+						"MaxWeightFactor": 0.1,
+						"MinWeightFactor": 10,
+						"PlantType": "puffshroom",
+						"Weight": 25
+					}
+				],
+				"SpeedConditions": [
+					{
+						"Speed": 100
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5ModConveyor0"
+			],
+			"objclass": "ModifyConveyorWaveActionProps",
+			"objdata": {
+				"Add": [
+					{
+						"MaxCount": 1,
+						"MaxCountCooldownSeconds": 40,
+						"Type": "RTID(wintermint@PlantTypes)",
+						"Weight": 25
+					}
+				],
+				"Remove": []
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(iceage_troglobite_1block@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave11"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_troglobite_2block@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(iceage_troglobite_2block@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave12"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(iceage_gargantuar@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4ModConveyor0"
+			],
+			"objclass": "ModifyConveyorWaveActionProps",
+			"objdata": {
+				"Add": [
+					{
+						"MaxCount": 5,
+						"Type": "RTID(snowpea@PlantTypes)",
+						"Weight": 25
+					}
+				],
+				"Remove": []
+			}
+		},
+		{
+			"aliases": [
+				"Wave3DinoTimeEvent0"
+			],
+			"objclass": "DinoWaveActionProps",
+			"objdata": {
+				"DinoType": 1
+			}
+		},
+		{
+			"aliases": [
+				"Wave3DinoTimeEvent1"
+			],
+			"objclass": "DinoWaveActionProps",
+			"objdata": {
+				"DinoRow": 4,
+				"DinoType": 1
+			}
+		},
+		{
+			"aliases": [
+				"Wave6DinoTimeEvent0"
+			],
+			"objclass": "DinoWaveActionProps",
+			"objdata": {
+				"DinoRow": 1,
+				"DinoType": 1
+			}
+		},
+		{
+			"aliases": [
+				"Wave6DinoTimeEvent1"
+			],
+			"objclass": "DinoWaveActionProps",
+			"objdata": {
+				"DinoRow": 3,
+				"DinoType": 1
+			}
+		},
+		{
+			"aliases": [
+				"Wave9DinoTimeEvent0"
+			],
+			"objclass": "DinoWaveActionProps",
+			"objdata": {
+				"DinoRow": 3,
+				"DinoType": 1
+			}
+		},
+		{
+			"aliases": [
+				"Wave11DinoTimeEvent0"
+			],
+			"objclass": "DinoWaveActionProps",
+			"objdata": {
+				"DinoType": 1
+			}
+		},
+		{
+			"aliases": [
+				"Wave11DinoTimeEvent1"
+			],
+			"objclass": "DinoWaveActionProps",
+			"objdata": {
+				"DinoRow": 1,
+				"DinoType": 1
+			}
+		},
+		{
+			"aliases": [
+				"Wave11DinoTimeEvent2"
+			],
+			"objclass": "DinoWaveActionProps",
+			"objdata": {
+				"DinoRow": 2,
+				"DinoType": 1
+			}
+		},
+		{
+			"aliases": [
+				"Wave11DinoTimeEvent3"
+			],
+			"objclass": "DinoWaveActionProps",
+			"objdata": {
+				"DinoRow": 3,
+				"DinoType": 1
+			}
+		},
+		{
+			"aliases": [
+				"Wave11DinoTimeEvent4"
+			],
+			"objclass": "DinoWaveActionProps",
+			"objdata": {
+				"DinoRow": 4,
+				"DinoType": 1
+			}
+		},
+		{
+			"aliases": [
+				"Wave2ModConveyor0"
+			],
+			"objclass": "ModifyConveyorWaveActionProps",
+			"objdata": {
+				"Add": [
+					{
+						"MaxCount": 1,
+						"MaxCountCooldownSeconds": 20,
+						"MaxDelivered": 5,
+						"MinCount": 1,
+						"MinWeightFactor": 6,
+						"Type": "RTID(boingsetta@PlantTypes)",
+						"Weight": 25
+					}
+				],
+				"Remove": []
+			}
+		}
+	],
+	"version": 1
+}

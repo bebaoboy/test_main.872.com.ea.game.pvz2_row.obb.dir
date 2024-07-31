@@ -1,0 +1,379 @@
+{
+	"#comment": "Dark 20",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "[PLAYERS_TRIP_TO_EGYPT]",
+				"LevelNumber": 1,
+				"Loot": "RTID(NoLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(DarkMowers@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(BoostTiles@CurrentLevel)"
+				],
+				"StartingSun": 25,
+				"Name": "[EGYPT_LEVEL_NAME]",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"StageModule": "RTID(DarkStage@LevelModules)"
+			}
+		},
+		{
+			"aliases": [
+				"BoostTiles"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "boosttile"
+					},
+					{
+						"GridX": 1,
+						"GridY": 1,
+						"TypeName": "boosttile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 2,
+						"TypeName": "boosttile"
+					},
+					{
+						"GridX": 1,
+						"GridY": 3,
+						"TypeName": "boosttile"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4,
+						"TypeName": "boosttile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 5,
+				"SpawnColEnd": 9,
+				"SpawnColStart": 3,
+				"WaveCount": 10,
+				"WaveSpendingPointIncrement": 50,
+				"WaveSpendingPoints": 100,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(dark_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(dark_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(dark_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave11"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave12"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave13"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave14"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave15"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave16"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave17"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave18"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave19"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave20"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

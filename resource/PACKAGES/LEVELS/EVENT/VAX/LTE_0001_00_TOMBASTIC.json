@@ -1,0 +1,376 @@
+{
+	"#comment": "Tomb Tangler Event Level",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"FirstIntroNarrative": "TOMBASTIC_LTE_A_1",
+				"LevelNumber": 1,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(EgyptMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)",
+					"RTID(Gravestones@CurrentLevel)"
+				],
+				"Name": "[LTE_LEVEL_NAME_TOMBTANGLEREVENT]",
+				"StageModule": "RTID(EgyptStage@LevelModules)",
+				"StartingSun": 325
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover",
+					"thymewarp"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "bamboospartan"
+					},
+					{
+						"Level": -1,
+						"PlantType": "iceburg"
+					},
+					{
+						"Level": -1,
+						"PlantType": "chilibean"
+					},
+					{
+						"Level": -1,
+						"PlantType": "electricblueberry"
+					},
+					{
+						"Level": -1,
+						"PlantType": "twinsunflower"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"Condition": "icecubed",
+						"GridX": 5,
+						"GridY": 2,
+						"Level": -1,
+						"TypeName": "bamboospartan"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 2,
+				"PlantfoodToSpawnCount": 3,
+				"PointIncrementPerWave": 10,
+				"StartingPoints": 100,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 4,
+				"ZombiePool": [
+					"RTID(mummy@ZombieTypes)",
+					"RTID(camel_onehump@ZombieTypes)",
+					"RTID(ra@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.7,
+				"MinNextWaveHealthPercentage": 0.5,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(mummy@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(mummy@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(mummy@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(egypt_imp@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(egypt_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(mummy@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(camel_onehump@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(mummy_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 7,
+						"GridY": 0
+					},
+					{
+						"GridX": 8,
+						"GridY": 0,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 2,
+						"GridY": 0
+					},
+					{
+						"GridX": 3,
+						"GridY": 0
+					},
+					{
+						"GridX": 6,
+						"GridY": 0
+					},
+					{
+						"GridX": 0,
+						"GridY": 1
+					},
+					{
+						"GridX": 4,
+						"GridY": 1
+					},
+					{
+						"GridX": 7,
+						"GridY": 2
+					},
+					{
+						"GridX": 8,
+						"GridY": 2,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 3,
+						"GridY": 2
+					},
+					{
+						"GridX": 6,
+						"GridY": 2
+					},
+					{
+						"GridX": 5,
+						"GridY": 3
+					},
+					{
+						"GridX": 7,
+						"GridY": 4
+					},
+					{
+						"GridX": 8,
+						"GridY": 4,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 1,
+						"GridY": 4
+					},
+					{
+						"GridX": 3,
+						"GridY": 4
+					},
+					{
+						"GridX": 6,
+						"GridY": 4
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

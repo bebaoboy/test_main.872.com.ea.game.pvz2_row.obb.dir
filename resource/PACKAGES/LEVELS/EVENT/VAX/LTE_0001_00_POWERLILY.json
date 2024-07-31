@@ -1,0 +1,467 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Name": "[LTE_POTW_LEVEL_NAME]",
+				"LevelNumber": 1,
+				"StageModule": "RTID(FrontLawnStage@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(FutureLinkedTileGroups@CurrentLevel)",
+					"RTID(Gravestones@CurrentLevel)",
+					"RTID(CowboyRails@CurrentLevel)",
+					"RTID(ConveyorBelt@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)"
+				],
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"FirstIntroNarrative": "PLTE_POWERLILY_1",
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"AssociatedPlant": "powerlily"
+			}
+		},
+		{
+			"aliases": [
+				"CowboyRails"
+			],
+			"objclass": "RailcartProperties",
+			"objdata": {
+				"RailcartType": "",
+				"Rails": [],
+				"Railcarts": []
+			}
+		},
+		{
+			"aliases": [
+				"FutureLinkedTileGroups"
+			],
+			"objclass": "PowerTileProperties",
+			"objdata": {
+				"LinkedTiles": [
+					{
+						"Location": {
+							"mX": 2
+						},
+						"Group": "beta"
+					},
+					{
+						"Location": {
+							"mX": 2,
+							"mY": 4
+						},
+						"Group": "beta"
+					},
+					{
+						"Location": {
+							"mX": 3,
+							"mY": 2
+						},
+						"Group": "beta"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					]
+				],
+				"FlagWaveInterval": 3,
+				"WaveCount": 9,
+				"MinNextWaveHealthPercentage": 0.8,
+				"MaxNextWaveHealthPercentage": 0.9,
+				"ZombieCountdownFirstWaveSecs": 12.0,
+				"ZombieCountdownFirstWaveConveyorSecs": 5.0,
+				"ZombieCountdownHugeWaveDelay": 5.0
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(disco_mech@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(disco_mech@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(disco_mech@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(football_mech@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(football_mech@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(football_mech@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(cowboy@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"ZombiePool": [
+					"RTID(future@ZombieTypes)",
+					"RTID(future_armor1@ZombieTypes)",
+					"RTID(future_armor2@ZombieTypes)"
+				],
+				"FlagCount": 3,
+				"WavesPerFlag": 3,
+				"PlantfoodToSpawnCount": 6,
+				"PointIncrementPerWave": 250,
+				"StartingPoints": 200,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"MaxPoints": 9000
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 8,
+						"GridY": 0
+					},
+					{
+						"GridX": 4,
+						"GridY": 0
+					},
+					{
+						"GridX": 5,
+						"GridY": 0
+					},
+					{
+						"GridX": 6,
+						"GridY": 0
+					},
+					{
+						"GridX": 3,
+						"GridY": 1
+					},
+					{
+						"GridX": 4,
+						"GridY": 1
+					},
+					{
+						"GridX": 5,
+						"GridY": 1
+					},
+					{
+						"GridX": 7,
+						"GridY": 1
+					},
+					{
+						"GridX": 8,
+						"GridY": 1
+					},
+					{
+						"GridX": 7,
+						"GridY": 2
+					},
+					{
+						"GridX": 2,
+						"GridY": 2
+					},
+					{
+						"GridX": 3,
+						"GridY": 2
+					},
+					{
+						"GridX": 5,
+						"GridY": 2
+					},
+					{
+						"GridX": 8,
+						"GridY": 3
+					},
+					{
+						"GridX": 2,
+						"GridY": 3
+					},
+					{
+						"GridX": 4,
+						"GridY": 3
+					},
+					{
+						"GridX": 5,
+						"GridY": 3
+					},
+					{
+						"GridX": 6,
+						"GridY": 3
+					},
+					{
+						"GridX": 7,
+						"GridY": 4
+					},
+					{
+						"GridX": 3,
+						"GridY": 4
+					},
+					{
+						"GridX": 6,
+						"GridY": 4
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"ConveyorBelt"
+			],
+			"objclass": "ConveyorSeedBankProperties",
+			"objdata": {
+				"InitialPlantList": [
+					{
+						"PlantType": "citron",
+						"Weight": 100,
+						"MinWeightFactor": 10.0,
+						"MaxCount": 5,
+						"MaxWeightFactor": 0.0,
+						"MaxDelivered": -1,
+						"Level": -1,
+						"MasteryLevel": -1
+					},
+					{
+						"PlantType": "potatomine",
+						"Weight": 25,
+						"MinWeightFactor": 10.0,
+						"MaxWeightFactor": 0.1,
+						"MaxDelivered": -1,
+						"Level": -1,
+						"MasteryLevel": -1
+					},
+					{
+						"PlantType": "powerlily",
+						"Weight": 10,
+						"MinWeightFactor": 10.0,
+						"MaxWeightFactor": 0.1,
+						"MaxDelivered": -1,
+						"Level": -1,
+						"MasteryLevel": -1
+					}
+				],
+				"SpeedConditions": [
+					{
+						"Speed": 100.0
+					}
+				],
+				"DropDelayConditions": [
+					{
+						"Delay": 3.0
+					},
+					{
+						"MaxPackets": 2,
+						"Delay": 6.0
+					},
+					{
+						"MaxPackets": 4,
+						"Delay": 9.0
+					},
+					{
+						"MaxPackets": 8,
+						"Delay": 12.0
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

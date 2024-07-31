@@ -1,0 +1,16 @@
+{
+	"#comment": "EmptyLevel - A level with no zombies, no plants, no nothing.",
+	"version": 1,
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Name": "Empty Level",
+				"Description": "There is nothing here.",
+				"StageModule": "RTID(EgyptStage@LevelModules)",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": []
+			}
+		}
+	]
+}

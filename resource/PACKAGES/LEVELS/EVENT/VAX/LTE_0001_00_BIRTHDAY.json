@@ -1,0 +1,505 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "",
+				"FirstIntroNarrative": "BIRTHDAY_LTE_2024_1",
+				"FirstOutroNarrative": "",
+				"LevelNumber": 1,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(SlowSunDropper@LevelModules)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(Puddles@CurrentLevel)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)"
+				],
+				"Name": "[LTE_LEVEL_NAME_BIRTHDAYZ]",
+				"StageModule": "RTID(BirthdayStage@LevelModules)",
+				"StartingSun": 100
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover",
+					"thymewarp"
+				],
+				"PresetPlantList": [
+					{
+						"MinLevel": 2,
+						"PlantType": "sunshroom"
+					},
+					{
+						"MinLevel": 2,
+						"PlantType": "puffshroom"
+					},
+					{
+						"MinLevel": 4,
+						"PlantType": "scaredyshroom"
+					},
+					{
+						"MinLevel": 3,
+						"PlantType": "fumeshroom"
+					},
+					{
+						"MinLevel": 3,
+						"PlantType": "vamporcini"
+					},
+					{
+						"MinLevel": 3,
+						"PlantType": "seashroom"
+					}
+				],
+				"SelectionMethod": "preset"
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"GridX": 0,
+						"GridY": 1,
+						"Level": 2,
+						"TypeName": "sunshroom"
+					},
+					{
+						"GridX": 0,
+						"GridY": 2,
+						"Level": 4,
+						"TypeName": "scaredyshroom"
+					},
+					{
+						"GridX": 1,
+						"GridY": 2,
+						"Level": 2,
+						"TypeName": "sunshroom"
+					},
+					{
+						"GridX": 0,
+						"GridY": 3,
+						"Level": 2,
+						"TypeName": "sunshroom"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 2,
+				"PlantfoodToSpawnCount": 2,
+				"PointIncrementPerWave": 50,
+				"StartingPoints": -25,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 4,
+				"ZombiePool": [
+					"RTID(birthday@ZombieTypes)",
+					"RTID(birthday_pharaoh@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.7,
+				"MinNextWaveHealthPercentage": 0.5,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)",
+						"RTID(Wave4StormEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)",
+						"RTID(Wave7StormEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					]
+				],
+				"ZombieCountdownFirstWaveSecs": 10
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(birthday_pharaoh@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(tutorial_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(tutorial_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_pharaoh@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday_pharaoh@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(tutorial_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday_pharaoh@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_pharaoh@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Puddles"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 8,
+						"GridY": 0,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 1,
+						"GridY": 0,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 4,
+						"GridY": 0,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 2,
+						"GridY": 1,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 6,
+						"GridY": 1,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 7,
+						"GridY": 2,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 3,
+						"GridY": 2,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 2,
+						"GridY": 3,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 0,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 8,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave7StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": "8",
+				"ColumnStart": 5,
+				"GroupSize": 2,
+				"TimeBetweenGroups": 2,
+				"Type": "sandstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(modern_superfanimp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(modern_superfanimp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": "8",
+				"ColumnStart": "4",
+				"GroupSize": "2",
+				"TimeBetweenGroups": "3",
+				"Type": "sandstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(modern_superfanimp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(modern_superfanimp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(modern_superfanimp@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

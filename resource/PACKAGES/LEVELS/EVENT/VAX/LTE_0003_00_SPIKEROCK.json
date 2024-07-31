@@ -1,0 +1,869 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Name": "[LTE_POTW_LEVEL_NAME]",
+				"LevelNumber": 3,
+				"StageModule": "RTID(FutureStage@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(FutureMowers@LevelModules)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(FutureLinkedTileGroups@CurrentLevel)",
+					"RTID(ConveyorBelt@CurrentLevel)",
+					"RTID(NewWaves@CurrentLevel)"
+				],
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"AssociatedPlant": "spikerock"
+			}
+		},
+		{
+			"aliases": [
+				"ConveyorBelt"
+			],
+			"objclass": "ConveyorSeedBankProperties",
+			"objdata": {
+				"InitialPlantList": [
+					{
+						"PlantType": "citron",
+						"Weight": 15,
+						"MinCount": 5,
+						"MinWeightFactor": 2.0,
+						"MaxCount": 10,
+						"MaxWeightFactor": 0.0,
+						"MaxDelivered": -1,
+						"Level": -1,
+						"MasteryLevel": -1
+					},
+					{
+						"PlantType": "holonut",
+						"Weight": 15,
+						"MinCount": 2,
+						"MinWeightFactor": 2.0,
+						"MaxCount": 5,
+						"MaxWeightFactor": 0.0,
+						"MaxDelivered": -1,
+						"Level": -1,
+						"MasteryLevel": -1
+					},
+					{
+						"PlantType": "spikerock",
+						"Weight": 25,
+						"MinWeightFactor": 10.0,
+						"MaxCount": 10,
+						"MaxWeightFactor": 0.0,
+						"MaxDelivered": -1,
+						"Level": -1,
+						"MasteryLevel": -1
+					},
+					{
+						"PlantType": "tool_powertile_alpha",
+						"Weight": 10,
+						"MinCount": 2,
+						"MinWeightFactor": 4.0,
+						"MaxCount": 4,
+						"MaxWeightFactor": 0.0,
+						"MaxDelivered": -1,
+						"Level": -1,
+						"MasteryLevel": -1
+					}
+				],
+				"SpeedConditions": [
+					{
+						"Speed": 100.0
+					}
+				],
+				"DropDelayConditions": [
+					{
+						"Delay": 3.0
+					},
+					{
+						"MaxPackets": 2,
+						"Delay": 6.0
+					},
+					{
+						"MaxPackets": 4,
+						"Delay": 9.0
+					},
+					{
+						"MaxPackets": 8,
+						"Delay": 12.0
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"FutureLinkedTileGroups"
+			],
+			"objclass": "PowerTileProperties",
+			"objdata": {
+				"LinkedTiles": []
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_FUTURE_CONVEYOR]",
+				"DescriptiveName": "[STARCHALLENGE_FUTURE_CONVEYOR_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"DynamicZombies": [
+					{
+						"StartingPoints": -100,
+						"PointIncrementPerWave": -40,
+						"StartingWave": 3,
+						"MaxPoints": 100000,
+						"ZombiePool": [
+							"RTID(football_mech@ZombieTypes)",
+							"RTID(future@ZombieTypes)",
+							"RTID(future_armor1@ZombieTypes)",
+							"RTID(future_armor2@ZombieTypes)",
+							"RTID(future_jetpack@ZombieTypes)",
+							"RTID(future_protector@ZombieTypes)",
+							"RTID(mech_cone@ZombieTypes)"
+						]
+					},
+					{
+						"StartingPoints": -100,
+						"PointIncrementPerWave": -25,
+						"StartingWave": 4,
+						"MaxPoints": 100000,
+						"ZombiePool": [
+							"RTID(football_mech@ZombieTypes)",
+							"RTID(future@ZombieTypes)",
+							"RTID(future_armor1@ZombieTypes)",
+							"RTID(future_armor2@ZombieTypes)",
+							"RTID(future_jetpack@ZombieTypes)",
+							"RTID(future_protector@ZombieTypes)",
+							"RTID(mech_cone@ZombieTypes)"
+						]
+					},
+					{
+						"StartingPoints": -100,
+						"PointIncrementPerWave": -10,
+						"StartingWave": 5,
+						"MaxPoints": 100000,
+						"ZombiePool": [
+							"RTID(football_mech@ZombieTypes)",
+							"RTID(future@ZombieTypes)",
+							"RTID(future_armor1@ZombieTypes)",
+							"RTID(future_armor2@ZombieTypes)",
+							"RTID(future_jetpack@ZombieTypes)",
+							"RTID(future_protector@ZombieTypes)",
+							"RTID(mech_cone@ZombieTypes)"
+						]
+					},
+					{
+						"MaxPoints": 100000
+					},
+					{
+						"StartingPoints": 100,
+						"PointIncrementPerWave": 20,
+						"StartingWave": 5,
+						"MaxPoints": 100000,
+						"ZombiePool": [
+							"RTID(football_mech@ZombieTypes)",
+							"RTID(future@ZombieTypes)",
+							"RTID(future_armor1@ZombieTypes)",
+							"RTID(future_armor2@ZombieTypes)",
+							"RTID(future_jetpack@ZombieTypes)",
+							"RTID(future_protector@ZombieTypes)",
+							"RTID(mech_cone@ZombieTypes)"
+						]
+					},
+					{
+						"StartingPoints": 200,
+						"PointIncrementPerWave": 40,
+						"StartingWave": 4,
+						"MaxPoints": 100000,
+						"ZombiePool": [
+							"RTID(football_mech@ZombieTypes)",
+							"RTID(future_armor1@ZombieTypes)",
+							"RTID(future_armor2@ZombieTypes)",
+							"RTID(future_jetpack@ZombieTypes)",
+							"RTID(future_protector@ZombieTypes)",
+							"RTID(mech_cone@ZombieTypes)"
+						]
+					},
+					{
+						"StartingPoints": 400,
+						"PointIncrementPerWave": 60,
+						"StartingWave": 3,
+						"MaxPoints": 100000,
+						"ZombiePool": [
+							"RTID(football_mech@ZombieTypes)",
+							"RTID(future_armor2@ZombieTypes)",
+							"RTID(future_jetpack@ZombieTypes)",
+							"RTID(future_protector@ZombieTypes)",
+							"RTID(mech_cone@ZombieTypes)"
+						]
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)",
+						"RTID(Wave5ModConveyor0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)",
+						"RTID(Wave10ModConveyor0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave11@CurrentLevel)"
+					],
+					[
+						"RTID(Wave12@CurrentLevel)"
+					],
+					[
+						"RTID(Wave13@CurrentLevel)"
+					],
+					[
+						"RTID(Wave14@CurrentLevel)"
+					],
+					[
+						"RTID(Wave15@CurrentLevel)"
+					],
+					[
+						"RTID(Wave16@CurrentLevel)"
+					]
+				],
+				"FlagWaveInterval": 8,
+				"WaveCount": 16,
+				"MinNextWaveHealthPercentage": 0.7,
+				"MaxNextWaveHealthPercentage": 0.85,
+				"ZombieCountdownFirstWaveSecs": 12.0,
+				"ZombieCountdownFirstWaveConveyorSecs": 5.0,
+				"ZombieCountdownHugeWaveDelay": 5.0
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)",
+						"Row": 3
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 4
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)",
+						"Row": 1
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)",
+						"Row": 4
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					0
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(football_mech@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)",
+						"Row": 1
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					0,
+					0,
+					0
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(future_protector@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave11"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave12"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(future_protector@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(future_protector@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave13"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave14"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(football_mech@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(football_mech@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(football_mech@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(football_mech@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(football_mech@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave15"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)",
+						"Row": 2
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					1,
+					0,
+					0
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave16"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(football_mech@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(football_mech@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(football_mech@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(mech_cone@ZombieTypes)",
+						"Row": 4
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave5ModConveyor0"
+			],
+			"objclass": "ModifyConveyorWaveActionProps",
+			"objdata": {
+				"Add": [
+					{
+						"Type": "RTID(blover@PlantTypes)",
+						"Weight": 10,
+						"MaxCount": 1,
+						"MinWeightFactor": 0.1,
+						"MaxWeightFactor": 0.25
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10ModConveyor0"
+			],
+			"objclass": "ModifyConveyorWaveActionProps",
+			"objdata": {
+				"Remove": [
+					{
+						"Type": "RTID(citron@PlantTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

@@ -1,0 +1,438 @@
+{
+	"objects": [
+		{
+			"objdata": {
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(FutureLinkedTileGroups@CurrentLevel)",
+					"RTID(FutureSeedBank@CurrentLevel)"
+				],
+				"StageModule": "RTID(FutureStage@LevelModules)",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Description": "PROTOTYPE!",
+				"Name": "Linked Tiles"
+			},
+			"objclass": "LevelDefinition"
+		},
+		{
+			"objdata": {
+				"SelectionMethod": "chooser"
+			},
+			"aliases": [
+				"FutureSeedBank"
+			],
+			"objclass": "SeedBankProperties"
+		},
+		{
+			"objclass": "PowerTileProperties",
+			"aliases": [
+				"FutureLinkedTileGroups"
+			],
+			"objdata": {
+				"LinkedTiles": [
+					{
+						"Location": {
+							"mX": 0,
+							"mY": 0
+						},
+						"Group": "alpha",
+						"PropagationDelay": 1.0
+					},
+					{
+						"Location": {
+							"mX": 1,
+							"mY": 0
+						},
+						"Group": "alpha",
+						"PropagationDelay": 1.0
+					},
+					{
+						"Location": {
+							"mX": 0,
+							"mY": 1
+						},
+						"Group": "beta",
+						"PropagationDelay": 1.0
+					},
+					{
+						"Location": {
+							"mX": 1,
+							"mY": 1
+						},
+						"Group": "beta",
+						"PropagationDelay": 1.0
+					},
+					{
+						"Location": {
+							"mX": 0,
+							"mY": 2
+						},
+						"Group": "gamma",
+						"PropagationDelay": 1.0
+					},
+					{
+						"Location": {
+							"mX": 1,
+							"mY": 2
+						},
+						"Group": "gamma",
+						"PropagationDelay": 1.0
+					},
+					{
+						"Location": {
+							"mX": 0,
+							"mY": 3
+						},
+						"Group": "delta",
+						"PropagationDelay": 1.0
+					},
+					{
+						"Location": {
+							"mX": 1,
+							"mY": 3
+						},
+						"Group": "delta",
+						"PropagationDelay": 1.0
+					},
+					{
+						"Location": {
+							"mX": 0,
+							"mY": 4
+						},
+						"Group": "epsilon",
+						"PropagationDelay": 1.0
+					},
+					{
+						"Location": {
+							"mX": 1,
+							"mY": 4
+						},
+						"Group": "epsilon",
+						"PropagationDelay": 1.0
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 12,
+				"WaveCount": 12,
+				"WaveSpendingPointIncrement": 50,
+				"WaveSpendingPoints": 100,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					],
+					[
+						"RTID(Wave11@CurrentLevel)"
+					],
+					[
+						"RTID(Wave12@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave11"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave12"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1,
+	"#comment": "Future Prototype"
+}

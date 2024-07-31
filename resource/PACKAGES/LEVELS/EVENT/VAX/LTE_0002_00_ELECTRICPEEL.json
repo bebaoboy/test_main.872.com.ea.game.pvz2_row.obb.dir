@@ -1,0 +1,390 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Name": "[LTE_POTW_LEVEL_NAME]",
+				"LevelNumber": 2,
+				"StageModule": "RTID(BeachStage@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(FastSunDropper@LevelModules)",
+					"RTID(BeachMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(Tide@CurrentLevel)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)"
+				],
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"FirstIntroNarrative": "PLTE_ELECTRICPEEL_2",
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"AssociatedPlant": "electricpeel",
+				"StartingSun": 100
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "lilypad"
+					},
+					{
+						"Level": -1,
+						"PlantType": "electricpeel"
+					},
+					{
+						"Level": -1,
+						"PlantType": "tanglekelp"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"Tide"
+			],
+			"objclass": "TideProperties",
+			"objdata": {
+				"StartingWaveLocation": 1
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"GridX": 7,
+						"GridY": 3,
+						"Level": "-1",
+						"TypeName": "wallnut"
+					},
+					{
+						"GridX": 7,
+						"GridY": 0,
+						"TypeName": "lilypad"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "lilypad"
+					},
+					{
+						"GridX": 5,
+						"GridY": 2,
+						"TypeName": "electricpeel"
+					},
+					{
+						"GridX": 7,
+						"GridY": 2,
+						"TypeName": "lilypad"
+					},
+					{
+						"GridX": 7,
+						"GridY": 3,
+						"TypeName": "lilypad"
+					},
+					{
+						"GridX": 7,
+						"GridY": 4,
+						"TypeName": "lilypad"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 3,
+				"PlantfoodToSpawnCount": 2,
+				"PointIncrementPerWave": 100,
+				"StartingPoints": -150,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 3,
+				"ZombiePool": []
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 3,
+				"WaveCount": 9,
+				"MaxNextWaveHealthPercentage": 0.9,
+				"MinNextWaveHealthPercentage": 0.8,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)",
+						"RTID(Wave2TidalChangeEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)",
+						"RTID(Wave5TidalChangeEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)",
+						"RTID(Wave8TidalChangeEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(beach@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(beach@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(beach@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(beach@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(beach_fem_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(duckytube@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(beach@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(duckytube_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(duckytube_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(duckytube@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(beach_fem_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(duckytube_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(beach_fem_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(beach@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(beach@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2TidalChangeEvent0"
+			],
+			"objclass": "TidalChangeWaveActionProps",
+			"objdata": {
+				"TidalChange": {
+					"ChangeAmount": 2,
+					"ChangeType": "absolute"
+				}
+			}
+		},
+		{
+			"aliases": [
+				"Wave5TidalChangeEvent0"
+			],
+			"objclass": "TidalChangeWaveActionProps",
+			"objdata": {
+				"TidalChange": {
+					"ChangeAmount": 4,
+					"ChangeType": "absolute"
+				}
+			}
+		},
+		{
+			"aliases": [
+				"Wave8TidalChangeEvent0"
+			],
+			"objclass": "TidalChangeWaveActionProps",
+			"objdata": {
+				"TidalChange": {
+					"ChangeAmount": 6,
+					"ChangeType": "absolute"
+				}
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

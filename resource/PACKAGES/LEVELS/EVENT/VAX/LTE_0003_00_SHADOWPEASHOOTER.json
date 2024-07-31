@@ -1,0 +1,429 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Name": "[LTE_POTW_LEVEL_NAME]",
+				"LevelNumber": 3,
+				"StageModule": "RTID(FrontLawnStage@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(CowboyRails@CurrentLevel)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)"
+				],
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"FirstIntroNarrative": "PLTE_SHADOWPEASHOOTER_3",
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"StartingSun": 500,
+				"AssociatedPlant": "shadowpeashooter"
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"MasteryLevel": -1,
+						"PlantType": "shadowpeashooter"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"TypeName": "moonflower",
+						"GridX": 1,
+						"GridY": 1
+					},
+					{
+						"TypeName": "moonflower",
+						"GridX": 1,
+						"GridY": 3
+					},
+					{
+						"TypeName": "shadowpeashooter",
+						"GridX": 2,
+						"GridY": 4
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"CowboyRails"
+			],
+			"objclass": "RailcartProperties",
+			"objdata": {
+				"RailcartType": "railcart_cowboy",
+				"Railcarts": [
+					{
+						"Column": 2,
+						"Row": 4
+					}
+				],
+				"Rails": [
+					{
+						"Column": 2,
+						"RowEnd": 4,
+						"RowStart": 0
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 4,
+				"PlantfoodToSpawnCount": 3,
+				"PointIncrementPerWave": 150,
+				"StartingPoints": 0,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 3,
+				"ZombiePool": [
+					"RTID(cannon@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 3,
+				"MaxNextWaveHealthPercentage": 0.9,
+				"MinNextWaveHealthPercentage": 0.8,
+				"WaveCount": 12,
+				"WaveSpendingPointIncrement": 150,
+				"WaveSpendingPoints": 0,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)",
+						"RTID(Wave4RaidingPartyEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)",
+						"RTID(Wave7RaidingPartyEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)",
+						"RTID(Wave10RaidingPartyEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave11@CurrentLevel)"
+					],
+					[
+						"RTID(Wave12@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(dark_juggler@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(dark_juggler@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave11"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave12"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(dark_juggler@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(cannon@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave4RaidingPartyEvent0"
+			],
+			"objclass": "RaidingPartyZombieSpawnerProps",
+			"objdata": {
+				"SwashbucklerCount": 2,
+				"GroupSize": 1,
+				"TimeBetweenGroups": 1.0
+			}
+		},
+		{
+			"aliases": [
+				"Wave7RaidingPartyEvent0"
+			],
+			"objclass": "RaidingPartyZombieSpawnerProps",
+			"objdata": {
+				"SwashbucklerCount": 2,
+				"GroupSize": 1,
+				"TimeBetweenGroups": 1.0
+			}
+		},
+		{
+			"aliases": [
+				"Wave10RaidingPartyEvent0"
+			],
+			"objclass": "RaidingPartyZombieSpawnerProps",
+			"objdata": {
+				"SwashbucklerCount": 4,
+				"GroupSize": 1,
+				"TimeBetweenGroups": 1.0
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

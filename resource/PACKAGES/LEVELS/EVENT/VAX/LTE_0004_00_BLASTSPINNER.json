@@ -1,0 +1,474 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"AssociatedPlant": "blastspinner",
+				"LevelNumber": 4,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(FastSunDropper@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(CarnivalMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(Gravestones@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)"
+				],
+				"Name": "[LTE_POTW_LEVEL_NAME]",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"StageModule": "RTID(CarnivalStage@LevelModules)",
+				"StartingSun": 250
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"OverrideSeedSlotsCount": 6,
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover",
+					"iceshroom"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"MasteryLevel": -1,
+						"PlantType": "blastspinner"
+					},
+					{
+						"Level": -1,
+						"MasteryLevel": -1,
+						"PlantType": "seashroom"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 3,
+				"MaxPoints": 4000,
+				"PlantfoodToSpawnCount": 2,
+				"PointIncrementPerWave": 150,
+				"StartingPoints": -150,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 3,
+				"ZombiePool": [
+					"RTID(beach_surfer@ZombieTypes)",
+					"RTID(beach_octopus@ZombieTypes)",
+					"RTID(carnie_stiltwalker@ZombieTypes)",
+					"RTID(carnie_imp_twins@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 2,
+						"GridY": 0,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 3,
+						"GridY": 0,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 4,
+						"GridY": 0,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 7,
+						"GridY": 0,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 8,
+						"GridY": 0,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 2,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 3,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 4,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 7,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					},
+					{
+						"GridX": 8,
+						"GridY": 4,
+						"TypeName": "shallowpuddle"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.8,
+				"MinNextWaveHealthPercentage": 0.7,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					]
+				],
+				"ZombieCountdownFirstWaveConveyorSecs": 5,
+				"ZombieCountdownFirstWaveSecs": 12,
+				"ZombieCountdownHugeWaveDelay": 5
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(beach@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(carnie_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(carnie_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(beach_fem@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(carnie_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(carnie_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_octopus@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(carnie_stiltwalker@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(carnie_stiltwalker@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(carnie_stiltwalker@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(carnie_stiltwalker@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(carnie_stiltwalker@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(beach_surfer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(beach_fem_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(beach_fem_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(carnie_imp_twins@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(carnie_imp_twins@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(carnie_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(carnie_imp_twins@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(beach_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(beach_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(carnie_stiltwalker@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(carnie_stiltwalker@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(beach_octopus@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(carnie_stiltwalker@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_octopus@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(carnie_imp_twins@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(carnie@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"ForcedCondition": {},
+				"Zombies": [
+					{
+						"Type": "RTID(beach_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(beach_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(carnie_imp@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(carnie_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(carnie_imp@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

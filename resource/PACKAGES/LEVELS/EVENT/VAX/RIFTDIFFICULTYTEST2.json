@@ -1,0 +1,650 @@
+{
+	"#comment": "Pirate 23",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "[PLAYERS_TRIP_TO_PIRATE_SHIP]",
+				"LevelNumber": 23,
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardRiftIntro@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(PiratePlanks@CurrentLevel)",
+					"RTID(PirateMowers@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(PerkActivator@CurrentLevel)",
+					"RTID(LevelDifficultyScaling@CurrentLevel)",
+					"RTID(LevelScoring@CurrentLevel)",
+					"RTID(BoostTiles@CurrentLevel)"
+				],
+				"Name": "[PIRATE_LEVEL_NAME]",
+				"NormalPresentTable": "pirate_normal_01",
+				"ShinyPresentTable": "pirate_shiny_01",
+				"VictoryModule": "RTID(RiftOutro@LevelModules)",
+				"StageModule": "RTID(PirateStage@LevelModules)",
+				"LevelMutator": "RTID(LevelMutator@CurrentLevel)"
+			}
+		},
+		{
+			"aliases": [
+				"PerkActivator"
+			],
+			"objclass": "PerkHandlerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"LevelMutator"
+			],
+			"objclass": "LevelMutatorModuleProperties",
+			"objdata": {
+				"MutatorTables": [
+					"RTID(MutatorPropsAll@LevelMutatorTables)",
+					"RTID(MutatorGridRiftMold@LevelMutatorTables)",
+					"RTID(LocalChallengeMutator@CurrentLevel)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LocalChallengeMutator"
+			],
+			"objclass": "LevelMutatorTableProps",
+			"objdata": {
+				"Tables": [
+					{
+						"Level": 0,
+						"Modules": [
+							"RTID(PlantsLost1@CurrentLevel)",
+							"RTID(ReachTheScore1@CurrentLevel)"
+						],
+						"ModuleType": "bonuschallenge"
+					},
+					{
+						"Level": 1,
+						"Modules": [
+							"RTID(PlantsLost2@CurrentLevel)",
+							"RTID(ReachTheScore2@CurrentLevel)"
+						],
+						"ModuleType": "bonuschallenge"
+					},
+					{
+						"Level": 2,
+						"Modules": [
+							"RTID(PlantsLost3@CurrentLevel)",
+							"RTID(ReachTheScore3@CurrentLevel)"
+						],
+						"ModuleType": "bonuschallenge"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"PlantsLost1"
+			],
+			"objclass": "StarChallengePlantsLostProps",
+			"objdata": {
+				"MaximumPlantsLost": 20
+			}
+		},
+		{
+			"aliases": [
+				"PlantsLost2"
+			],
+			"objclass": "StarChallengePlantsLostProps",
+			"objdata": {
+				"MaximumPlantsLost": 15
+			}
+		},
+		{
+			"aliases": [
+				"PlantsLost3"
+			],
+			"objclass": "StarChallengePlantsLostProps",
+			"objdata": {
+				"MaximumPlantsLost": 10
+			}
+		},
+		{
+			"aliases": [
+				"ReachTheScore1"
+			],
+			"objclass": "StarChallengeTargetScoreProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_SCORE_TO_BEAT]",
+				"DescriptionFailure": "[STARCHALLENGE_TARGET_SCORE_FAILURE]",
+				"DescriptiveName": "[STARCHALLENGE_TARGET_SCORE_NAME]",
+				"TargetScore": 30000
+			}
+		},
+		{
+			"aliases": [
+				"ReachTheScore2"
+			],
+			"objclass": "StarChallengeTargetScoreProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_SCORE_TO_BEAT]",
+				"DescriptionFailure": "[STARCHALLENGE_TARGET_SCORE_FAILURE]",
+				"DescriptiveName": "[STARCHALLENGE_TARGET_SCORE_NAME]",
+				"TargetScore": 50000
+			}
+		},
+		{
+			"aliases": [
+				"ReachTheScore3"
+			],
+			"objclass": "StarChallengeTargetScoreProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_SCORE_TO_BEAT]",
+				"DescriptionFailure": "[STARCHALLENGE_TARGET_SCORE_FAILURE]",
+				"DescriptiveName": "[STARCHALLENGE_TARGET_SCORE_NAME]",
+				"TargetScore": 994000
+			}
+		},
+		{
+			"aliases": [
+				"PiratePlanks"
+			],
+			"objclass": "PiratePlankProperties",
+			"objdata": {
+				"PlankRows": [
+					0,
+					1,
+					2,
+					3
+				]
+			}
+		},
+		{
+			"aliases": [
+				"BoostTiles"
+			],
+			"objclass": "InitialGridItemProperties",
+			"objdata": {
+				"InitialGridItemPlacements": [
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"TypeName": "boosttile"
+					},
+					{
+						"GridX": 3,
+						"GridY": 2,
+						"TypeName": "boosttile"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"SuggestPlantList": [],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"LevelDifficultyScaling"
+			],
+			"objclass": "LevelDifficultyScalingModuleProperties",
+			"objdata": {
+				"DifficultyRulesType": "RiftDifficulty",
+				"ZombieLevelSwaps": [
+					{
+						"Level": 0,
+						"Swaps": [
+							{
+								"From": "RTID(pirate@ZombieTypes)",
+								"To": [
+									"RTID(dino@ZombieTypes)",
+									"RTID(tutorial@ZombieTypes)",
+									"RTID(pirate@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(pirate_armor1@ZombieTypes)",
+								"To": [
+									"RTID(dino_armor1@ZombieTypes)",
+									"RTID(pirate_armor1@ZombieTypes)",
+									"RTID(mummy_armor1@ZombieTypes)",
+									"RTID(tomb_raiser@ZombieTypes)"
+								]
+							}
+						]
+					},
+					{
+						"Level": 3,
+						"Swaps": [
+							{
+								"From": "RTID(pirate@ZombieTypes)",
+								"To": [
+									"RTID(dino@ZombieTypes)",
+									"RTID(tutorial@ZombieTypes)",
+									"RTID(pirate@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(pirate_armor1@ZombieTypes)",
+								"To": [
+									"RTID(dino_armor2@ZombieTypes)",
+									"RTID(tutorial_armor2@ZombieTypes)",
+									"RTID(pirate_armor1@ZombieTypes)",
+									"RTID(tomb_raiser@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(seagull@ZombieTypes)",
+								"To": [
+									"RTID(seagull@ZombieTypes)",
+									"RTID(lostcity_bug@ZombieTypes)",
+									"RTID(lostcity_bug_armor1@ZombieTypes)",
+									"RTID(modern_balloon@ZombieTypes)"
+								]
+							}
+						]
+					},
+					{
+						"Level": 6,
+						"Swaps": [
+							{
+								"From": "RTID(pirate@ZombieTypes)",
+								"To": [
+									"RTID(pirate@ZombieTypes)",
+									"RTID(dino_armor2@ZombieTypes)",
+									"RTID(tutorial_armor2@ZombieTypes)",
+									"RTID(mummy_armor2@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(pirate_armor1@ZombieTypes)",
+								"To": [
+									"RTID(pirate_armor1@ZombieTypes)",
+									"RTID(dino_armor3@ZombieTypes)",
+									"RTID(tutorial_armor4@ZombieTypes)",
+									"RTID(mummy_armor2@ZombieTypes)",
+									"RTID(tomb_raiser@ZombieTypes)"
+								]
+							},
+							{
+								"From": "RTID(seagull@ZombieTypes)",
+								"To": [
+									"RTID(seagull@ZombieTypes)",
+									"RTID(pelican@ZombieTypes)",
+									"RTID(lostcity_bug_armor2@ZombieTypes)"
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelScoring"
+			],
+			"objclass": "LevelScoringModuleProperties",
+			"objdata": {
+				"PlantBonusMultiplier": 0.1,
+				"PlantBonuses": [],
+				"ScoringRulesType": "Rift"
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"DynamicZombies": [
+					{
+						"PointIncrementPerWave": -40,
+						"StartingPoints": -100,
+						"StartingWave": 3,
+						"ZombiePool": [
+							"RTID(pirate@ZombieTypes)",
+							"RTID(pirate_armor1@ZombieTypes)",
+							"RTID(seagull@ZombieTypes)"
+						]
+					},
+					{
+						"PointIncrementPerWave": -25,
+						"StartingPoints": -100,
+						"StartingWave": 4,
+						"ZombiePool": [
+							"RTID(pirate@ZombieTypes)",
+							"RTID(pirate_armor1@ZombieTypes)",
+							"RTID(seagull@ZombieTypes)"
+						]
+					},
+					{
+						"PointIncrementPerWave": -10,
+						"StartingPoints": -100,
+						"StartingWave": 5,
+						"ZombiePool": [
+							"RTID(pirate@ZombieTypes)",
+							"RTID(pirate_armor1@ZombieTypes)",
+							"RTID(seagull@ZombieTypes)"
+						]
+					},
+					{},
+					{
+						"PointIncrementPerWave": 20,
+						"StartingPoints": 100,
+						"StartingWave": 5,
+						"ZombiePool": [
+							"RTID(pirate@ZombieTypes)",
+							"RTID(pirate_armor1@ZombieTypes)",
+							"RTID(seagull@ZombieTypes)"
+						]
+					},
+					{
+						"PointIncrementPerWave": 40,
+						"StartingPoints": 200,
+						"StartingWave": 4,
+						"ZombiePool": [
+							"RTID(pirate_armor1@ZombieTypes)",
+							"RTID(seagull@ZombieTypes)"
+						]
+					},
+					{
+						"PointIncrementPerWave": 60,
+						"StartingPoints": 400,
+						"StartingWave": 3,
+						"ZombiePool": [
+							"RTID(pirate_armor1@ZombieTypes)",
+							"RTID(seagull@ZombieTypes)"
+						]
+					}
+				],
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 10,
+				"WaveCount": 10,
+				"WaveSpendingPointIncrement": 50,
+				"WaveSpendingPoints": 100,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					0
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					1,
+					0,
+					1
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(pirate_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					0
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"DynamicPlantfood": [
+					1,
+					1,
+					1,
+					1,
+					0,
+					0,
+					0
+				],
+				"Zombies": [
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(seagull@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(seagull@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pirate@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

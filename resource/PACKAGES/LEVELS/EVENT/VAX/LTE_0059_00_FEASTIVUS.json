@@ -1,0 +1,470 @@
+{
+	"#comment": "Level Of The Day Default",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "none",
+				"FirstIntroNarrative": "",
+				"LevelNumber": 29,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(IceageMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(ProtectThePlant@CurrentLevel)",
+					"RTID(Gravestones@CurrentLevel)",
+					"RTID(ChallengeModule@CurrentLevel)"
+				],
+				"Name": "[LTE_LEVEL_NAME_FEASTIVUS]",
+				"StageModule": "RTID(FeastivusStage@LevelModules)",
+				"StartingSun": 400
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover",
+					"thymewarp"
+				],
+				"PresetPlantList": [],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"ProtectThePlant"
+			],
+			"objclass": "ProtectThePlantChallengeProperties",
+			"objdata": {
+				"MustProtectCount": 5,
+				"Plants": [
+					{
+						"GridX": 2,
+						"GridY": 0,
+						"PlantType": "chardguard"
+					},
+					{
+						"GridX": 3,
+						"GridY": 1,
+						"PlantType": "chardguard"
+					},
+					{
+						"GridX": 3,
+						"GridY": 2,
+						"PlantType": "chardguard"
+					},
+					{
+						"GridX": 3,
+						"GridY": 3,
+						"PlantType": "chardguard"
+					},
+					{
+						"GridX": 2,
+						"GridY": 4,
+						"PlantType": "chardguard"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_PROTECT_THE_PLANT]",
+				"DescriptiveName": "[STARCHALLENGE_PROTECT_THE_PLANT_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 3,
+				"PlantfoodToSpawnCount": 0,
+				"PointIncrementPerWave": 50,
+				"StartingPoints": 50,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 3,
+				"ZombiePool": [
+					"RTID(feastivus_armor1@ZombieTypes)",
+					"RTID(feastivus_armor2@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.8,
+				"MinNextWaveHealthPercentage": 0.7,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3StormEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)",
+						"RTID(Wave5StormEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)",
+						"RTID(Wave8StormEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(feastivus_camel_twohump@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(feastivus_camel_twohump@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(feastivus_piano@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(feastivus_piano@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(feastivus_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(feastivus_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(feastivus_poncho@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(feastivus_poncho@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(feastivus_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(feastivus_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(feastivus_camel_manyhump@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(feastivus_gargantuar@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": []
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(feastivus_camel_onehump@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(feastivus_camel_twohump@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 7,
+						"GridY": 0
+					},
+					{
+						"GridX": 8,
+						"GridY": 0
+					},
+					{
+						"GridX": 7,
+						"GridY": 1
+					},
+					{
+						"GridX": 8,
+						"GridY": 1
+					},
+					{
+						"GridX": 7,
+						"GridY": 2
+					},
+					{
+						"GridX": 8,
+						"GridY": 2
+					},
+					{
+						"GridX": 7,
+						"GridY": 3
+					},
+					{
+						"GridX": 8,
+						"GridY": 3
+					},
+					{
+						"GridX": 7,
+						"GridY": 4
+					},
+					{
+						"GridX": 8,
+						"GridY": 4
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 7,
+				"ColumnStart": "6",
+				"GroupSize": 1,
+				"TimeBetweenGroups": 1,
+				"Type": "snowstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(feastivus_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(feastivus_imp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 7,
+				"ColumnStart": "6",
+				"GroupSize": 1,
+				"TimeBetweenGroups": 1,
+				"Type": "snowstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(feastivus_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(feastivus_imp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 7,
+				"ColumnStart": "6",
+				"GroupSize": 1,
+				"TimeBetweenGroups": 1,
+				"Type": "snowstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(feastivus_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(feastivus_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(feastivus_imp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 7,
+				"ColumnStart": "5",
+				"GroupSize": 1,
+				"TimeBetweenGroups": 1,
+				"Type": "snowstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(feastivus_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(feastivus_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(feastivus_imp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

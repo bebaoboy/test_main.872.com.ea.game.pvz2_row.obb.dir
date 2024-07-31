@@ -1,0 +1,85 @@
+{
+	"IgnoreForValidation": "true",
+	"#comment": "SandboxBeach",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "Beach Sandbox Level",
+				"LevelNumber": 42,
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"StageModule": "RTID(BeachStage@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(TestingSeedBank@CurrentLevel)",
+					"RTID(FutureLinkedTileGroups@CurrentLevel)",
+					"RTID(Tide@CurrentLevel)"
+				],
+				"Name": "Beach Sandbox"
+			}
+		},
+		{
+			"aliases": [
+				"TestingSeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"Tide"
+			],
+			"objclass": "TideProperties",
+			"objdata": {
+				"StartingWaveLocation": 1.0
+			}
+		},
+		{
+			"objclass": "PowerTileProperties",
+			"aliases": [
+				"FutureLinkedTileGroups"
+			],
+			"objdata": {
+				"LinkedTiles": [
+					{
+						"Location": {
+							"mX": 6,
+							"mY": 4
+						},
+						"Group": "epsilon",
+						"PropagationDelay": 1.0
+					},
+					{
+						"Location": {
+							"mX": 6,
+							"mY": 3
+						},
+						"Group": "epsilon",
+						"PropagationDelay": 1.0
+					},
+					{
+						"Location": {
+							"mX": 2,
+							"mY": 4
+						},
+						"Group": "epsilon",
+						"PropagationDelay": 1.0
+					},
+					{
+						"Location": {
+							"mX": 2,
+							"mY": 3
+						},
+						"Group": "epsilon",
+						"PropagationDelay": 1.0
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

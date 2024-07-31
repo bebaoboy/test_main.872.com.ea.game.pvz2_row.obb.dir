@@ -1,0 +1,464 @@
+{
+	"#comment": "Premium Quest - Winter Melon",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Description": "[PREMIUM_PLANT_QUEST_LOD_DESC]",
+				"ForceToWorldMap": true,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(Gravestones@CurrentLevel)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(ProtectThePlant@CurrentLevel)"
+				],
+				"Name": "[PREMIUM_PLANT_QUEST_LOD_NAME]",
+				"NormalPresentTable": "egypt_normal_01",
+				"RepeatPlayForceToWorldMap": true,
+				"SuppressPlantfoodPurchase": true,
+				"ShinyPresentTable": "egypt_shiny_01",
+				"StageModule": "RTID(FrontLawnStage@LevelModules)",
+				"StartingSun": 200
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "wintermelon"
+					},
+					{
+						"Level": -1,
+						"PlantType": "chardguard"
+					}
+				],
+				"SelectionMethod": "preset"
+			}
+		},
+		{
+			"aliases": [
+				"ProtectThePlant"
+			],
+			"objclass": "ProtectThePlantChallengeProperties",
+			"objdata": {
+				"MustProtectCount": 3,
+				"Plants": [
+					{
+						"GridX": 1,
+						"GridY": 1,
+						"Level": -1,
+						"PlantType": "primalsunflower"
+					},
+					{
+						"GridX": 1,
+						"GridY": 3,
+						"Level": -1,
+						"PlantType": "primalsunflower"
+					},
+					{
+						"GridX": 0,
+						"GridY": 2,
+						"Level": -1,
+						"PlantType": "primalsunflower"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_PROTECT_THE_PLANT]",
+				"DescriptiveName": "[STARCHALLENGE_PROTECT_THE_PLANT_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 1,
+				"PlantfoodToSpawnCount": 2,
+				"PointIncrementPerWave": 50,
+				"StartingPoints": 0,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 8,
+				"ZombiePool": [
+					"RTID(future_imp@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.9,
+				"MinNextWaveHealthPercentage": 0.8,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(piano@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(zcorp_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(piano@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_gargantuar@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(zcorp_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(zcorp_gargantuar@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(piano@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(piano@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 7,
+						"GridY": 0
+					},
+					{
+						"GridX": 8,
+						"GridY": 0,
+						"TypeName": "gravestonePlantfoodOnDestruction"
+					},
+					{
+						"GridX": 5,
+						"GridY": 0
+					},
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 8,
+						"GridY": 1
+					},
+					{
+						"GridX": 5,
+						"GridY": 1
+					},
+					{
+						"GridX": 6,
+						"GridY": 1
+					},
+					{
+						"GridX": 7,
+						"GridY": 2
+					},
+					{
+						"GridX": 8,
+						"GridY": 2,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 5,
+						"GridY": 2
+					},
+					{
+						"GridX": 6,
+						"GridY": 2,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 7,
+						"GridY": 3,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 8,
+						"GridY": 3
+					},
+					{
+						"GridX": 5,
+						"GridY": 3
+					},
+					{
+						"GridX": 6,
+						"GridY": 3
+					},
+					{
+						"GridX": 7,
+						"GridY": 4
+					},
+					{
+						"GridX": 8,
+						"GridY": 4,
+						"TypeName": "gravestonePlantfoodOnDestruction"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "gravestoneSunOnDestruction"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

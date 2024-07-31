@@ -1,0 +1,559 @@
+{
+	"#comment": "Save the Reed",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "none",
+				"LevelNumber": 13,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ProtectThePlant@CurrentLevel)",
+					"RTID(Gravestones@CurrentLevel)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)"
+				],
+				"Name": "[LTE_LEVEL_NAME_FOODFIGHTB]",
+				"StageModule": "RTID(FoodfightStage@LevelModules)",
+				"StartingSun": 100
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover"
+				],
+				"PresetPlantList": [
+					{}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 3,
+				"PlantfoodToSpawnCount": 2,
+				"PointIncrementPerWave": 50,
+				"StartingPoints": 100,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 3,
+				"ZombiePool": [
+					"RTID(foodfight_armor1@ZombieTypes)",
+					"RTID(foodfight_armor2@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ProtectThePlant"
+			],
+			"objclass": "ProtectThePlantChallengeProperties",
+			"objdata": {
+				"MustProtectCount": 3,
+				"Plants": [
+					{
+						"GridX": 0,
+						"GridY": 0,
+						"PlantType": "turkeypult"
+					},
+					{
+						"GridX": 0,
+						"GridY": 1,
+						"PlantType": "turkeypult"
+					},
+					{
+						"GridX": 0,
+						"GridY": 2,
+						"PlantType": "turkeypult"
+					},
+					{
+						"GridX": 0,
+						"GridY": 3,
+						"PlantType": "turkeypult"
+					},
+					{
+						"GridX": 0,
+						"GridY": 4,
+						"PlantType": "turkeypult"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_PROTECT_THE_PLANT]",
+				"DescriptiveName": "[STARCHALLENGE_PROTECT_THE_PLANT_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 3,
+				"MaxNextWaveHealthPercentage": 0.7,
+				"MinNextWaveHealthPercentage": 0.6,
+				"WaveCount": 9,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3StormEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)",
+						"RTID(Wave5StormEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)",
+						"RTID(Wave7StormEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(foodfight@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(foodfight@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(foodfight@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(foodfight@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(foodfight@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(foodfight@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(foodfight@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(foodfight@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(foodfight_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(foodfight_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(foodfight_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(foodfight_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(iceage_dodo@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(lostcity_jane@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(foodfight@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(foodfight@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(foodfight@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(foodfight@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "5",
+						"Type": "RTID(foodfight@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(foodfight@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(foodfight_turkey_boss@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": []
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(foodfight_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(foodfight_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(foodfight_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(foodfight_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(lostcity_jane@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(lostcity_jane@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(lostcity_jane@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(lostcity_jane@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(lostcity_jane@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(foodfight_turkey_boss@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 8,
+						"GridY": 0,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 5,
+						"GridY": 1,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 8,
+						"GridY": 2,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 6,
+						"GridY": 2,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 7,
+						"GridY": 3,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 8,
+						"GridY": 4,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"TypeName": "gravestoneSunOnDestruction"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave3StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 7,
+				"ColumnStart": 4,
+				"GroupSize": 1,
+				"TimeBetweenGroups": 1,
+				"Type": "sandstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 7,
+				"ColumnStart": 4,
+				"GroupSize": 1,
+				"TimeBetweenGroups": 1,
+				"Type": "sandstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 7,
+				"ColumnStart": 4,
+				"GroupSize": 1,
+				"TimeBetweenGroups": 1,
+				"Type": "sandstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(summer_imp@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

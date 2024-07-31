@@ -1,0 +1,592 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Name": "[LTE_POTW_LEVEL_NAME]",
+				"LevelNumber": 2,
+				"StageModule": "RTID(FrontLawnStage@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ConveyorBelt@CurrentLevel)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(ProtectThePlant@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)"
+				],
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"AssociatedPlant": "homingthistle"
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 2,
+				"WavesPerFlag": 7,
+				"PlantfoodToSpawnCount": 0,
+				"PointIncrementPerWave": 50,
+				"StartingPoints": 100,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"MaxPoints": 9000
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_PROTECT_THE_PLANT]",
+				"DescriptiveName": "[STARCHALLENGE_PROTECT_THE_PLANT_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"ProtectThePlant"
+			],
+			"objclass": "ProtectThePlantChallengeProperties",
+			"objdata": {
+				"Plants": [
+					{
+						"PlantType": "snapdragon",
+						"GridY": 1
+					},
+					{
+						"PlantType": "snapdragon",
+						"GridY": 2
+					},
+					{
+						"PlantType": "snapdragon",
+						"GridY": 3
+					}
+				],
+				"MustProtectCount": 3
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)",
+						"RTID(Wave1ModConveyor0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)",
+						"RTID(Wave2ModConveyor0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					],
+					[
+						"RTID(Wave11@CurrentLevel)"
+					],
+					[
+						"RTID(Wave12@CurrentLevel)"
+					],
+					[
+						"RTID(Wave13@CurrentLevel)"
+					],
+					[
+						"RTID(Wave14@CurrentLevel)"
+					]
+				],
+				"FlagWaveInterval": 7,
+				"WaveCount": 14,
+				"MinNextWaveHealthPercentage": 0.8,
+				"MaxNextWaveHealthPercentage": 0.9,
+				"ZombieCountdownFirstWaveSecs": 12.0,
+				"ZombieCountdownFirstWaveConveyorSecs": 5.0,
+				"ZombieCountdownHugeWaveDelay": 5.0
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)",
+						"Row": 3
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(tutorial@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(tutorial@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)",
+						"Row": 2
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 3
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(tutorial_armor1@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(tutorial_armor1@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(beach_fem_armor1@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(tutorial_armor1@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(beach_fem_armor2@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 3
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(tutorial@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 3
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 1
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 2
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"ConveyorBelt"
+			],
+			"objclass": "ConveyorSeedBankProperties",
+			"objdata": {
+				"InitialPlantList": [
+					{
+						"PlantType": "homingthistle",
+						"Weight": 100,
+						"MinWeightFactor": 10.0,
+						"MaxCount": 8,
+						"MaxWeightFactor": 0.0,
+						"MaxDelivered": -1,
+						"MaxCountCooldownSeconds": 10.0,
+						"Level": -1,
+						"MasteryLevel": -1
+					}
+				],
+				"SpeedConditions": [
+					{
+						"Speed": 100.0
+					}
+				],
+				"DropDelayConditions": [
+					{
+						"Delay": 3.0
+					},
+					{
+						"MaxPackets": 2,
+						"Delay": 6.0
+					},
+					{
+						"MaxPackets": 4,
+						"Delay": 9.0
+					},
+					{
+						"MaxPackets": 8,
+						"Delay": 12.0
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(tutorial_armor1@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(beach_fem_armor2@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(beach_fem_armor2@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(tutorial_armor1@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(beach_fem_armor2@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(beach_fem_armor1@ZombieTypes)",
+						"Row": 4
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave11"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(beach_fem_armor2@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(tutorial_armor1@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(beach_fem_armor1@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(beach_fem_armor1@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(tutorial_armor1@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(beach_fem_armor2@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave12"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(tutorial@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(beach_fem@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(beach_fem_armor2@ZombieTypes)",
+						"Row": 4
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave13"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(chicken_farmer@ZombieTypes)",
+						"Row": 2
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave14"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(tutorial_gargantuar@ZombieTypes)",
+						"Row": 3
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave1ModConveyor0"
+			],
+			"objclass": "ModifyConveyorWaveActionProps",
+			"objdata": {
+				"Add": [
+					{
+						"Type": "RTID(wallnut@PlantTypes)",
+						"Weight": 80,
+						"MaxCount": 5,
+						"MinWeightFactor": 0.1,
+						"MaxCountCooldownSeconds": 15.0
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2ModConveyor0"
+			],
+			"objclass": "ModifyConveyorWaveActionProps",
+			"objdata": {
+				"Add": [
+					{
+						"Type": "RTID(stunion@PlantTypes)",
+						"Weight": 5,
+						"MaxCount": 1,
+						"MaxCountCooldownSeconds": 10.0
+					},
+					{
+						"Type": "RTID(bowlingbulb@PlantTypes)",
+						"Weight": 150,
+						"MaxCount": 3,
+						"MinWeightFactor": 0.1,
+						"MaxCountCooldownSeconds": 15.0
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

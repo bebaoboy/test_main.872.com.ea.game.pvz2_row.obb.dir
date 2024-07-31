@@ -1,0 +1,409 @@
+{
+	"#comment": "Level Of The Day Default",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "none",
+				"LevelNumber": 8,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(Gravestones@CurrentLevel)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)"
+				],
+				"Name": "[LTE_LEVEL_NAME_SPORTZBALL]",
+				"StageModule": "RTID(SportzballStage@LevelModules)",
+				"StartingSun": 725
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "cactus"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 3,
+				"PlantfoodToSpawnCount": 2,
+				"PointIncrementPerWave": 100,
+				"StartingPoints": -100,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 3,
+				"ZombiePool": [
+					"RTID(sportzball_buckethead@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"GridX": 2,
+						"GridY": 1,
+						"Level": "-1",
+						"TypeName": "magnetshroom"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"Level": "-1",
+						"TypeName": "magnetshroom"
+					},
+					{
+						"GridX": 2,
+						"GridY": 3,
+						"Level": "-1",
+						"TypeName": "magnetshroom"
+					},
+					{
+						"GridX": 6,
+						"GridY": 0,
+						"Level": 5,
+						"TypeName": "cactus"
+					},
+					{
+						"GridX": 6,
+						"GridY": 4,
+						"Level": 5,
+						"TypeName": "cactus"
+					},
+					{
+						"GridX": 0,
+						"GridY": 0,
+						"Level": "-1",
+						"TypeName": "primalsunflower"
+					},
+					{
+						"GridX": 0,
+						"GridY": 4,
+						"Level": "-1",
+						"TypeName": "primalsunflower"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.7,
+				"MinNextWaveHealthPercentage": 0.5,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(sportzball_buckethead@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(sportzball_buckethead@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(catapult@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(catapult@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(sportzball_buckethead@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(tutorial_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(sportzball_buckethead@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(sportzball_buckethead@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(sportzball_buckethead@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(sportzball_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(sportzball_buckethead@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(sportzball_buckethead@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(sportzball_imp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(sportzball_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(sportzball_buckethead@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(catapult@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(modern_newspaper@ZombieTypes)"
+					},
+					{
+						"Row": "5",
+						"Type": "RTID(modern_newspaper@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(sportzball_imp@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(sportzball_imp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(sportzball_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(sportzball_buckethead@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(modern_newspaper@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(sportzball_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(sportzball_buckethead@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(sportzball_buckethead@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(sportzball_buckethead@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(sportzball_buckethead@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(modern_newspaper@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(catapult@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(catapult@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(tutorial_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"GravestoneCount": 5,
+				"SpawnColumnEnd": 8,
+				"SpawnColumnStart": 6
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

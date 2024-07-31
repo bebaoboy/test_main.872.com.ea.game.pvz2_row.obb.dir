@@ -1,0 +1,400 @@
+{
+	"#comment": "Tomb Tangler Event Level",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "",
+				"FirstIntroNarrative": "BIRTHDAYZ_LTE_2023_3",
+				"LevelNumber": 2,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(EgyptMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(Gravestones@CurrentLevel)"
+				],
+				"Name": "[LTE_LEVEL_NAME_BIRTHDAYZ]",
+				"StageModule": "RTID(EgyptStage@LevelModules)",
+				"StartingSun": 125
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "tombtangler"
+					},
+					{
+						"Level": -1,
+						"PlantType": "chilibean"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 2,
+				"PlantfoodToSpawnCount": 3,
+				"PointIncrementPerWave": 25,
+				"StartingPoints": -50,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 4,
+				"ZombiePool": [
+					"RTID(birthday@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.8,
+				"MinNextWaveHealthPercentage": 0.5,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)",
+						"RTID(Wave3StormEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)",
+						"RTID(Wave5StormEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)",
+						"RTID(Wave8StormEvent0@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(bighead@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_pharaoh@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(ra@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "1",
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(ra@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(bighead@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(bighead@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(tomb_raiser@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(birthday_pharaoh@ZombieTypes)"
+					},
+					{
+						"Row": "1",
+						"Type": "RTID(ra@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Gravestones"
+			],
+			"objclass": "GravestoneProperties",
+			"objdata": {
+				"ForceSpawnData": [
+					{
+						"GridX": 7,
+						"GridY": 0
+					},
+					{
+						"GridX": 2,
+						"GridY": 0
+					},
+					{
+						"GridX": 5,
+						"GridY": 0,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 7,
+						"GridY": 1,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 2,
+						"GridY": 1,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 5,
+						"GridY": 2
+					},
+					{
+						"GridX": 5,
+						"GridY": 3,
+						"TypeName": "gravestoneSunOnDestruction"
+					},
+					{
+						"GridX": 5,
+						"GridY": 4
+					},
+					{
+						"GridX": 2,
+						"GridY": 4
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave3StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 9,
+				"ColumnStart": 7,
+				"GroupSize": 3,
+				"TimeBetweenGroups": 0.2,
+				"Type": "sandstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": "8",
+				"ColumnStart": "4",
+				"GroupSize": "2",
+				"TimeBetweenGroups": 1.5,
+				"Type": "sandstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(bighead@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8StormEvent0"
+			],
+			"objclass": "StormZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 9,
+				"ColumnStart": 5,
+				"GroupSize": 3,
+				"TimeBetweenGroups": 0.2,
+				"Type": "sandstorm",
+				"Zombies": [
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(treasureyeti@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(birthday@ZombieTypes)"
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

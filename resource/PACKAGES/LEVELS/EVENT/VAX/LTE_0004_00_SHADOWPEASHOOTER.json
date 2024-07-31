@@ -1,0 +1,435 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"Name": "[LTE_POTW_LEVEL_NAME]",
+				"LevelNumber": 4,
+				"StageModule": "RTID(ModernStage@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ZombiesDeadWinCon@LevelModules)"
+				],
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"FirstIntroNarrative": "PLTE_SHADOWPEASHOOTER_4",
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"StartingSun": 1000,
+				"AssociatedPlant": "shadowpeashooter"
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"MasteryLevel": -1,
+						"PlantType": "shadowpeashooter"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 3,
+				"PlantfoodToSpawnCount": 4,
+				"PointIncrementPerWave": 75,
+				"StartingPoints": 0,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 4,
+				"ZombiePool": [
+					"RTID(dino_armor2@ZombieTypes)",
+					"RTID(dino@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"FlagWaveInterval": 4,
+				"MaxNextWaveHealthPercentage": 0.85,
+				"MinNextWaveHealthPercentage": 0.7,
+				"WaveCount": 12,
+				"WaveSpendingPointIncrement": 75,
+				"WaveSpendingPoints": 0,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)",
+						"RTID(Wave4DinoTimeEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)",
+						"RTID(Wave8DinoTimeEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)"
+					],
+					[
+						"RTID(Wave11@CurrentLevel)"
+					],
+					[
+						"RTID(Wave12@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(dino_armor1@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(piano@ZombieTypes)",
+						"Row": 3
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(modern_balloon@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(dino_armor1@ZombieTypes)",
+						"Row": 3
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(modern_newspaper@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(piano@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(dino_armor1@ZombieTypes)",
+						"Row": 1
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(dino_bully@ZombieTypes)",
+						"Row": 3
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(modern_superfanimp@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(piano@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(dino_armor1@ZombieTypes)",
+						"Row": 2
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(modern_superfanimp@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(dino_bully@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(dino_armor1@ZombieTypes)",
+						"Row": 4
+					}
+				],
+				"AdditionalPlantfood": 1,
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(dino_armor1@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(dino_armor2@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(modern_superfanimp@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(dino_bully@ZombieTypes)",
+						"Row": 3
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(dino@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(dino@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(dino_bully@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(modern_balloon@ZombieTypes)",
+						"Row": 1
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(dino_bully@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(modern_newspaper@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(modern_newspaper@ZombieTypes)",
+						"Row": 3
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave11"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(disco_mech@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(piano@ZombieTypes)",
+						"Row": 2
+					},
+					{
+						"Type": "RTID(piano@ZombieTypes)",
+						"Row": 1
+					},
+					{
+						"Type": "RTID(modern_balloon@ZombieTypes)",
+						"Row": 5
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave12"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(dino_gargantuar@ZombieTypes)",
+						"Row": 4
+					},
+					{
+						"Type": "RTID(dino_bully@ZombieTypes)",
+						"Row": 3
+					},
+					{
+						"Type": "RTID(modern_balloon@ZombieTypes)",
+						"Row": 5
+					},
+					{
+						"Type": "RTID(modern_balloon@ZombieTypes)",
+						"Row": 1
+					}
+				],
+				"ForcedCondition": {}
+			}
+		},
+		{
+			"aliases": [
+				"Wave4DinoTimeEvent0"
+			],
+			"objclass": "DinoWaveActionProps",
+			"objdata": {
+				"DinoType": "raptor",
+				"DinoRow": 2
+			}
+		},
+		{
+			"aliases": [
+				"Wave8DinoTimeEvent0"
+			],
+			"objclass": "DinoWaveActionProps",
+			"objdata": {
+				"DinoType": "raptor",
+				"DinoRow": 3
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"DynamicZombies": [
+					{
+						"MaxPoints": 100000
+					},
+					{
+						"MaxPoints": 100000
+					},
+					{
+						"MaxPoints": 100000
+					},
+					{
+						"MaxPoints": 100000
+					},
+					{
+						"MaxPoints": 100000
+					},
+					{
+						"MaxPoints": 100000
+					},
+					{
+						"MaxPoints": 100000
+					}
+				]
+			}
+		}
+	],
+	"version": 1
+}

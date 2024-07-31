@@ -981,7 +981,7 @@
 						"SubType": "0",
 						"Type": "ActionDamage",
 						"Values": [
-							10
+							15
 						]
 					},
 					{

@@ -1,0 +1,355 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "none",
+				"LevelNumber": 9,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(FrontLawnMowers@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(FrozenPlantPlacement@CurrentLevel)"
+				],
+				"Name": "[LTE_LEVEL_NAME_SPRINGENING]",
+				"StageModule": "RTID(FrontLawnStage@LevelModules)",
+				"StartingSun": 500
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover",
+					"thymewarp"
+				],
+				"PresetPlantList": [],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"FrozenPlantPlacement"
+			],
+			"objclass": "InitialPlantProperties",
+			"objdata": {
+				"InitialPlantPlacements": [
+					{
+						"Condition": "icecubed",
+						"GridX": 7,
+						"GridY": 0,
+						"Level": 10,
+						"TypeName": "buttercup"
+					},
+					{
+						"Condition": "icecubed",
+						"GridX": 7,
+						"GridY": 1,
+						"Level": 10,
+						"TypeName": "buttercup"
+					},
+					{
+						"Condition": "icecubed",
+						"GridX": 7,
+						"GridY": 2,
+						"Level": 10,
+						"TypeName": "buttercup"
+					},
+					{
+						"Condition": "icecubed",
+						"GridX": 7,
+						"GridY": 3,
+						"Level": 10,
+						"TypeName": "buttercup"
+					},
+					{
+						"Condition": "icecubed",
+						"GridX": 7,
+						"GridY": 4,
+						"Level": 10,
+						"TypeName": "buttercup"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 3,
+				"PlantfoodToSpawnCount": 0,
+				"PointIncrementPerWave": 125,
+				"StartingPoints": 0,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 3,
+				"ZombiePool": [
+					"RTID(spring@ZombieTypes)",
+					"RTID(spring@ZombieTypes)",
+					"RTID(spring_poncho@ZombieTypes)",
+					"RTID(easter_troglobite@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.7,
+				"MinNextWaveHealthPercentage": 0.4,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)",
+						"RTID(Wave4ParachuteRainEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)",
+						"RTID(Wave7ParachuteRainEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)",
+						"RTID(Wave9ParachuteRainEvent0@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(spring@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(spring@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(spring@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(easter_troglobite_1block@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(spring_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(spring_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(easter_troglobite_2block@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(spring_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(easter_troglobite_2block@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(spring_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(easter_troglobite_2block@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(spring_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(spring_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"Wave4ParachuteRainEvent0"
+			],
+			"objclass": "ParachuteRainZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 7,
+				"ColumnStart": "4",
+				"GroupSize": "2",
+				"SpiderCount": 3,
+				"SpiderZombieName": "lostcity_lostpilot",
+				"TimeBeforeFullSpawn": "1",
+				"TimeBetweenGroups": "0.2",
+				"WaveStartMessage": "[WARNING_PARACHUTERAIN]",
+				"ZombieFallTime": "1.5"
+			}
+		},
+		{
+			"aliases": [
+				"Wave7ParachuteRainEvent0"
+			],
+			"objclass": "ParachuteRainZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 6,
+				"ColumnStart": "4",
+				"GroupSize": "2",
+				"SpiderCount": "4",
+				"SpiderZombieName": "lostcity_lostpilot",
+				"TimeBeforeFullSpawn": "1",
+				"TimeBetweenGroups": "0.2",
+				"WaveStartMessage": "[WARNING_PARACHUTERAIN]",
+				"ZombieFallTime": "1.5"
+			}
+		},
+		{
+			"aliases": [
+				"Wave9ParachuteRainEvent0"
+			],
+			"objclass": "ParachuteRainZombieSpawnerProps",
+			"objdata": {
+				"ColumnEnd": 5,
+				"ColumnStart": "3",
+				"GroupSize": "2",
+				"SpiderCount": "4",
+				"SpiderZombieName": "lostcity_lostpilot",
+				"TimeBeforeFullSpawn": "1",
+				"TimeBetweenGroups": "0.2",
+				"WaveStartMessage": "[WARNING_PARACHUTERAIN]",
+				"ZombieFallTime": "1.5"
+			}
+		}
+	],
+	"version": 1
+}

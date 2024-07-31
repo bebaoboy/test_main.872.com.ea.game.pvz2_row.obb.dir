@@ -1,0 +1,385 @@
+{
+	"#comment": "LOD template level. Delete unnecessary Modules (e.g. Challenge, Frozen)",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"AssociatedPlant": "bloomerang",
+				"LevelNumber": 3,
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(RomanMowers@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(ProtectThePlant@CurrentLevel)"
+				],
+				"Name": "[LTE_POTW_LEVEL_NAME]",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"StageModule": "RTID(RomanStage@LevelModules)",
+				"StartingSun": 350
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_PROTECT_THE_PLANT]",
+				"DescriptiveName": "[STARCHALLENGE_PROTECT_THE_PLANT_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"ProtectThePlant"
+			],
+			"objclass": "ProtectThePlantChallengeProperties",
+			"objdata": {
+				"MustProtectCount": 5,
+				"Plants": [
+					{
+						"GridX": 0,
+						"GridY": 0,
+						"PlantType": "levitater"
+					},
+					{
+						"GridX": 0,
+						"GridY": 1,
+						"PlantType": "levitater"
+					},
+					{
+						"GridX": 0,
+						"GridY": 2,
+						"PlantType": "levitater"
+					},
+					{
+						"GridX": 0,
+						"GridY": 3,
+						"PlantType": "levitater"
+					},
+					{
+						"GridX": 0,
+						"GridY": 4,
+						"PlantType": "levitater"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"OverrideSeedSlotsCount": 5,
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover",
+					"thymewarp"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"MasteryLevel": -1,
+						"PlantType": "bloomerang"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 3,
+				"PlantfoodToSpawnCount": 0,
+				"PointIncrementPerWave": 125,
+				"StartingPoints": 0,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 3,
+				"ZombiePool": [
+					"RTID(roman_shield_pair@ZombieTypes)",
+					"RTID(roman_armor1@ZombieTypes)",
+					"RTID(roman_medusa@ZombieTypes)",
+					"RTID(roman@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.9,
+				"MinNextWaveHealthPercentage": 0.8,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					]
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "4",
+						"Type": "RTID(roman@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(roman@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(roman_shield_triad@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(roman_armor1@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(roman_healer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(roman_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_imp@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_imp@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(roman_medusa@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_medusa@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(roman_armor3@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_healer@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_healer@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_shield_pair@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(roman_armor3@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_armor3@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(roman_medusa@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_medusa@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(roman_gargantuar@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		}
+	],
+	"version": 1
+}

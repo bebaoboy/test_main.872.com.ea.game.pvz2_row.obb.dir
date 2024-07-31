@@ -1,0 +1,510 @@
+{
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"AssociatedPlant": "aloe",
+				"LevelNumber": 3,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(StandardIntro@LevelModules)",
+					"RTID(WestMowers@LevelModules)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(DefaultSunDropper@LevelModules)",
+					"RTID(LevelEscalationModule@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(CowboyRails@CurrentLevel)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(ProtectThePlant@CurrentLevel)",
+					"RTID(SeedPacketHalfTimeModule@LevelModules)"
+				],
+				"MusicType": "MiniGame_A",
+				"Name": "[LTE_POTW_LEVEL_NAME]",
+				"NormalPresentTable": "egypt_normal_01",
+				"ShinyPresentTable": "egypt_shiny_01",
+				"StageModule": "RTID(WestStage@LevelModules)",
+				"StartingSun": 200
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"CowboyRails"
+			],
+			"objclass": "RailcartProperties",
+			"objdata": {
+				"RailcartType": "railcart_cowboy",
+				"Railcarts": [
+					{
+						"Column": 3,
+						"Row": 0
+					},
+					{
+						"Column": 3,
+						"Row": 4
+					}
+				],
+				"Rails": [
+					{
+						"Column": 3,
+						"RowEnd": 2,
+						"RowStart": 0
+					},
+					{
+						"Column": 3,
+						"RowEnd": 4,
+						"RowStart": 3
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_PROTECT_THE_PLANT]",
+				"DescriptiveName": "[STARCHALLENGE_PROTECT_THE_PLANT_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"ProtectThePlant"
+			],
+			"objclass": "ProtectThePlantChallengeProperties",
+			"objdata": {
+				"MustProtectCount": 3,
+				"Plants": [
+					{
+						"GridX": 4,
+						"GridY": 0,
+						"Level": 2,
+						"PlantType": "tallnut"
+					},
+					{
+						"GridX": 4,
+						"GridY": 1,
+						"Level": 2,
+						"PlantType": "tallnut"
+					},
+					{
+						"GridX": 4,
+						"GridY": 2,
+						"Level": 2,
+						"PlantType": "tallnut"
+					},
+					{
+						"GridX": 4,
+						"GridY": 3,
+						"Level": 2,
+						"PlantType": "tallnut"
+					},
+					{
+						"GridX": 4,
+						"GridY": 4,
+						"Level": 2,
+						"PlantType": "tallnut"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"MasteryLevel": -1,
+						"MinLevel": -1,
+						"PlantType": "aloe"
+					}
+				],
+				"SelectionMethod": "chooser"
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {}
+		},
+		{
+			"aliases": [
+				"LevelEscalationModule"
+			],
+			"objclass": "LevelEscalationModuleProperties",
+			"objdata": {
+				"FlagCount": 3,
+				"MaxPoints": 9000,
+				"PlantfoodToSpawnCount": 1,
+				"PointIncrementPerWave": 75,
+				"StartingPoints": 0,
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)",
+				"WavesPerFlag": 4,
+				"ZombiePool": [
+					"RTID(future@ZombieTypes)",
+					"RTID(future_jetpack@ZombieTypes)",
+					"RTID(future_armor1@ZombieTypes)"
+				]
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"MaxNextWaveHealthPercentage": 0.85,
+				"MinNextWaveHealthPercentage": 0.7,
+				"Waves": [
+					[
+						"RTID(Wave1@CurrentLevel)"
+					],
+					[
+						"RTID(Wave2@CurrentLevel)"
+					],
+					[
+						"RTID(Wave3@CurrentLevel)"
+					],
+					[
+						"RTID(Wave4@CurrentLevel)",
+						"RTID(Wave4PortalsEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave5@CurrentLevel)"
+					],
+					[
+						"RTID(Wave6@CurrentLevel)"
+					],
+					[
+						"RTID(Wave7@CurrentLevel)",
+						"RTID(Wave7PortalsEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave8@CurrentLevel)"
+					],
+					[
+						"RTID(Wave9@CurrentLevel)"
+					],
+					[
+						"RTID(Wave10@CurrentLevel)",
+						"RTID(Wave10PortalsEvent0@CurrentLevel)"
+					],
+					[
+						"RTID(Wave11@CurrentLevel)"
+					],
+					[
+						"RTID(Wave12@CurrentLevel)"
+					]
+				],
+				"ZombieCountdownFirstWaveConveyorSecs": 5,
+				"ZombieCountdownFirstWaveSecs": 12,
+				"ZombieCountdownHugeWaveDelay": 5
+			}
+		},
+		{
+			"aliases": [
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "4",
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Row": "3",
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					},
+					{
+						"Row": "2",
+						"Type": "RTID(future@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Row": "3",
+						"Type": "RTID(future_protector@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(west_bull@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(west_bull@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(pelican@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pelican@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(pelican@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave8"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave9"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor1@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave10"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"Zombies": [
+					{
+						"Type": "RTID(future_protector@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave11"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 1,
+				"Zombies": [
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_armor2@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(seagull@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave12"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_protector@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future_jetpack@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					},
+					{
+						"Type": "RTID(future@ZombieTypes)"
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"Wave4PortalsEvent0"
+			],
+			"objclass": "SpawnModernPortalsWaveActionProps",
+			"objdata": {
+				"PortalColumn": 5,
+				"PortalRow": "2",
+				"PortalType": "egypt",
+				"SpawnEffectAnimID": "",
+				"SpawnSoundID": ""
+			}
+		},
+		{
+			"aliases": [
+				"Wave7PortalsEvent0"
+			],
+			"objclass": "SpawnModernPortalsWaveActionProps",
+			"objdata": {
+				"PortalColumn": "7",
+				"PortalRow": 3,
+				"PortalType": "pirate",
+				"SpawnEffectAnimID": "",
+				"SpawnSoundID": ""
+			}
+		},
+		{
+			"aliases": [
+				"Wave10PortalsEvent0"
+			],
+			"objclass": "SpawnModernPortalsWaveActionProps",
+			"objdata": {
+				"PortalColumn": "7",
+				"PortalRow": "2",
+				"PortalType": "pirate",
+				"SpawnEffectAnimID": "",
+				"SpawnSoundID": ""
+			}
+		}
+	],
+	"version": 1
+}

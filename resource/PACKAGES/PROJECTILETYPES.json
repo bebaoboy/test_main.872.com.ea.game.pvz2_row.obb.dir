@@ -3483,7 +3483,7 @@
 			],
 			"objdata": {
 				"ClassName": "BloomerangProjectile",
-				"BaseDamage": 10,
+				"BaseDamage": 15,
 				"CollisionFlags": [
 					"griditems",
 					"all_zombies",

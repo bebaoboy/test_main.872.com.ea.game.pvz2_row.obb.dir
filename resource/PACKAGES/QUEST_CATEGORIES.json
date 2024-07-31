@@ -10,6 +10,7 @@
 			"objdata": {
 				"Name": "QuestTabCategories",
 				"TabCategories": [
+					"VanillaXQuests",
 					"DailyActivities",
 					"EpicQuests"
 				]
@@ -24,6 +25,7 @@
 				"Name": "DailyActivities",
 				"QuestTabCategory": "DailyActivities",
 				"QuestCategories": [
+					"Vanilla",
 					"DailyActivities"
 				],
 				"TabLabel": "[QUEST_TAB_LABEL_DAILY]",
@@ -62,6 +64,24 @@
 				"TabImageType": "normal",
 				"TabSelectedImage": "IMAGE_UI_QUESTS_EPIC_ACTIVE",
 				"TabUnselectedImage": "IMAGE_UI_QUESTS_EPIC_INACTIVE"
+			}
+		},
+		{
+			"aliases": [
+				"VanillaXQuests"
+			],
+			"objclass": "QuestTabCategoryData",
+			"objdata": {
+				"Name": "VanillaXQuests",
+				"QuestTabCategory": "VanillaXQuests",
+				"QuestCategories": [
+					"Vanilla"
+					
+				],
+				"TabLabel": "X",
+				"TabImageType": "normal",
+				"TabSelectedImage": "IMAGE_UI_QUESTS_ACHIEVEMENTS_ACTIVE",
+				"TabUnselectedImage": "IMAGE_UI_QUESTS_ACHIEVEMENTS_INACTIVE"
 			}
 		}
 	]

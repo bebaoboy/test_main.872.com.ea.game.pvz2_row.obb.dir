@@ -1,0 +1,236 @@
+{
+	"#comment": "Level Of The Day Default",
+	"objects": [
+		{
+			"objclass": "LevelDefinition",
+			"objdata": {
+				"DraperPromo": "none",
+				"FirstIntroNarrative": "FEASTIVUS_LTE_2023_9",
+				"FirstOutroNarrative": "FEASTIVUS_LTE_2023_10",
+				"LevelNumber": 30,
+				"LevelPowerupSet": "LevelPowerupsDisabled",
+				"Loot": "RTID(DefaultLoot@LevelModules)",
+				"Modules": [
+					"RTID(ZombossIntro@LevelModules)",
+					"RTID(IceageMowers@LevelModules)",
+					"RTID(VeryFastSunDropper@LevelModules)",
+					"RTID(NewWaves@CurrentLevel)",
+					"RTID(DefaultZombieWinCondition@LevelModules)",
+					"RTID(ChallengeModule@CurrentLevel)",
+					"RTID(SeedBank@CurrentLevel)",
+					"RTID(ZombiesDeadWinCon@LevelModules)",
+					"RTID(SeedPacketHalfTimeModule@LevelModules)",
+					"RTID(ZombossBattle@CurrentLevel)",
+					"RTID(GlacierModule@CurrentLevel)"
+				],
+				"Name": "[LTE_LEVEL_NAME_FEASTIVUS]",
+				"StageModule": "RTID(FeastivusStage@LevelModules)",
+				"StartingSun": 850
+			}
+		},
+		{
+			"aliases": [
+				"SeedBank"
+			],
+			"objclass": "SeedBankProperties",
+			"objdata": {
+				"PlantExcludeList": [
+					"spearmint",
+					"peppermint",
+					"appeasemint",
+					"concealmint",
+					"filamint",
+					"wintermint",
+					"bombardmint",
+					"armamint",
+					"ailmint",
+					"reinforcemint",
+					"containmint",
+					"enchantmint",
+					"enchantmint",
+					"enforcemint",
+					"enlightenmint",
+					"blover",
+					"thymewarp"
+				],
+				"PresetPlantList": [
+					{
+						"Level": -1,
+						"PlantType": "firepeashooter"
+					},
+					{
+						"Level": -1,
+						"PlantType": "boingsetta"
+					},
+					{
+						"Level": -1,
+						"PlantType": "hotpotato"
+					},
+					{
+						"Level": -1,
+						"PlantType": "pepperpult"
+					}
+				],
+				"SelectionMethod": "preset"
+			}
+		},
+		{
+			"aliases": [
+				"GlacierModule"
+			],
+			"#comment": "Zombie Spawn Weights by Row From Left",
+			"objclass": "GlacierModuleProperties",
+			"objdata": {
+				"ZombieSpawnData": [
+					{
+						"Entries": [
+							{
+								"TypeName": "",
+								"Weight": 3
+							}
+						]
+					},
+					{
+						"Entries": [
+							{
+								"TypeName": "",
+								"Weight": 2
+							},
+							{
+								"TypeName": "feastivus_imp",
+								"Weight": 5
+							},
+							{
+								"TypeName": "feastivus",
+								"Weight": 1
+							}
+						]
+					},
+					{
+						"Entries": [
+							{
+								"TypeName": "",
+								"Weight": 1
+							},
+							{
+								"TypeName": "feastivus_imp",
+								"Weight": 3
+							},
+							{
+								"TypeName": "feastivus",
+								"Weight": 3
+							}
+						]
+					},
+					{
+						"Entries": [
+							{
+								"TypeName": "",
+								"Weight": 1
+							},
+							{
+								"TypeName": "feastivus_imp",
+								"Weight": 2
+							},
+							{
+								"TypeName": "feastivus",
+								"Weight": 5
+							}
+						]
+					},
+					{
+						"Entries": [
+							{
+								"TypeName": "",
+								"Weight": 0
+							},
+							{
+								"TypeName": "feastivus_imp",
+								"Weight": 0
+							},
+							{
+								"TypeName": "feastivus",
+								"Weight": 1
+							}
+						]
+					},
+					{
+						"Entries": [
+							{
+								"TypeName": "",
+								"Weight": 0
+							},
+							{
+								"TypeName": "feastivus_armor2",
+								"Weight": 1
+							},
+							{
+								"TypeName": "iceage_hunter",
+								"Weight": 3
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"aliases": [
+				"ZombossBattle"
+			],
+			"objclass": "ZombossBattleModuleProperties",
+			"objdata": {
+				"ReservedColumnCount": 3,
+				"ZombossDeathColumn": 5,
+				"ZombossDeathRow": 3,
+				"ZombossMechType": "zombossmech_iceage",
+				"ZombossSpawnGridPosition": {
+					"mX": 6,
+					"mY": 3
+				}
+			}
+		},
+		{
+			"aliases": [
+				"ChallengeModule"
+			],
+			"objclass": "StarChallengeModuleProperties",
+			"objdata": {
+				"Challenges": [
+					[
+						"RTID(BeatTheLevel@CurrentLevel)"
+					]
+				],
+				"ChallengesAlwaysAvailable": true
+			}
+		},
+		{
+			"aliases": [
+				"BeatTheLevel"
+			],
+			"objclass": "StarChallengeBeatTheLevelProps",
+			"objdata": {
+				"Description": "[STARCHALLENGE_ZOMBOSS_BATTLE]",
+				"DescriptiveName": "[STARCHALLENGE_ZOMBOSS_BATTLE_NAME]"
+			}
+		},
+		{
+			"aliases": [
+				"NewWaves"
+			],
+			"objclass": "WaveManagerModuleProperties",
+			"objdata": {
+				"WaveManagerProps": "RTID(WaveManagerProps@CurrentLevel)"
+			}
+		},
+		{
+			"aliases": [
+				"WaveManagerProps"
+			],
+			"objclass": "WaveManagerProperties",
+			"objdata": {
+				"Waves": []
+			}
+		}
+	],
+	"version": 1
+}
