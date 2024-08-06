@@ -11556,22 +11556,24 @@
 			}
 		},
 		{
-			"objclass": "RomanStageProperties",
+			"objclass": "ModernStageProperties",
 			"aliases": [
 				"RomanStage"
 			],
 			"objdata": {
 				"ResourceGroupNames": [
-					"DelayLoad_Background_Roman",
+					"DelayLoad_Background_FrontLawn",
 					"Dirt_Spawn_Grass",
+					"AudioModern",
+					"ModernGroansAudio",
 					"AudioEgypt"
 				],
 				"GroupsToUnloadForAds": [
-					"DelayLoad_Background_Roman"
+					"DelayLoad_Background_FrontLawn"
 				],
+				"BackgroundResourceGroup": "DelayLoad_Background_FrontLawn",
+				"BackgroundImagePrefix": "IMAGE_BACKGROUNDS_FRONTLAWN",
 				"StagePrefix": "tutorial",
-				"BackgroundResourceGroup": "DelayLoad_Background_Roman",
-				"BackgroundImagePrefix": "IMAGE_BACKGROUNDS_ROMAN_BG",
 				"LevelPowerupSet": "LevelPowerupsDefault",
 				"BasicZombieTypeName": "roman",
 				"FlagZombieTypeName": "roman_flag",
@@ -12396,16 +12398,18 @@
 			],
 			"objdata": {
 				"ResourceGroupNames": [
-					"DelayLoad_Background_Roman",
+					"DelayLoad_Background_FrontLawn",
 					"Dirt_Spawn_Grass",
+					"AudioModern",
+					"ModernGroansAudio",
 					"AudioEgypt"
 				],
 				"GroupsToUnloadForAds": [
-					"DelayLoad_Background_Roman"
+					"DelayLoad_Background_FrontLawn"
 				],
+				"BackgroundResourceGroup": "DelayLoad_Background_FrontLawn",
+				"BackgroundImagePrefix": "IMAGE_BACKGROUNDS_FRONTLAWN",
 				"StagePrefix": "tutorial",
-				"BackgroundResourceGroup": "DelayLoad_Background_Roman",
-				"BackgroundImagePrefix": "IMAGE_BACKGROUNDS_ROMAN_FLOODED_BG",
 				"LevelPowerupSet": "LevelPowerupsDefault",
 				"BasicZombieTypeName": "roman",
 				"FlagZombieTypeName": "roman_flag",
